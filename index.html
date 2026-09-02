@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Snorly: Snore Recorder App for iPhone. Hear Yourself Snore</title>
+<meta name="description" content="Snorly records only when it hears snoring, then plays it back in the morning with a timeline, decibel levels and a nightly score. Audio stays on your iPhone.">
+<link rel="canonical" href="https://horamupa.github.io/snorly-site/">
+<link rel="alternate" hreflang="en" href="https://horamupa.github.io/snorly-site/">
+<link rel="alternate" hreflang="x-default" href="https://horamupa.github.io/snorly-site/">
+<meta name="apple-itunes-app" content="app-id=6743162754, app-argument=https://horamupa.github.io/snorly-site/">
+<meta name="theme-color" content="#1a1a1c">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Snorly">
+<meta property="og:locale" content="en_US">
+<meta property="og:title" content="Snorly: Snore Recorder App for iPhone. Hear Yourself Snore">
+<meta property="og:description" content="Snorly records only when it hears snoring, then plays it back in the morning with a timeline, decibel levels and a nightly score. Audio stays on your iPhone.">
+<meta property="og:url" content="https://horamupa.github.io/snorly-site/">
+<meta property="og:image" content="https://horamupa.github.io/snorly-site/assets/img/og-home.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/snorly-site/assets/img/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/snorly-site/assets/img/favicon-192.png" sizes="192x192" type="image/png">
+<link rel="apple-touch-icon" href="/snorly-site/assets/img/apple-touch-icon.png">
+<link rel="alternate" type="application/rss+xml" title="Snorly" href="/snorly-site/feed.xml">
+<link rel="preload" as="image" href="/snorly-site/assets/img/screens/history-540.webp" type="image/webp">
+<style>@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:400;font-display:swap;src:url(/snorly-site/assets/fonts/ibm-plex-mono-400-cyrillic.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:400;font-display:swap;src:url(/snorly-site/assets/fonts/ibm-plex-mono-400-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:500;font-display:swap;src:url(/snorly-site/assets/fonts/ibm-plex-mono-500-cyrillic.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:500;font-display:swap;src:url(/snorly-site/assets/fonts/ibm-plex-mono-500-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:600;font-display:swap;src:url(/snorly-site/assets/fonts/ibm-plex-mono-600-cyrillic.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:600;font-display:swap;src:url(/snorly-site/assets/fonts/ibm-plex-mono-600-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:400 700;font-display:swap;src:url(/snorly-site/assets/fonts/ibm-plex-sans-var-cyrillic.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:400 700;font-display:swap;src:url(/snorly-site/assets/fonts/ibm-plex-sans-var-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}</style>
+<link rel="stylesheet" href="/snorly-site/assets/css/site.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://horamupa.github.io/snorly-site/#organization","name":"Snorly","url":"https://horamupa.github.io/snorly-site/","logo":{"@type":"ImageObject","url":"https://horamupa.github.io/snorly-site/assets/img/icon-512.png","width":512,"height":512},"sameAs":["https://apps.apple.com/app/id6743162754"],"email":"hello@builtfor.app"},{"@type":"WebSite","@id":"https://horamupa.github.io/snorly-site/#website","name":"Snorly","url":"https://horamupa.github.io/snorly-site/","inLanguage":"en","publisher":{"@id":"https://horamupa.github.io/snorly-site/#organization"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Snorly","item":"https://horamupa.github.io/snorly-site/"}]},{"@type":["SoftwareApplication","MobileApplication"],"@id":"https://horamupa.github.io/snorly-site/#app","name":"Snore Recorder App Pro: Snorly","alternateName":"Snorly","operatingSystem":"iOS","applicationCategory":"HealthApplication","url":"https://horamupa.github.io/snorly-site/","installUrl":"https://apps.apple.com/app/id6743162754","downloadUrl":"https://apps.apple.com/app/id6743162754","description":"Snorly records only when it hears snoring, then plays it back in the morning with a timeline, decibel levels and a nightly score. Audio stays on your iPhone.","image":"https://horamupa.github.io/snorly-site/assets/img/og-home.jpg","screenshot":["https://horamupa.github.io/snorly-site/assets/img/screens/record-1080.webp","https://horamupa.github.io/snorly-site/assets/img/screens/history-1080.webp","https://horamupa.github.io/snorly-site/assets/img/screens/recordings-1080.webp","https://horamupa.github.io/snorly-site/assets/img/screens/research-1080.webp"],"offers":{"@type":"Offer","price":"0","priceCurrency":"USD","description":"Free to download, Premium subscription available in-app"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.6","ratingCount":7,"bestRating":"5","worstRating":"1"},"author":{"@id":"https://horamupa.github.io/snorly-site/#organization"},"publisher":{"@id":"https://horamupa.github.io/snorly-site/#organization"},"inLanguage":"en"}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header"><div class="wrap">
+<a class="logo" href="/snorly-site/" aria-label="Snorly"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <filter id="g" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="1.2"/></filter>
+  </defs>
+  <circle cx="32" cy="32" r="30" fill="#1c1c1f"/>
+  <g stroke-width="3.2" stroke-linecap="round" fill="none">
+    <g filter="url(#g)" opacity=".7">
+      <path d="M32 6 A26 26 0 0 1 58 32" stroke="#ff3a5e"/>
+      <path d="M58 32 A26 26 0 0 1 32 58" stroke="#ffb000"/>
+      <path d="M32 58 A26 26 0 0 1 6 32" stroke="#33e661"/>
+    </g>
+    <path d="M32 6 A26 26 0 0 1 58 32" stroke="#ff3a5e" stroke-dasharray="3 3.1"/>
+    <path d="M58 32 A26 26 0 0 1 32 58" stroke="#ffb000" stroke-dasharray="3 3.1"/>
+    <path d="M32 58 A26 26 0 0 1 6 32" stroke="#33e661" stroke-dasharray="3 3.1"/>
+    <path d="M6 32 A26 26 0 0 1 32 6" stroke="#2a3a2e" stroke-dasharray="3 3.1"/>
+  </g>
+  <circle cx="32" cy="32" r="7" fill="#ff3a3a"/>
+  <circle cx="32" cy="32" r="9" fill="#ff3a3a" opacity=".35" filter="url(#g)"/>
+</svg>
+<span>Snorly</span></a>
+<nav class="nav" aria-label="Main">
+<a href="/snorly-site/blog/">Blog</a>
+<a class="hide-m" href="/snorly-site/snore-score/">Snore Score</a>
+<a class="hide-m" href="/snorly-site/vs/snorelab/">vs SnoreLab</a>
+<a class="lang" href="/snorly-site/ru/" hreflang="ru" lang="ru">Русский</a>
+<a class="btn btn-led" href="https://apps.apple.com/app/id6743162754?ct=home" rel="noopener">Get the app</a>
+</nav></div></header>
+<main id="main">
+
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <span class="label led reveal"><span class="led-dot red"></span>Snore recorder · iPhone</span>
+      <h1 class="reveal">Hear your own snoring.<br>Tonight.</h1>
+      <p class="lede reveal">Put your iPhone on the nightstand. Snorly listens all night, keeps only the moments it heard snoring, and plays them back to you in the morning, second by second.</p>
+      <div class="cta reveal">
+        <a class="btn btn-led" href="https://apps.apple.com/app/id6743162754?ct=home" rel="noopener"><svg class="apple" viewBox="0 0 24 24" aria-hidden="true"><path d="M16.4 12.6c0-2.5 2-3.7 2.1-3.8-1.2-1.7-3-1.9-3.6-2-1.5-.2-3 .9-3.8.9s-2-.9-3.3-.8C6.1 6.9 4.5 7.9 3.6 9.5c-1.9 3.3-.5 8.1 1.4 10.8.9 1.3 2 2.8 3.4 2.7 1.4-.1 1.9-.9 3.5-.9s2.1.9 3.5.9c1.5 0 2.4-1.3 3.3-2.6 1-1.5 1.5-3 1.5-3.1-.1 0-2.8-1.1-2.8-4.7zM14 5.2c.7-.9 1.2-2.1 1.1-3.3-1 0-2.3.7-3 1.6-.7.8-1.3 2-1.1 3.2 1.1.1 2.3-.6 3-1.5z"/></svg>Download on the App Store</a>
+        <a class="btn" href="#how">How it works</a>
+      </div>
+      <p class="meta reveal">Free first night · No account · Recordings stay on your phone · ★ 4.6 App Store</p>
+    </div>
+    <div class="hero-visual">
+      <div class="phone"><img class="hero-img" src="/snorly-site/assets/img/screens/history-540.webp" srcset="/snorly-site/assets/img/screens/history-540.webp 540w, /snorly-site/assets/img/screens/history-1080.webp 1080w" sizes="(max-width: 860px) 80vw, 340px" width="540" height="1174" alt="Snorly history screen: a night with a score of 92, sleep 9:00 PM to 5:00 AM, and a timeline of snoring by loudness" fetchpriority="high"></div>
+      <div class="clip float-clip"><span class="play"><svg viewBox="0 0 24 24"><path d="M7 4l12 8-12 8z"/></svg></span><b>Severe snoring</b><time>at 1:18 AM</time><span class="wave"></span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="proof">
+  <div class="wrap">
+    <div class="section-head"><span class="label led">The 3 a.m. sound you never hear</span><h2>Proof, not a guess</h2><p>You sleep through your own snoring. Your partner does not. Snorly gives you the tape: every episode on one timeline, every clip with a time stamp and a loudness label from Quiet to Severe.</p></div>
+    <div class="grid grid-2">
+      <div class="board">
+        <div class="board-head"><b>Snoring · 2 hrs, 15 min</b><span class="small">Thu, 2 July</span></div>
+        <div class="matrix" role="img" aria-label="LED timeline of one night: mostly quiet blue bars, a cluster of moderate and severe red snoring around 1 AM, lighter green episodes later"><i class="q" style="--h:18;--i:0"></i><i class="q" style="--h:22;--i:1"></i><i class="q" style="--h:20;--i:2"></i><i class="q" style="--h:24;--i:3"></i><i class="l" style="--h:38;--i:4"></i><i class="l" style="--h:46;--i:5"></i><i class="q" style="--h:22;--i:6"></i><i class="q" style="--h:20;--i:7"></i><i class="q" style="--h:26;--i:8"></i><i class="l" style="--h:42;--i:9"></i><i class="l" style="--h:50;--i:10"></i><i class="m" style="--h:64;--i:11"></i><i class="m" style="--h:72;--i:12"></i><i class="s" style="--h:92;--i:13"></i><i class="s" style="--h:100;--i:14"></i><i class="m" style="--h:70;--i:15"></i><i class="l" style="--h:44;--i:16"></i><i class="q" style="--h:24;--i:17"></i><i class="q" style="--h:20;--i:18"></i><i class="q" style="--h:22;--i:19"></i><i class="q" style="--h:18;--i:20"></i><i class="l" style="--h:36;--i:21"></i><i class="l" style="--h:40;--i:22"></i><i class="q" style="--h:24;--i:23"></i><i class="q" style="--h:22;--i:24"></i><i class="q" style="--h:20;--i:25"></i><i class="m" style="--h:58;--i:26"></i><i class="m" style="--h:66;--i:27"></i><i class="m" style="--h:62;--i:28"></i><i class="l" style="--h:40;--i:29"></i><i class="q" style="--h:22;--i:30"></i><i class="q" style="--h:20;--i:31"></i><i class="q" style="--h:24;--i:32"></i><i class="q" style="--h:22;--i:33"></i><i class="l" style="--h:34;--i:34"></i><i class="l" style="--h:44;--i:35"></i><i class="l" style="--h:48;--i:36"></i><i class="q" style="--h:26;--i:37"></i><i class="q" style="--h:20;--i:38"></i><i class="q" style="--h:18;--i:39"></i><i class="q" style="--h:22;--i:40"></i><i class="l" style="--h:36;--i:41"></i><i class="q" style="--h:24;--i:42"></i><i class="q" style="--h:20;--i:43"></i><i class="q" style="--h:18;--i:44"></i><i class="q" style="--h:22;--i:45"></i><i class="q" style="--h:20;--i:46"></i><i class="q" style="--h:16;--i:47"></i></div>
+        <div class="axis"><span>9:00 PM</span><span>11:00 PM</span><span>1:00 AM</span><span>3:00 AM</span><span>5:00 AM</span></div>
+        <div class="legend"><span class="q">Quiet 5:30</span><span class="l">Light 1:30</span><span class="m">Moderate 0:45</span><span class="s">Severe 0:15</span></div>
+      </div>
+      <div class="stack">
+        <div class="clip"><span class="play"><svg viewBox="0 0 24 24"><path d="M7 4l12 8-12 8z"/></svg></span><b>Severe snoring</b><time>at 1:18 AM</time><span class="wave"></span></div><div class="clip"><span class="play"><svg viewBox="0 0 24 24"><path d="M7 4l12 8-12 8z"/></svg></span><b>Light snoring</b><time>at 2:18 AM</time><span class="wave"></span></div><div class="clip"><span class="play"><svg viewBox="0 0 24 24"><path d="M7 4l12 8-12 8z"/></svg></span><b>Sleep talk</b><time>at 3:48 AM</time><span class="wave"></span></div>
+        <div class="tile" style="padding:1.2rem;display:flex;gap:1.2rem;align-items:center"><div class="ring-wrap"><div class="ring" role="img" aria-label="Night score ring at 92 out of 100"></div><span class="v">92</span><span class="l">SCORE</span></div><div><b style="color:#fff">One score per night</b><p class="small" style="margin:.3rem 0 0">Compare tonight with last week in a glance, then open the timeline to see why.</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="features">
+  <div class="wrap">
+    <div class="grid grid-4">
+      <div class="feature"><div class="ico"><svg viewBox="0 0 24 24"><path d="M4 10v4M8 6v12M12 9v6M16 4v16M20 10v4"/></svg></div><h3>Hear it</h3><p>Snorly records only when it detects snoring, sleep talk or a cough. No 8-hour file to scrub through, just the clips that matter, in order.</p></div><div class="feature"><div class="ico"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M7 15v-3M11 15V9M15 15v-5M19 15v-2" /></svg></div><h3>See the whole night</h3><p>An LED timeline shows when you snored and how loud, in decibels. A 58 dB snore sounds about like a running shower; you will see exactly when it happened.</p></div><div class="feature"><div class="ico"><svg viewBox="0 0 24 24"><path d="M4 19h16M6 15l4-5 4 3 4-6"/></svg></div><h3>Know what makes it worse</h3><p>Tag the night: wine, late dinner, back sleeping, nasal strips, mouth tape. After a few nights Snorly shows which factor moved your snoring and by how much.</p></div><div class="feature"><div class="ico"><svg viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg></div><h3>Stays on your iPhone</h3><p>Detection runs on the phone. Audio is never uploaded. Delete a night and it is gone. The screen dims to a bedside clock so the light does not wake anyone.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="how">
+  <div class="wrap">
+    <div class="section-head"><span class="label led">How it works</span><h2>Three steps, one night</h2></div>
+    <div class="grid grid-3">
+      <div class="feature"><span class="clock" style="font-size:2rem;display:block;margin-bottom:.6rem">01</span><h3>Tap record, plug in, sleep</h3><p>Set the phone on the nightstand within about a metre of your head, screen down or dimmed. Snorly turns into a soft LED clock.</p></div><div class="feature"><span class="clock" style="font-size:2rem;display:block;margin-bottom:.6rem">02</span><h3>It listens, you sleep</h3><p>The on-device detector wakes up for snoring and sleep talk, saves a short clip with the time and loudness, and ignores the silence in between.</p></div><div class="feature"><span class="clock" style="font-size:2rem;display:block;margin-bottom:.6rem">03</span><h3>Press play in the morning</h3><p>Your night is one scroll: score, timeline, clips. Tag what you did last night and see what changed after a week.</p></div>
+    </div>
+    <div class="grid grid-2" style="margin-top:2rem">
+      <div class="phone"><img src="/snorly-site/assets/img/screens/record-540.webp" srcset="/snorly-site/assets/img/screens/record-540.webp 540w, /snorly-site/assets/img/screens/record-1080.webp 1080w" sizes="(max-width: 860px) 80vw, 340px" width="540" height="1174" alt="Snorly record screen at 21:41 with a dimmed green LED clock and a red record button" loading="lazy" decoding="async"></div>
+      <div class="phone"><img src="/snorly-site/assets/img/screens/research-540.webp" srcset="/snorly-site/assets/img/screens/research-540.webp 540w, /snorly-site/assets/img/screens/research-1080.webp 1080w" sizes="(max-width: 860px) 80vw, 340px" width="540" height="1174" alt="Snorly research screen comparing nights with remedies like side sleeping and factors like alcohol" loading="lazy" decoding="async"></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="plans">
+  <div class="wrap">
+    <div class="section-head"><span class="label led">Honest pricing</span><h2>What it costs</h2></div>
+    <div class="grid grid-3">
+      <div class="feature"><h3>Free to download</h3><p>Install, record tonight, no account. The first nights are a free trial with every feature on, so you can hear your snoring before you decide.</p></div><div class="feature"><h3>Free trial</h3><p>Seven days on the default plan (some plans offer longer). Cancel in iPhone Settings before it ends and you pay nothing.</p></div><div class="feature"><h3>Premium</h3><p>A subscription or a one-time lifetime purchase through the App Store. Prices for your country are shown in the app. No ads in any tier.</p></div>
+    </div>
+    <p class="small" style="max-width:60ch;margin-top:1.2rem">Premium includes unlimited nights, unlimited clip playback, full-night audio, factor and remedy comparisons, the PDF report for your doctor and Apple Health import.</p>
+  </div>
+</section>
+
+<section class="section faq" id="questions">
+  <div class="prose">
+    <h2>Questions people ask before their first night</h2>
+    <h3>Does Snorly record all night?</h3><p>No. It listens all night but saves only the seconds around detected snoring, sleep talk or coughing, so a typical night is a handful of clips, not an 8-hour file.</p><h3>Will it drain the battery?</h3><p>Keep the phone plugged in. Detection is designed to run all night on a charger; the screen dims to a clock so the display is not the main draw.</p><h3>Can it tell me if I have sleep apnea?</h3><p>No app can diagnose sleep apnea. Snorly flags breathing patterns such as pauses and gasps as something worth showing a doctor, and its PDF report gives you a record to bring along. See <a href="/snorly-site/blog/snoring-vs-sleep-apnea/">snoring vs sleep apnea</a>.</p><h3>Does it work if my partner snores too?</h3><p>It records whoever is loudest near the phone. Put the phone on your side of the bed, closer to you than to your partner, and compare a night alone if you can.</p><h3>Where do my recordings go?</h3><p>Nowhere. Audio is stored on your iPhone only. Snorly has no accounts and no cloud upload; sharing a clip is something you do on purpose.</p><h3>Is there an Android version?</h3><p>Not yet. Snorly is built for iPhone. If you sleep alone and want to know whether you snore, read <a href="/snorly-site/blog/how-to-know-if-you-snore/">how to tell if you snore</a> for a method that works with any phone.</p>
+  </div>
+</section>
+
+<section class="section" id="latest">
+  <div class="prose">
+    <h2>From the blog</h2>
+    <ul class="card-list"><li><a class="card" href="/snorly-site/blog/does-mouth-tape-stop-snoring/"><b>Does mouth tape stop snoring? How to test it safely</b><span>Mouth tape cut snoring by about half in small studies of mouth breathers with mild apnea. Here is who should skip it, and a 7-night way to test it on yourself.</span></a></li><li><a class="card" href="/snorly-site/blog/how-to-know-if-you-snore/"><b>How to tell if you snore when you sleep alone</b><span>Record three nights with your phone on the nightstand and listen to the clips in the morning. A dry mouth is a hint; the recording is the answer.</span></a></li><li><a class="card" href="/snorly-site/blog/how-to-record-yourself-snoring/"><b>How to Record Yourself Snoring on iPhone: Memos vs App</b><span>Put the iPhone on the nightstand 0.5 to 1 m away, plugged in, on Do Not Disturb. Voice Memos gives one 8-hour file to scrub; a snore app keeps only the clips.</span></a></li></ul>
+    <p style="margin-top:1rem"><a href="/snorly-site/blog/">All articles →</a></p>
+  </div>
+</section>
+
+<section class="section" id="download">
+  <div class="prose center">
+    <span class="clock" style="font-size:clamp(3rem,10vw,5rem);display:block">21:41</span>
+    <h2 style="margin-top:.6rem">Stop wondering. Record it, replay it, prove it.</h2>
+    <p class="lead">One night is enough to hear what your partner has been hearing for years.</p>
+    <p><a class="btn btn-led" href="https://apps.apple.com/app/id6743162754?ct=home-bottom" rel="noopener"><svg class="apple" viewBox="0 0 24 24" aria-hidden="true"><path d="M16.4 12.6c0-2.5 2-3.7 2.1-3.8-1.2-1.7-3-1.9-3.6-2-1.5-.2-3 .9-3.8.9s-2-.9-3.3-.8C6.1 6.9 4.5 7.9 3.6 9.5c-1.9 3.3-.5 8.1 1.4 10.8.9 1.3 2 2.8 3.4 2.7 1.4-.1 1.9-.9 3.5-.9s2.1.9 3.5.9c1.5 0 2.4-1.3 3.3-2.6 1-1.5 1.5-3 1.5-3.1-.1 0-2.8-1.1-2.8-4.7zM14 5.2c.7-.9 1.2-2.1 1.1-3.3-1 0-2.3.7-3 1.6-.7.8-1.3 2-1.1 3.2 1.1.1 2.3-.6 3-1.5z"/></svg>Download on the App Store</a></p>
+    <p class="small">Requires iOS 17 or later. Not a medical device.</p>
+  </div>
+</section>
+<style>.hero-visual{position:relative}.float-clip{position:absolute;left:-10%;bottom:10%;width:min(92%,360px);box-shadow:var(--convex-lg)}@media(max-width:860px){.float-clip{display:none}}</style>
+
+</main>
+<footer class="site-footer"><div class="wrap">
+<div><a class="logo" href="/snorly-site/"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <filter id="g" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="1.2"/></filter>
+  </defs>
+  <circle cx="32" cy="32" r="30" fill="#1c1c1f"/>
+  <g stroke-width="3.2" stroke-linecap="round" fill="none">
+    <g filter="url(#g)" opacity=".7">
+      <path d="M32 6 A26 26 0 0 1 58 32" stroke="#ff3a5e"/>
+      <path d="M58 32 A26 26 0 0 1 32 58" stroke="#ffb000"/>
+      <path d="M32 58 A26 26 0 0 1 6 32" stroke="#33e661"/>
+    </g>
+    <path d="M32 6 A26 26 0 0 1 58 32" stroke="#ff3a5e" stroke-dasharray="3 3.1"/>
+    <path d="M58 32 A26 26 0 0 1 32 58" stroke="#ffb000" stroke-dasharray="3 3.1"/>
+    <path d="M32 58 A26 26 0 0 1 6 32" stroke="#33e661" stroke-dasharray="3 3.1"/>
+    <path d="M6 32 A26 26 0 0 1 32 6" stroke="#2a3a2e" stroke-dasharray="3 3.1"/>
+  </g>
+  <circle cx="32" cy="32" r="7" fill="#ff3a3a"/>
+  <circle cx="32" cy="32" r="9" fill="#ff3a3a" opacity=".35" filter="url(#g)"/>
+</svg>
+<span>Snorly</span></a><p class="small" style="margin-top:.8rem;max-width:34ch">Snore recorder for iPhone. Snore Recorder App Pro: Snorly.</p>
+<p><a class="btn" href="https://apps.apple.com/app/id6743162754?ct=home" rel="noopener"><svg class="apple" viewBox="0 0 24 24" aria-hidden="true"><path d="M16.4 12.6c0-2.5 2-3.7 2.1-3.8-1.2-1.7-3-1.9-3.6-2-1.5-.2-3 .9-3.8.9s-2-.9-3.3-.8C6.1 6.9 4.5 7.9 3.6 9.5c-1.9 3.3-.5 8.1 1.4 10.8.9 1.3 2 2.8 3.4 2.7 1.4-.1 1.9-.9 3.5-.9s2.1.9 3.5.9c1.5 0 2.4-1.3 3.3-2.6 1-1.5 1.5-3 1.5-3.1-.1 0-2.8-1.1-2.8-4.7zM14 5.2c.7-.9 1.2-2.1 1.1-3.3-1 0-2.3.7-3 1.6-.7.8-1.3 2-1.1 3.2 1.1.1 2.3-.6 3-1.5z"/></svg>App Store</a></p></div>
+<div><p class="foot-h">Learn</p><ul><li><a href="/snorly-site/blog/does-mouth-tape-stop-snoring/">Does mouth tape stop snoring? How to test it safely</a></li><li><a href="/snorly-site/blog/how-to-know-if-you-snore/">How to tell if you snore when you sleep alone</a></li><li><a href="/snorly-site/blog/how-to-record-yourself-snoring/">How to Record Yourself Snoring on iPhone: Memos vs App</a></li><li><a href="/snorly-site/blog/how-to-sleep-when-partner-snores/">How to Sleep When Your Partner Snores (Without a Fight)</a></li><li><a href="/snorly-site/blog/how-to-stop-snoring/">How to stop snoring: 9 fixes ranked by evidence</a></li><li><a href="/snorly-site/blog/">Blog</a></li></ul></div>
+<div><p class="foot-h">Product</p><ul><li><a href="/snorly-site/snore-score/">Snore Score</a></li><li><a href="/snorly-site/vs/snorelab/">vs SnoreLab</a></li><li><a href="/snorly-site/free-snoring-app/">Free plan</a></li><li><a href="/snorly-site/support/">Support</a></li><li><a href="/snorly-site/author/mikhail-manev/">About the author</a></li><li><a href="/snorly-site/privacy/">Privacy</a></li><li><a href="/snorly-site/terms/">Terms</a></li></ul></div>
+<div class="legal"><p>Snorly is a snore recorder and tracker, not a medical device. It does not diagnose sleep apnea or any other condition. If you notice pauses in breathing, gasping or daytime sleepiness, talk to a doctor.</p><p>© 2026 Snorly · Snore Recorder App Pro · <a href="mailto:hello@builtfor.app">hello@builtfor.app</a></p></div>
+</div></footer>
+</body>
+</html>
