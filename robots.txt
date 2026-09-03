@@ -13,4 +13,4 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
-Sitemap: https://horamupa.github.io/snorly-site/sitemap.xml
+Sitemap: https://snorly.app/sitemap.xml
