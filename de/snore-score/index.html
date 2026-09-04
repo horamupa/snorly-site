@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Was ist ein Schnarch-Score? Snorly, SnoreLab und dB erklärt · Snorly</title>
+<meta name="description" content="Ein Schnarch-Score macht aus einer Nacht Audio eine Zahl. Wie Snorly den Score von 0 bis 100 berechnet, was SnoreLab anders macht und wann dB als laut gelten.">
+<link rel="canonical" href="https://snorly.app/de/snore-score/">
+<link rel="alternate" hreflang="en" href="https://snorly.app/snore-score/">
+<link rel="alternate" hreflang="de" href="https://snorly.app/de/snore-score/">
+<link rel="alternate" hreflang="fr" href="https://snorly.app/fr/snore-score/">
+<link rel="alternate" hreflang="es" href="https://snorly.app/es/snore-score/">
+<link rel="alternate" hreflang="it" href="https://snorly.app/it/snore-score/">
+<link rel="alternate" hreflang="pt-BR" href="https://snorly.app/pt-br/snore-score/">
+<link rel="alternate" hreflang="ja" href="https://snorly.app/ja/snore-score/">
+<link rel="alternate" hreflang="nl" href="https://snorly.app/nl/snore-score/">
+<link rel="alternate" hreflang="pl" href="https://snorly.app/pl/snore-score/">
+<link rel="alternate" hreflang="th" href="https://snorly.app/th/snore-score/">
+<link rel="alternate" hreflang="ar" href="https://snorly.app/ar/snore-score/">
+<link rel="alternate" hreflang="id" href="https://snorly.app/id/snore-score/">
+<link rel="alternate" hreflang="vi" href="https://snorly.app/vi/snore-score/">
+<link rel="alternate" hreflang="tr" href="https://snorly.app/tr/snore-score/">
+<link rel="alternate" hreflang="zh-Hans" href="https://snorly.app/zh-hans/snore-score/">
+<link rel="alternate" hreflang="ko" href="https://snorly.app/ko/snore-score/">
+<link rel="alternate" hreflang="zh-Hant" href="https://snorly.app/zh-hant/snore-score/">
+<link rel="alternate" hreflang="ru" href="https://snorly.app/ru/snore-score/">
+<link rel="alternate" hreflang="x-default" href="https://snorly.app/snore-score/">
+<meta name="apple-itunes-app" content="app-id=6743162754, app-argument=https://snorly.app/de/snore-score/">
+<meta name="theme-color" content="#1a1a1c">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Snorly">
+<meta property="og:locale" content="de_DE">
+<meta property="og:title" content="Was ist ein Schnarch-Score? Snorly, SnoreLab und dB erklärt">
+<meta property="og:description" content="Ein Schnarch-Score macht aus einer Nacht Audio eine Zahl. Wie Snorly den Score von 0 bis 100 berechnet, was SnoreLab anders macht und wann dB als laut gelten.">
+<meta property="og:url" content="https://snorly.app/de/snore-score/">
+<meta property="og:image" content="https://snorly.app/assets/img/covers/snore-score.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/assets/img/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/assets/img/favicon-192.png" sizes="192x192" type="image/png">
+<link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+<link rel="alternate" type="application/rss+xml" title="Snorly" href="/feed-de.xml">
+
+<style>@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:400;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-400-cyrillic.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:400;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-400-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:500;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-500-cyrillic.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:500;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-500-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:600;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-600-cyrillic.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:600;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-600-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:400 700;font-display:swap;src:url(/assets/fonts/ibm-plex-sans-var-cyrillic.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:400 700;font-display:swap;src:url(/assets/fonts/ibm-plex-sans-var-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}</style>
+<link rel="stylesheet" href="/assets/css/site.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://snorly.app/#organization","name":"Snorly","url":"https://snorly.app/","logo":{"@type":"ImageObject","url":"https://snorly.app/assets/img/icon-512.png","width":512,"height":512},"sameAs":["https://apps.apple.com/app/id6743162754"],"email":"hello@builtfor.app"},{"@type":"WebSite","@id":"https://snorly.app/#website","name":"Snorly","url":"https://snorly.app/","inLanguage":"de","publisher":{"@id":"https://snorly.app/#organization"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Snorly","item":"https://snorly.app/de/"},{"@type":"ListItem","position":2,"name":"Was ist ein Schnarch-Score? Snorly, SnoreLab und dB erklärt","item":"https://snorly.app/de/snore-score/"}]},{"@type":"WebPage","@id":"https://snorly.app/de/snore-score/#webpage","url":"https://snorly.app/de/snore-score/","name":"Was ist ein Schnarch-Score? Snorly, SnoreLab und dB erklärt","description":"Ein Schnarch-Score macht aus einer Nacht Audio eine Zahl. Wie Snorly den Score von 0 bis 100 berechnet, was SnoreLab anders macht und wann dB als laut gelten.","inLanguage":"de","isPartOf":{"@id":"https://snorly.app/#website"},"dateModified":"2026-09-02","author":{"@type":"Person","@id":"https://snorly.app/#author","name":"Mikhail Manev","url":"https://snorly.app/de/author/mikhail-manev/","jobTitle":"Entwickler von Snorly","worksFor":{"@id":"https://snorly.app/#organization"}},"publisher":{"@id":"https://snorly.app/#organization"}}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">Zum Inhalt springen</a>
+<header class="site-header"><div class="wrap">
+<a class="logo" href="/de/" aria-label="Snorly"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <filter id="g" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="1.2"/></filter>
+  </defs>
+  <circle cx="32" cy="32" r="30" fill="#1c1c1f"/>
+  <g stroke-width="3.2" stroke-linecap="round" fill="none">
+    <g filter="url(#g)" opacity=".7">
+      <path d="M32 6 A26 26 0 0 1 58 32" stroke="#ff3a5e"/>
+      <path d="M58 32 A26 26 0 0 1 32 58" stroke="#ffb000"/>
+      <path d="M32 58 A26 26 0 0 1 6 32" stroke="#33e661"/>
+    </g>
+    <path d="M32 6 A26 26 0 0 1 58 32" stroke="#ff3a5e" stroke-dasharray="3 3.1"/>
+    <path d="M58 32 A26 26 0 0 1 32 58" stroke="#ffb000" stroke-dasharray="3 3.1"/>
+    <path d="M32 58 A26 26 0 0 1 6 32" stroke="#33e661" stroke-dasharray="3 3.1"/>
+    <path d="M6 32 A26 26 0 0 1 32 6" stroke="#2a3a2e" stroke-dasharray="3 3.1"/>
+  </g>
+  <circle cx="32" cy="32" r="7" fill="#ff3a3a"/>
+  <circle cx="32" cy="32" r="9" fill="#ff3a3a" opacity=".35" filter="url(#g)"/>
+</svg>
+<span>Snorly</span></a>
+<nav class="nav" aria-label="Main">
+<a href="/de/blog/">Blog</a>
+<a class="hide-m" href="/de/snore-score/" aria-current="page">Schnarch-Score</a>
+<a class="hide-m" href="/de/vs/snorelab/">vs SnoreLab</a>
+<details class="lang"><summary aria-label="Sprache: Deutsch">DE</summary><ul><li><a href="/snore-score/" hreflang="en" lang="en">English</a></li><li><a href="/de/snore-score/" hreflang="de" lang="de" aria-current="true">Deutsch</a></li><li><a href="/fr/snore-score/" hreflang="fr" lang="fr">Français</a></li><li><a href="/es/snore-score/" hreflang="es" lang="es">Español</a></li><li><a href="/it/snore-score/" hreflang="it" lang="it">Italiano</a></li><li><a href="/pt-br/snore-score/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a></li><li><a href="/ja/snore-score/" hreflang="ja" lang="ja">日本語</a></li><li><a href="/nl/snore-score/" hreflang="nl" lang="nl">Nederlands</a></li><li><a href="/pl/snore-score/" hreflang="pl" lang="pl">Polski</a></li><li><a href="/th/snore-score/" hreflang="th" lang="th">ไทย</a></li><li><a href="/ar/snore-score/" hreflang="ar" lang="ar">العربية</a></li><li><a href="/id/snore-score/" hreflang="id" lang="id">Bahasa Indonesia</a></li><li><a href="/vi/snore-score/" hreflang="vi" lang="vi">Tiếng Việt</a></li><li><a href="/tr/snore-score/" hreflang="tr" lang="tr">Türkçe</a></li><li><a href="/zh-hans/snore-score/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li><li><a href="/ko/snore-score/" hreflang="ko" lang="ko">한국어</a></li><li><a href="/zh-hant/snore-score/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li><li><a href="/ru/snore-score/" hreflang="ru" lang="ru">Русский</a></li></ul></details>
+<a class="btn btn-led" href="https://apps.apple.com/app/id6743162754?ct=snore-score" rel="noopener">App laden</a>
+</nav></div></header>
+<main id="main">
+<article>
+<header class="article-head prose"><h1>Was ist ein Schnarch-Score? Snorly, SnoreLab und dB erklärt</h1></header>
+<div class="prose"><img width="1200" height="675" class="cover" src="/assets/img/covers/snore-score.webp" alt="Ein anthrazitfarbener neumorpher Score-Ring mit LED-Segmenten von Grün über Gelb bis Rot" fetchpriority="high"><p class="lead">Ein Schnarch-Score ist eine Zahl, die zusammenfasst, wie viel du in einer Nacht geschnarcht hast und wie laut. Snorly bewertet eine Nacht von 0 bis 100, wobei 100 bedeutet, dass kein Schnarchen erkannt wurde, und alles unter 50 bedeutet, dass Schnarchen in mittlerer oder starker Lautstärke einen großen Teil der Nacht eingenommen hat. Andere Apps nutzen andere Skalen, deshalb bedeuten eine „25“ in SnoreLab und eine „25“ in Snorly sehr unterschiedliche Nächte.</p>
+<div class="facts">
+<span class="label led">Wichtigste Fakten</span><ul>
+<li>Snorly: 0–100, höher ist besser. 90–100 Ausgezeichnet, 70–89 Gut, 50–69 Durchschnitt, 30–49 Schlecht, unter 30 Sehr schlecht (Nächte unter 4 Stunden werden als „Zu kurz“ markiert).</li>
+<li>SnoreLab: nach oben offen, niedriger ist besser. Der eigene Leitfaden setzt den mittleren Nutzer bei etwa 25, nennt 50+ „schlecht“ und 100+ einen Grund, „Lösungen zu suchen“ (SnoreLab Insights).</li>
+<li>Lautstärke-Stufen in Snorly-Clips: Leise, Leicht, Mittel, Stark, zugewiesen nach dem gemessenen Pegel jedes Clips.</li>
+<li>Lautes Schnarchen wird meist mit etwa 50–60 dB angegeben; Extremfälle überschreiten 80 dB (Sleep Foundation; Guinness führt einen Rekord von 111,6 dB).</div></li>
+</ul>
+<h2>Wie berechnet Snorly den Score?</h2>
+<p>Snorly startet bei 100 und zieht eine „Schnarchlast“ ab: den Anteil der Nacht, der mit Schnarchen verbracht wurde, gewichtet nach Lautstärke (leichte Episoden zählen 0,4, mittlere 0,7, starke 1,0). Die Last sättigt bei 60 % der Nacht, sodass eine Nacht mit mehr als 60 % lautem Schnarchen nahe null landet. Dann zieht es einen kleinen Fragmentierungsabzug ab, 2 Punkte pro Schnarch-Episode und Stunde, gedeckelt bei 10 Punkten, weil viele kurze Episoden den Schlaf stärker stören als eine lange bei gleicher Lautstärke.</p>
+<p>Drei Beispiele aus der Formel:</p>
+<div class="scroll-x"><table>
+<thead>
+<tr>
+<th>Nacht</th>
+<th>Schnarchen</th>
+<th>Lautstärke</th>
+<th>Episoden</th>
+<th>Score</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>A</td>
+<td>20 Min. von 8 Std.</td>
+<td>überwiegend leicht</td>
+<td>3</td>
+<td>etwa 90</td>
+</tr>
+<tr>
+<td>B</td>
+<td>2 Std. 15 Min. von 8 Std.</td>
+<td>gemischt, teils stark</td>
+<td>12</td>
+<td>etwa 55</td>
+</tr>
+<tr>
+<td>C</td>
+<td>keines erkannt</td>
+<td>–</td>
+<td>0</td>
+<td>100</td>
+</tr>
+</tbody></table></div>
+<p>Der Score ist eine Zusammenfassung, kein Befund. Zwei Nächte mit demselben Score können unterschiedlich klingen; die Zeitleiste und die Clips sind der nächste Blick.</p>
+<h2>Was ist ein guter Schnarch-Score?</h2>
+<p>In Snorly ist 70 oder mehr eine gute Nacht und 90 oder mehr eine Nacht mit fast keinem Schnarchen. Ein Score, der zwischen zwei Nächten um 20 Punkte schwankt, hat meist eine sichtbare Ursache in den Faktor-Tags: Alkohol, spätes Essen, eine Erkältung, Rückenlage. Das ist der Sinn des Scores: nicht, dich zu benoten, sondern Veränderung messbar zu machen. Vergleich eine Woche Nächte mit einem Mittel gegen eine Woche ohne und schau auf den Durchschnitt, nicht auf eine einzelne Nacht.</p>
+<h2>Worin unterscheidet sich der Snore Score von SnoreLab?</h2>
+<p>Der Score von SnoreLab läuft in die andere Richtung: Er wächst mit Menge und Lautstärke des Schnarchens und hat keine Obergrenze. Die veröffentlichte Anleitung sagt, die meisten Nutzer liegen um 25, 50 oder mehr ist schlecht, und 100 oder mehr heißt, es ist Zeit für Gegenmittel, mit einem Ziel von 10 oder darunter. Du kannst den einen Score nicht in den anderen umrechnen. Wenn du die App wechselst, vergleich eine Woche Nächte innerhalb einer App statt eines einzelnen Scores über zwei hinweg. Die vollständige Funktionsliste steht in unserem Vergleich <a href="/de/vs/snorelab/">Snorly vs SnoreLab</a>.</p>
+<h2>Wie laut ist Schnarchen in Dezibel?</h2>
+<p>Normales Atmen im Schlaf liegt bei etwa 10 dB. Leichtes Schnarchen liegt nahe 40 dB, etwa so laut wie ein ruhiges Büro. Mittleres Schnarchen sind 50–60 dB, vergleichbar mit einem Gespräch oder einer laufenden Dusche. Starkes Schnarchen überschreitet 60 dB und kann in Extremfällen 80–90 dB erreichen, ähnlich einem Staubsauger oder starkem Verkehr. Aufnahmen im Schlafzimmer messen niedriger als ein Labor, weil das Mikrofon einen Meter entfernt liegt; deshalb stufen Apps Clips relativ zu ihrer eigenen Skala ein, statt einen absoluten Wert zu nennen. Eine vollständige Tabelle mit Audio findest du in <a href="/de/blog/wie-klingt-schnarchen/">Wie klingt Schnarchen</a>.</p>
+<h2>Ist Schnarchen mit 40 dB laut?</h2>
+<p>Nein. Um 40 dB ist leichtes Schnarchen, leiser als ein normales Gespräch, und die meisten Partner schlafen dabei weiter. Beschwerden beginnen typischerweise im Bereich 50–60 dB, wo Schnarchen mit Sprache konkurriert. Ein einzelner lauter Spitzenwert zählt weniger als die Dauer der lauten Phasen, und deshalb gewichtet Snorly den Score nach beidem.</p>
+<h2>Was der Score dir nicht sagen kann</h2>
+<p>Ein Schnarch-Score misst weder Sauerstoff noch Atemanstrengung noch Schlafphasen. Stille Atempausen erzeugen kein Geräusch und deshalb keine Änderung des Scores. Wenn deine Aufnahmen Schnarchen zeigen, das aufhört, dann eine stille Lücke, dann ein lautes Schnauben oder Schnappen nach Luft, dann ist dieses Muster unabhängig von der Zahl etwas für den Arzt. Snorly markiert solche Atemmuster getrennt vom Score und kann einen PDF-Bericht exportieren, den du zum Termin mitnehmen kannst.</p>
+<div class="cta-card"><img src="/assets/img/app-icon-256.webp" width="64" height="64" alt="Snorly app icon" loading="lazy"><p><b>Hör dein eigenes Schnarchen heute Nacht</b>Snorly nimmt nur auf, wenn es Schnarchen hört, und spielt es dir morgens vor. Kostenlos, ohne Konto, ohne Nächte-Limit.</p><a class="btn btn-led" href="https://apps.apple.com/app/id6743162754?ct=snore-score" rel="noopener"><svg class="apple" viewBox="0 0 24 24" aria-hidden="true"><path d="M16.4 12.6c0-2.5 2-3.7 2.1-3.8-1.2-1.7-3-1.9-3.6-2-1.5-.2-3 .9-3.8.9s-2-.9-3.3-.8C6.1 6.9 4.5 7.9 3.6 9.5c-1.9 3.3-.5 8.1 1.4 10.8.9 1.3 2 2.8 3.4 2.7 1.4-.1 1.9-.9 3.5-.9s2.1.9 3.5.9c1.5 0 2.4-1.3 3.3-2.6 1-1.5 1.5-3 1.5-3.1-.1 0-2.8-1.1-2.8-4.7zM14 5.2c.7-.9 1.2-2.1 1.1-3.3-1 0-2.3.7-3 1.6-.7.8-1.3 2-1.1 3.2 1.1.1 2.3-.6 3-1.5z"/></svg>Im App Store laden</a></div>
+<h2>Verwandte Fragen</h2>
+<h3>Warum sinkt mein Score nach Alkohol?</h3>
+<p>Alkohol entspannt die Rachenmuskulatur, die Atemwege werden enger und vibrieren stärker. In Snorlys Faktorvergleich zeigen Nächte mit „Alkohol“ meist mehr mittlere und starke Episoden und einen niedrigeren Durchschnitts-Score als nüchterne Nächte.</p>
+<h3>Zählen Sprechen im Schlaf oder Husten in den Score?</h3>
+<p>Nein. Clips mit Sprechen im Schlaf und Husten werden aufgenommen und beschriftet, aber nur Schnarch-Episoden fließen in den Score ein.</p>
+<h3>Bekomme ich den Score auch ohne Premium?</h3>
+<p>Ja. Score, Zeitleiste, Clip-Wiedergabe und dein Verlauf sind jede Nacht kostenlos, ohne Limit. Premium ist nur für Audio der ganzen Nacht, Vergleiche von Mitteln und Faktoren und den Arztbericht.</p>
+<h3>Was ist ein Schnarch-Score-Diagramm?</h3>
+<p>Ein Diagramm deiner nächtlichen Scores über Wochen. In Snorly liegt es im Tab Forschung neben den Vergleichen von Faktoren und Mitteln, sodass du siehst, ob eine Änderung die Linie bewegt hat.</p>
+<p class="disclaimer">Snorly ist ein Schnarch-Rekorder und -Tracker, kein Medizinprodukt. Es diagnostiziert weder Schlafapnoe noch andere Erkrankungen. Wenn du Atemaussetzer, Schnappen nach Luft oder Tagesmüdigkeit bemerkst, sprich mit einem Arzt.</p></div>
+</article>
+</main>
+<footer class="site-footer"><div class="wrap">
+<div><a class="logo" href="/de/"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <filter id="g" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="1.2"/></filter>
+  </defs>
+  <circle cx="32" cy="32" r="30" fill="#1c1c1f"/>
+  <g stroke-width="3.2" stroke-linecap="round" fill="none">
+    <g filter="url(#g)" opacity=".7">
+      <path d="M32 6 A26 26 0 0 1 58 32" stroke="#ff3a5e"/>
+      <path d="M58 32 A26 26 0 0 1 32 58" stroke="#ffb000"/>
+      <path d="M32 58 A26 26 0 0 1 6 32" stroke="#33e661"/>
+    </g>
+    <path d="M32 6 A26 26 0 0 1 58 32" stroke="#ff3a5e" stroke-dasharray="3 3.1"/>
+    <path d="M58 32 A26 26 0 0 1 32 58" stroke="#ffb000" stroke-dasharray="3 3.1"/>
+    <path d="M32 58 A26 26 0 0 1 6 32" stroke="#33e661" stroke-dasharray="3 3.1"/>
+    <path d="M6 32 A26 26 0 0 1 32 6" stroke="#2a3a2e" stroke-dasharray="3 3.1"/>
+  </g>
+  <circle cx="32" cy="32" r="7" fill="#ff3a3a"/>
+  <circle cx="32" cy="32" r="9" fill="#ff3a3a" opacity=".35" filter="url(#g)"/>
+</svg>
+<span>Snorly</span></a><p class="small" style="margin-top:.8rem;max-width:34ch">Schnarch-Rekorder für das iPhone. Snore Recorder App Pro: Snorly.</p>
+<p><a class="btn" href="https://apps.apple.com/app/id6743162754?ct=snore-score" rel="noopener"><svg class="apple" viewBox="0 0 24 24" aria-hidden="true"><path d="M16.4 12.6c0-2.5 2-3.7 2.1-3.8-1.2-1.7-3-1.9-3.6-2-1.5-.2-3 .9-3.8.9s-2-.9-3.3-.8C6.1 6.9 4.5 7.9 3.6 9.5c-1.9 3.3-.5 8.1 1.4 10.8.9 1.3 2 2.8 3.4 2.7 1.4-.1 1.9-.9 3.5-.9s2.1.9 3.5.9c1.5 0 2.4-1.3 3.3-2.6 1-1.5 1.5-3 1.5-3.1-.1 0-2.8-1.1-2.8-4.7zM14 5.2c.7-.9 1.2-2.1 1.1-3.3-1 0-2.3.7-3 1.6-.7.8-1.3 2-1.1 3.2 1.1.1 2.3-.6 3-1.5z"/></svg>App Store</a></p></div>
+<div><p class="foot-h">Wissen</p><ul><li><a href="/de/blog/anti-schnarch-kissen/">Anti-Schnarch-Kissen im Test: Was Aufnahmen zeigen</a></li><li><a href="/de/blog/mouth-tape-gegen-schnarchen/">Hilft Mouth Tape gegen Schnarchen? So testest du es sicher</a></li><li><a href="/de/blog/nasenpflaster-gegen-schnarchen/">Helfen Nasenpflaster gegen Schnarchen? Was Aufnahmen zeigen</a></li><li><a href="/de/blog/beste-schnarch-apps/">Beste Schnarch-Apps fürs iPhone: 6 im Vergleich, kostenlos</a></li><li><a href="/de/blog/partner-schnarcht-was-tun/">Partner schnarcht, was tun? So schläfst du ohne Streit</a></li><li><a href="/de/blog/">Blog</a></li></ul></div>
+<div><p class="foot-h">Produkt</p><ul><li><a href="/de/snore-score/">Schnarch-Score</a></li><li><a href="/de/vs/snorelab/">vs SnoreLab</a></li><li><a href="/de/free-snoring-app/">Kostenlos</a></li><li><a href="/de/snore-detection-app/">Schnarcherkennung</a></li><li><a href="/de/snoring-statistics/">Schnarch-Statistiken</a></li><li><a href="/de/support/">Support</a></li><li><a href="/de/author/mikhail-manev/">Über den Autor</a></li><li><a href="/privacy/">Datenschutz</a></li><li><a href="/terms/">Nutzungsbedingungen</a></li></ul></div>
+<div class="legal"><p>Snorly ist ein Schnarch-Rekorder und -Tracker, kein Medizinprodukt. Es diagnostiziert weder Schlafapnoe noch andere Erkrankungen. Wenn du Atemaussetzer, Schnappen nach Luft oder Tagesmüdigkeit bemerkst, sprich mit einem Arzt.</p><p>© 2026 Snorly · Snore Recorder App Pro · <a href="mailto:hello@builtfor.app">hello@builtfor.app</a></p></div>
+</div></footer>
+</body>
+</html>

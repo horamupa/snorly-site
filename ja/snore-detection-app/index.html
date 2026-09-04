@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>いびき検出アプリ（iPhone）：端末内処理、アカウント不要 · Snorly</title>
+<meta name="description" content="SnorlyはiPhone本体でいびきを検出し、音のあるクリップだけを残し、アカウントも不要です。何を検出するのか、精度はどのくらいか、何が無料のままかを解説します。">
+<link rel="canonical" href="https://snorly.app/ja/snore-detection-app/">
+<link rel="alternate" hreflang="en" href="https://snorly.app/snore-detection-app/">
+<link rel="alternate" hreflang="de" href="https://snorly.app/de/snore-detection-app/">
+<link rel="alternate" hreflang="fr" href="https://snorly.app/fr/snore-detection-app/">
+<link rel="alternate" hreflang="es" href="https://snorly.app/es/snore-detection-app/">
+<link rel="alternate" hreflang="it" href="https://snorly.app/it/snore-detection-app/">
+<link rel="alternate" hreflang="pt-BR" href="https://snorly.app/pt-br/snore-detection-app/">
+<link rel="alternate" hreflang="ja" href="https://snorly.app/ja/snore-detection-app/">
+<link rel="alternate" hreflang="nl" href="https://snorly.app/nl/snore-detection-app/">
+<link rel="alternate" hreflang="pl" href="https://snorly.app/pl/snore-detection-app/">
+<link rel="alternate" hreflang="th" href="https://snorly.app/th/snore-detection-app/">
+<link rel="alternate" hreflang="ar" href="https://snorly.app/ar/snore-detection-app/">
+<link rel="alternate" hreflang="id" href="https://snorly.app/id/snore-detection-app/">
+<link rel="alternate" hreflang="vi" href="https://snorly.app/vi/snore-detection-app/">
+<link rel="alternate" hreflang="tr" href="https://snorly.app/tr/snore-detection-app/">
+<link rel="alternate" hreflang="zh-Hans" href="https://snorly.app/zh-hans/snore-detection-app/">
+<link rel="alternate" hreflang="ko" href="https://snorly.app/ko/snore-detection-app/">
+<link rel="alternate" hreflang="zh-Hant" href="https://snorly.app/zh-hant/snore-detection-app/">
+<link rel="alternate" hreflang="ru" href="https://snorly.app/ru/snore-detection-app/">
+<link rel="alternate" hreflang="x-default" href="https://snorly.app/snore-detection-app/">
+<meta name="apple-itunes-app" content="app-id=6743162754, app-argument=https://snorly.app/ja/snore-detection-app/">
+<meta name="theme-color" content="#1a1a1c">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Snorly">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:title" content="いびき検出アプリ（iPhone）：端末内処理、アカウント不要">
+<meta property="og:description" content="SnorlyはiPhone本体でいびきを検出し、音のあるクリップだけを残し、アカウントも不要です。何を検出するのか、精度はどのくらいか、何が無料のままかを解説します。">
+<meta property="og:url" content="https://snorly.app/ja/snore-detection-app/">
+<meta property="og:image" content="https://snorly.app/assets/img/covers/snore-detection-app.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/assets/img/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/assets/img/favicon-192.png" sizes="192x192" type="image/png">
+<link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+<link rel="alternate" type="application/rss+xml" title="Snorly" href="/feed-ja.xml">
+
+<style>@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:400;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-400-cyrillic.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:400;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-400-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:500;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-500-cyrillic.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:500;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-500-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:600;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-600-cyrillic.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:600;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-600-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:400 700;font-display:swap;src:url(/assets/fonts/ibm-plex-sans-var-cyrillic.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:400 700;font-display:swap;src:url(/assets/fonts/ibm-plex-sans-var-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}</style>
+<link rel="stylesheet" href="/assets/css/site.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://snorly.app/#organization","name":"Snorly","url":"https://snorly.app/","logo":{"@type":"ImageObject","url":"https://snorly.app/assets/img/icon-512.png","width":512,"height":512},"sameAs":["https://apps.apple.com/app/id6743162754"],"email":"hello@builtfor.app"},{"@type":"WebSite","@id":"https://snorly.app/#website","name":"Snorly","url":"https://snorly.app/","inLanguage":"ja","publisher":{"@id":"https://snorly.app/#organization"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Snorly","item":"https://snorly.app/ja/"},{"@type":"ListItem","position":2,"name":"いびき検出アプリ（iPhone）：端末内処理、アカウント不要","item":"https://snorly.app/ja/snore-detection-app/"}]},{"@type":"WebPage","@id":"https://snorly.app/ja/snore-detection-app/#webpage","url":"https://snorly.app/ja/snore-detection-app/","name":"いびき検出アプリ（iPhone）：端末内処理、アカウント不要","description":"SnorlyはiPhone本体でいびきを検出し、音のあるクリップだけを残し、アカウントも不要です。何を検出するのか、精度はどのくらいか、何が無料のままかを解説します。","inLanguage":"ja","isPartOf":{"@id":"https://snorly.app/#website"},"dateModified":"2026-09-03","author":{"@type":"Person","@id":"https://snorly.app/#author","name":"Mikhail Manev","url":"https://snorly.app/ja/author/mikhail-manev/","jobTitle":"Snorly開発者","worksFor":{"@id":"https://snorly.app/#organization"}},"publisher":{"@id":"https://snorly.app/#organization"}}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">本文へ移動</a>
+<header class="site-header"><div class="wrap">
+<a class="logo" href="/ja/" aria-label="Snorly"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <filter id="g" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="1.2"/></filter>
+  </defs>
+  <circle cx="32" cy="32" r="30" fill="#1c1c1f"/>
+  <g stroke-width="3.2" stroke-linecap="round" fill="none">
+    <g filter="url(#g)" opacity=".7">
+      <path d="M32 6 A26 26 0 0 1 58 32" stroke="#ff3a5e"/>
+      <path d="M58 32 A26 26 0 0 1 32 58" stroke="#ffb000"/>
+      <path d="M32 58 A26 26 0 0 1 6 32" stroke="#33e661"/>
+    </g>
+    <path d="M32 6 A26 26 0 0 1 58 32" stroke="#ff3a5e" stroke-dasharray="3 3.1"/>
+    <path d="M58 32 A26 26 0 0 1 32 58" stroke="#ffb000" stroke-dasharray="3 3.1"/>
+    <path d="M32 58 A26 26 0 0 1 6 32" stroke="#33e661" stroke-dasharray="3 3.1"/>
+    <path d="M6 32 A26 26 0 0 1 32 6" stroke="#2a3a2e" stroke-dasharray="3 3.1"/>
+  </g>
+  <circle cx="32" cy="32" r="7" fill="#ff3a3a"/>
+  <circle cx="32" cy="32" r="9" fill="#ff3a3a" opacity=".35" filter="url(#g)"/>
+</svg>
+<span>Snorly</span></a>
+<nav class="nav" aria-label="Main">
+<a href="/ja/blog/">ブログ</a>
+<a class="hide-m" href="/ja/snore-score/">いびきスコア</a>
+<a class="hide-m" href="/ja/vs/snorelab/">vs SnoreLab</a>
+<details class="lang"><summary aria-label="言語: 日本語">JA</summary><ul><li><a href="/snore-detection-app/" hreflang="en" lang="en">English</a></li><li><a href="/de/snore-detection-app/" hreflang="de" lang="de">Deutsch</a></li><li><a href="/fr/snore-detection-app/" hreflang="fr" lang="fr">Français</a></li><li><a href="/es/snore-detection-app/" hreflang="es" lang="es">Español</a></li><li><a href="/it/snore-detection-app/" hreflang="it" lang="it">Italiano</a></li><li><a href="/pt-br/snore-detection-app/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a></li><li><a href="/ja/snore-detection-app/" hreflang="ja" lang="ja" aria-current="true">日本語</a></li><li><a href="/nl/snore-detection-app/" hreflang="nl" lang="nl">Nederlands</a></li><li><a href="/pl/snore-detection-app/" hreflang="pl" lang="pl">Polski</a></li><li><a href="/th/snore-detection-app/" hreflang="th" lang="th">ไทย</a></li><li><a href="/ar/snore-detection-app/" hreflang="ar" lang="ar">العربية</a></li><li><a href="/id/snore-detection-app/" hreflang="id" lang="id">Bahasa Indonesia</a></li><li><a href="/vi/snore-detection-app/" hreflang="vi" lang="vi">Tiếng Việt</a></li><li><a href="/tr/snore-detection-app/" hreflang="tr" lang="tr">Türkçe</a></li><li><a href="/zh-hans/snore-detection-app/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li><li><a href="/ko/snore-detection-app/" hreflang="ko" lang="ko">한국어</a></li><li><a href="/zh-hant/snore-detection-app/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li><li><a href="/ru/snore-detection-app/" hreflang="ru" lang="ru">Русский</a></li></ul></details>
+<a class="btn btn-led" href="https://apps.apple.com/app/id6743162754?ct=snore-detection-app" rel="noopener">アプリを入手</a>
+</nav></div></header>
+<main id="main">
+<article>
+<header class="article-head prose"><h1>いびき検出アプリ（iPhone）：端末内処理、アカウント不要</h1></header>
+<div class="prose"><img width="1200" height="675" class="cover" src="/assets/img/covers/snore-detection-app.webp" alt="暗い寝室のベッドサイドに置かれたiPhone。画面には緑、アンバー、青のチップに分類された光る緑のLED波形と、小さな南京錠のマーク" fetchpriority="high"><p class="lead">いびき検出アプリは、スマホのマイクで一晩中音を聞き、どの音がいびきかをリアルタイムで判断し、その数秒だけを残します。SnorlyはこれをiPhone本体で行います。分類器は端末上で動き、クリップは端末内に残り、作成するアカウントもありません。朝には、すべてのいびきクリップが並ぶ一晩のタイムライン、各クリップの音量ラベル、そしてスコアが手に入ります。</p>
+<div class="facts">
+<span class="label led">要点</span><ul>
+<li>SnorlyはAppleの端末内サウンド分析を使ってiPhone上で音を分類します。音声はアップロードされず、機内モードでもアプリは動きます（当社データ）。</li>
+<li>一晩は検出したいびき、寝言、咳の短いクリップとして保存されるため、ベッドで過ごす8時間はたいてい数メガバイトで済みます。8時間のボイスメモの200 MBとは違います（当社データ）。</li>
+<li>公表されている検証研究では、スマホによるいびき検出は大きないびきでは手動カウントとよく一致し、騒がしい部屋の静かないびきでは一致が下がります（Chiang 2021、Figueras-Alvarez 2020）。</div></li>
+</ul>
+<h2>いびき検出アプリは実際に何をしますか？</h2>
+<p>3つのことを順番に行います。すべてを録音せずに聞く：サウンド分類器がマイク入力の1秒ごとに動き、「これはいびきか」を判定します。答えがはいなら、その区間を時刻と音量の値付きのクリップとして保存します。そして朝、クリップをタイムラインに並べるので、いつ、どのくらいの大きさでいびきをかいたかがわかり、どれでも再生できます。</p>
+<p>重要なのは最後のステップです。スコアだけなら、信じるしかない数字です。03:12の「重度」とラベルの付いたクリップは自分で聞けるものであり、パートナーも聞けるものです。</p>
+<h2>Snorlyは何を検出しますか？</h2>
+<div class="scroll-x"><table>
+<thead>
+<tr>
+<th>音</th>
+<th>クリップとして保存</th>
+<th>表示</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>いびき</td>
+<td>はい</td>
+<td>夜間タイムライン上のバー、「静か」から「重度」までの4段階の音量帯</td>
+</tr>
+<tr>
+<td>寝言</td>
+<td>はい</td>
+<td>別のクリップ、ラベル付き、スコアには含まれない</td>
+</tr>
+<tr>
+<td>咳</td>
+<td>はい</td>
+<td>別のクリップ、ラベル付き、スコアには含まれない</td>
+</tr>
+<tr>
+<td>呼吸の停止とあえぎ</td>
+<td>タイムラインにフラグ表示</td>
+<td>1時間あたりの回数。医師と相談すべきものとして表示</td>
+</tr>
+<tr>
+<td>無音、扇風機、交通音</td>
+<td>いいえ</td>
+<td>何も保存されない</td>
+</tr>
+</tbody></table></div>
+<p>呼吸フラグはパターン検出器であって診断ではありません。いびきが強まり、10秒以上止まり、あえぎとともに戻る。アプリが印を付けるのはこれです。それが無呼吸だったのか、酸素が下がったのかは睡眠検査が測るものであり、スマホアプリにはわかりません。その違いは<a href="/ja/blog/snoring-vs-sleep-apnea/">いびきと睡眠時無呼吸の違い</a>で説明しています。</p>
+<h2>端末内検出はどう動き、なぜ重要ですか？</h2>
+<p>分類器はスマホ自身のチップで動く小さなモデルです。1秒分の音声が入り、ラベルが出て、その1秒の音声はクリップの一部として保存されるか捨てられるかのどちらかです。サーバーを待つものは何もないので、電波がなくても検出は動き、自分でクリップの共有をタップしない限り、寝室のことは何もスマホから出ていきません。</p>
+<p>実用上の効果は2つあります。バッテリー：スマホ上の認識は十分に軽く、充電しながらの一晩は目立つコストになりません。プライバシー：アカウントもアップロードも、夜のクラウドライブラリもありません。SnorlyのApp Storeプライバシーラベルに音声はまったく載っていません。ラベルに載っているのは分析とApp Storeのアトリビューションのための匿名の使用状況データと識別子で、この一覧のほとんどのアプリと同じ区分です。</p>
+<h2>スマホのいびき検出はどのくらい正確ですか？</h2>
+<p>大きないびきには良好、騒がしい部屋の静かないびきには弱いです。スマートフォンのいびきアプリを手動採点と比べた2021年の検証では、いびき検出で高い一致が見られました（Chiang et al. 2021）。また、3種類のスマホでSnoreLabを使った2020年の研究では、同じ夜について端末間で一貫した結果が得られました（Figueras-Alvarez et al. 2020）。どちらの研究もSnorlyを使ったものではありません。結論は方式についてのもので、Snorlyも同じ方式を使っています。</p>
+<p>数字を動かすのはアプリではなく置き場所です。頭から50cm〜1m、ベッドサイドに、画面を下にして、扇風機の風がスマホに当たらないように、毎晩同じ場所に。音量帯はマイクが拾った音に対する相対値なので、夜ごとに動くスマホでは比較できないラベルになります。設定の詳細は<a href="/ja/blog/how-to-record-yourself-snoring/">自分のいびきを録音する方法</a>をご覧ください。</p>
+<h2>料金はいくらですか？</h2>
+<p>検出、すべてのクリップ、毎晩のスコア、タイムライン、呼吸フラグ、全履歴が毎晩無料で、夜数の制限も広告もありません。Premiumは追加機能だけです：一晩まるごとの録音、対策や要因のある夜とない夜の比較、医師に見せるPDFレポート、Apple Healthへの取り込み。サブスクリプションまたは買い切りで、お住まいの国の価格はアプリ内に表示されます。他のアプリとの詳しい比較は<a href="/ja/free-snoring-app/">無料のいびきアプリ</a>のページにあります。</p>
+<h2>今夜の使い方</h2>
+<ol>
+<li>Snorlyをインストールして開きます。飛ばすものは何もありません。作成するアカウントがないからです。</li>
+<li>iPhoneをベッドサイドに、枕から0.5〜1 mの位置に、画面を下にして、充電しながら置きます。</li>
+<li>録音をタップして眠ります。画面はベッドサイド時計に減光されます。</li>
+<li>朝、タイムラインの一番高いバーをタップして聞きます。そのクリップが「自分はいびきをかいているか」への答えです。</li>
+</ol>
+<div class="cta-card"><img src="/assets/img/app-icon-256.webp" width="64" height="64" alt="Snorly app icon" loading="lazy"><p><b>今夜、自分のいびきを聞いてみる</b>Snorlyはいびきが聞こえたときだけ録音し、朝に再生できます。無料、アカウント不要、夜数の制限なし。</p><a class="btn btn-led" href="https://apps.apple.com/app/id6743162754?ct=snore-detection-app" rel="noopener"><svg class="apple" viewBox="0 0 24 24" aria-hidden="true"><path d="M16.4 12.6c0-2.5 2-3.7 2.1-3.8-1.2-1.7-3-1.9-3.6-2-1.5-.2-3 .9-3.8.9s-2-.9-3.3-.8C6.1 6.9 4.5 7.9 3.6 9.5c-1.9 3.3-.5 8.1 1.4 10.8.9 1.3 2 2.8 3.4 2.7 1.4-.1 1.9-.9 3.5-.9s2.1.9 3.5.9c1.5 0 2.4-1.3 3.3-2.6 1-1.5 1.5-3 1.5-3.1-.1 0-2.8-1.1-2.8-4.7zM14 5.2c.7-.9 1.2-2.1 1.1-3.3-1 0-2.3.7-3 1.6-.7.8-1.3 2-1.1 3.2 1.1.1 2.3-.6 3-1.5z"/></svg>App Storeでダウンロード</a></div>
+<h2>関連する質問</h2>
+<h3>いびきを自動で検出するアプリはありますか？</h3>
+<p>はい。Snorly、SnoreLab、SnoreClockなど複数のアプリがマイクからいびきを検出し、いびきだけを保存します。違いは、検出がどこで動くか、お金を払わずに何を再生できるか、アカウントが必要かどうかです。<a href="/ja/blog/best-snoring-apps/">いびきアプリのおすすめ</a>をご覧ください。</p>
+<h3>扇風機やホワイトノイズをつけたままでも検出できますか？</h3>
+<p>中程度以上の大きさのいびきなら、たいてい可能です。一定の広帯域ノイズは分類器が聞き分けなければならない下限を上げるので、静かないびきから先に見逃されます。扇風機はスマホから遠ざけて向け、スマホは扇風機から離れた側のベッドサイドに置いてください。</p>
+<h3>いびき検出アプリで睡眠時無呼吸は検出できますか？</h3>
+<p>それに伴う音のパターンは検出できます。いびき、10秒以上の無音、そしてあえぎ。酸素を測ることも、無呼吸を確認することもできません。フラグの付いた夜は結果ではなく、医師に相談する理由と考えてください。</p>
+<h3>インターネットは必要ですか？</h3>
+<p>いいえ。検出、保存、再生はすべてスマホ上で行われます。インターネットを使うのは、Premiumを購入する場合のApp Storeでの購入時だけです。</p>
+<h2>出典</h2>
+<ul>
+<li>Chiang JK, Lin YC, Lin CW, et al. (2021). Validation of snoring detection using a smartphone app. Sleep and Breathing. <a href="https://doi.org/10.1007/s11325-021-02359-3">https://doi.org/10.1007/s11325-021-02359-3</a></li>
+<li>Figueras-Alvarez O, Cantó-Navés O, Real-Voltas F, et al. (2020). Snoring intensity assessment with three different smartphones using the SnoreLab application in one participant. Journal of Clinical Sleep Medicine. <a href="https://doi.org/10.5664/jcsm.8586">https://doi.org/10.5664/jcsm.8586</a></li>
+</ul>
+<p class="disclaimer">Snorlyはいびきの録音・記録アプリであり、医療機器ではありません。睡眠時無呼吸症候群やその他の疾患を診断するものではありません。呼吸の停止、息苦しさ、日中の強い眠気に気づいたら医師に相談してください。</p></div>
+</article>
+</main>
+<footer class="site-footer"><div class="wrap">
+<div><a class="logo" href="/ja/"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <filter id="g" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="1.2"/></filter>
+  </defs>
+  <circle cx="32" cy="32" r="30" fill="#1c1c1f"/>
+  <g stroke-width="3.2" stroke-linecap="round" fill="none">
+    <g filter="url(#g)" opacity=".7">
+      <path d="M32 6 A26 26 0 0 1 58 32" stroke="#ff3a5e"/>
+      <path d="M58 32 A26 26 0 0 1 32 58" stroke="#ffb000"/>
+      <path d="M32 58 A26 26 0 0 1 6 32" stroke="#33e661"/>
+    </g>
+    <path d="M32 6 A26 26 0 0 1 58 32" stroke="#ff3a5e" stroke-dasharray="3 3.1"/>
+    <path d="M58 32 A26 26 0 0 1 32 58" stroke="#ffb000" stroke-dasharray="3 3.1"/>
+    <path d="M32 58 A26 26 0 0 1 6 32" stroke="#33e661" stroke-dasharray="3 3.1"/>
+    <path d="M6 32 A26 26 0 0 1 32 6" stroke="#2a3a2e" stroke-dasharray="3 3.1"/>
+  </g>
+  <circle cx="32" cy="32" r="7" fill="#ff3a3a"/>
+  <circle cx="32" cy="32" r="9" fill="#ff3a3a" opacity=".35" filter="url(#g)"/>
+</svg>
+<span>Snorly</span></a><p class="small" style="margin-top:.8rem;max-width:34ch">iPhoneのいびき録音アプリ. Snore Recorder App Pro: Snorly.</p>
+<p><a class="btn" href="https://apps.apple.com/app/id6743162754?ct=snore-detection-app" rel="noopener"><svg class="apple" viewBox="0 0 24 24" aria-hidden="true"><path d="M16.4 12.6c0-2.5 2-3.7 2.1-3.8-1.2-1.7-3-1.9-3.6-2-1.5-.2-3 .9-3.8.9s-2-.9-3.3-.8C6.1 6.9 4.5 7.9 3.6 9.5c-1.9 3.3-.5 8.1 1.4 10.8.9 1.3 2 2.8 3.4 2.7 1.4-.1 1.9-.9 3.5-.9s2.1.9 3.5.9c1.5 0 2.4-1.3 3.3-2.6 1-1.5 1.5-3 1.5-3.1-.1 0-2.8-1.1-2.8-4.7zM14 5.2c.7-.9 1.2-2.1 1.1-3.3-1 0-2.3.7-3 1.6-.7.8-1.3 2-1.1 3.2 1.1.1 2.3-.6 3-1.5z"/></svg>App Store</a></p></div>
+<div><p class="foot-h">読む</p><ul><li><a href="/ja/blog/anti-snoring-pillow/">いびき防止枕は効果ある？録音で検証した結果</a></li><li><a href="/ja/blog/does-mouth-tape-stop-snoring/">口テープでいびきは止まる？安全に試す7晩の方法</a></li><li><a href="/ja/blog/nasal-strips-for-snoring/">鼻腔拡張テープはいびきに効く？録音でわかること</a></li><li><a href="/ja/blog/best-snoring-apps/">いびきアプリおすすめ6選を比較：無料で使える範囲</a></li><li><a href="/ja/blog/how-to-know-if-you-snore/">自分がいびきをかいているか確かめる方法、一人で寝ていても</a></li><li><a href="/ja/blog/">ブログ</a></li></ul></div>
+<div><p class="foot-h">プロダクト</p><ul><li><a href="/ja/snore-score/">いびきスコア</a></li><li><a href="/ja/vs/snorelab/">vs SnoreLab</a></li><li><a href="/ja/free-snoring-app/">無料プラン</a></li><li><a href="/ja/snore-detection-app/">いびき検出</a></li><li><a href="/ja/snoring-statistics/">いびきの統計</a></li><li><a href="/ja/support/">サポート</a></li><li><a href="/ja/author/mikhail-manev/">著者について</a></li><li><a href="/privacy/">プライバシー</a></li><li><a href="/terms/">利用規約</a></li></ul></div>
+<div class="legal"><p>Snorlyはいびきの録音・記録アプリであり、医療機器ではありません。睡眠時無呼吸症候群やその他の疾患を診断するものではありません。呼吸の停止、息苦しさ、日中の強い眠気に気づいたら医師に相談してください。</p><p>© 2026 Snorly · Snore Recorder App Pro · <a href="mailto:hello@builtfor.app">hello@builtfor.app</a></p></div>
+</div></footer>
+</body>
+</html>

@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>鼾聲分數是什麼？Snorly、SnoreLab 與分貝解說 · Snorly</title>
+<meta name="description" content="鼾聲分數把一整晚的聲音濃縮成一個數字。Snorly 的 0–100 指數怎麼算、SnoreLab 的量表有何不同，以及多少分貝才算大聲。">
+<link rel="canonical" href="https://snorly.app/zh-hant/snore-score/">
+<link rel="alternate" hreflang="en" href="https://snorly.app/snore-score/">
+<link rel="alternate" hreflang="de" href="https://snorly.app/de/snore-score/">
+<link rel="alternate" hreflang="fr" href="https://snorly.app/fr/snore-score/">
+<link rel="alternate" hreflang="es" href="https://snorly.app/es/snore-score/">
+<link rel="alternate" hreflang="it" href="https://snorly.app/it/snore-score/">
+<link rel="alternate" hreflang="pt-BR" href="https://snorly.app/pt-br/snore-score/">
+<link rel="alternate" hreflang="ja" href="https://snorly.app/ja/snore-score/">
+<link rel="alternate" hreflang="nl" href="https://snorly.app/nl/snore-score/">
+<link rel="alternate" hreflang="pl" href="https://snorly.app/pl/snore-score/">
+<link rel="alternate" hreflang="th" href="https://snorly.app/th/snore-score/">
+<link rel="alternate" hreflang="ar" href="https://snorly.app/ar/snore-score/">
+<link rel="alternate" hreflang="id" href="https://snorly.app/id/snore-score/">
+<link rel="alternate" hreflang="vi" href="https://snorly.app/vi/snore-score/">
+<link rel="alternate" hreflang="tr" href="https://snorly.app/tr/snore-score/">
+<link rel="alternate" hreflang="zh-Hans" href="https://snorly.app/zh-hans/snore-score/">
+<link rel="alternate" hreflang="ko" href="https://snorly.app/ko/snore-score/">
+<link rel="alternate" hreflang="zh-Hant" href="https://snorly.app/zh-hant/snore-score/">
+<link rel="alternate" hreflang="ru" href="https://snorly.app/ru/snore-score/">
+<link rel="alternate" hreflang="x-default" href="https://snorly.app/snore-score/">
+<meta name="apple-itunes-app" content="app-id=6743162754, app-argument=https://snorly.app/zh-hant/snore-score/">
+<meta name="theme-color" content="#1a1a1c">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Snorly">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:title" content="鼾聲分數是什麼？Snorly、SnoreLab 與分貝解說">
+<meta property="og:description" content="鼾聲分數把一整晚的聲音濃縮成一個數字。Snorly 的 0–100 指數怎麼算、SnoreLab 的量表有何不同，以及多少分貝才算大聲。">
+<meta property="og:url" content="https://snorly.app/zh-hant/snore-score/">
+<meta property="og:image" content="https://snorly.app/assets/img/covers/snore-score.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/assets/img/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/assets/img/favicon-192.png" sizes="192x192" type="image/png">
+<link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+<link rel="alternate" type="application/rss+xml" title="Snorly" href="/feed-zh-hant.xml">
+
+<style>@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:400;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-400-cyrillic.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:400;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-400-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:500;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-500-cyrillic.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:500;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-500-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:600;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-600-cyrillic.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:600;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-600-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:400 700;font-display:swap;src:url(/assets/fonts/ibm-plex-sans-var-cyrillic.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:400 700;font-display:swap;src:url(/assets/fonts/ibm-plex-sans-var-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}</style>
+<link rel="stylesheet" href="/assets/css/site.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://snorly.app/#organization","name":"Snorly","url":"https://snorly.app/","logo":{"@type":"ImageObject","url":"https://snorly.app/assets/img/icon-512.png","width":512,"height":512},"sameAs":["https://apps.apple.com/app/id6743162754"],"email":"hello@builtfor.app"},{"@type":"WebSite","@id":"https://snorly.app/#website","name":"Snorly","url":"https://snorly.app/","inLanguage":"zh-Hant","publisher":{"@id":"https://snorly.app/#organization"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Snorly","item":"https://snorly.app/zh-hant/"},{"@type":"ListItem","position":2,"name":"鼾聲分數是什麼？Snorly、SnoreLab 與分貝解說","item":"https://snorly.app/zh-hant/snore-score/"}]},{"@type":"WebPage","@id":"https://snorly.app/zh-hant/snore-score/#webpage","url":"https://snorly.app/zh-hant/snore-score/","name":"鼾聲分數是什麼？Snorly、SnoreLab 與分貝解說","description":"鼾聲分數把一整晚的聲音濃縮成一個數字。Snorly 的 0–100 指數怎麼算、SnoreLab 的量表有何不同，以及多少分貝才算大聲。","inLanguage":"zh-Hant","isPartOf":{"@id":"https://snorly.app/#website"},"dateModified":"2026-09-02","author":{"@type":"Person","@id":"https://snorly.app/#author","name":"Mikhail Manev","url":"https://snorly.app/zh-hant/author/mikhail-manev/","jobTitle":"Snorly 開發者","worksFor":{"@id":"https://snorly.app/#organization"}},"publisher":{"@id":"https://snorly.app/#organization"}}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">跳至內容</a>
+<header class="site-header"><div class="wrap">
+<a class="logo" href="/zh-hant/" aria-label="Snorly"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <filter id="g" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="1.2"/></filter>
+  </defs>
+  <circle cx="32" cy="32" r="30" fill="#1c1c1f"/>
+  <g stroke-width="3.2" stroke-linecap="round" fill="none">
+    <g filter="url(#g)" opacity=".7">
+      <path d="M32 6 A26 26 0 0 1 58 32" stroke="#ff3a5e"/>
+      <path d="M58 32 A26 26 0 0 1 32 58" stroke="#ffb000"/>
+      <path d="M32 58 A26 26 0 0 1 6 32" stroke="#33e661"/>
+    </g>
+    <path d="M32 6 A26 26 0 0 1 58 32" stroke="#ff3a5e" stroke-dasharray="3 3.1"/>
+    <path d="M58 32 A26 26 0 0 1 32 58" stroke="#ffb000" stroke-dasharray="3 3.1"/>
+    <path d="M32 58 A26 26 0 0 1 6 32" stroke="#33e661" stroke-dasharray="3 3.1"/>
+    <path d="M6 32 A26 26 0 0 1 32 6" stroke="#2a3a2e" stroke-dasharray="3 3.1"/>
+  </g>
+  <circle cx="32" cy="32" r="7" fill="#ff3a3a"/>
+  <circle cx="32" cy="32" r="9" fill="#ff3a3a" opacity=".35" filter="url(#g)"/>
+</svg>
+<span>Snorly</span></a>
+<nav class="nav" aria-label="Main">
+<a href="/zh-hant/blog/">部落格</a>
+<a class="hide-m" href="/zh-hant/snore-score/" aria-current="page">鼾聲分數</a>
+<a class="hide-m" href="/zh-hant/vs/snorelab/">vs SnoreLab</a>
+<details class="lang"><summary aria-label="語言: 繁體中文">繁中</summary><ul><li><a href="/snore-score/" hreflang="en" lang="en">English</a></li><li><a href="/de/snore-score/" hreflang="de" lang="de">Deutsch</a></li><li><a href="/fr/snore-score/" hreflang="fr" lang="fr">Français</a></li><li><a href="/es/snore-score/" hreflang="es" lang="es">Español</a></li><li><a href="/it/snore-score/" hreflang="it" lang="it">Italiano</a></li><li><a href="/pt-br/snore-score/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a></li><li><a href="/ja/snore-score/" hreflang="ja" lang="ja">日本語</a></li><li><a href="/nl/snore-score/" hreflang="nl" lang="nl">Nederlands</a></li><li><a href="/pl/snore-score/" hreflang="pl" lang="pl">Polski</a></li><li><a href="/th/snore-score/" hreflang="th" lang="th">ไทย</a></li><li><a href="/ar/snore-score/" hreflang="ar" lang="ar">العربية</a></li><li><a href="/id/snore-score/" hreflang="id" lang="id">Bahasa Indonesia</a></li><li><a href="/vi/snore-score/" hreflang="vi" lang="vi">Tiếng Việt</a></li><li><a href="/tr/snore-score/" hreflang="tr" lang="tr">Türkçe</a></li><li><a href="/zh-hans/snore-score/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li><li><a href="/ko/snore-score/" hreflang="ko" lang="ko">한국어</a></li><li><a href="/zh-hant/snore-score/" hreflang="zh-Hant" lang="zh-Hant" aria-current="true">繁體中文</a></li><li><a href="/ru/snore-score/" hreflang="ru" lang="ru">Русский</a></li></ul></details>
+<a class="btn btn-led" href="https://apps.apple.com/app/id6743162754?ct=snore-score" rel="noopener">取得 App</a>
+</nav></div></header>
+<main id="main">
+<article>
+<header class="article-head prose"><h1>鼾聲分數是什麼？Snorly、SnoreLab 與分貝解說</h1></header>
+<div class="prose"><img width="1200" height="675" class="cover" src="/assets/img/covers/snore-score.webp" alt="炭灰色的擬物化指數環，LED 段從綠色經琥珀色到紅色" fetchpriority="high"><p class="lead">鼾聲分數是一個數字，概括你一晚打了多少鼾、多大聲。Snorly 為一晚評 0 到 100 分，100 代表沒有偵測到打鼾，低於 50 則代表中度或嚴重音量的打鼾佔了一晚的大部分時間。其他 App 使用其他量表，所以 SnoreLab 的「25」和 Snorly 的「25」代表截然不同的夜晚。</p>
+<div class="facts">
+<span class="label led">重點整理</span><ul>
+<li>Snorly：0–100，越高越好。90–100 極佳，70–89 良好，50–69 普通，30–49 不佳，30 以下很差（不足 4 小時的夜晚標示為「太短」）。</li>
+<li>SnoreLab：無上限，越低越好。其官方指南把中位數使用者定在約 25，50 以上稱為「差」，100 以上則是該「尋找對策」的訊號（SnoreLab Insights）。</li>
+<li>Snorly 片段的音量等級：安靜、輕微、中度、嚴重，依每個片段的測量音量指派。</li>
+<li>大聲打鼾一般報告在 50–60 dB 左右；極端案例超過 80 dB（Sleep Foundation；金氏世界紀錄登錄的紀錄為 111.6 dB）。</div></li>
+</ul>
+<h2>Snorly 怎麼計算鼾聲分數？</h2>
+<p>Snorly 從 100 開始，減去「打鼾負荷」：一晚裡花在打鼾上的時間比例，依音量加權（輕微片段計 0.4，中度 0.7，嚴重 1.0）。負荷在一晚的 60% 時飽和，所以超過 60% 是大聲打鼾的夜晚會接近零分。接著再減去一個小的破碎化懲罰，每小時每一次打鼾發作扣 2 分，最多扣 10 分，因為在相同音量下，許多短促的發作比一次長時間的發作更干擾睡眠。</p>
+<p>公式的兩個例子：</p>
+<div class="scroll-x"><table>
+<thead>
+<tr>
+<th>夜晚</th>
+<th>打鼾</th>
+<th>音量</th>
+<th>發作次數</th>
+<th>指數</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>A</td>
+<td>8 小時中 20 分鐘</td>
+<td>大多輕微</td>
+<td>3</td>
+<td>約 90</td>
+</tr>
+<tr>
+<td>B</td>
+<td>8 小時中 2 小時 15 分鐘</td>
+<td>混合，部分嚴重</td>
+<td>12</td>
+<td>約 55</td>
+</tr>
+<tr>
+<td>C</td>
+<td>未偵測到</td>
+<td>–</td>
+<td>0</td>
+<td>100</td>
+</tr>
+</tbody></table></div>
+<p>指數是摘要，不是診斷。兩個指數相同的夜晚聽起來可能不一樣；接下來要看的是時間軸和片段。</p>
+<h2>鼾聲分數多少算好？</h2>
+<p>在 Snorly 裡，70 以上是不錯的一晚，90 以上是幾乎沒有打鼾的一晚。夜與夜之間相差 20 分的指數，通常在因素標籤裡有看得見的原因：喝酒、晚吃、感冒、仰睡。這就是指數的用意：不是給你打分數，而是讓改變可以量測。拿有對策的一週和沒有對策的一週比較，看平均值，不看單一晚。</p>
+<h2>SnoreLab 的 Snore Score 有什麼不同？</h2>
+<p>SnoreLab 的分數方向相反：它隨打鼾的量和音量增加，沒有上限。它公開的說明指出，大多數使用者落在 25 左右，50 以上算差，100 以上代表該試試對策了，目標是 10 以下。你無法把一種分數換算成另一種。如果你換 App，請在同一個 App 裡比較一週的夜晚，而不是跨兩個 App 比較單一分數。完整功能清單請看我們的 <a href="/zh-hant/vs/snorelab/">Snorly vs SnoreLab</a> 比較。</p>
+<h2>打鼾有幾分貝？</h2>
+<p>睡眠中的正常呼吸約 10 dB。輕微打鼾接近 40 dB，大約是安靜辦公室的音量。中度打鼾是 50–60 dB，相當於交談或蓮蓬頭放水的聲音。嚴重打鼾超過 60 dB，極端情況可達 80–90 dB，接近吸塵器或繁忙車流。臥室錄音測得的數值比實驗室低，因為麥克風放在一公尺外；這就是為什麼 App 用相對於自己量表的標籤來標示片段，而不是引用絕對數字。完整的對照表與音訊請讀<a href="/zh-hant/blog/what-does-snoring-sound-like/">打鼾聽起來是什麼聲音</a>。</p>
+<h2>40 dB 的打鼾算大聲嗎？</h2>
+<p>不算。40 dB 左右是輕微打鼾，比正常交談安靜，大多數伴侶睡得著。伴侶通常從 50–60 dB 開始抱怨，那是打鼾與說話聲競爭的範圍。單一次大聲的尖峰，比不上大聲的時段持續多久重要，這就是 Snorly 的指數同時以兩者加權的原因。</p>
+<h2>指數無法告訴你的事</h2>
+<p>鼾聲分數不測量血氧、呼吸費力程度或睡眠階段。無聲的呼吸暫停不會發出聲音，因此也不會改變指數。如果你的錄音顯示打鼾停止、一段安靜、接著一聲很大的鼻息或喘氣，不論數字多少，這個模式都值得拿給醫師看。Snorly 會在指數之外另外標記這類呼吸模式，並能匯出 PDF 報告讓你帶去看診。</p>
+<div class="cta-card"><img src="/assets/img/app-icon-256.webp" width="64" height="64" alt="Snorly app icon" loading="lazy"><p><b>今晚就聽聽自己的鼾聲</b>Snorly 只在聽到打鼾時才錄音，早上播放給你聽。免費、免帳號、不限夜數。</p><a class="btn btn-led" href="https://apps.apple.com/app/id6743162754?ct=snore-score" rel="noopener"><svg class="apple" viewBox="0 0 24 24" aria-hidden="true"><path d="M16.4 12.6c0-2.5 2-3.7 2.1-3.8-1.2-1.7-3-1.9-3.6-2-1.5-.2-3 .9-3.8.9s-2-.9-3.3-.8C6.1 6.9 4.5 7.9 3.6 9.5c-1.9 3.3-.5 8.1 1.4 10.8.9 1.3 2 2.8 3.4 2.7 1.4-.1 1.9-.9 3.5-.9s2.1.9 3.5.9c1.5 0 2.4-1.3 3.3-2.6 1-1.5 1.5-3 1.5-3.1-.1 0-2.8-1.1-2.8-4.7zM14 5.2c.7-.9 1.2-2.1 1.1-3.3-1 0-2.3.7-3 1.6-.7.8-1.3 2-1.1 3.2 1.1.1 2.3-.6 3-1.5z"/></svg>在 App Store 下載</a></div>
+<h2>相關問題</h2>
+<h3>為什麼喝酒後我的指數會下降？</h3>
+<p>酒精放鬆喉部肌肉，所以氣道變窄、更容易振動。在 Snorly 的因素比較裡，「喝酒」的夜晚通常會有更多中度和嚴重的發作，平均指數也比沒喝酒的夜晚低。</p>
+<h3>指數包含說夢話或咳嗽嗎？</h3>
+<p>不包含。說夢話和咳嗽的片段會被錄下並加上標籤，但只有打鼾的發作會計入指數。</p>
+<h3>沒有 Premium 也能看到指數嗎？</h3>
+<p>可以。指數、時間軸、片段播放和你的歷史紀錄每晚都免費，不限夜數。Premium 只用於整夜錄音、對策與因素比較，以及給醫師看的報告。</p>
+<h3>什麼是鼾聲分數圖表？</h3>
+<p>你數週以來每晚指數的走勢圖。在 Snorly 裡，它位於「研究」分頁，和因素與對策比較放在一起，讓你看到某個改變有沒有讓曲線移動。</p>
+<p class="disclaimer">Snorly 是打鼾錄音與追蹤 App，不是醫療器材。它不會診斷睡眠呼吸中止症或任何其他疾病。如果你發現呼吸暫停、喘不過氣或白天嗜睡，請諮詢醫師。</p></div>
+</article>
+</main>
+<footer class="site-footer"><div class="wrap">
+<div><a class="logo" href="/zh-hant/"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <filter id="g" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="1.2"/></filter>
+  </defs>
+  <circle cx="32" cy="32" r="30" fill="#1c1c1f"/>
+  <g stroke-width="3.2" stroke-linecap="round" fill="none">
+    <g filter="url(#g)" opacity=".7">
+      <path d="M32 6 A26 26 0 0 1 58 32" stroke="#ff3a5e"/>
+      <path d="M58 32 A26 26 0 0 1 32 58" stroke="#ffb000"/>
+      <path d="M32 58 A26 26 0 0 1 6 32" stroke="#33e661"/>
+    </g>
+    <path d="M32 6 A26 26 0 0 1 58 32" stroke="#ff3a5e" stroke-dasharray="3 3.1"/>
+    <path d="M58 32 A26 26 0 0 1 32 58" stroke="#ffb000" stroke-dasharray="3 3.1"/>
+    <path d="M32 58 A26 26 0 0 1 6 32" stroke="#33e661" stroke-dasharray="3 3.1"/>
+    <path d="M6 32 A26 26 0 0 1 32 6" stroke="#2a3a2e" stroke-dasharray="3 3.1"/>
+  </g>
+  <circle cx="32" cy="32" r="7" fill="#ff3a3a"/>
+  <circle cx="32" cy="32" r="9" fill="#ff3a3a" opacity=".35" filter="url(#g)"/>
+</svg>
+<span>Snorly</span></a><p class="small" style="margin-top:.8rem;max-width:34ch">iPhone 打鼾錄音 App. Snore Recorder App Pro: Snorly.</p>
+<p><a class="btn" href="https://apps.apple.com/app/id6743162754?ct=snore-score" rel="noopener"><svg class="apple" viewBox="0 0 24 24" aria-hidden="true"><path d="M16.4 12.6c0-2.5 2-3.7 2.1-3.8-1.2-1.7-3-1.9-3.6-2-1.5-.2-3 .9-3.8.9s-2-.9-3.3-.8C6.1 6.9 4.5 7.9 3.6 9.5c-1.9 3.3-.5 8.1 1.4 10.8.9 1.3 2 2.8 3.4 2.7 1.4-.1 1.9-.9 3.5-.9s2.1.9 3.5.9c1.5 0 2.4-1.3 3.3-2.6 1-1.5 1.5-3 1.5-3.1-.1 0-2.8-1.1-2.8-4.7zM14 5.2c.7-.9 1.2-2.1 1.1-3.3-1 0-2.3.7-3 1.6-.7.8-1.3 2-1.1 3.2 1.1.1 2.3-.6 3-1.5z"/></svg>App Store</a></p></div>
+<div><p class="foot-h">了解更多</p><ul><li><a href="/zh-hant/blog/anti-snoring-pillow/">止鼾枕有用嗎？用錄音實測的結果與挑選方法</a></li><li><a href="/zh-hant/blog/does-mouth-tape-stop-snoring/">睡覺貼嘴巴能止鼾嗎？口呼吸貼 7 晚安全測試法</a></li><li><a href="/zh-hant/blog/nasal-strips-for-snoring/">通氣鼻貼對打鼾有用嗎？錄音數據怎麼說</a></li><li><a href="/zh-hant/blog/best-snoring-apps/">iPhone 打鼾 App 推薦：6 款比較與免費方案</a></li><li><a href="/zh-hant/blog/how-to-know-if-you-snore/">怎麼知道自己會不會打呼？一個人睡的 3 晚測試</a></li><li><a href="/zh-hant/blog/">部落格</a></li></ul></div>
+<div><p class="foot-h">產品</p><ul><li><a href="/zh-hant/snore-score/">鼾聲分數</a></li><li><a href="/zh-hant/vs/snorelab/">vs SnoreLab</a></li><li><a href="/zh-hant/free-snoring-app/">免費方案</a></li><li><a href="/zh-hant/snore-detection-app/">打鼾偵測</a></li><li><a href="/zh-hant/snoring-statistics/">打鼾統計</a></li><li><a href="/zh-hant/support/">支援</a></li><li><a href="/zh-hant/author/mikhail-manev/">關於作者</a></li><li><a href="/privacy/">隱私權政策</a></li><li><a href="/terms/">服務條款</a></li></ul></div>
+<div class="legal"><p>Snorly 是打鼾錄音與追蹤 App，不是醫療器材。它不會診斷睡眠呼吸中止症或任何其他疾病。如果你發現呼吸暫停、喘不過氣或白天嗜睡，請諮詢醫師。</p><p>© 2026 Snorly · Snore Recorder App Pro · <a href="mailto:hello@builtfor.app">hello@builtfor.app</a></p></div>
+</div></footer>
+</body>
+</html>

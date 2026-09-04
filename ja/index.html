@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Snorly：iPhoneのいびき録音アプリ。自分のいびきを聞く</title>
+<meta name="description" content="Snorlyはいびきが聞こえたときだけ録音し、朝にタイムライン、デシベル、一晩のスコアと一緒に再生できます。音声はiPhoneの中にとどまります。">
+<link rel="canonical" href="https://snorly.app/ja/">
+<link rel="alternate" hreflang="en" href="https://snorly.app/">
+<link rel="alternate" hreflang="de" href="https://snorly.app/de/">
+<link rel="alternate" hreflang="fr" href="https://snorly.app/fr/">
+<link rel="alternate" hreflang="es" href="https://snorly.app/es/">
+<link rel="alternate" hreflang="it" href="https://snorly.app/it/">
+<link rel="alternate" hreflang="pt-BR" href="https://snorly.app/pt-br/">
+<link rel="alternate" hreflang="ja" href="https://snorly.app/ja/">
+<link rel="alternate" hreflang="nl" href="https://snorly.app/nl/">
+<link rel="alternate" hreflang="pl" href="https://snorly.app/pl/">
+<link rel="alternate" hreflang="th" href="https://snorly.app/th/">
+<link rel="alternate" hreflang="ar" href="https://snorly.app/ar/">
+<link rel="alternate" hreflang="id" href="https://snorly.app/id/">
+<link rel="alternate" hreflang="vi" href="https://snorly.app/vi/">
+<link rel="alternate" hreflang="tr" href="https://snorly.app/tr/">
+<link rel="alternate" hreflang="zh-Hans" href="https://snorly.app/zh-hans/">
+<link rel="alternate" hreflang="ko" href="https://snorly.app/ko/">
+<link rel="alternate" hreflang="zh-Hant" href="https://snorly.app/zh-hant/">
+<link rel="alternate" hreflang="ru" href="https://snorly.app/ru/">
+<link rel="alternate" hreflang="x-default" href="https://snorly.app/">
+<meta name="apple-itunes-app" content="app-id=6743162754, app-argument=https://snorly.app/ja/">
+<meta name="theme-color" content="#1a1a1c">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Snorly">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:title" content="Snorly：iPhoneのいびき録音アプリ。自分のいびきを聞く">
+<meta property="og:description" content="Snorlyはいびきが聞こえたときだけ録音し、朝にタイムライン、デシベル、一晩のスコアと一緒に再生できます。音声はiPhoneの中にとどまります。">
+<meta property="og:url" content="https://snorly.app/ja/">
+<meta property="og:image" content="https://snorly.app/assets/img/og-home.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/assets/img/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/assets/img/favicon-192.png" sizes="192x192" type="image/png">
+<link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+<link rel="alternate" type="application/rss+xml" title="Snorly" href="/feed-ja.xml">
+<link rel="preload" as="image" href="/assets/img/screens/history-540.webp" type="image/webp">
+<style>@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:400;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-400-cyrillic.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:400;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-400-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:500;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-500-cyrillic.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:500;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-500-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:600;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-600-cyrillic.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:600;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-600-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:400 700;font-display:swap;src:url(/assets/fonts/ibm-plex-sans-var-cyrillic.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:400 700;font-display:swap;src:url(/assets/fonts/ibm-plex-sans-var-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}</style>
+<link rel="stylesheet" href="/assets/css/site.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://snorly.app/#organization","name":"Snorly","url":"https://snorly.app/","logo":{"@type":"ImageObject","url":"https://snorly.app/assets/img/icon-512.png","width":512,"height":512},"sameAs":["https://apps.apple.com/app/id6743162754"],"email":"hello@builtfor.app"},{"@type":"WebSite","@id":"https://snorly.app/#website","name":"Snorly","url":"https://snorly.app/","inLanguage":"ja","publisher":{"@id":"https://snorly.app/#organization"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Snorly","item":"https://snorly.app/ja/"}]},{"@type":["SoftwareApplication","MobileApplication"],"@id":"https://snorly.app/#app","name":"Snore Recorder App Pro: Snorly","alternateName":"Snorly","operatingSystem":"iOS","applicationCategory":"HealthApplication","url":"https://snorly.app/ja/","installUrl":"https://apps.apple.com/app/id6743162754","downloadUrl":"https://apps.apple.com/app/id6743162754","description":"Snorlyはいびきが聞こえたときだけ録音し、朝にタイムライン、デシベル、一晩のスコアと一緒に再生できます。音声はiPhoneの中にとどまります。","image":"https://snorly.app/assets/img/og-home.jpg","screenshot":["https://snorly.app/assets/img/screens/record-1080.webp","https://snorly.app/assets/img/screens/history-1080.webp","https://snorly.app/assets/img/screens/recordings-1080.webp","https://snorly.app/assets/img/screens/research-1080.webp"],"offers":{"@type":"Offer","price":"0","priceCurrency":"USD","description":"無料でダウンロード、アプリ内でPremiumサブスクリプションを提供"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.6","ratingCount":7,"bestRating":"5","worstRating":"1"},"author":{"@id":"https://snorly.app/#organization"},"publisher":{"@id":"https://snorly.app/#organization"},"inLanguage":"ja"}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">本文へ移動</a>
+<header class="site-header"><div class="wrap">
+<a class="logo" href="/ja/" aria-label="Snorly"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <filter id="g" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="1.2"/></filter>
+  </defs>
+  <circle cx="32" cy="32" r="30" fill="#1c1c1f"/>
+  <g stroke-width="3.2" stroke-linecap="round" fill="none">
+    <g filter="url(#g)" opacity=".7">
+      <path d="M32 6 A26 26 0 0 1 58 32" stroke="#ff3a5e"/>
+      <path d="M58 32 A26 26 0 0 1 32 58" stroke="#ffb000"/>
+      <path d="M32 58 A26 26 0 0 1 6 32" stroke="#33e661"/>
+    </g>
+    <path d="M32 6 A26 26 0 0 1 58 32" stroke="#ff3a5e" stroke-dasharray="3 3.1"/>
+    <path d="M58 32 A26 26 0 0 1 32 58" stroke="#ffb000" stroke-dasharray="3 3.1"/>
+    <path d="M32 58 A26 26 0 0 1 6 32" stroke="#33e661" stroke-dasharray="3 3.1"/>
+    <path d="M6 32 A26 26 0 0 1 32 6" stroke="#2a3a2e" stroke-dasharray="3 3.1"/>
+  </g>
+  <circle cx="32" cy="32" r="7" fill="#ff3a3a"/>
+  <circle cx="32" cy="32" r="9" fill="#ff3a3a" opacity=".35" filter="url(#g)"/>
+</svg>
+<span>Snorly</span></a>
+<nav class="nav" aria-label="Main">
+<a href="/ja/blog/">ブログ</a>
+<a class="hide-m" href="/ja/snore-score/">いびきスコア</a>
+<a class="hide-m" href="/ja/vs/snorelab/">vs SnoreLab</a>
+<details class="lang"><summary aria-label="言語: 日本語">JA</summary><ul><li><a href="/" hreflang="en" lang="en">English</a></li><li><a href="/de/" hreflang="de" lang="de">Deutsch</a></li><li><a href="/fr/" hreflang="fr" lang="fr">Français</a></li><li><a href="/es/" hreflang="es" lang="es">Español</a></li><li><a href="/it/" hreflang="it" lang="it">Italiano</a></li><li><a href="/pt-br/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a></li><li><a href="/ja/" hreflang="ja" lang="ja" aria-current="true">日本語</a></li><li><a href="/nl/" hreflang="nl" lang="nl">Nederlands</a></li><li><a href="/pl/" hreflang="pl" lang="pl">Polski</a></li><li><a href="/th/" hreflang="th" lang="th">ไทย</a></li><li><a href="/ar/" hreflang="ar" lang="ar">العربية</a></li><li><a href="/id/" hreflang="id" lang="id">Bahasa Indonesia</a></li><li><a href="/vi/" hreflang="vi" lang="vi">Tiếng Việt</a></li><li><a href="/tr/" hreflang="tr" lang="tr">Türkçe</a></li><li><a href="/zh-hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li><li><a href="/ko/" hreflang="ko" lang="ko">한국어</a></li><li><a href="/zh-hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li><li><a href="/ru/" hreflang="ru" lang="ru">Русский</a></li></ul></details>
+<a class="btn btn-led" href="https://apps.apple.com/app/id6743162754?ct=home" rel="noopener">アプリを入手</a>
+</nav></div></header>
+<main id="main">
+
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <span class="label led reveal"><span class="led-dot red"></span>いびき録音 · iPhone</span>
+      <h1 class="reveal">自分のいびきを聞く。<br>今夜から。</h1>
+      <p class="lede reveal">iPhoneをベッドサイドに置くだけ。Snorlyは一晩中聞き続け、いびきが聞こえた瞬間だけを残して、朝に1秒ずつ再生できます。</p>
+      <div class="cta reveal">
+        <a class="btn btn-led" href="https://apps.apple.com/app/id6743162754?ct=home" rel="noopener"><svg class="apple" viewBox="0 0 24 24" aria-hidden="true"><path d="M16.4 12.6c0-2.5 2-3.7 2.1-3.8-1.2-1.7-3-1.9-3.6-2-1.5-.2-3 .9-3.8.9s-2-.9-3.3-.8C6.1 6.9 4.5 7.9 3.6 9.5c-1.9 3.3-.5 8.1 1.4 10.8.9 1.3 2 2.8 3.4 2.7 1.4-.1 1.9-.9 3.5-.9s2.1.9 3.5.9c1.5 0 2.4-1.3 3.3-2.6 1-1.5 1.5-3 1.5-3.1-.1 0-2.8-1.1-2.8-4.7zM14 5.2c.7-.9 1.2-2.1 1.1-3.3-1 0-2.3.7-3 1.6-.7.8-1.3 2-1.1 3.2 1.1.1 2.3-.6 3-1.5z"/></svg>App Storeでダウンロード</a>
+        <a class="btn" href="#how">仕組みを見る</a>
+      </div>
+      <p class="meta reveal">毎晩無料 · アカウント不要 · 録音はスマホの中だけ · ★ 4.6 App Store</p>
+    </div>
+    <div class="hero-visual">
+      <div class="phone"><img class="hero-img" src="/assets/img/screens/history-540.webp" srcset="/assets/img/screens/history-540.webp 540w, /assets/img/screens/history-1080.webp 1080w" sizes="(max-width: 860px) 80vw, 340px" width="540" height="1174" alt="Snorlyの履歴画面：スコア92の夜、睡眠21:00〜05:00、音量別のいびきタイムライン" fetchpriority="high"></div>
+      <div class="clip float-clip"><span class="play"><svg viewBox="0 0 24 24"><path d="M7 4l12 8-12 8z"/></svg></span><b>重度のいびき</b><time>01:18</time><span class="wave"></span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="proof">
+  <div class="wrap">
+    <div class="section-head"><span class="label led">午前3時の、あなたが一度も聞いたことのない音</span><h2>推測ではなく、証拠</h2><p>自分のいびきで目が覚めることはありません。隣で寝ている人は違います。Snorlyはその記録を渡します。すべてのエピソードが1本のタイムラインに並び、各クリップに時刻と「静か」から「重度」までの音量ラベルが付きます。</p></div>
+    <div class="grid grid-2">
+      <div class="board">
+        <div class="board-head"><b>いびき · 2時間15分</b><span class="small">7月2日（木）</span></div>
+        <div class="matrix" role="img" aria-label="一晩のLEDタイムライン：ほとんどは静かな青いバー、1時ごろに中程度と重度の赤いいびきがまとまり、その後は軽い緑のエピソード"><i class="q" style="--h:18;--i:0"></i><i class="q" style="--h:22;--i:1"></i><i class="q" style="--h:20;--i:2"></i><i class="q" style="--h:24;--i:3"></i><i class="l" style="--h:38;--i:4"></i><i class="l" style="--h:46;--i:5"></i><i class="q" style="--h:22;--i:6"></i><i class="q" style="--h:20;--i:7"></i><i class="q" style="--h:26;--i:8"></i><i class="l" style="--h:42;--i:9"></i><i class="l" style="--h:50;--i:10"></i><i class="m" style="--h:64;--i:11"></i><i class="m" style="--h:72;--i:12"></i><i class="s" style="--h:92;--i:13"></i><i class="s" style="--h:100;--i:14"></i><i class="m" style="--h:70;--i:15"></i><i class="l" style="--h:44;--i:16"></i><i class="q" style="--h:24;--i:17"></i><i class="q" style="--h:20;--i:18"></i><i class="q" style="--h:22;--i:19"></i><i class="q" style="--h:18;--i:20"></i><i class="l" style="--h:36;--i:21"></i><i class="l" style="--h:40;--i:22"></i><i class="q" style="--h:24;--i:23"></i><i class="q" style="--h:22;--i:24"></i><i class="q" style="--h:20;--i:25"></i><i class="m" style="--h:58;--i:26"></i><i class="m" style="--h:66;--i:27"></i><i class="m" style="--h:62;--i:28"></i><i class="l" style="--h:40;--i:29"></i><i class="q" style="--h:22;--i:30"></i><i class="q" style="--h:20;--i:31"></i><i class="q" style="--h:24;--i:32"></i><i class="q" style="--h:22;--i:33"></i><i class="l" style="--h:34;--i:34"></i><i class="l" style="--h:44;--i:35"></i><i class="l" style="--h:48;--i:36"></i><i class="q" style="--h:26;--i:37"></i><i class="q" style="--h:20;--i:38"></i><i class="q" style="--h:18;--i:39"></i><i class="q" style="--h:22;--i:40"></i><i class="l" style="--h:36;--i:41"></i><i class="q" style="--h:24;--i:42"></i><i class="q" style="--h:20;--i:43"></i><i class="q" style="--h:18;--i:44"></i><i class="q" style="--h:22;--i:45"></i><i class="q" style="--h:20;--i:46"></i><i class="q" style="--h:16;--i:47"></i></div>
+        <div class="axis"><span>9:00 PM</span><span>11:00 PM</span><span>1:00 AM</span><span>3:00 AM</span><span>5:00 AM</span></div>
+        <div class="legend"><span class="q">静か 5:30</span><span class="l">軽度 1:30</span><span class="m">中程度 0:45</span><span class="s">重度 0:15</span></div>
+      </div>
+      <div class="stack">
+        <div class="clip"><span class="play"><svg viewBox="0 0 24 24"><path d="M7 4l12 8-12 8z"/></svg></span><b>重度のいびき</b><time>01:18</time><span class="wave"></span></div><div class="clip"><span class="play"><svg viewBox="0 0 24 24"><path d="M7 4l12 8-12 8z"/></svg></span><b>軽度のいびき</b><time>02:18</time><span class="wave"></span></div><div class="clip"><span class="play"><svg viewBox="0 0 24 24"><path d="M7 4l12 8-12 8z"/></svg></span><b>寝言</b><time>03:48</time><span class="wave"></span></div>
+        <div class="tile" style="padding:1.2rem;display:flex;gap:1.2rem;align-items:center"><div class="ring-wrap"><div class="ring" role="img" aria-label="100点満点中92点の夜間スコアリング"></div><span class="v">92</span><span class="l">スコア</span></div><div><b style="color:#fff">一晩に1つのスコア</b><p class="small" style="margin:.3rem 0 0">今夜と先週をひと目で比べ、タイムラインを開いて理由を確かめられます。</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="features">
+  <div class="wrap">
+    <div class="grid grid-4">
+      <div class="feature"><div class="ico"><svg viewBox="0 0 24 24"><path d="M4 10v4M8 6v12M12 9v6M16 4v16M20 10v4"/></svg></div><h3>聞く</h3><p>Snorlyはいびき、寝言、咳を検出したときだけ録音します。8時間のファイルを探し回る必要はなく、必要なクリップだけが順番に並びます。</p></div><div class="feature"><div class="ico"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M7 15v-3M11 15V9M15 15v-5M19 15v-2" /></svg></div><h3>一晩を見渡す</h3><p>LEDタイムラインで、いつ、どのくらいの大きさ（デシベル）でいびきをかいたかがわかります。58 dBのいびきはシャワーの水音くらい。それがいつ起きたかを正確に確認できます。</p></div><div class="feature"><div class="ico"><svg viewBox="0 0 24 24"><path d="M4 19h16M6 15l4-5 4 3 4-6"/></svg></div><h3>悪化させる原因を知る</h3><p>その夜にタグを付けます：お酒、遅い夕食、仰向け寝、鼻腔拡張テープ、口テープ。数晩たつと、どの要因がいびきをどれだけ変えたかをSnorlyが示します。</p></div><div class="feature"><div class="ico"><svg viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg></div><h3>iPhoneの中にとどまる</h3><p>検出はスマホ上で動きます。音声はアップロードされません。夜を削除すれば完全に消えます。画面はベッドサイド時計に減光され、光で誰かを起こすことはありません。</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="how">
+  <div class="wrap">
+    <div class="section-head"><span class="label led">仕組み</span><h2>3ステップ、一晩で</h2></div>
+    <div class="grid grid-3">
+      <div class="feature"><span class="clock" style="font-size:2rem;display:block;margin-bottom:.6rem">01</span><h3>録音をタップ、充電して、眠る</h3><p>頭から1メートルほどの範囲のベッドサイドに、画面を下にするか減光して置きます。SnorlyはやわらかいLED時計に変わります。</p></div><div class="feature"><span class="clock" style="font-size:2rem;display:block;margin-bottom:.6rem">02</span><h3>アプリが聞き、あなたは眠る</h3><p>端末上の検出器がいびきや寝言に反応し、時刻と音量付きの短いクリップを保存します。その間の無音は無視します。</p></div><div class="feature"><span class="clock" style="font-size:2rem;display:block;margin-bottom:.6rem">03</span><h3>朝、再生を押す</h3><p>一晩がひとつのスクロールに収まります：スコア、タイムライン、クリップ。昨夜したことにタグを付け、1週間後に何が変わったかを確かめます。</p></div>
+    </div>
+    <div class="grid grid-2" style="margin-top:2rem">
+      <div class="phone"><img src="/assets/img/screens/record-540.webp" srcset="/assets/img/screens/record-540.webp 540w, /assets/img/screens/record-1080.webp 1080w" sizes="(max-width: 860px) 80vw, 340px" width="540" height="1174" alt="21:41のSnorly録音画面。減光した緑のLED時計と赤い録音ボタン" loading="lazy" decoding="async"></div>
+      <div class="phone"><img src="/assets/img/screens/research-540.webp" srcset="/assets/img/screens/research-540.webp 540w, /assets/img/screens/research-1080.webp 1080w" sizes="(max-width: 860px) 80vw, 340px" width="540" height="1174" alt="横向き寝などの対策やお酒などの要因で夜を比較するSnorlyの研究画面" loading="lazy" decoding="async"></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="plans">
+  <div class="wrap">
+    <div class="section-head"><span class="label led">正直な料金</span><h2>料金</h2></div>
+    <div class="grid grid-3">
+      <div class="feature"><h3>無料</h3><p>インストールして今夜から録音、アカウント不要。自動クリップ、すべてのクリップの再生、0〜100のスコア、夜間タイムライン、呼吸フラグ、全履歴。毎晩、制限なし、広告なし。</p></div><div class="feature"><h3>Premium</h3><p>追加機能だけが対象です：一晩まるごとの録音、対策と要因の比較、医師に見せるPDFレポート、Apple Healthへの取り込み。</p></div><div class="feature"><h3>支払い方法</h3><p>App Storeを通じたサブスクリプション、または買い切り（ライフタイム）。お住まいの国の価格はアプリ内に表示されます。無料の欄にある機能は、購入してもしなくても無料のままです。</p></div>
+    </div>
+    <p class="small" style="max-width:60ch;margin-top:1.2rem">Snorlyには以前もこの無料プランがあり、一度トライアル制に変えましたが、いま元に戻しています。無料と書かれた機能で支払いを求められたら、それはバグです。お知らせください。</p>
+  </div>
+</section>
+
+<section class="section faq" id="questions">
+  <div class="prose">
+    <h2>初めての夜の前によくある質問</h2>
+    <h3>Snorlyは一晩中録音しますか？</h3><p>いいえ。一晩中聞いてはいますが、保存するのは検出したいびき、寝言、咳の前後数秒だけです。典型的な一晩は8時間のファイルではなく、数個のクリップになります。</p><h3>バッテリーは減りますか？</h3><p>スマホは充電したままにしてください。検出は充電しながら一晩動くように設計されており、画面は時計に減光されるので、ディスプレイが主な消費源にはなりません。</p><h3>睡眠時無呼吸かどうかわかりますか？</h3><p>睡眠時無呼吸症候群を診断できるアプリはありません。Snorlyは呼吸の停止やあえぎといった呼吸パターンを、医師に見せる価値があるものとしてフラグ表示し、PDFレポートで持参できる記録を用意します。<a href="/ja/blog/snoring-vs-sleep-apnea/">いびきと睡眠時無呼吸の違い</a>をご覧ください。</p><h3>パートナーもいびきをかく場合は？</h3><p>スマホの近くで一番大きい音の人を録音します。スマホはパートナーよりあなたに近い、自分側のベッドサイドに置き、できれば一人で寝た夜と比べてください。</p><h3>録音はどこに行きますか？</h3><p>どこにも行きません。音声はiPhoneの中にだけ保存されます。Snorlyにはアカウントもクラウドへのアップロードもなく、クリップの共有は自分で意図して行う操作です。</p><h3>Android版はありますか？</h3><p>まだありません。SnorlyはiPhone向けです。一人で寝ていて自分がいびきをかくか知りたい場合は、どのスマホでもできる方法を<a href="/ja/blog/how-to-know-if-you-snore/">自分がいびきをかいているか確かめる方法</a>で読めます。</p>
+  </div>
+</section>
+
+<section class="section" id="latest">
+  <div class="prose">
+    <h2>ブログから</h2>
+    <ul class="card-list"><li><a class="card" href="/ja/blog/anti-snoring-pillow/"><b>いびき防止枕は効果ある？録音で検証した結果</b><span>睡眠検査室の試験で低反発枕はいびきの回数を47%減らし、傾斜枕は呼吸イベントを1時間あたり17回から5回に減らしました。データのある枕の種類と、自分の枕を試す方法。</span></a></li><li><a class="card" href="/ja/blog/does-mouth-tape-stop-snoring/"><b>口テープでいびきは止まる？安全に試す7晩の方法</b><span>口テープは、軽度の無呼吸がある口呼吸の人を対象にした小規模研究でいびきを約半分に減らしました。避けるべき人と、自分で7晩試す方法を説明します。</span></a></li><li><a class="card" href="/ja/blog/nasal-strips-for-snoring/"><b>鼻腔拡張テープはいびきに効く？録音でわかること</b><span>唯一のプラセボ対照試験では、鼻づまりのある人で1時間あたりのいびきが258回から173回に減りました。効く人の条件と、自分で7晩試す方法を説明します。</span></a></li></ul>
+    <p style="margin-top:1rem"><a href="/ja/blog/">すべての記事 →</a></p>
+  </div>
+</section>
+
+<section class="section" id="download">
+  <div class="prose center">
+    <span class="clock" style="font-size:clamp(3rem,10vw,5rem);display:block">21:41</span>
+    <h2 style="margin-top:.6rem">悩むのはやめて、録音して、再生して、証明する。</h2>
+    <p class="lead">パートナーが何年も聞いてきた音を聞くには、一晩あれば十分です。</p>
+    <p><a class="btn btn-led" href="https://apps.apple.com/app/id6743162754?ct=home-bottom" rel="noopener"><svg class="apple" viewBox="0 0 24 24" aria-hidden="true"><path d="M16.4 12.6c0-2.5 2-3.7 2.1-3.8-1.2-1.7-3-1.9-3.6-2-1.5-.2-3 .9-3.8.9s-2-.9-3.3-.8C6.1 6.9 4.5 7.9 3.6 9.5c-1.9 3.3-.5 8.1 1.4 10.8.9 1.3 2 2.8 3.4 2.7 1.4-.1 1.9-.9 3.5-.9s2.1.9 3.5.9c1.5 0 2.4-1.3 3.3-2.6 1-1.5 1.5-3 1.5-3.1-.1 0-2.8-1.1-2.8-4.7zM14 5.2c.7-.9 1.2-2.1 1.1-3.3-1 0-2.3.7-3 1.6-.7.8-1.3 2-1.1 3.2 1.1.1 2.3-.6 3-1.5z"/></svg>App Storeでダウンロード</a></p>
+    <p class="small">iOS 17以降が必要です。医療機器ではありません。</p>
+  </div>
+</section>
+<style>.hero-visual{position:relative}.float-clip{position:absolute;left:-10%;bottom:10%;width:min(92%,360px);box-shadow:var(--convex-lg)}@media(max-width:860px){.float-clip{display:none}}</style>
+
+</main>
+<footer class="site-footer"><div class="wrap">
+<div><a class="logo" href="/ja/"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <filter id="g" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="1.2"/></filter>
+  </defs>
+  <circle cx="32" cy="32" r="30" fill="#1c1c1f"/>
+  <g stroke-width="3.2" stroke-linecap="round" fill="none">
+    <g filter="url(#g)" opacity=".7">
+      <path d="M32 6 A26 26 0 0 1 58 32" stroke="#ff3a5e"/>
+      <path d="M58 32 A26 26 0 0 1 32 58" stroke="#ffb000"/>
+      <path d="M32 58 A26 26 0 0 1 6 32" stroke="#33e661"/>
+    </g>
+    <path d="M32 6 A26 26 0 0 1 58 32" stroke="#ff3a5e" stroke-dasharray="3 3.1"/>
+    <path d="M58 32 A26 26 0 0 1 32 58" stroke="#ffb000" stroke-dasharray="3 3.1"/>
+    <path d="M32 58 A26 26 0 0 1 6 32" stroke="#33e661" stroke-dasharray="3 3.1"/>
+    <path d="M6 32 A26 26 0 0 1 32 6" stroke="#2a3a2e" stroke-dasharray="3 3.1"/>
+  </g>
+  <circle cx="32" cy="32" r="7" fill="#ff3a3a"/>
+  <circle cx="32" cy="32" r="9" fill="#ff3a3a" opacity=".35" filter="url(#g)"/>
+</svg>
+<span>Snorly</span></a><p class="small" style="margin-top:.8rem;max-width:34ch">iPhoneのいびき録音アプリ. Snore Recorder App Pro: Snorly.</p>
+<p><a class="btn" href="https://apps.apple.com/app/id6743162754?ct=home" rel="noopener"><svg class="apple" viewBox="0 0 24 24" aria-hidden="true"><path d="M16.4 12.6c0-2.5 2-3.7 2.1-3.8-1.2-1.7-3-1.9-3.6-2-1.5-.2-3 .9-3.8.9s-2-.9-3.3-.8C6.1 6.9 4.5 7.9 3.6 9.5c-1.9 3.3-.5 8.1 1.4 10.8.9 1.3 2 2.8 3.4 2.7 1.4-.1 1.9-.9 3.5-.9s2.1.9 3.5.9c1.5 0 2.4-1.3 3.3-2.6 1-1.5 1.5-3 1.5-3.1-.1 0-2.8-1.1-2.8-4.7zM14 5.2c.7-.9 1.2-2.1 1.1-3.3-1 0-2.3.7-3 1.6-.7.8-1.3 2-1.1 3.2 1.1.1 2.3-.6 3-1.5z"/></svg>App Store</a></p></div>
+<div><p class="foot-h">読む</p><ul><li><a href="/ja/blog/anti-snoring-pillow/">いびき防止枕は効果ある？録音で検証した結果</a></li><li><a href="/ja/blog/does-mouth-tape-stop-snoring/">口テープでいびきは止まる？安全に試す7晩の方法</a></li><li><a href="/ja/blog/nasal-strips-for-snoring/">鼻腔拡張テープはいびきに効く？録音でわかること</a></li><li><a href="/ja/blog/best-snoring-apps/">いびきアプリおすすめ6選を比較：無料で使える範囲</a></li><li><a href="/ja/blog/how-to-know-if-you-snore/">自分がいびきをかいているか確かめる方法、一人で寝ていても</a></li><li><a href="/ja/blog/">ブログ</a></li></ul></div>
+<div><p class="foot-h">プロダクト</p><ul><li><a href="/ja/snore-score/">いびきスコア</a></li><li><a href="/ja/vs/snorelab/">vs SnoreLab</a></li><li><a href="/ja/free-snoring-app/">無料プラン</a></li><li><a href="/ja/snore-detection-app/">いびき検出</a></li><li><a href="/ja/snoring-statistics/">いびきの統計</a></li><li><a href="/ja/support/">サポート</a></li><li><a href="/ja/author/mikhail-manev/">著者について</a></li><li><a href="/privacy/">プライバシー</a></li><li><a href="/terms/">利用規約</a></li></ul></div>
+<div class="legal"><p>Snorlyはいびきの録音・記録アプリであり、医療機器ではありません。睡眠時無呼吸症候群やその他の疾患を診断するものではありません。呼吸の停止、息苦しさ、日中の強い眠気に気づいたら医師に相談してください。</p><p>© 2026 Snorly · Snore Recorder App Pro · <a href="mailto:hello@builtfor.app">hello@builtfor.app</a></p></div>
+</div></footer>
+</body>
+</html>

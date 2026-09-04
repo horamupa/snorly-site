@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>寝言を録音するアプリ：自分の寝言を聞く方法 · Snorly</title>
+<meta name="description" content="音に反応して録音するアプリをナイトテーブルのiPhoneで動かすと、8時間のファイルではなく時刻付きの寝言クリップが残ります。クリップの意味も説明します。">
+<link rel="canonical" href="https://snorly.app/ja/blog/sleep-talking-app/">
+<link rel="alternate" hreflang="en" href="https://snorly.app/blog/sleep-talking-app/">
+<link rel="alternate" hreflang="de" href="https://snorly.app/de/blog/schlafsprechen-app/">
+<link rel="alternate" hreflang="fr" href="https://snorly.app/fr/blog/application-parler-en-dormant/">
+<link rel="alternate" hreflang="es" href="https://snorly.app/es/blog/app-hablar-dormido/">
+<link rel="alternate" hreflang="it" href="https://snorly.app/it/blog/app-parlare-nel-sonno/">
+<link rel="alternate" hreflang="pt-BR" href="https://snorly.app/pt-br/blog/app-falar-dormindo/">
+<link rel="alternate" hreflang="ja" href="https://snorly.app/ja/blog/sleep-talking-app/">
+<link rel="alternate" hreflang="nl" href="https://snorly.app/nl/blog/praten-in-je-slaap-app/">
+<link rel="alternate" hreflang="pl" href="https://snorly.app/pl/blog/aplikacja-mowienie-przez-sen/">
+<link rel="alternate" hreflang="th" href="https://snorly.app/th/blog/sleep-talking-app/">
+<link rel="alternate" hreflang="ar" href="https://snorly.app/ar/blog/sleep-talking-app/">
+<link rel="alternate" hreflang="id" href="https://snorly.app/id/blog/aplikasi-mengigau/">
+<link rel="alternate" hreflang="vi" href="https://snorly.app/vi/blog/app-ghi-am-noi-mo/">
+<link rel="alternate" hreflang="tr" href="https://snorly.app/tr/blog/uykuda-konusma-uygulamasi/">
+<link rel="alternate" hreflang="zh-Hans" href="https://snorly.app/zh-hans/blog/sleep-talking-app/">
+<link rel="alternate" hreflang="ko" href="https://snorly.app/ko/blog/sleep-talking-app/">
+<link rel="alternate" hreflang="zh-Hant" href="https://snorly.app/zh-hant/blog/sleep-talking-app/">
+<link rel="alternate" hreflang="ru" href="https://snorly.app/ru/blog/prilozhenie-razgovory-vo-sne/">
+<link rel="alternate" hreflang="x-default" href="https://snorly.app/blog/sleep-talking-app/">
+<meta name="apple-itunes-app" content="app-id=6743162754, app-argument=https://snorly.app/ja/blog/sleep-talking-app/">
+<meta name="theme-color" content="#1a1a1c">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Snorly">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:title" content="寝言を録音するアプリ：自分の寝言を聞く方法">
+<meta property="og:description" content="音に反応して録音するアプリをナイトテーブルのiPhoneで動かすと、8時間のファイルではなく時刻付きの寝言クリップが残ります。クリップの意味も説明します。">
+<meta property="og:url" content="https://snorly.app/ja/blog/sleep-talking-app/">
+<meta property="og:image" content="https://snorly.app/assets/img/covers/sleep-talking-app.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta property="article:published_time" content="2026-09-02"><meta property="article:modified_time" content="2026-09-02">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/assets/img/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/assets/img/favicon-192.png" sizes="192x192" type="image/png">
+<link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+<link rel="alternate" type="application/rss+xml" title="Snorly" href="/feed-ja.xml">
+
+<style>@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:400;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-400-cyrillic.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:400;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-400-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:500;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-500-cyrillic.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:500;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-500-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:600;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-600-cyrillic.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:600;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-600-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:400 700;font-display:swap;src:url(/assets/fonts/ibm-plex-sans-var-cyrillic.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:400 700;font-display:swap;src:url(/assets/fonts/ibm-plex-sans-var-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}</style>
+<link rel="stylesheet" href="/assets/css/site.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://snorly.app/#organization","name":"Snorly","url":"https://snorly.app/","logo":{"@type":"ImageObject","url":"https://snorly.app/assets/img/icon-512.png","width":512,"height":512},"sameAs":["https://apps.apple.com/app/id6743162754"],"email":"hello@builtfor.app"},{"@type":"WebSite","@id":"https://snorly.app/#website","name":"Snorly","url":"https://snorly.app/","inLanguage":"ja","publisher":{"@id":"https://snorly.app/#organization"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Snorly","item":"https://snorly.app/ja/"},{"@type":"ListItem","position":2,"name":"ブログ","item":"https://snorly.app/ja/blog/"},{"@type":"ListItem","position":3,"name":"寝言を録音するアプリ：自分の寝言を聞く方法","item":"https://snorly.app/ja/blog/sleep-talking-app/"}]},{"@type":"BlogPosting","@id":"https://snorly.app/ja/blog/sleep-talking-app/#article","mainEntityOfPage":"https://snorly.app/ja/blog/sleep-talking-app/","headline":"寝言を録音するアプリ：自分の寝言を聞く方法","description":"音に反応して録音するアプリをナイトテーブルのiPhoneで動かすと、8時間のファイルではなく時刻付きの寝言クリップが残ります。クリップの意味も説明します。","image":"https://snorly.app/assets/img/covers/sleep-talking-app.webp","datePublished":"2026-09-02","dateModified":"2026-09-02","inLanguage":"ja","keywords":"寝言 録音 アプリ, 寝言 録音, 寝言 アプリ, 寝言 聞く 方法, いびき 寝言 録音 アプリ, 寝言 原因, 寝言 止める","author":{"@type":"Person","@id":"https://snorly.app/#author","name":"Mikhail Manev","url":"https://snorly.app/ja/author/mikhail-manev/","jobTitle":"Snorly開発者","worksFor":{"@id":"https://snorly.app/#organization"}},"publisher":{"@id":"https://snorly.app/#organization"},"isPartOf":{"@id":"https://snorly.app/#website"},"wordCount":182}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">本文へ移動</a>
+<header class="site-header"><div class="wrap">
+<a class="logo" href="/ja/" aria-label="Snorly"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <filter id="g" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="1.2"/></filter>
+  </defs>
+  <circle cx="32" cy="32" r="30" fill="#1c1c1f"/>
+  <g stroke-width="3.2" stroke-linecap="round" fill="none">
+    <g filter="url(#g)" opacity=".7">
+      <path d="M32 6 A26 26 0 0 1 58 32" stroke="#ff3a5e"/>
+      <path d="M58 32 A26 26 0 0 1 32 58" stroke="#ffb000"/>
+      <path d="M32 58 A26 26 0 0 1 6 32" stroke="#33e661"/>
+    </g>
+    <path d="M32 6 A26 26 0 0 1 58 32" stroke="#ff3a5e" stroke-dasharray="3 3.1"/>
+    <path d="M58 32 A26 26 0 0 1 32 58" stroke="#ffb000" stroke-dasharray="3 3.1"/>
+    <path d="M32 58 A26 26 0 0 1 6 32" stroke="#33e661" stroke-dasharray="3 3.1"/>
+    <path d="M6 32 A26 26 0 0 1 32 6" stroke="#2a3a2e" stroke-dasharray="3 3.1"/>
+  </g>
+  <circle cx="32" cy="32" r="7" fill="#ff3a3a"/>
+  <circle cx="32" cy="32" r="9" fill="#ff3a3a" opacity=".35" filter="url(#g)"/>
+</svg>
+<span>Snorly</span></a>
+<nav class="nav" aria-label="Main">
+<a href="/ja/blog/">ブログ</a>
+<a class="hide-m" href="/ja/snore-score/">いびきスコア</a>
+<a class="hide-m" href="/ja/vs/snorelab/">vs SnoreLab</a>
+<details class="lang"><summary aria-label="言語: 日本語">JA</summary><ul><li><a href="/blog/sleep-talking-app/" hreflang="en" lang="en">English</a></li><li><a href="/de/blog/schlafsprechen-app/" hreflang="de" lang="de">Deutsch</a></li><li><a href="/fr/blog/application-parler-en-dormant/" hreflang="fr" lang="fr">Français</a></li><li><a href="/es/blog/app-hablar-dormido/" hreflang="es" lang="es">Español</a></li><li><a href="/it/blog/app-parlare-nel-sonno/" hreflang="it" lang="it">Italiano</a></li><li><a href="/pt-br/blog/app-falar-dormindo/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a></li><li><a href="/ja/blog/sleep-talking-app/" hreflang="ja" lang="ja" aria-current="true">日本語</a></li><li><a href="/nl/blog/praten-in-je-slaap-app/" hreflang="nl" lang="nl">Nederlands</a></li><li><a href="/pl/blog/aplikacja-mowienie-przez-sen/" hreflang="pl" lang="pl">Polski</a></li><li><a href="/th/blog/sleep-talking-app/" hreflang="th" lang="th">ไทย</a></li><li><a href="/ar/blog/sleep-talking-app/" hreflang="ar" lang="ar">العربية</a></li><li><a href="/id/blog/aplikasi-mengigau/" hreflang="id" lang="id">Bahasa Indonesia</a></li><li><a href="/vi/blog/app-ghi-am-noi-mo/" hreflang="vi" lang="vi">Tiếng Việt</a></li><li><a href="/tr/blog/uykuda-konusma-uygulamasi/" hreflang="tr" lang="tr">Türkçe</a></li><li><a href="/zh-hans/blog/sleep-talking-app/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li><li><a href="/ko/blog/sleep-talking-app/" hreflang="ko" lang="ko">한국어</a></li><li><a href="/zh-hant/blog/sleep-talking-app/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li><li><a href="/ru/blog/prilozhenie-razgovory-vo-sne/" hreflang="ru" lang="ru">Русский</a></li></ul></details>
+<a class="btn btn-led" href="https://apps.apple.com/app/id6743162754?ct=sleep-talking-app" rel="noopener">アプリを入手</a>
+</nav></div></header>
+<main id="main">
+<article>
+<header class="article-head prose"><span class="label led">ブログ</span><h1>寝言を録音するアプリ：自分の寝言を聞く方法</h1><div class="byline"><img class="avatar" src="/assets/img/author-mikhail-manev.webp" width="28" height="28" alt="" loading="lazy"><span>著者 <a href="/ja/author/mikhail-manev/" rel="author">Mikhail Manev</a></span><span>· 公開 <time datetime="2026-09-02">2026年9月2日</time></span><span>· 1 分で読めます</span></div></header>
+<div class="prose"><img width="1200" height="675" class="cover" src="/assets/img/covers/sleep-talking-app.webp" alt="夜のナイトテーブルの上のiPhone。チャコール色の画面に短い緑のLEDの波形と、その横に小さな吹き出しのアイコンが表示されている。" fetchpriority="high"><p class="lead">寝言アプリとは、一晩中聞き続けて音がした数秒間だけを残すレコーダーのことです。朝には、8時間のファイルを探る代わりに、時刻付きのクリップの一覧が待っています。設定はいびきの録音と同じです。iPhoneをナイトテーブルに、頭から0.5〜1m、充電しながら、おやすみモードをオンにして置きます。成人の約3人に2人はこれまでに寝言を言ったことがあるので、数晩のうちに何かが見つかると考えてください。</p>
+<div class="facts">
+<span class="label led">要点</span><ul>
+<li>成人の約3人に2人は少なくとも一度は寝言を言ったことがあり、およそ6人に1人は現在も言っています（Bjorvatn 2010、ノルウェーの成人約1,000人の調査）</li>
+<li>232人を対象にした睡眠検査室の研究では、記録された「発話」の大半はつぶやき、ささやき、笑い声で、単語として最も多かったのは「no」でした（Arnulf 2017）</li>
+<li>寝言はたいていいびきより静かです。ささやき声は約30dB、普通の話し声は約60dB、大きないびきは50〜90dBです（CDCの騒音スケール）</li>
+<li>ボイスメモで8時間録音すると標準設定で約200〜250MBになります。音に反応するアプリが残すのは数十個の短いクリップです（ユーザー計測値、当社データ）</li>
+<li>寝言そのものは無害で治療は要りません。頻繁に叫び、体を激しく動かすのは別のパターンで、受診する価値があります（AASM Sleep Education）</div></li>
+</ul>
+<h2>寝言を録音できるアプリは</h2>
+<p>音を聞いてクリップを始め、部屋が静かになったら止まるレコーダーなら、どれでも寝言を捉えられます。違いは、寝言をいびきと別にラベル付けするか、クリップを無料で再生できるか、音声が端末の外に出るかです。</p>
+<div class="scroll-x"><div class="scroll-x"><table>
+<thead><tr><th>アプリ</th><th>残すもの</th><th>寝言のラベル付け</th><th>プラットフォーム</th></tr></thead>
+<tbody>
+<tr><td>Snorly</td><td>クリップだけ。「いびき」「寝言」「咳」のタグ付きで一晩のタイムラインに表示</td><td>あり</td><td>iPhone</td></tr>
+<tr><td>Sleep Talk Recorder</td><td>音に反応したクリップ。この分野の元祖（App Store評価4.3、約2,700件、2026年9月）</td><td>なし。すべての音がクリップになる</td><td>iPhone</td></tr>
+<tr><td>Dream Talk Recorder</td><td>音に反応したクリップ。同様の仕組み（4.7、約2,700件）</td><td>なし</td><td>iPhone</td></tr>
+<tr><td>Sleep Cycle</td><td>Sleep Talk機能付きの睡眠トラッカー。再生はPremium</td><td>あり</td><td>iPhone、Android</td></tr>
+<tr><td>SnoreLab</td><td>いびきのサンプル。寝言はサンプルを起動するほど大きいときに記録される</td><td>なし</td><td>iPhone、Android</td></tr>
+<tr><td>ボイスメモ</td><td>一晩まるごと1つの連続したファイル</td><td>なし</td><td>iPhone</td></tr>
+</tbody></table></div></div><p>Snorlyは私たちのアプリなので、その行は割り引いて読んでください。何かが聞こえたときだけ録音し、分類を端末内で行い、各クリップにいびき、寝言、咳のマークを付けるので、両方があった夜は1本のタイムラインに2種類のバーが並びます。録音、再生、履歴は夜数の制限なく無料です。Premiumが追加するのは一晩まるごとの録音、対策の比較、PDFレポートだけです。</p>
+<h2>自分の寝言を録音するには</h2>
+<p><a href="/ja/blog/how-to-record-yourself-snoring/">いびきを録音するとき</a>とまったく同じにiPhoneを置きます。ナイトテーブル、画面を下に、頭から0.5〜1m、充電しながら、おやすみモードをオン。そのうえで2つ変えます。寝言はいびきより静かで、頻度も低いからです。</p>
+<ol>
+<li>iPhoneをベッドの自分に近い側に寄せる。60dBのいびきは部屋の向こうまで届きますが、30dBのつぶやきは届きません。</li>
+<li>扇風機や空気清浄機はiPhoneから遠ざけるか、止める。定常的な音は、音に反応するアプリがクリップを始めるしきい値を上げます。</li>
+</ol>
+<p>ボイスメモでは一晩が1つのファイルになり、数秒の発話を探ることになります。音に反応するアプリならタイムスタンプが手に入ります。どちらにしても、自分は寝言を言わないと決める前に3晩録音してください。寝言には波があり、静かな夜が1晩あっても何も証明しません。</p>
+<h2>寝言を言うのはなぜ</h2>
+<p>発話はどの睡眠段階でも漏れ出ることがあります。深い睡眠のエピソードはつぶやきや単語になりやすく、夢が最も鮮明なレム睡眠のエピソードは文になりやすい傾向があります。増幅する要因として知られているのは、ストレス、睡眠不足、発熱、夜の飲酒、寝言や夢遊病の家族歴です。時期的にも固まって現れます。毎晩の実況が数週間続き、その後数か月は何もない、というように。</p>
+<p>どれも病気ではありません。睡眠医学は寝言（somniloquy）を、通常は治療の要らないパラソムニア（睡眠時随伴症）に分類しています。子どもに最も多く、大人は年齢とともに減りますが、完全になくなることはまれです。</p>
+<h2>寝言の録音には実際に何が入っているか</h2>
+<p>ほとんどはつぶやきです。最大規模の録音研究では、研究者が睡眠検査室で232人の成人から数百の発話エピソードを分析しました。半数以上は言葉にならないもので、ささやき、笑い、つぶやきでした。実際の単語の中では「no」が最も多く、内容の多くは否定的か口論調で、悪態もよくありました。文になっていたものは文法的に正しく、普通の話し方のテンポで、だから朝に聞くととても本物らしく聞こえます。</p>
+<p>ただし、それは証言ではありません。寝言は夢の内容と緩くつながっているだけで、起きているときの意図とはまったく関係がありません。クリップが口論のように聞こえるなら、それはデータセットで最もありふれた結果であって、告白ではありません。</p>
+<h2>寝言は危険ですか</h2>
+<p>それ自体は危険ではありません。録音上で行動する価値のあるパターンは2つあり、どちらも寝言そのものではありません。</p>
+<ul>
+<li>ほぼ毎晩の叫び声、悪態、泣き声に、音として聞こえる動き（蹴る、ヘッドボードを叩く）が伴う場合、特に50歳以降。レム睡眠行動障害（体が夢を演じてしまう状態）の可能性があり、睡眠専門医を受診する理由になります。</li>
+<li>いびき、無音の区間、大きなあえぎの間に挟まった寝言。そのパターンは発話ではなく呼吸の問題です。タイムライン上での見え方は<a href="/ja/blog/snoring-vs-sleep-apnea/">いびきと睡眠時無呼吸の違い</a>を読んでください。</li>
+</ul>
+<p>大変な1週間のあとに年に1回叫び声が録音される程度なら、夜驚症か悪夢で、何もする必要はありません。</p>
+<h2>録音に寝言ではなくいびきが入っていたら</h2>
+<p>これが最もよくある驚きです。パートナーが言っていた午前3時の実況を探しに行って、クリップの大半がいびきだったと気づく人が多いのです。それを有用な結果として受け取ってください。寝言は癖ですが、いびきは測れて、直せることが多いものです。まず<a href="/ja/blog/what-does-snoring-sound-like/">いびきの音をデシベルで</a>読んで音の大きさのラベルを理解し、次に<a href="/ja/blog/why-do-i-snore/">いびきをかく理由</a>で原因を探してください。</p>
+<h2>寝言を止めるには</h2>
+<p>普通の寝言に証明された治療法はなく、ほとんどの人には必要ありません。減らすのは、あらゆるパラソムニアを減らすのと同じリストです。規則正しい時間に十分な長さ眠る、夜の飲酒を減らす、ストレスはベッドの中ではなく寝る前に下げる。パートナーがそれで眠れないなら、NRR 30以上の耳栓とホワイトノイズでつぶやき程度は十分に防げます。<a href="/ja/blog/how-to-sleep-when-partner-snores/">パートナーのいびきで眠れないときのガイド</a>で両方を扱っています。</p>
+<p>ここでも録音が役立ちます。1週間分のクリップで、寝言が毎晩なのか月に1回なのか、夜更かしや飲酒のあとに出るのか、いびきを伴うのかがわかります。それだけで、たいてい心配するのをやめられます。</p>
+<div class="tonight">
+<span class="label led">今夜やること</span><ol>
+<li>iPhoneをベッドの自分側のナイトテーブルに、画面を下にして置き、充電しながら、おやすみモードをオンにする。</li>
+<li>扇風機をiPhoneから遠ざけるか、止める。</li>
+<li>音に反応するレコーダーを開始する。それしかないならボイスメモでも構いません。</li>
+<li>朝、クリップを一度聞いて2つをメモする。寝言はいくつ、いびきはいくつだったか。</li>
+<li>結論を出す前に3晩繰り返す。</div></li>
+</ol>
+<div class="cta-card"><img src="/assets/img/app-icon-256.webp" width="64" height="64" alt="Snorly app icon" loading="lazy"><p><b>今夜、自分のいびきを聞いてみる</b>Snorlyはいびきが聞こえたときだけ録音し、朝に再生できます。無料、アカウント不要、夜数の制限なし。</p><a class="btn btn-led" href="https://apps.apple.com/app/id6743162754?ct=sleep-talking-app" rel="noopener"><svg class="apple" viewBox="0 0 24 24" aria-hidden="true"><path d="M16.4 12.6c0-2.5 2-3.7 2.1-3.8-1.2-1.7-3-1.9-3.6-2-1.5-.2-3 .9-3.8.9s-2-.9-3.3-.8C6.1 6.9 4.5 7.9 3.6 9.5c-1.9 3.3-.5 8.1 1.4 10.8.9 1.3 2 2.8 3.4 2.7 1.4-.1 1.9-.9 3.5-.9s2.1.9 3.5.9c1.5 0 2.4-1.3 3.3-2.6 1-1.5 1.5-3 1.5-3.1-.1 0-2.8-1.1-2.8-4.7zM14 5.2c.7-.9 1.2-2.1 1.1-3.3-1 0-2.3.7-3 1.6-.7.8-1.3 2-1.1 3.2 1.1.1 2.3-.6 3-1.5z"/></svg>App Storeでダウンロード</a></div>
+<h2>関連する質問</h2>
+<h3>iPhoneで寝言は録音できますか</h3>
+<p>できます。ボイスメモは一晩を1つのファイルとして録音します（標準設定で8時間あたり約200〜250MB）。音に反応するアプリは音のあるクリップだけを残すので、確認がはるかに楽です。どちらでも充電しながら使ってください。</p>
+<h3>Snorlyは寝言を録音しますか</h3>
+<p>します。Snorlyは音が聞こえたときだけ録音し、各クリップにいびき、寝言、咳のタグを付けます。すべて端末内で処理されます。寝言のクリップはいびきと同じタイムラインに表示されるので、いびきが続いた前後に固まっているかどうかがわかります。</p>
+<h3>自分の寝言が怒っているように聞こえるのはなぜ</h3>
+<p>録音された寝言の多くがそうだからです。最大規模の検査室研究では「no」が最も多い単語で、エピソードの大きな割合が否定的か口論調でした。それは眠っている脳が発話を生み出す仕組みを映しているのであって、隣に寝ている人をどう思っているかではありません。</p>
+<h3>寝言は睡眠障害のサインですか</h3>
+<p>それだけでは違います。寝言は通常治療の要らないパラソムニアに分類されます。体の動きを伴う毎晩の叫び声、または無音の区間やあえぎと混ざった寝言が、医師に持って行く価値のある2つのパターンです。</p>
+<h3>一人暮らしで自分が寝言を言うか知るには</h3>
+<p>音に反応するアプリで3晩録音してください。寝言には波があるので、静かな夜が1晩あっても決着はつきません。同じ録音で、<a href="/ja/blog/how-to-know-if-you-snore/">自分がいびきをかいているか</a>もわかります。</p>
+<h2>出典</h2>
+<ul>
+<li>Bjorvatn B, Grønli J, Pallesen S (2010). Prevalence of different parasomnias in the general population. Sleep Medicine. <a href="https://doi.org/10.1016/j.sleep.2010.07.011">https://doi.org/10.1016/j.sleep.2010.07.011</a></li>
+<li>Arnulf I, Uguccioni G, Gay F, et al. (2017). What Does the Sleeping Brain Say? Syntax and Semantics of Sleep Talking in Healthy Subjects and in Parasomnia Patients. Sleep. <a href="https://doi.org/10.1093/sleep/zsx159">https://doi.org/10.1093/sleep/zsx159</a></li>
+<li>American Academy of Sleep Medicine, Sleep Education (accessed 2026). Sleep Talking. <a href="https://sleepeducation.org/sleep-disorders/sleep-talking/">https://sleepeducation.org/sleep-disorders/sleep-talking/</a></li>
+<li>Sleep Foundation (2026). Sleep Talking: What Is Somniloquy? <a href="https://www.sleepfoundation.org/parasomnias/sleep-talking">https://www.sleepfoundation.org/parasomnias/sleep-talking</a></li>
+<li>CDC (accessed 2026). What Noises Cause Hearing Loss? <a href="https://www.cdc.gov/nceh/hearing_loss/what_noises_cause_hearing_loss.html">https://www.cdc.gov/nceh/hearing_loss/what_noises_cause_hearing_loss.html</a></li>
+</ul>
+<p class="disclaimer">Snorlyはいびきの録音・記録アプリであり、医療機器ではありません。睡眠時無呼吸症候群やその他の疾患を診断するものではありません。呼吸の停止、息苦しさ、日中の強い眠気に気づいたら医師に相談してください。</p></div>
+<aside class="related prose"><h2>続けて読む</h2><ul class="card-list"><li><a class="card" href="/ja/blog/anti-snoring-pillow/"><b>いびき防止枕は効果ある？録音で検証した結果</b><span>睡眠検査室の試験で低反発枕はいびきの回数を47%減らし、傾斜枕は呼吸イベントを1時間あたり17回から5回に減らしました。データのある枕の種類と、自分の枕を試す方法。</span><time datetime="2026-09-03">2026年9月3日</time></a></li><li><a class="card" href="/ja/blog/does-mouth-tape-stop-snoring/"><b>口テープでいびきは止まる？安全に試す7晩の方法</b><span>口テープは、軽度の無呼吸がある口呼吸の人を対象にした小規模研究でいびきを約半分に減らしました。避けるべき人と、自分で7晩試す方法を説明します。</span><time datetime="2026-09-03">2026年9月3日</time></a></li><li><a class="card" href="/ja/blog/nasal-strips-for-snoring/"><b>鼻腔拡張テープはいびきに効く？録音でわかること</b><span>唯一のプラセボ対照試験では、鼻づまりのある人で1時間あたりのいびきが258回から173回に減りました。効く人の条件と、自分で7晩試す方法を説明します。</span><time datetime="2026-09-03">2026年9月3日</time></a></li></ul></aside>
+</article>
+</main>
+<footer class="site-footer"><div class="wrap">
+<div><a class="logo" href="/ja/"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <filter id="g" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="1.2"/></filter>
+  </defs>
+  <circle cx="32" cy="32" r="30" fill="#1c1c1f"/>
+  <g stroke-width="3.2" stroke-linecap="round" fill="none">
+    <g filter="url(#g)" opacity=".7">
+      <path d="M32 6 A26 26 0 0 1 58 32" stroke="#ff3a5e"/>
+      <path d="M58 32 A26 26 0 0 1 32 58" stroke="#ffb000"/>
+      <path d="M32 58 A26 26 0 0 1 6 32" stroke="#33e661"/>
+    </g>
+    <path d="M32 6 A26 26 0 0 1 58 32" stroke="#ff3a5e" stroke-dasharray="3 3.1"/>
+    <path d="M58 32 A26 26 0 0 1 32 58" stroke="#ffb000" stroke-dasharray="3 3.1"/>
+    <path d="M32 58 A26 26 0 0 1 6 32" stroke="#33e661" stroke-dasharray="3 3.1"/>
+    <path d="M6 32 A26 26 0 0 1 32 6" stroke="#2a3a2e" stroke-dasharray="3 3.1"/>
+  </g>
+  <circle cx="32" cy="32" r="7" fill="#ff3a3a"/>
+  <circle cx="32" cy="32" r="9" fill="#ff3a3a" opacity=".35" filter="url(#g)"/>
+</svg>
+<span>Snorly</span></a><p class="small" style="margin-top:.8rem;max-width:34ch">iPhoneのいびき録音アプリ. Snore Recorder App Pro: Snorly.</p>
+<p><a class="btn" href="https://apps.apple.com/app/id6743162754?ct=sleep-talking-app" rel="noopener"><svg class="apple" viewBox="0 0 24 24" aria-hidden="true"><path d="M16.4 12.6c0-2.5 2-3.7 2.1-3.8-1.2-1.7-3-1.9-3.6-2-1.5-.2-3 .9-3.8.9s-2-.9-3.3-.8C6.1 6.9 4.5 7.9 3.6 9.5c-1.9 3.3-.5 8.1 1.4 10.8.9 1.3 2 2.8 3.4 2.7 1.4-.1 1.9-.9 3.5-.9s2.1.9 3.5.9c1.5 0 2.4-1.3 3.3-2.6 1-1.5 1.5-3 1.5-3.1-.1 0-2.8-1.1-2.8-4.7zM14 5.2c.7-.9 1.2-2.1 1.1-3.3-1 0-2.3.7-3 1.6-.7.8-1.3 2-1.1 3.2 1.1.1 2.3-.6 3-1.5z"/></svg>App Store</a></p></div>
+<div><p class="foot-h">読む</p><ul><li><a href="/ja/blog/anti-snoring-pillow/">いびき防止枕は効果ある？録音で検証した結果</a></li><li><a href="/ja/blog/does-mouth-tape-stop-snoring/">口テープでいびきは止まる？安全に試す7晩の方法</a></li><li><a href="/ja/blog/nasal-strips-for-snoring/">鼻腔拡張テープはいびきに効く？録音でわかること</a></li><li><a href="/ja/blog/best-snoring-apps/">いびきアプリおすすめ6選を比較：無料で使える範囲</a></li><li><a href="/ja/blog/how-to-know-if-you-snore/">自分がいびきをかいているか確かめる方法、一人で寝ていても</a></li><li><a href="/ja/blog/">ブログ</a></li></ul></div>
+<div><p class="foot-h">プロダクト</p><ul><li><a href="/ja/snore-score/">いびきスコア</a></li><li><a href="/ja/vs/snorelab/">vs SnoreLab</a></li><li><a href="/ja/free-snoring-app/">無料プラン</a></li><li><a href="/ja/snore-detection-app/">いびき検出</a></li><li><a href="/ja/snoring-statistics/">いびきの統計</a></li><li><a href="/ja/support/">サポート</a></li><li><a href="/ja/author/mikhail-manev/">著者について</a></li><li><a href="/privacy/">プライバシー</a></li><li><a href="/terms/">利用規約</a></li></ul></div>
+<div class="legal"><p>Snorlyはいびきの録音・記録アプリであり、医療機器ではありません。睡眠時無呼吸症候群やその他の疾患を診断するものではありません。呼吸の停止、息苦しさ、日中の強い眠気に気づいたら医師に相談してください。</p><p>© 2026 Snorly · Snore Recorder App Pro · <a href="mailto:hello@builtfor.app">hello@builtfor.app</a></p></div>
+</div></footer>
+</body>
+</html>

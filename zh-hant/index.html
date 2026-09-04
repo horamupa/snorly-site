@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Snorly：iPhone 打鼾錄音 App，聽見自己的鼾聲</title>
+<meta name="description" content="Snorly 只在聽到打鼾時才錄音，早上用時間軸、分貝值和每晚的鼾聲分數把鼾聲播放給你聽。所有錄音都只留在你的 iPhone 上，不上傳。">
+<link rel="canonical" href="https://snorly.app/zh-hant/">
+<link rel="alternate" hreflang="en" href="https://snorly.app/">
+<link rel="alternate" hreflang="de" href="https://snorly.app/de/">
+<link rel="alternate" hreflang="fr" href="https://snorly.app/fr/">
+<link rel="alternate" hreflang="es" href="https://snorly.app/es/">
+<link rel="alternate" hreflang="it" href="https://snorly.app/it/">
+<link rel="alternate" hreflang="pt-BR" href="https://snorly.app/pt-br/">
+<link rel="alternate" hreflang="ja" href="https://snorly.app/ja/">
+<link rel="alternate" hreflang="nl" href="https://snorly.app/nl/">
+<link rel="alternate" hreflang="pl" href="https://snorly.app/pl/">
+<link rel="alternate" hreflang="th" href="https://snorly.app/th/">
+<link rel="alternate" hreflang="ar" href="https://snorly.app/ar/">
+<link rel="alternate" hreflang="id" href="https://snorly.app/id/">
+<link rel="alternate" hreflang="vi" href="https://snorly.app/vi/">
+<link rel="alternate" hreflang="tr" href="https://snorly.app/tr/">
+<link rel="alternate" hreflang="zh-Hans" href="https://snorly.app/zh-hans/">
+<link rel="alternate" hreflang="ko" href="https://snorly.app/ko/">
+<link rel="alternate" hreflang="zh-Hant" href="https://snorly.app/zh-hant/">
+<link rel="alternate" hreflang="ru" href="https://snorly.app/ru/">
+<link rel="alternate" hreflang="x-default" href="https://snorly.app/">
+<meta name="apple-itunes-app" content="app-id=6743162754, app-argument=https://snorly.app/zh-hant/">
+<meta name="theme-color" content="#1a1a1c">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Snorly">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:title" content="Snorly：iPhone 打鼾錄音 App，聽見自己的鼾聲">
+<meta property="og:description" content="Snorly 只在聽到打鼾時才錄音，早上用時間軸、分貝值和每晚的鼾聲分數把鼾聲播放給你聽。所有錄音都只留在你的 iPhone 上，不上傳。">
+<meta property="og:url" content="https://snorly.app/zh-hant/">
+<meta property="og:image" content="https://snorly.app/assets/img/og-home.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/assets/img/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/assets/img/favicon-192.png" sizes="192x192" type="image/png">
+<link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+<link rel="alternate" type="application/rss+xml" title="Snorly" href="/feed-zh-hant.xml">
+<link rel="preload" as="image" href="/assets/img/screens/history-540.webp" type="image/webp">
+<style>@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:400;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-400-cyrillic.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:400;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-400-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:500;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-500-cyrillic.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:500;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-500-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:600;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-600-cyrillic.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:600;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-600-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:400 700;font-display:swap;src:url(/assets/fonts/ibm-plex-sans-var-cyrillic.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:400 700;font-display:swap;src:url(/assets/fonts/ibm-plex-sans-var-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}</style>
+<link rel="stylesheet" href="/assets/css/site.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://snorly.app/#organization","name":"Snorly","url":"https://snorly.app/","logo":{"@type":"ImageObject","url":"https://snorly.app/assets/img/icon-512.png","width":512,"height":512},"sameAs":["https://apps.apple.com/app/id6743162754"],"email":"hello@builtfor.app"},{"@type":"WebSite","@id":"https://snorly.app/#website","name":"Snorly","url":"https://snorly.app/","inLanguage":"zh-Hant","publisher":{"@id":"https://snorly.app/#organization"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Snorly","item":"https://snorly.app/zh-hant/"}]},{"@type":["SoftwareApplication","MobileApplication"],"@id":"https://snorly.app/#app","name":"Snore Recorder App Pro: Snorly","alternateName":"Snorly","operatingSystem":"iOS","applicationCategory":"HealthApplication","url":"https://snorly.app/zh-hant/","installUrl":"https://apps.apple.com/app/id6743162754","downloadUrl":"https://apps.apple.com/app/id6743162754","description":"Snorly 只在聽到打鼾時才錄音，早上用時間軸、分貝值和每晚的鼾聲分數把鼾聲播放給你聽。所有錄音都只留在你的 iPhone 上，不上傳。","image":"https://snorly.app/assets/img/og-home.jpg","screenshot":["https://snorly.app/assets/img/screens/record-1080.webp","https://snorly.app/assets/img/screens/history-1080.webp","https://snorly.app/assets/img/screens/recordings-1080.webp","https://snorly.app/assets/img/screens/research-1080.webp"],"offers":{"@type":"Offer","price":"0","priceCurrency":"USD","description":"免費下載，App 內提供 Premium 訂閱"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.6","ratingCount":7,"bestRating":"5","worstRating":"1"},"author":{"@id":"https://snorly.app/#organization"},"publisher":{"@id":"https://snorly.app/#organization"},"inLanguage":"zh-Hant"}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">跳至內容</a>
+<header class="site-header"><div class="wrap">
+<a class="logo" href="/zh-hant/" aria-label="Snorly"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <filter id="g" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="1.2"/></filter>
+  </defs>
+  <circle cx="32" cy="32" r="30" fill="#1c1c1f"/>
+  <g stroke-width="3.2" stroke-linecap="round" fill="none">
+    <g filter="url(#g)" opacity=".7">
+      <path d="M32 6 A26 26 0 0 1 58 32" stroke="#ff3a5e"/>
+      <path d="M58 32 A26 26 0 0 1 32 58" stroke="#ffb000"/>
+      <path d="M32 58 A26 26 0 0 1 6 32" stroke="#33e661"/>
+    </g>
+    <path d="M32 6 A26 26 0 0 1 58 32" stroke="#ff3a5e" stroke-dasharray="3 3.1"/>
+    <path d="M58 32 A26 26 0 0 1 32 58" stroke="#ffb000" stroke-dasharray="3 3.1"/>
+    <path d="M32 58 A26 26 0 0 1 6 32" stroke="#33e661" stroke-dasharray="3 3.1"/>
+    <path d="M6 32 A26 26 0 0 1 32 6" stroke="#2a3a2e" stroke-dasharray="3 3.1"/>
+  </g>
+  <circle cx="32" cy="32" r="7" fill="#ff3a3a"/>
+  <circle cx="32" cy="32" r="9" fill="#ff3a3a" opacity=".35" filter="url(#g)"/>
+</svg>
+<span>Snorly</span></a>
+<nav class="nav" aria-label="Main">
+<a href="/zh-hant/blog/">部落格</a>
+<a class="hide-m" href="/zh-hant/snore-score/">鼾聲分數</a>
+<a class="hide-m" href="/zh-hant/vs/snorelab/">vs SnoreLab</a>
+<details class="lang"><summary aria-label="語言: 繁體中文">繁中</summary><ul><li><a href="/" hreflang="en" lang="en">English</a></li><li><a href="/de/" hreflang="de" lang="de">Deutsch</a></li><li><a href="/fr/" hreflang="fr" lang="fr">Français</a></li><li><a href="/es/" hreflang="es" lang="es">Español</a></li><li><a href="/it/" hreflang="it" lang="it">Italiano</a></li><li><a href="/pt-br/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a></li><li><a href="/ja/" hreflang="ja" lang="ja">日本語</a></li><li><a href="/nl/" hreflang="nl" lang="nl">Nederlands</a></li><li><a href="/pl/" hreflang="pl" lang="pl">Polski</a></li><li><a href="/th/" hreflang="th" lang="th">ไทย</a></li><li><a href="/ar/" hreflang="ar" lang="ar">العربية</a></li><li><a href="/id/" hreflang="id" lang="id">Bahasa Indonesia</a></li><li><a href="/vi/" hreflang="vi" lang="vi">Tiếng Việt</a></li><li><a href="/tr/" hreflang="tr" lang="tr">Türkçe</a></li><li><a href="/zh-hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li><li><a href="/ko/" hreflang="ko" lang="ko">한국어</a></li><li><a href="/zh-hant/" hreflang="zh-Hant" lang="zh-Hant" aria-current="true">繁體中文</a></li><li><a href="/ru/" hreflang="ru" lang="ru">Русский</a></li></ul></details>
+<a class="btn btn-led" href="https://apps.apple.com/app/id6743162754?ct=home" rel="noopener">取得 App</a>
+</nav></div></header>
+<main id="main">
+
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <span class="label led reveal"><span class="led-dot red"></span>打鼾錄音 · iPhone</span>
+      <h1 class="reveal">聽見自己的鼾聲。<br>就在今晚。</h1>
+      <p class="lede reveal">把 iPhone 放在床頭櫃上。Snorly 整夜聆聽，只保留聽到打鼾的片刻，早上一秒一秒播放給你聽。</p>
+      <div class="cta reveal">
+        <a class="btn btn-led" href="https://apps.apple.com/app/id6743162754?ct=home" rel="noopener"><svg class="apple" viewBox="0 0 24 24" aria-hidden="true"><path d="M16.4 12.6c0-2.5 2-3.7 2.1-3.8-1.2-1.7-3-1.9-3.6-2-1.5-.2-3 .9-3.8.9s-2-.9-3.3-.8C6.1 6.9 4.5 7.9 3.6 9.5c-1.9 3.3-.5 8.1 1.4 10.8.9 1.3 2 2.8 3.4 2.7 1.4-.1 1.9-.9 3.5-.9s2.1.9 3.5.9c1.5 0 2.4-1.3 3.3-2.6 1-1.5 1.5-3 1.5-3.1-.1 0-2.8-1.1-2.8-4.7zM14 5.2c.7-.9 1.2-2.1 1.1-3.3-1 0-2.3.7-3 1.6-.7.8-1.3 2-1.1 3.2 1.1.1 2.3-.6 3-1.5z"/></svg>在 App Store 下載</a>
+        <a class="btn" href="#how">運作方式</a>
+      </div>
+      <p class="meta reveal">每晚免費 · 免帳號 · 錄音只留在手機裡 · ★ 4.6 App Store</p>
+    </div>
+    <div class="hero-visual">
+      <div class="phone"><img class="hero-img" src="/assets/img/screens/history-540.webp" srcset="/assets/img/screens/history-540.webp 540w, /assets/img/screens/history-1080.webp 1080w" sizes="(max-width: 860px) 80vw, 340px" width="540" height="1174" alt="Snorly 歷史紀錄畫面：某晚指數 92，睡眠時間晚上 9:00 到早上 5:00，以及依音量排列的打鼾時間軸" fetchpriority="high"></div>
+      <div class="clip float-clip"><span class="play"><svg viewBox="0 0 24 24"><path d="M7 4l12 8-12 8z"/></svg></span><b>嚴重打鼾</b><time>凌晨 1:18</time><span class="wave"></span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="proof">
+  <div class="wrap">
+    <div class="section-head"><span class="label led">凌晨 3 點那個你從沒聽過的聲音</span><h2>有證據，不用猜</h2><p>你在自己的鼾聲中睡得很沉，枕邊人可不會。Snorly 把錄音交給你：每一次打鼾都在同一條時間軸上，每個片段都有時間戳記，還有從「安靜」到「嚴重」的音量標籤。</p></div>
+    <div class="grid grid-2">
+      <div class="board">
+        <div class="board-head"><b>打鼾 · 2 小時 15 分</b><span class="small">7 月 2 日（四）</span></div>
+        <div class="matrix" role="img" aria-label="一晚的 LED 時間軸：大多是安靜的藍色長條，凌晨 1 點前後一段中度和嚴重的紅色打鼾，之後是較輕微的綠色片段"><i class="q" style="--h:18;--i:0"></i><i class="q" style="--h:22;--i:1"></i><i class="q" style="--h:20;--i:2"></i><i class="q" style="--h:24;--i:3"></i><i class="l" style="--h:38;--i:4"></i><i class="l" style="--h:46;--i:5"></i><i class="q" style="--h:22;--i:6"></i><i class="q" style="--h:20;--i:7"></i><i class="q" style="--h:26;--i:8"></i><i class="l" style="--h:42;--i:9"></i><i class="l" style="--h:50;--i:10"></i><i class="m" style="--h:64;--i:11"></i><i class="m" style="--h:72;--i:12"></i><i class="s" style="--h:92;--i:13"></i><i class="s" style="--h:100;--i:14"></i><i class="m" style="--h:70;--i:15"></i><i class="l" style="--h:44;--i:16"></i><i class="q" style="--h:24;--i:17"></i><i class="q" style="--h:20;--i:18"></i><i class="q" style="--h:22;--i:19"></i><i class="q" style="--h:18;--i:20"></i><i class="l" style="--h:36;--i:21"></i><i class="l" style="--h:40;--i:22"></i><i class="q" style="--h:24;--i:23"></i><i class="q" style="--h:22;--i:24"></i><i class="q" style="--h:20;--i:25"></i><i class="m" style="--h:58;--i:26"></i><i class="m" style="--h:66;--i:27"></i><i class="m" style="--h:62;--i:28"></i><i class="l" style="--h:40;--i:29"></i><i class="q" style="--h:22;--i:30"></i><i class="q" style="--h:20;--i:31"></i><i class="q" style="--h:24;--i:32"></i><i class="q" style="--h:22;--i:33"></i><i class="l" style="--h:34;--i:34"></i><i class="l" style="--h:44;--i:35"></i><i class="l" style="--h:48;--i:36"></i><i class="q" style="--h:26;--i:37"></i><i class="q" style="--h:20;--i:38"></i><i class="q" style="--h:18;--i:39"></i><i class="q" style="--h:22;--i:40"></i><i class="l" style="--h:36;--i:41"></i><i class="q" style="--h:24;--i:42"></i><i class="q" style="--h:20;--i:43"></i><i class="q" style="--h:18;--i:44"></i><i class="q" style="--h:22;--i:45"></i><i class="q" style="--h:20;--i:46"></i><i class="q" style="--h:16;--i:47"></i></div>
+        <div class="axis"><span>9:00 PM</span><span>11:00 PM</span><span>1:00 AM</span><span>3:00 AM</span><span>5:00 AM</span></div>
+        <div class="legend"><span class="q">安靜 5:30</span><span class="l">輕微 1:30</span><span class="m">中度 0:45</span><span class="s">嚴重 0:15</span></div>
+      </div>
+      <div class="stack">
+        <div class="clip"><span class="play"><svg viewBox="0 0 24 24"><path d="M7 4l12 8-12 8z"/></svg></span><b>嚴重打鼾</b><time>凌晨 1:18</time><span class="wave"></span></div><div class="clip"><span class="play"><svg viewBox="0 0 24 24"><path d="M7 4l12 8-12 8z"/></svg></span><b>輕微打鼾</b><time>凌晨 2:18</time><span class="wave"></span></div><div class="clip"><span class="play"><svg viewBox="0 0 24 24"><path d="M7 4l12 8-12 8z"/></svg></span><b>說夢話</b><time>凌晨 3:48</time><span class="wave"></span></div>
+        <div class="tile" style="padding:1.2rem;display:flex;gap:1.2rem;align-items:center"><div class="ring-wrap"><div class="ring" role="img" aria-label="夜間指數環，92 分，滿分 100"></div><span class="v">92</span><span class="l">指數</span></div><div><b style="color:#fff">一晚一個指數</b><p class="small" style="margin:.3rem 0 0">一眼比較今晚和上週，再打開時間軸看原因。</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="features">
+  <div class="wrap">
+    <div class="grid grid-4">
+      <div class="feature"><div class="ico"><svg viewBox="0 0 24 24"><path d="M4 10v4M8 6v12M12 9v6M16 4v16M20 10v4"/></svg></div><h3>聽見它</h3><p>Snorly 只在偵測到打鼾、說夢話或咳嗽時才錄音。不用在 8 小時的檔案裡來回拖曳，只有重要的片段，依序排好。</p></div><div class="feature"><div class="ico"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M7 15v-3M11 15V9M15 15v-5M19 15v-2" /></svg></div><h3>看見整晚</h3><p>LED 時間軸顯示你何時打鼾、多大聲，以分貝計。58 dB 的鼾聲差不多是蓮蓬頭放水的聲音；你會清楚看到它發生在什麼時候。</p></div><div class="feature"><div class="ico"><svg viewBox="0 0 24 24"><path d="M4 19h16M6 15l4-5 4 3 4-6"/></svg></div><h3>知道什麼讓它更嚴重</h3><p>為那一晚加上標籤：喝酒、晚吃晚餐、仰睡、鼻貼、口貼。幾晚之後，Snorly 會告訴你哪個因素改變了你的打鼾，改變了多少。</p></div><div class="feature"><div class="ico"><svg viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg></div><h3>留在你的 iPhone 上</h3><p>偵測在手機上執行，音訊永不上傳。刪掉一晚，它就徹底消失。螢幕會調暗成床頭時鐘，燈光不會吵醒任何人。</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="how">
+  <div class="wrap">
+    <div class="section-head"><span class="label led">運作方式</span><h2>三個步驟，一個晚上</h2></div>
+    <div class="grid grid-3">
+      <div class="feature"><span class="clock" style="font-size:2rem;display:block;margin-bottom:.6rem">01</span><h3>按下錄音、插上電源、睡覺</h3><p>把手機放在床頭櫃上，離頭部約 1 公尺內，螢幕朝下或調暗。Snorly 會變成柔和的 LED 時鐘。</p></div><div class="feature"><span class="clock" style="font-size:2rem;display:block;margin-bottom:.6rem">02</span><h3>它聆聽，你睡覺</h3><p>裝置端偵測器聽到打鼾和說夢話就會啟動，存下帶有時間和音量的短片段，忽略中間的安靜時段。</p></div><div class="feature"><span class="clock" style="font-size:2rem;display:block;margin-bottom:.6rem">03</span><h3>早上按播放</h3><p>你的一晚就在一頁裡：指數、時間軸、片段。標記昨晚做了什麼，一週後看看有什麼改變。</p></div>
+    </div>
+    <div class="grid grid-2" style="margin-top:2rem">
+      <div class="phone"><img src="/assets/img/screens/record-540.webp" srcset="/assets/img/screens/record-540.webp 540w, /assets/img/screens/record-1080.webp 1080w" sizes="(max-width: 860px) 80vw, 340px" width="540" height="1174" alt="Snorly 錄音畫面，21:41，調暗的綠色 LED 時鐘和紅色錄音按鈕" loading="lazy" decoding="async"></div>
+      <div class="phone"><img src="/assets/img/screens/research-540.webp" srcset="/assets/img/screens/research-540.webp 540w, /assets/img/screens/research-1080.webp 1080w" sizes="(max-width: 860px) 80vw, 340px" width="540" height="1174" alt="Snorly 研究畫面，用側睡等對策和喝酒等因素比較不同夜晚" loading="lazy" decoding="async"></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="plans">
+  <div class="wrap">
+    <div class="section-head"><span class="label led">誠實的價格</span><h2>費用多少</h2></div>
+    <div class="grid grid-3">
+      <div class="feature"><h3>免費</h3><p>安裝後今晚就能錄，免帳號。自動片段、每個片段都能播放、0–100 指數、夜間時間軸、呼吸標記和完整歷史紀錄。每晚都能用，不限夜數，沒有廣告。</p></div><div class="feature"><h3>Premium</h3><p>只針對加值功能：整夜錄音、對策與因素比較、給醫師看的 PDF 報告，以及匯入 Apple Health。</p></div><div class="feature"><h3>付款方式</h3><p>透過 App Store 訂閱，或一次買斷終身使用。你所在國家的價格會顯示在 App 內。免費方格裡的每一項，不論你買不買都維持免費。</p></div>
+    </div>
+    <p class="small" style="max-width:60ch;margin-top:1.2rem">Snorly 以前就有這個免費方案，後來改成試用制，現在正把它找回來。如果標示為免費的功能要求你付費，那是 bug：請告訴我們。</p>
+  </div>
+</section>
+
+<section class="section faq" id="questions">
+  <div class="prose">
+    <h2>第一晚之前大家常問的問題</h2>
+    <h3>Snorly 會整夜錄音嗎？</h3><p>不會。它整夜聆聽，但只儲存偵測到打鼾、說夢話或咳嗽前後的那幾秒，所以一般一晚是幾個片段，不是 8 小時的檔案。</p><h3>會很耗電嗎？</h3><p>請讓手機保持充電。偵測功能設計成插著電源整夜運作；螢幕會調暗成時鐘，所以顯示器不是主要的耗電來源。</p><h3>它能告訴我有沒有睡眠呼吸中止症嗎？</h3><p>沒有任何 App 能診斷睡眠呼吸中止症。Snorly 會把呼吸暫停、喘氣這類呼吸模式標記出來，作為值得拿給醫師看的線索，PDF 報告則讓你有紀錄可以帶去。請看<a href="/zh-hant/blog/snoring-vs-sleep-apnea/">打鼾與睡眠呼吸中止症的差別</a>。</p><h3>如果我的伴侶也打鼾呢？</h3><p>它會錄下手機附近最大聲的人。把手機放在你這一側的床邊，離你比離伴侶近，可以的話再比較一個獨自睡的晚上。</p><h3>我的錄音會去哪裡？</h3><p>哪裡都不去。音訊只儲存在你的 iPhone 上。Snorly 沒有帳號、沒有雲端上傳；分享片段是你主動去做的事。</p><h3>有 Android 版嗎？</h3><p>還沒有。Snorly 是為 iPhone 打造的。如果你一個人睡，想知道自己會不會打鼾，請讀<a href="/zh-hant/blog/how-to-know-if-you-snore/">怎麼知道自己會打鼾</a>，裡面有任何手機都能用的方法。</p>
+  </div>
+</section>
+
+<section class="section" id="latest">
+  <div class="prose">
+    <h2>來自部落格</h2>
+    <ul class="card-list"><li><a class="card" href="/zh-hant/blog/anti-snoring-pillow/"><b>止鼾枕有用嗎？用錄音實測的結果與挑選方法</b><span>記憶枕在睡眠實驗室試驗中讓打鼾事件減少 47%；斜坡枕讓呼吸事件從每小時 17 次降到 5 次。哪些枕頭有數據，怎麼測試你自己的枕頭。</span></a></li><li><a class="card" href="/zh-hant/blog/does-mouth-tape-stop-snoring/"><b>睡覺貼嘴巴能止鼾嗎？口呼吸貼 7 晚安全測試法</b><span>在小型研究裡，口貼讓有輕度呼吸中止的口呼吸者打鼾減少約一半。誰不該用、怎麼用 7 晚在自己身上安全測試，這裡說清楚。</span></a></li><li><a class="card" href="/zh-hant/blog/nasal-strips-for-snoring/"><b>通氣鼻貼對打鼾有用嗎？錄音數據怎麼說</b><span>在唯一的安慰劑對照試驗裡，鼻貼讓每小時鼾聲從 258 次降到 173 次，但只對鼻塞的人有效。教你用 7 晚在自己身上測試鼻貼。</span></a></li></ul>
+    <p style="margin-top:1rem"><a href="/zh-hant/blog/">所有文章 →</a></p>
+  </div>
+</section>
+
+<section class="section" id="download">
+  <div class="prose center">
+    <span class="clock" style="font-size:clamp(3rem,10vw,5rem);display:block">21:41</span>
+    <h2 style="margin-top:.6rem">別再猜了。錄下來、播出來、拿出證據。</h2>
+    <p class="lead">一個晚上就夠了，聽聽你的伴侶這些年來聽到的聲音。</p>
+    <p><a class="btn btn-led" href="https://apps.apple.com/app/id6743162754?ct=home-bottom" rel="noopener"><svg class="apple" viewBox="0 0 24 24" aria-hidden="true"><path d="M16.4 12.6c0-2.5 2-3.7 2.1-3.8-1.2-1.7-3-1.9-3.6-2-1.5-.2-3 .9-3.8.9s-2-.9-3.3-.8C6.1 6.9 4.5 7.9 3.6 9.5c-1.9 3.3-.5 8.1 1.4 10.8.9 1.3 2 2.8 3.4 2.7 1.4-.1 1.9-.9 3.5-.9s2.1.9 3.5.9c1.5 0 2.4-1.3 3.3-2.6 1-1.5 1.5-3 1.5-3.1-.1 0-2.8-1.1-2.8-4.7zM14 5.2c.7-.9 1.2-2.1 1.1-3.3-1 0-2.3.7-3 1.6-.7.8-1.3 2-1.1 3.2 1.1.1 2.3-.6 3-1.5z"/></svg>在 App Store 下載</a></p>
+    <p class="small">需要 iOS 17 或以上版本。不是醫療器材。</p>
+  </div>
+</section>
+<style>.hero-visual{position:relative}.float-clip{position:absolute;left:-10%;bottom:10%;width:min(92%,360px);box-shadow:var(--convex-lg)}@media(max-width:860px){.float-clip{display:none}}</style>
+
+</main>
+<footer class="site-footer"><div class="wrap">
+<div><a class="logo" href="/zh-hant/"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <filter id="g" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="1.2"/></filter>
+  </defs>
+  <circle cx="32" cy="32" r="30" fill="#1c1c1f"/>
+  <g stroke-width="3.2" stroke-linecap="round" fill="none">
+    <g filter="url(#g)" opacity=".7">
+      <path d="M32 6 A26 26 0 0 1 58 32" stroke="#ff3a5e"/>
+      <path d="M58 32 A26 26 0 0 1 32 58" stroke="#ffb000"/>
+      <path d="M32 58 A26 26 0 0 1 6 32" stroke="#33e661"/>
+    </g>
+    <path d="M32 6 A26 26 0 0 1 58 32" stroke="#ff3a5e" stroke-dasharray="3 3.1"/>
+    <path d="M58 32 A26 26 0 0 1 32 58" stroke="#ffb000" stroke-dasharray="3 3.1"/>
+    <path d="M32 58 A26 26 0 0 1 6 32" stroke="#33e661" stroke-dasharray="3 3.1"/>
+    <path d="M6 32 A26 26 0 0 1 32 6" stroke="#2a3a2e" stroke-dasharray="3 3.1"/>
+  </g>
+  <circle cx="32" cy="32" r="7" fill="#ff3a3a"/>
+  <circle cx="32" cy="32" r="9" fill="#ff3a3a" opacity=".35" filter="url(#g)"/>
+</svg>
+<span>Snorly</span></a><p class="small" style="margin-top:.8rem;max-width:34ch">iPhone 打鼾錄音 App. Snore Recorder App Pro: Snorly.</p>
+<p><a class="btn" href="https://apps.apple.com/app/id6743162754?ct=home" rel="noopener"><svg class="apple" viewBox="0 0 24 24" aria-hidden="true"><path d="M16.4 12.6c0-2.5 2-3.7 2.1-3.8-1.2-1.7-3-1.9-3.6-2-1.5-.2-3 .9-3.8.9s-2-.9-3.3-.8C6.1 6.9 4.5 7.9 3.6 9.5c-1.9 3.3-.5 8.1 1.4 10.8.9 1.3 2 2.8 3.4 2.7 1.4-.1 1.9-.9 3.5-.9s2.1.9 3.5.9c1.5 0 2.4-1.3 3.3-2.6 1-1.5 1.5-3 1.5-3.1-.1 0-2.8-1.1-2.8-4.7zM14 5.2c.7-.9 1.2-2.1 1.1-3.3-1 0-2.3.7-3 1.6-.7.8-1.3 2-1.1 3.2 1.1.1 2.3-.6 3-1.5z"/></svg>App Store</a></p></div>
+<div><p class="foot-h">了解更多</p><ul><li><a href="/zh-hant/blog/anti-snoring-pillow/">止鼾枕有用嗎？用錄音實測的結果與挑選方法</a></li><li><a href="/zh-hant/blog/does-mouth-tape-stop-snoring/">睡覺貼嘴巴能止鼾嗎？口呼吸貼 7 晚安全測試法</a></li><li><a href="/zh-hant/blog/nasal-strips-for-snoring/">通氣鼻貼對打鼾有用嗎？錄音數據怎麼說</a></li><li><a href="/zh-hant/blog/best-snoring-apps/">iPhone 打鼾 App 推薦：6 款比較與免費方案</a></li><li><a href="/zh-hant/blog/how-to-know-if-you-snore/">怎麼知道自己會不會打呼？一個人睡的 3 晚測試</a></li><li><a href="/zh-hant/blog/">部落格</a></li></ul></div>
+<div><p class="foot-h">產品</p><ul><li><a href="/zh-hant/snore-score/">鼾聲分數</a></li><li><a href="/zh-hant/vs/snorelab/">vs SnoreLab</a></li><li><a href="/zh-hant/free-snoring-app/">免費方案</a></li><li><a href="/zh-hant/snore-detection-app/">打鼾偵測</a></li><li><a href="/zh-hant/snoring-statistics/">打鼾統計</a></li><li><a href="/zh-hant/support/">支援</a></li><li><a href="/zh-hant/author/mikhail-manev/">關於作者</a></li><li><a href="/privacy/">隱私權政策</a></li><li><a href="/terms/">服務條款</a></li></ul></div>
+<div class="legal"><p>Snorly 是打鼾錄音與追蹤 App，不是醫療器材。它不會診斷睡眠呼吸中止症或任何其他疾病。如果你發現呼吸暫停、喘不過氣或白天嗜睡，請諮詢醫師。</p><p>© 2026 Snorly · Snore Recorder App Pro · <a href="mailto:hello@builtfor.app">hello@builtfor.app</a></p></div>
+</div></footer>
+</body>
+</html>

@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Parler en dormant : l’app qui enregistre ce que vous dites · Snorly</title>
+<meta name="description" content="Un iPhone sur la table de nuit et un enregistreur déclenché par le son : des clips horodatés de vos paroles au lieu d’un fichier de 8 h. Ce qu’ils veulent dire.">
+<link rel="canonical" href="https://snorly.app/fr/blog/application-parler-en-dormant/">
+<link rel="alternate" hreflang="en" href="https://snorly.app/blog/sleep-talking-app/">
+<link rel="alternate" hreflang="de" href="https://snorly.app/de/blog/schlafsprechen-app/">
+<link rel="alternate" hreflang="fr" href="https://snorly.app/fr/blog/application-parler-en-dormant/">
+<link rel="alternate" hreflang="es" href="https://snorly.app/es/blog/app-hablar-dormido/">
+<link rel="alternate" hreflang="it" href="https://snorly.app/it/blog/app-parlare-nel-sonno/">
+<link rel="alternate" hreflang="pt-BR" href="https://snorly.app/pt-br/blog/app-falar-dormindo/">
+<link rel="alternate" hreflang="ja" href="https://snorly.app/ja/blog/sleep-talking-app/">
+<link rel="alternate" hreflang="nl" href="https://snorly.app/nl/blog/praten-in-je-slaap-app/">
+<link rel="alternate" hreflang="pl" href="https://snorly.app/pl/blog/aplikacja-mowienie-przez-sen/">
+<link rel="alternate" hreflang="th" href="https://snorly.app/th/blog/sleep-talking-app/">
+<link rel="alternate" hreflang="ar" href="https://snorly.app/ar/blog/sleep-talking-app/">
+<link rel="alternate" hreflang="id" href="https://snorly.app/id/blog/aplikasi-mengigau/">
+<link rel="alternate" hreflang="vi" href="https://snorly.app/vi/blog/app-ghi-am-noi-mo/">
+<link rel="alternate" hreflang="tr" href="https://snorly.app/tr/blog/uykuda-konusma-uygulamasi/">
+<link rel="alternate" hreflang="zh-Hans" href="https://snorly.app/zh-hans/blog/sleep-talking-app/">
+<link rel="alternate" hreflang="ko" href="https://snorly.app/ko/blog/sleep-talking-app/">
+<link rel="alternate" hreflang="zh-Hant" href="https://snorly.app/zh-hant/blog/sleep-talking-app/">
+<link rel="alternate" hreflang="ru" href="https://snorly.app/ru/blog/prilozhenie-razgovory-vo-sne/">
+<link rel="alternate" hreflang="x-default" href="https://snorly.app/blog/sleep-talking-app/">
+<meta name="apple-itunes-app" content="app-id=6743162754, app-argument=https://snorly.app/fr/blog/application-parler-en-dormant/">
+<meta name="theme-color" content="#1a1a1c">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Snorly">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Parler en dormant : l’app qui enregistre ce que vous dites">
+<meta property="og:description" content="Un iPhone sur la table de nuit et un enregistreur déclenché par le son : des clips horodatés de vos paroles au lieu d’un fichier de 8 h. Ce qu’ils veulent dire.">
+<meta property="og:url" content="https://snorly.app/fr/blog/application-parler-en-dormant/">
+<meta property="og:image" content="https://snorly.app/assets/img/covers/sleep-talking-app.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta property="article:published_time" content="2026-09-02"><meta property="article:modified_time" content="2026-09-02">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/assets/img/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/assets/img/favicon-192.png" sizes="192x192" type="image/png">
+<link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+<link rel="alternate" type="application/rss+xml" title="Snorly" href="/feed-fr.xml">
+
+<style>@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:400;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-400-cyrillic.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:400;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-400-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:500;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-500-cyrillic.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:500;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-500-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:600;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-600-cyrillic.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:600;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-600-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:400 700;font-display:swap;src:url(/assets/fonts/ibm-plex-sans-var-cyrillic.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:400 700;font-display:swap;src:url(/assets/fonts/ibm-plex-sans-var-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}</style>
+<link rel="stylesheet" href="/assets/css/site.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://snorly.app/#organization","name":"Snorly","url":"https://snorly.app/","logo":{"@type":"ImageObject","url":"https://snorly.app/assets/img/icon-512.png","width":512,"height":512},"sameAs":["https://apps.apple.com/app/id6743162754"],"email":"hello@builtfor.app"},{"@type":"WebSite","@id":"https://snorly.app/#website","name":"Snorly","url":"https://snorly.app/","inLanguage":"fr","publisher":{"@id":"https://snorly.app/#organization"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Snorly","item":"https://snorly.app/fr/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://snorly.app/fr/blog/"},{"@type":"ListItem","position":3,"name":"Parler en dormant : l’app qui enregistre ce que vous dites","item":"https://snorly.app/fr/blog/application-parler-en-dormant/"}]},{"@type":"BlogPosting","@id":"https://snorly.app/fr/blog/application-parler-en-dormant/#article","mainEntityOfPage":"https://snorly.app/fr/blog/application-parler-en-dormant/","headline":"Parler en dormant : l’app qui enregistre ce que vous dites","description":"Un iPhone sur la table de nuit et un enregistreur déclenché par le son : des clips horodatés de vos paroles au lieu d’un fichier de 8 h. Ce qu’ils veulent dire.","image":"https://snorly.app/assets/img/covers/sleep-talking-app.webp","datePublished":"2026-09-02","dateModified":"2026-09-02","inLanguage":"fr","keywords":"application parler en dormant, enregistrer ce qu’on dit en dormant, somniloquie, pourquoi je parle en dormant, application enregistrement sommeil, enregistrer son sommeil iphone, comment arrêter de parler en dormant","author":{"@type":"Person","@id":"https://snorly.app/#author","name":"Mikhail Manev","url":"https://snorly.app/fr/author/mikhail-manev/","jobTitle":"Développeur de Snorly","worksFor":{"@id":"https://snorly.app/#organization"}},"publisher":{"@id":"https://snorly.app/#organization"},"isPartOf":{"@id":"https://snorly.app/#website"},"wordCount":1804}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">Aller au contenu</a>
+<header class="site-header"><div class="wrap">
+<a class="logo" href="/fr/" aria-label="Snorly"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <filter id="g" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="1.2"/></filter>
+  </defs>
+  <circle cx="32" cy="32" r="30" fill="#1c1c1f"/>
+  <g stroke-width="3.2" stroke-linecap="round" fill="none">
+    <g filter="url(#g)" opacity=".7">
+      <path d="M32 6 A26 26 0 0 1 58 32" stroke="#ff3a5e"/>
+      <path d="M58 32 A26 26 0 0 1 32 58" stroke="#ffb000"/>
+      <path d="M32 58 A26 26 0 0 1 6 32" stroke="#33e661"/>
+    </g>
+    <path d="M32 6 A26 26 0 0 1 58 32" stroke="#ff3a5e" stroke-dasharray="3 3.1"/>
+    <path d="M58 32 A26 26 0 0 1 32 58" stroke="#ffb000" stroke-dasharray="3 3.1"/>
+    <path d="M32 58 A26 26 0 0 1 6 32" stroke="#33e661" stroke-dasharray="3 3.1"/>
+    <path d="M6 32 A26 26 0 0 1 32 6" stroke="#2a3a2e" stroke-dasharray="3 3.1"/>
+  </g>
+  <circle cx="32" cy="32" r="7" fill="#ff3a3a"/>
+  <circle cx="32" cy="32" r="9" fill="#ff3a3a" opacity=".35" filter="url(#g)"/>
+</svg>
+<span>Snorly</span></a>
+<nav class="nav" aria-label="Main">
+<a href="/fr/blog/">Blog</a>
+<a class="hide-m" href="/fr/snore-score/">Score de ronflement</a>
+<a class="hide-m" href="/fr/vs/snorelab/">vs SnoreLab</a>
+<details class="lang"><summary aria-label="Langue: Français">FR</summary><ul><li><a href="/blog/sleep-talking-app/" hreflang="en" lang="en">English</a></li><li><a href="/de/blog/schlafsprechen-app/" hreflang="de" lang="de">Deutsch</a></li><li><a href="/fr/blog/application-parler-en-dormant/" hreflang="fr" lang="fr" aria-current="true">Français</a></li><li><a href="/es/blog/app-hablar-dormido/" hreflang="es" lang="es">Español</a></li><li><a href="/it/blog/app-parlare-nel-sonno/" hreflang="it" lang="it">Italiano</a></li><li><a href="/pt-br/blog/app-falar-dormindo/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a></li><li><a href="/ja/blog/sleep-talking-app/" hreflang="ja" lang="ja">日本語</a></li><li><a href="/nl/blog/praten-in-je-slaap-app/" hreflang="nl" lang="nl">Nederlands</a></li><li><a href="/pl/blog/aplikacja-mowienie-przez-sen/" hreflang="pl" lang="pl">Polski</a></li><li><a href="/th/blog/sleep-talking-app/" hreflang="th" lang="th">ไทย</a></li><li><a href="/ar/blog/sleep-talking-app/" hreflang="ar" lang="ar">العربية</a></li><li><a href="/id/blog/aplikasi-mengigau/" hreflang="id" lang="id">Bahasa Indonesia</a></li><li><a href="/vi/blog/app-ghi-am-noi-mo/" hreflang="vi" lang="vi">Tiếng Việt</a></li><li><a href="/tr/blog/uykuda-konusma-uygulamasi/" hreflang="tr" lang="tr">Türkçe</a></li><li><a href="/zh-hans/blog/sleep-talking-app/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li><li><a href="/ko/blog/sleep-talking-app/" hreflang="ko" lang="ko">한국어</a></li><li><a href="/zh-hant/blog/sleep-talking-app/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li><li><a href="/ru/blog/prilozhenie-razgovory-vo-sne/" hreflang="ru" lang="ru">Русский</a></li></ul></details>
+<a class="btn btn-led" href="https://apps.apple.com/app/id6743162754?ct=application-parler-en-dormant" rel="noopener">Télécharger</a>
+</nav></div></header>
+<main id="main">
+<article>
+<header class="article-head prose"><span class="label led">Blog</span><h1>Parler en dormant : l’app qui enregistre ce que vous dites</h1><div class="byline"><img class="avatar" src="/assets/img/author-mikhail-manev.webp" width="28" height="28" alt="" loading="lazy"><span>Par <a href="/fr/author/mikhail-manev/" rel="author">Mikhail Manev</a></span><span>· Publié le <time datetime="2026-09-02">2 septembre 2026</time></span><span>· 9 min de lecture</span></div></header>
+<div class="prose"><img width="1200" height="675" class="cover" src="/assets/img/covers/sleep-talking-app.webp" alt="Un iPhone sur une table de nuit la nuit, son écran anthracite affichant une courte forme d’onde LED verte avec une petite icône de bulle de dialogue à côté." fetchpriority="high"><p class="lead">Une application pour parler en dormant, c’est n’importe quel enregistreur qui écoute toute la nuit et ne garde que les secondes avec du son : vous vous réveillez avec une liste de clips horodatés au lieu d’un fichier de 8 heures à parcourir. L’installation est la même que pour enregistrer un ronflement : iPhone sur la table de nuit, à 0,5 à 1 m de votre tête, branché, Ne pas déranger activé. Environ deux adultes sur trois ont parlé dans leur sommeil au moins une fois, attendez-vous donc à trouver quelque chose en quelques nuits.</p>
+<div class="facts">
+<span class="label led">L’essentiel</span><ul>
+<li>Environ deux adultes sur trois ont parlé dans leur sommeil au moins une fois, et à peu près un sur six le fait actuellement (Bjorvatn 2010, enquête auprès d’environ 1 000 adultes norvégiens)</li>
+<li>Dans une étude en laboratoire du sommeil sur 232 personnes, la plupart des « paroles » enregistrées étaient des marmonnements, des chuchotements ou des rires, et le mot le plus fréquent était « non » (Arnulf 2017)</li>
+<li>Parler en dormant est en général plus discret que ronfler : un chuchotement fait environ 30 dB, une parole normale environ 60 dB, un ronflement fort 50 à 90 dB (échelle de bruit du CDC)</li>
+<li>Un mémo vocal de 8 heures au réglage par défaut pèse environ 200 à 250 Mo ; une app déclenchée par le son garde quelques dizaines de courts clips (mesures d’utilisateurs ; nos données)</li>
+<li>Parler en dormant est en soi sans gravité et ne demande aucun traitement ; crier fréquemment en s’agitant est un motif différent qui mérite une consultation (AASM Sleep Education)</div></li>
+</ul>
+<h2>Quelle application enregistre ce qu’on dit en dormant ?</h2>
+<p>N’importe quel enregistreur qui démarre un clip quand il entend un son et s’arrête quand la pièce redevient silencieuse captera vos paroles nocturnes. Les différences portent sur trois points : si l’app distingue les paroles du ronflement, si vous pouvez réécouter les clips gratuitement, et si l’audio quitte votre téléphone.</p>
+<div class="scroll-x"><div class="scroll-x"><table>
+<thead><tr><th>App</th><th>Ce qu’elle garde</th><th>Distingue les paroles ?</th><th>Plateforme</th></tr></thead>
+<tbody>
+<tr><td>Snorly</td><td>Uniquement des clips, étiquetés Ronflement, Parole ou Toux, sur une chronologie de la nuit</td><td>Oui</td><td>iPhone</td></tr>
+<tr><td>Sleep Talk Recorder</td><td>Clips déclenchés par le son, l’app d’origine de cette niche (note App Store 4,3, environ 2 700 notes, septembre 2026)</td><td>Non, chaque son est un clip</td><td>iPhone</td></tr>
+<tr><td>Dream Talk Recorder</td><td>Clips déclenchés par le son, même idée (4,7, environ 2 700 notes)</td><td>Non</td><td>iPhone</td></tr>
+<tr><td>Sleep Cycle</td><td>Suivi de sommeil avec une fonction Sleep Talk ; la réécoute est dans Premium</td><td>Oui</td><td>iPhone, Android</td></tr>
+<tr><td>SnoreLab</td><td>Échantillons de ronflement ; les paroles apparaissent quand elles sont assez fortes pour déclencher un échantillon</td><td>Non</td><td>iPhone, Android</td></tr>
+<tr><td>Dictaphone</td><td>Un seul fichier continu pour toute la nuit</td><td>Non</td><td>iPhone</td></tr>
+</tbody></table></div></div><p>Snorly est notre app, pesez donc cette ligne en conséquence. Elle n’enregistre que lorsqu’elle entend quelque chose, fait tourner la classification sur le téléphone et marque chaque clip comme ronflement, parole ou toux, si bien qu’une nuit avec les deux montre deux types de barres sur une même chronologie. Enregistrement, réécoute et historique sont gratuits, sans limite de nuits ; Premium n’ajoute que l’audio de la nuit entière, la comparaison des remèdes et le rapport PDF.</p>
+<h2>Comment s’enregistrer quand on parle en dormant ?</h2>
+<p>Installez le téléphone exactement comme pour <a href="/fr/blog/enregistrer-ses-ronflements/">enregistrer un ronflement</a> : table de nuit, écran vers le bas, à 0,5 à 1 m de votre tête, branché, Ne pas déranger activé. Puis faites deux changements, parce que les paroles sont plus discrètes et plus rares que le ronflement.</p>
+<ol>
+<li>Rapprochez le téléphone de votre côté du lit. Un ronflement à 60 dB traverse une pièce ; un marmonnement à 30 dB, non.</li>
+<li>Tournez tout ventilateur ou purificateur d’air à l’opposé du téléphone, ou éteignez-le. Un bruit continu relève le seuil dont une app déclenchée par le son a besoin pour démarrer un clip.</li>
+</ol>
+<p>Avec le Dictaphone, vous avez toute la nuit en un seul fichier et devez chercher quelques secondes de parole. Avec une app déclenchée par le son, vous avez les horodatages. Dans les deux cas, enregistrez trois nuits avant de décider que vous ne parlez pas : parler en dormant vient par phases, et une nuit silencieuse ne prouve rien.</p>
+<h2>Pourquoi est-ce que je parle en dormant ?</h2>
+<p>La parole peut s’échapper à n’importe quelle phase du sommeil. Les épisodes en sommeil profond sont plutôt des marmonnements et des mots isolés ; les épisodes en sommeil paradoxal, quand les rêves sont les plus vifs, sont plus souvent des phrases. Les amplificateurs connus sont le stress, le manque de sommeil, la fièvre, l’alcool le soir et des antécédents familiaux de somniloquie ou de somnambulisme. Cela vient aussi par périodes : des semaines de commentaires nocturnes, puis des mois de rien.</p>
+<p>Rien de tout cela n’est un trouble. La médecine du sommeil classe le fait de parler en dormant (la somniloquie) parmi les parasomnies qui ne demandent en général aucun traitement. Les enfants le font le plus ; les adultes le font moins avec l’âge mais s’arrêtent rarement tout à fait.</p>
+<h2>Que contiennent vraiment les enregistrements de paroles nocturnes ?</h2>
+<p>Surtout des marmonnements. Dans la plus grande étude enregistrée, des chercheurs ont analysé des centaines d’épisodes de parole chez 232 adultes en laboratoire du sommeil. Plus de la moitié étaient non verbaux : chuchotements, rires, marmonnements. Parmi les vrais mots, « non » était le plus fréquent, une grande partie du contenu était négatif ou conflictuel, et les jurons étaient courants. Les phrases qui apparaissaient étaient grammaticalement correctes et rythmées comme une parole normale, ce qui explique pourquoi elles semblent si convaincantes le matin.</p>
+<p>Ce qu’elles ne sont pas, c’est un témoignage. La parole du sommeil est vaguement liée au contenu des rêves et pas du tout aux intentions éveillées. Si un clip ressemble à une dispute, c’est le résultat le plus ordinaire de la base de données, pas un aveu.</p>
+<h2>Parler en dormant est-il dangereux ?</h2>
+<p>En soi, non. Deux motifs sur un enregistrement méritent qu’on agisse, et ni l’un ni l’autre n’est la parole.</p>
+<ul>
+<li>Crier, jurer ou hurler la plupart des nuits, avec des mouvements que vous entendez (coups de pied, coups dans la tête de lit), surtout après 50 ans. Cela peut être un trouble du comportement en sommeil paradoxal, où le corps joue les rêves, et c’est une raison de consulter un médecin du sommeil.</li>
+<li>Des paroles coincées entre un ronflement, un silence et un halètement bruyant. Ce motif concerne la respiration, pas la parole. Lisez <a href="/fr/blog/ronflement-ou-apnee-du-sommeil/">ronflement ou apnée du sommeil</a> pour voir à quoi il ressemble sur une chronologie.</li>
+</ul>
+<p>Si vous enregistrez un cri une fois par an après une semaine difficile, c’est une terreur nocturne ou un cauchemar et cela ne demande rien.</p>
+<h2>Et si l’enregistrement montre du ronflement à la place ?</h2>
+<p>C’est la surprise la plus fréquente. Les gens vont chercher le commentaire de 3 h du matin qu’un partenaire a mentionné et découvrent que la plupart des clips sont du ronflement. Prenez-le comme le résultat utile : parler est une bizarrerie, ronfler se mesure et se corrige souvent. Commencez par <a href="/fr/blog/a-quoi-ressemble-le-ronflement/">à quoi ressemble le ronflement en décibels</a> pour lire les niveaux sonores, puis <a href="/fr/blog/pourquoi-je-ronfle/">pourquoi je ronfle</a> pour trouver la cause.</p>
+<h2>Comment arrêter de parler en dormant ?</h2>
+<p>Il n’existe aucun traitement éprouvé de la somniloquie ordinaire, et la plupart des gens n’en ont pas besoin. Ce qui la réduit, c’est la même liste que pour toutes les parasomnies : dormir assez longtemps à horaires réguliers, supprimer l’alcool le soir, et faire redescendre le stress avant le lit plutôt qu’au lit. Si un partenaire y perd son sommeil, des bouchons d’oreilles avec un indice NRR de 30 ou plus et un bruit blanc viennent facilement à bout d’un marmonnement ; le <a href="/fr/blog/mon-conjoint-ronfle-que-faire/">guide du conjoint qui ronfle</a> couvre les deux.</p>
+<p>L’enregistrement aide ici aussi. Une semaine de clips montre si les paroles sont quotidiennes ou mensuelles, si elles suivent les nuits courtes ou les verres, et si elles viennent avec du ronflement. C’est généralement suffisant pour arrêter de s’en inquiéter.</p>
+<div class="tonight">
+<span class="label led">À faire ce soir</span><ol>
+<li>Posez le téléphone sur la table de nuit de votre côté du lit, écran vers le bas, branché, Ne pas déranger activé.</li>
+<li>Tournez le ventilateur à l’opposé du téléphone ou éteignez-le.</li>
+<li>Lancez un enregistreur déclenché par le son, ou le Dictaphone si c’est ce que vous avez.</li>
+<li>Le matin, écoutez les clips une fois et notez deux choses : combien étaient des paroles, combien du ronflement.</li>
+<li>Répétez pendant trois nuits avant de tirer une conclusion.</div></li>
+</ol>
+<div class="cta-card"><img src="/assets/img/app-icon-256.webp" width="64" height="64" alt="Snorly app icon" loading="lazy"><p><b>Écoutez vos propres ronflements dès ce soir</b>Snorly n’enregistre que lorsqu’il entend un ronflement et vous le fait réécouter le matin. Gratuit, sans compte, sans limite de nuits.</p><a class="btn btn-led" href="https://apps.apple.com/app/id6743162754?ct=application-parler-en-dormant" rel="noopener"><svg class="apple" viewBox="0 0 24 24" aria-hidden="true"><path d="M16.4 12.6c0-2.5 2-3.7 2.1-3.8-1.2-1.7-3-1.9-3.6-2-1.5-.2-3 .9-3.8.9s-2-.9-3.3-.8C6.1 6.9 4.5 7.9 3.6 9.5c-1.9 3.3-.5 8.1 1.4 10.8.9 1.3 2 2.8 3.4 2.7 1.4-.1 1.9-.9 3.5-.9s2.1.9 3.5.9c1.5 0 2.4-1.3 3.3-2.6 1-1.5 1.5-3 1.5-3.1-.1 0-2.8-1.1-2.8-4.7zM14 5.2c.7-.9 1.2-2.1 1.1-3.3-1 0-2.3.7-3 1.6-.7.8-1.3 2-1.1 3.2 1.1.1 2.3-.6 3-1.5z"/></svg>Télécharger sur l’App Store</a></div>
+<h2>Questions fréquentes</h2>
+<h3>Un iPhone peut-il enregistrer ce qu’on dit en dormant ?</h3>
+<p>Oui. Le Dictaphone enregistre toute la nuit en un seul fichier (environ 200 à 250 Mo pour 8 heures au réglage par défaut). Une app déclenchée par le son ne garde que les clips avec du son, bien plus faciles à passer en revue. Dans les deux cas, gardez le téléphone branché.</p>
+<h3>Snorly enregistre-t-il les paroles nocturnes ?</h3>
+<p>Oui. Snorly n’enregistre que lorsqu’il entend un son et étiquette chaque clip comme ronflement, parole ou toux, le tout traité sur le téléphone. Les clips de parole apparaissent sur la même chronologie que le ronflement, vous voyez donc s’ils se regroupent avant ou après une série de ronflements.</p>
+<h3>Pourquoi mes paroles nocturnes ont-elles l’air en colère ?</h3>
+<p>Parce que la plupart des paroles nocturnes enregistrées le sont. Dans la plus grande étude en laboratoire, « non » était le mot le plus fréquent et une large part des épisodes étaient négatifs ou conflictuels. Cela reflète la façon dont le cerveau endormi génère la parole, pas ce que vous pensez de la personne à côté de vous.</p>
+<h3>Parler en dormant veut-il dire que j’ai un trouble du sommeil ?</h3>
+<p>En soi, non. La somniloquie est classée parmi les parasomnies qui ne demandent en général aucun traitement. Crier chaque nuit en s’agitant, ou des paroles mêlées à des silences et des halètements, sont les deux motifs qui méritent d’être montrés à un médecin.</p>
+<h3>Comment savoir si je parle en dormant quand je vis seul ?</h3>
+<p>Enregistrez trois nuits avec une app déclenchée par le son. Une nuit silencieuse ne tranche pas, parce que parler en dormant vient par phases. Le même enregistrement vous dira aussi <a href="/fr/blog/comment-savoir-si-je-ronfle/">si vous ronflez</a>.</p>
+<h2>Sources</h2>
+<ul>
+<li>Bjorvatn B, Grønli J, Pallesen S (2010). Prevalence of different parasomnias in the general population. Sleep Medicine. <a href="https://doi.org/10.1016/j.sleep.2010.07.011">https://doi.org/10.1016/j.sleep.2010.07.011</a></li>
+<li>Arnulf I, Uguccioni G, Gay F, et al. (2017). What Does the Sleeping Brain Say? Syntax and Semantics of Sleep Talking in Healthy Subjects and in Parasomnia Patients. Sleep. <a href="https://doi.org/10.1093/sleep/zsx159">https://doi.org/10.1093/sleep/zsx159</a></li>
+<li>American Academy of Sleep Medicine, Sleep Education (consulté en 2026). Sleep Talking. <a href="https://sleepeducation.org/sleep-disorders/sleep-talking/">https://sleepeducation.org/sleep-disorders/sleep-talking/</a></li>
+<li>Sleep Foundation (2026). Sleep Talking: What Is Somniloquy? <a href="https://www.sleepfoundation.org/parasomnias/sleep-talking">https://www.sleepfoundation.org/parasomnias/sleep-talking</a></li>
+<li>CDC (consulté en 2026). What Noises Cause Hearing Loss? <a href="https://www.cdc.gov/nceh/hearing_loss/what_noises_cause_hearing_loss.html">https://www.cdc.gov/nceh/hearing_loss/what_noises_cause_hearing_loss.html</a></li>
+</ul>
+<p class="disclaimer">Snorly est un enregistreur et un suivi de ronflements, pas un dispositif médical. Il ne diagnostique ni l’apnée du sommeil ni aucune autre affection. Si vous remarquez des pauses respiratoires, des halètements ou une somnolence diurne, parlez-en à un médecin.</p></div>
+<aside class="related prose"><h2>À lire aussi</h2><ul class="card-list"><li><a class="card" href="/fr/blog/mouth-tape-contre-le-ronflement/"><b>Le mouth tape arrête-t-il le ronflement ? Test en 7 nuits</b><span>Le mouth tape a réduit le ronflement de moitié dans de petites études sur des respirateurs buccaux. Qui doit s’en passer, et comment le tester sur 7 nuits.</span><time datetime="2026-09-03">3 septembre 2026</time></a></li><li><a class="card" href="/fr/blog/bandelettes-nasales-ronflement/"><b>Bandelettes nasales anti-ronflement : efficaces ou pas ?</b><span>Les bandelettes nasales ont fait passer les ronflements de 258 à 173 par heure dans le seul essai contre placebo, mais seulement nez bouché. Test en 7 nuits.</span><time datetime="2026-09-03">3 septembre 2026</time></a></li><li><a class="card" href="/fr/blog/oreiller-anti-ronflement/"><b>Oreiller anti-ronflement : efficace ? Testé sur 7 nuits</b><span>Mousse à mémoire : ronflements en baisse de 47 % en laboratoire ; oreiller incliné : événements respiratoires de 17 à 5 par heure. Comment tester le vôtre.</span><time datetime="2026-09-03">3 septembre 2026</time></a></li></ul></aside>
+</article>
+</main>
+<footer class="site-footer"><div class="wrap">
+<div><a class="logo" href="/fr/"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <filter id="g" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="1.2"/></filter>
+  </defs>
+  <circle cx="32" cy="32" r="30" fill="#1c1c1f"/>
+  <g stroke-width="3.2" stroke-linecap="round" fill="none">
+    <g filter="url(#g)" opacity=".7">
+      <path d="M32 6 A26 26 0 0 1 58 32" stroke="#ff3a5e"/>
+      <path d="M58 32 A26 26 0 0 1 32 58" stroke="#ffb000"/>
+      <path d="M32 58 A26 26 0 0 1 6 32" stroke="#33e661"/>
+    </g>
+    <path d="M32 6 A26 26 0 0 1 58 32" stroke="#ff3a5e" stroke-dasharray="3 3.1"/>
+    <path d="M58 32 A26 26 0 0 1 32 58" stroke="#ffb000" stroke-dasharray="3 3.1"/>
+    <path d="M32 58 A26 26 0 0 1 6 32" stroke="#33e661" stroke-dasharray="3 3.1"/>
+    <path d="M6 32 A26 26 0 0 1 32 6" stroke="#2a3a2e" stroke-dasharray="3 3.1"/>
+  </g>
+  <circle cx="32" cy="32" r="7" fill="#ff3a3a"/>
+  <circle cx="32" cy="32" r="9" fill="#ff3a3a" opacity=".35" filter="url(#g)"/>
+</svg>
+<span>Snorly</span></a><p class="small" style="margin-top:.8rem;max-width:34ch">Enregistreur de ronflements pour iPhone. Snore Recorder App Pro: Snorly.</p>
+<p><a class="btn" href="https://apps.apple.com/app/id6743162754?ct=application-parler-en-dormant" rel="noopener"><svg class="apple" viewBox="0 0 24 24" aria-hidden="true"><path d="M16.4 12.6c0-2.5 2-3.7 2.1-3.8-1.2-1.7-3-1.9-3.6-2-1.5-.2-3 .9-3.8.9s-2-.9-3.3-.8C6.1 6.9 4.5 7.9 3.6 9.5c-1.9 3.3-.5 8.1 1.4 10.8.9 1.3 2 2.8 3.4 2.7 1.4-.1 1.9-.9 3.5-.9s2.1.9 3.5.9c1.5 0 2.4-1.3 3.3-2.6 1-1.5 1.5-3 1.5-3.1-.1 0-2.8-1.1-2.8-4.7zM14 5.2c.7-.9 1.2-2.1 1.1-3.3-1 0-2.3.7-3 1.6-.7.8-1.3 2-1.1 3.2 1.1.1 2.3-.6 3-1.5z"/></svg>App Store</a></p></div>
+<div><p class="foot-h">Comprendre</p><ul><li><a href="/fr/blog/mouth-tape-contre-le-ronflement/">Le mouth tape arrête-t-il le ronflement ? Test en 7 nuits</a></li><li><a href="/fr/blog/bandelettes-nasales-ronflement/">Bandelettes nasales anti-ronflement : efficaces ou pas ?</a></li><li><a href="/fr/blog/oreiller-anti-ronflement/">Oreiller anti-ronflement : efficace ? Testé sur 7 nuits</a></li><li><a href="/fr/blog/a-quoi-ressemble-le-ronflement/">À quoi ressemble le ronflement ? Décibels et types</a></li><li><a href="/fr/blog/application-parler-en-dormant/">Parler en dormant : l’app qui enregistre ce que vous dites</a></li><li><a href="/fr/blog/">Blog</a></li></ul></div>
+<div><p class="foot-h">Produit</p><ul><li><a href="/fr/snore-score/">Score de ronflement</a></li><li><a href="/fr/vs/snorelab/">vs SnoreLab</a></li><li><a href="/fr/free-snoring-app/">Gratuit</a></li><li><a href="/fr/snore-detection-app/">Détection du ronflement</a></li><li><a href="/fr/snoring-statistics/">Statistiques</a></li><li><a href="/fr/support/">Assistance</a></li><li><a href="/fr/author/mikhail-manev/">À propos de l’auteur</a></li><li><a href="/privacy/">Confidentialité</a></li><li><a href="/terms/">Conditions</a></li></ul></div>
+<div class="legal"><p>Snorly est un enregistreur et un suivi de ronflements, pas un dispositif médical. Il ne diagnostique ni l’apnée du sommeil ni aucune autre affection. Si vous remarquez des pauses respiratoires, des halètements ou une somnolence diurne, parlez-en à un médecin.</p><p>© 2026 Snorly · Snore Recorder App Pro · <a href="mailto:hello@builtfor.app">hello@builtfor.app</a></p></div>
+</div></footer>
+</body>
+</html>

@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Puntuación de ronquido: qué es, Snorly, SnoreLab y dB · Snorly</title>
+<meta name="description" content="Una puntuación de ronquido resume una noche de audio en un número. Cómo calcula Snorly la suya de 0 a 100, en qué cambia SnoreLab y qué es fuerte en decibelios.">
+<link rel="canonical" href="https://snorly.app/es/snore-score/">
+<link rel="alternate" hreflang="en" href="https://snorly.app/snore-score/">
+<link rel="alternate" hreflang="de" href="https://snorly.app/de/snore-score/">
+<link rel="alternate" hreflang="fr" href="https://snorly.app/fr/snore-score/">
+<link rel="alternate" hreflang="es" href="https://snorly.app/es/snore-score/">
+<link rel="alternate" hreflang="it" href="https://snorly.app/it/snore-score/">
+<link rel="alternate" hreflang="pt-BR" href="https://snorly.app/pt-br/snore-score/">
+<link rel="alternate" hreflang="ja" href="https://snorly.app/ja/snore-score/">
+<link rel="alternate" hreflang="nl" href="https://snorly.app/nl/snore-score/">
+<link rel="alternate" hreflang="pl" href="https://snorly.app/pl/snore-score/">
+<link rel="alternate" hreflang="th" href="https://snorly.app/th/snore-score/">
+<link rel="alternate" hreflang="ar" href="https://snorly.app/ar/snore-score/">
+<link rel="alternate" hreflang="id" href="https://snorly.app/id/snore-score/">
+<link rel="alternate" hreflang="vi" href="https://snorly.app/vi/snore-score/">
+<link rel="alternate" hreflang="tr" href="https://snorly.app/tr/snore-score/">
+<link rel="alternate" hreflang="zh-Hans" href="https://snorly.app/zh-hans/snore-score/">
+<link rel="alternate" hreflang="ko" href="https://snorly.app/ko/snore-score/">
+<link rel="alternate" hreflang="zh-Hant" href="https://snorly.app/zh-hant/snore-score/">
+<link rel="alternate" hreflang="ru" href="https://snorly.app/ru/snore-score/">
+<link rel="alternate" hreflang="x-default" href="https://snorly.app/snore-score/">
+<meta name="apple-itunes-app" content="app-id=6743162754, app-argument=https://snorly.app/es/snore-score/">
+<meta name="theme-color" content="#1a1a1c">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Snorly">
+<meta property="og:locale" content="es_ES">
+<meta property="og:title" content="Puntuación de ronquido: qué es, Snorly, SnoreLab y dB">
+<meta property="og:description" content="Una puntuación de ronquido resume una noche de audio en un número. Cómo calcula Snorly la suya de 0 a 100, en qué cambia SnoreLab y qué es fuerte en decibelios.">
+<meta property="og:url" content="https://snorly.app/es/snore-score/">
+<meta property="og:image" content="https://snorly.app/assets/img/covers/snore-score.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/assets/img/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/assets/img/favicon-192.png" sizes="192x192" type="image/png">
+<link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+<link rel="alternate" type="application/rss+xml" title="Snorly" href="/feed-es.xml">
+
+<style>@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:400;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-400-cyrillic.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:400;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-400-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:500;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-500-cyrillic.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:500;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-500-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:600;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-600-cyrillic.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:600;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-600-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:400 700;font-display:swap;src:url(/assets/fonts/ibm-plex-sans-var-cyrillic.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:400 700;font-display:swap;src:url(/assets/fonts/ibm-plex-sans-var-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}</style>
+<link rel="stylesheet" href="/assets/css/site.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://snorly.app/#organization","name":"Snorly","url":"https://snorly.app/","logo":{"@type":"ImageObject","url":"https://snorly.app/assets/img/icon-512.png","width":512,"height":512},"sameAs":["https://apps.apple.com/app/id6743162754"],"email":"hello@builtfor.app"},{"@type":"WebSite","@id":"https://snorly.app/#website","name":"Snorly","url":"https://snorly.app/","inLanguage":"es","publisher":{"@id":"https://snorly.app/#organization"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Snorly","item":"https://snorly.app/es/"},{"@type":"ListItem","position":2,"name":"Puntuación de ronquido: qué es, Snorly, SnoreLab y dB","item":"https://snorly.app/es/snore-score/"}]},{"@type":"WebPage","@id":"https://snorly.app/es/snore-score/#webpage","url":"https://snorly.app/es/snore-score/","name":"Puntuación de ronquido: qué es, Snorly, SnoreLab y dB","description":"Una puntuación de ronquido resume una noche de audio en un número. Cómo calcula Snorly la suya de 0 a 100, en qué cambia SnoreLab y qué es fuerte en decibelios.","inLanguage":"es","isPartOf":{"@id":"https://snorly.app/#website"},"dateModified":"2026-09-02","author":{"@type":"Person","@id":"https://snorly.app/#author","name":"Mikhail Manev","url":"https://snorly.app/es/author/mikhail-manev/","jobTitle":"Desarrollador de Snorly","worksFor":{"@id":"https://snorly.app/#organization"}},"publisher":{"@id":"https://snorly.app/#organization"}}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">Ir al contenido</a>
+<header class="site-header"><div class="wrap">
+<a class="logo" href="/es/" aria-label="Snorly"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <filter id="g" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="1.2"/></filter>
+  </defs>
+  <circle cx="32" cy="32" r="30" fill="#1c1c1f"/>
+  <g stroke-width="3.2" stroke-linecap="round" fill="none">
+    <g filter="url(#g)" opacity=".7">
+      <path d="M32 6 A26 26 0 0 1 58 32" stroke="#ff3a5e"/>
+      <path d="M58 32 A26 26 0 0 1 32 58" stroke="#ffb000"/>
+      <path d="M32 58 A26 26 0 0 1 6 32" stroke="#33e661"/>
+    </g>
+    <path d="M32 6 A26 26 0 0 1 58 32" stroke="#ff3a5e" stroke-dasharray="3 3.1"/>
+    <path d="M58 32 A26 26 0 0 1 32 58" stroke="#ffb000" stroke-dasharray="3 3.1"/>
+    <path d="M32 58 A26 26 0 0 1 6 32" stroke="#33e661" stroke-dasharray="3 3.1"/>
+    <path d="M6 32 A26 26 0 0 1 32 6" stroke="#2a3a2e" stroke-dasharray="3 3.1"/>
+  </g>
+  <circle cx="32" cy="32" r="7" fill="#ff3a3a"/>
+  <circle cx="32" cy="32" r="9" fill="#ff3a3a" opacity=".35" filter="url(#g)"/>
+</svg>
+<span>Snorly</span></a>
+<nav class="nav" aria-label="Main">
+<a href="/es/blog/">Blog</a>
+<a class="hide-m" href="/es/snore-score/" aria-current="page">Puntuación de ronquido</a>
+<a class="hide-m" href="/es/vs/snorelab/">vs SnoreLab</a>
+<details class="lang"><summary aria-label="Idioma: Español">ES</summary><ul><li><a href="/snore-score/" hreflang="en" lang="en">English</a></li><li><a href="/de/snore-score/" hreflang="de" lang="de">Deutsch</a></li><li><a href="/fr/snore-score/" hreflang="fr" lang="fr">Français</a></li><li><a href="/es/snore-score/" hreflang="es" lang="es" aria-current="true">Español</a></li><li><a href="/it/snore-score/" hreflang="it" lang="it">Italiano</a></li><li><a href="/pt-br/snore-score/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a></li><li><a href="/ja/snore-score/" hreflang="ja" lang="ja">日本語</a></li><li><a href="/nl/snore-score/" hreflang="nl" lang="nl">Nederlands</a></li><li><a href="/pl/snore-score/" hreflang="pl" lang="pl">Polski</a></li><li><a href="/th/snore-score/" hreflang="th" lang="th">ไทย</a></li><li><a href="/ar/snore-score/" hreflang="ar" lang="ar">العربية</a></li><li><a href="/id/snore-score/" hreflang="id" lang="id">Bahasa Indonesia</a></li><li><a href="/vi/snore-score/" hreflang="vi" lang="vi">Tiếng Việt</a></li><li><a href="/tr/snore-score/" hreflang="tr" lang="tr">Türkçe</a></li><li><a href="/zh-hans/snore-score/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li><li><a href="/ko/snore-score/" hreflang="ko" lang="ko">한국어</a></li><li><a href="/zh-hant/snore-score/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li><li><a href="/ru/snore-score/" hreflang="ru" lang="ru">Русский</a></li></ul></details>
+<a class="btn btn-led" href="https://apps.apple.com/app/id6743162754?ct=snore-score" rel="noopener">Descargar</a>
+</nav></div></header>
+<main id="main">
+<article>
+<header class="article-head prose"><h1>Puntuación de ronquido: qué es, Snorly, SnoreLab y dB</h1></header>
+<div class="prose"><img width="1200" height="675" class="cover" src="/assets/img/covers/snore-score.webp" alt="Un anillo de puntuación neumórfico gris carbón con segmentos LED que van del verde al rojo pasando por el ámbar" fetchpriority="high"><p class="lead">Una puntuación de ronquido es un número que resume cuánto roncaste en una noche y con qué volumen. Snorly puntúa la noche de 0 a 100, donde 100 significa que no se detectó ningún ronquido y cualquier valor por debajo de 50 significa que el ronquido ocupó buena parte de la noche con un volumen moderado o severo. Otras apps usan otras escalas, así que un &quot;25&quot; en SnoreLab y un &quot;25&quot; en Snorly son noches muy distintas.</p>
+<div class="facts">
+<span class="label led">Datos clave</span><ul>
+<li>Snorly: 0–100, más alto es mejor. 90–100 Excelente, 70–89 Bueno, 50–69 Medio, 30–49 Malo, por debajo de 30 Muy malo (las noches de menos de 4 horas se marcan como &quot;Demasiado corta&quot;).</li>
+<li>SnoreLab: sin tope, más bajo es mejor. Su propia guía sitúa al usuario mediano en torno a 25, llama &quot;malo&quot; a 50 o más y considera 100 o más un motivo para &quot;buscar soluciones&quot; (SnoreLab Insights).</li>
+<li>Bandas de volumen de los clips de Snorly: Silencioso, Ligero, Moderado, Severo, asignadas según el nivel medido de cada clip.</li>
+<li>El ronquido fuerte suele situarse en torno a 50–60 dB; los casos extremos superan los 80 dB (Sleep Foundation; Guinness registra un récord de 111,6 dB).</div></li>
+</ul>
+<h2>¿Cómo calcula Snorly la puntuación?</h2>
+<p>Snorly parte de 100 y resta una &quot;carga de ronquido&quot;: la fracción de la noche que pasaste roncando, ponderada por el volumen (los episodios ligeros cuentan 0,4, los moderados 0,7 y los severos 1,0). La carga satura al 60% de la noche, así que una noche con más del 60% de ronquido fuerte puntúa cerca de cero. Después resta una pequeña penalización por fragmentación, 2 puntos por episodio de ronquido por hora, con un máximo de 10 puntos, porque muchos episodios cortos alteran más el sueño que uno largo con el mismo volumen.</p>
+<p>Ejemplos con la fórmula:</p>
+<div class="scroll-x"><table>
+<thead>
+<tr>
+<th>Noche</th>
+<th>Ronquido</th>
+<th>Volumen</th>
+<th>Episodios</th>
+<th>Puntuación</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>A</td>
+<td>20 min de 8 h</td>
+<td>casi todo ligero</td>
+<td>3</td>
+<td>unos 90</td>
+</tr>
+<tr>
+<td>B</td>
+<td>2 h 15 min de 8 h</td>
+<td>mixto, algo severo</td>
+<td>12</td>
+<td>unos 55</td>
+</tr>
+<tr>
+<td>C</td>
+<td>ninguno detectado</td>
+<td>–</td>
+<td>0</td>
+<td>100</td>
+</tr>
+</tbody></table></div>
+<p>La puntuación es un resumen, no un diagnóstico. Dos noches con la misma puntuación pueden sonar distinto; la línea de tiempo y los clips son el siguiente sitio donde mirar.</p>
+<h2>¿Qué es una buena puntuación de ronquido?</h2>
+<p>En Snorly, 70 o más es una buena noche y 90 o más es una noche casi sin ronquidos. Una puntuación que oscila 20 puntos entre noches suele tener una causa visible en las etiquetas de factores: alcohol, una cena tardía, un resfriado, dormir boca arriba. Ese es el sentido de la puntuación: no ponerte nota, sino hacer que el cambio se pueda medir. Compara una semana de noches con un remedio frente a una semana sin él y mira el promedio, no una sola noche.</p>
+<h2>¿En qué se diferencia el Snore Score de SnoreLab?</h2>
+<p>La puntuación de SnoreLab va al revés: crece con la cantidad y el volumen de los ronquidos y no tiene límite superior. Su guía publicada dice que la mayoría de los usuarios ronda el 25, que 50 o más es malo y que 100 o más significa que toca probar remedios, con un objetivo de 10 o menos. No se puede convertir una puntuación en la otra. Si cambias de app, compara una semana de noches dentro de una misma app en vez de una puntuación suelta entre dos. Mira nuestra comparación <a href="/es/vs/snorelab/">Snorly vs SnoreLab</a> con la lista completa de funciones.</p>
+<h2>¿Cuántos decibelios tiene un ronquido?</h2>
+<p>La respiración normal durante el sueño ronda los 10 dB. El ronquido ligero se sitúa cerca de los 40 dB, más o menos el nivel de una oficina tranquila. El ronquido moderado está entre 50 y 60 dB, comparable a una conversación o a una ducha abierta. El ronquido severo supera los 60 dB y puede llegar a 80–90 dB en casos extremos, parecido a una aspiradora o al tráfico denso. Las grabaciones en el dormitorio miden menos que en un laboratorio porque el micrófono está a un metro; por eso las apps etiquetan los clips en relación con su propia escala en vez de citar un número absoluto. Lee <a href="/es/blog/como-suena-el-ronquido/">cómo suena el ronquido</a> para una tabla completa con audio.</p>
+<h2>¿Un ronquido de 40 dB es fuerte?</h2>
+<p>No. Alrededor de 40 dB es un ronquido ligero, más bajo que una conversación normal, y la mayoría de las parejas duermen sin enterarse. Las parejas suelen empezar a quejarse en el rango de 50–60 dB, donde el ronquido compite con el habla. Un solo pico fuerte importa menos que cuánto duran los tramos fuertes, y por eso Snorly pondera la puntuación por las dos cosas.</p>
+<h2>Lo que la puntuación no puede decirte</h2>
+<p>Una puntuación de ronquido no mide el oxígeno, el esfuerzo respiratorio ni las fases del sueño. Las pausas silenciosas en la respiración no producen sonido y, por tanto, no cambian la puntuación. Si tus grabaciones muestran un ronquido que se detiene, un hueco en silencio y luego un resoplido o un jadeo fuerte, ese patrón vale la pena enseñárselo a un médico sea cual sea el número. Snorly marca esos patrones de respiración aparte de la puntuación y puede exportar un informe PDF que puedes llevar a la consulta.</p>
+<div class="cta-card"><img src="/assets/img/app-icon-256.webp" width="64" height="64" alt="Snorly app icon" loading="lazy"><p><b>Escucha tus propios ronquidos esta noche</b>Snorly solo graba cuando oye ronquidos y te los reproduce por la mañana. Gratis, sin cuenta y sin límite de noches.</p><a class="btn btn-led" href="https://apps.apple.com/app/id6743162754?ct=snore-score" rel="noopener"><svg class="apple" viewBox="0 0 24 24" aria-hidden="true"><path d="M16.4 12.6c0-2.5 2-3.7 2.1-3.8-1.2-1.7-3-1.9-3.6-2-1.5-.2-3 .9-3.8.9s-2-.9-3.3-.8C6.1 6.9 4.5 7.9 3.6 9.5c-1.9 3.3-.5 8.1 1.4 10.8.9 1.3 2 2.8 3.4 2.7 1.4-.1 1.9-.9 3.5-.9s2.1.9 3.5.9c1.5 0 2.4-1.3 3.3-2.6 1-1.5 1.5-3 1.5-3.1-.1 0-2.8-1.1-2.8-4.7zM14 5.2c.7-.9 1.2-2.1 1.1-3.3-1 0-2.3.7-3 1.6-.7.8-1.3 2-1.1 3.2 1.1.1 2.3-.6 3-1.5z"/></svg>Descargar en el App Store</a></div>
+<h2>Preguntas relacionadas</h2>
+<h3>¿Por qué baja mi puntuación después de beber?</h3>
+<p>El alcohol relaja los músculos de la garganta, así que la vía aérea se estrecha y vibra más. En la comparación de factores de Snorly, las noches con &quot;Alcohol&quot; suelen mostrar más episodios moderados y severos y una puntuación media más baja que las noches sin beber.</p>
+<h3>¿La puntuación incluye hablar dormido o la tos?</h3>
+<p>No. Los clips de habla dormida y de tos se graban y se etiquetan, pero solo los episodios de ronquido alimentan la puntuación.</p>
+<h3>¿Puedo tener una puntuación sin Premium?</h3>
+<p>Sí. La puntuación, la línea de tiempo, la reproducción de clips y tu historial son gratis todas las noches y sin límite. Premium es solo para el audio de la noche completa, la comparación de remedios y factores y el informe para el médico.</p>
+<h3>¿Qué es un gráfico de la puntuación de ronquido?</h3>
+<p>Un gráfico de tus puntuaciones nocturnas a lo largo de semanas. En Snorly está en la pestaña Investigación, junto a las comparaciones de factores y remedios, para que veas si un cambio movió la línea.</p>
+<p class="disclaimer">Snorly es un grabador y registro de ronquidos, no un dispositivo médico. No diagnostica apnea del sueño ni ninguna otra afección. Si notas pausas en la respiración, jadeos o somnolencia diurna, consulta a un médico.</p></div>
+</article>
+</main>
+<footer class="site-footer"><div class="wrap">
+<div><a class="logo" href="/es/"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <filter id="g" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="1.2"/></filter>
+  </defs>
+  <circle cx="32" cy="32" r="30" fill="#1c1c1f"/>
+  <g stroke-width="3.2" stroke-linecap="round" fill="none">
+    <g filter="url(#g)" opacity=".7">
+      <path d="M32 6 A26 26 0 0 1 58 32" stroke="#ff3a5e"/>
+      <path d="M58 32 A26 26 0 0 1 32 58" stroke="#ffb000"/>
+      <path d="M32 58 A26 26 0 0 1 6 32" stroke="#33e661"/>
+    </g>
+    <path d="M32 6 A26 26 0 0 1 58 32" stroke="#ff3a5e" stroke-dasharray="3 3.1"/>
+    <path d="M58 32 A26 26 0 0 1 32 58" stroke="#ffb000" stroke-dasharray="3 3.1"/>
+    <path d="M32 58 A26 26 0 0 1 6 32" stroke="#33e661" stroke-dasharray="3 3.1"/>
+    <path d="M6 32 A26 26 0 0 1 32 6" stroke="#2a3a2e" stroke-dasharray="3 3.1"/>
+  </g>
+  <circle cx="32" cy="32" r="7" fill="#ff3a3a"/>
+  <circle cx="32" cy="32" r="9" fill="#ff3a3a" opacity=".35" filter="url(#g)"/>
+</svg>
+<span>Snorly</span></a><p class="small" style="margin-top:.8rem;max-width:34ch">Grabador de ronquidos para iPhone. Snore Recorder App Pro: Snorly.</p>
+<p><a class="btn" href="https://apps.apple.com/app/id6743162754?ct=snore-score" rel="noopener"><svg class="apple" viewBox="0 0 24 24" aria-hidden="true"><path d="M16.4 12.6c0-2.5 2-3.7 2.1-3.8-1.2-1.7-3-1.9-3.6-2-1.5-.2-3 .9-3.8.9s-2-.9-3.3-.8C6.1 6.9 4.5 7.9 3.6 9.5c-1.9 3.3-.5 8.1 1.4 10.8.9 1.3 2 2.8 3.4 2.7 1.4-.1 1.9-.9 3.5-.9s2.1.9 3.5.9c1.5 0 2.4-1.3 3.3-2.6 1-1.5 1.5-3 1.5-3.1-.1 0-2.8-1.1-2.8-4.7zM14 5.2c.7-.9 1.2-2.1 1.1-3.3-1 0-2.3.7-3 1.6-.7.8-1.3 2-1.1 3.2 1.1.1 2.3-.6 3-1.5z"/></svg>App Store</a></p></div>
+<div><p class="foot-h">Aprender</p><ul><li><a href="/es/blog/almohada-antirronquidos/">¿Funcionan las almohadas antirronquidos? Probadas grabando</a></li><li><a href="/es/blog/cinta-para-la-boca-ronquidos/">Cinta en la boca para no roncar: ¿funciona? Cómo probarla</a></li><li><a href="/es/blog/tiras-nasales-para-ronquidos/">Tiras nasales para roncar: ¿funcionan? Qué dicen los datos</a></li><li><a href="/es/blog/app-hablar-dormido/">App para grabar lo que hablas dormido y qué significa</a></li><li><a href="/es/blog/como-dejar-de-roncar/">Cómo dejar de roncar: 9 remedios según la evidencia</a></li><li><a href="/es/blog/">Blog</a></li></ul></div>
+<div><p class="foot-h">Producto</p><ul><li><a href="/es/snore-score/">Puntuación de ronquido</a></li><li><a href="/es/vs/snorelab/">vs SnoreLab</a></li><li><a href="/es/free-snoring-app/">Gratis</a></li><li><a href="/es/snore-detection-app/">Detección de ronquidos</a></li><li><a href="/es/snoring-statistics/">Estadísticas</a></li><li><a href="/es/support/">Soporte</a></li><li><a href="/es/author/mikhail-manev/">Sobre el autor</a></li><li><a href="/privacy/">Privacidad</a></li><li><a href="/terms/">Términos</a></li></ul></div>
+<div class="legal"><p>Snorly es un grabador y registro de ronquidos, no un dispositivo médico. No diagnostica apnea del sueño ni ninguna otra afección. Si notas pausas en la respiración, jadeos o somnolencia diurna, consulta a un médico.</p><p>© 2026 Snorly · Snore Recorder App Pro · <a href="mailto:hello@builtfor.app">hello@builtfor.app</a></p></div>
+</div></footer>
+</body>
+</html>

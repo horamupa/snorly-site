@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Apa itu skor dengkuran? Snorly, SnoreLab, dan dB · Snorly</title>
+<meta name="description" content="Skor dengkuran merangkum satu malam audio jadi satu angka. Cara Snorly menghitung skor 0–100, bedanya dengan skala SnoreLab, dan arti keras dalam desibel.">
+<link rel="canonical" href="https://snorly.app/id/snore-score/">
+<link rel="alternate" hreflang="en" href="https://snorly.app/snore-score/">
+<link rel="alternate" hreflang="de" href="https://snorly.app/de/snore-score/">
+<link rel="alternate" hreflang="fr" href="https://snorly.app/fr/snore-score/">
+<link rel="alternate" hreflang="es" href="https://snorly.app/es/snore-score/">
+<link rel="alternate" hreflang="it" href="https://snorly.app/it/snore-score/">
+<link rel="alternate" hreflang="pt-BR" href="https://snorly.app/pt-br/snore-score/">
+<link rel="alternate" hreflang="ja" href="https://snorly.app/ja/snore-score/">
+<link rel="alternate" hreflang="nl" href="https://snorly.app/nl/snore-score/">
+<link rel="alternate" hreflang="pl" href="https://snorly.app/pl/snore-score/">
+<link rel="alternate" hreflang="th" href="https://snorly.app/th/snore-score/">
+<link rel="alternate" hreflang="ar" href="https://snorly.app/ar/snore-score/">
+<link rel="alternate" hreflang="id" href="https://snorly.app/id/snore-score/">
+<link rel="alternate" hreflang="vi" href="https://snorly.app/vi/snore-score/">
+<link rel="alternate" hreflang="tr" href="https://snorly.app/tr/snore-score/">
+<link rel="alternate" hreflang="zh-Hans" href="https://snorly.app/zh-hans/snore-score/">
+<link rel="alternate" hreflang="ko" href="https://snorly.app/ko/snore-score/">
+<link rel="alternate" hreflang="zh-Hant" href="https://snorly.app/zh-hant/snore-score/">
+<link rel="alternate" hreflang="ru" href="https://snorly.app/ru/snore-score/">
+<link rel="alternate" hreflang="x-default" href="https://snorly.app/snore-score/">
+<meta name="apple-itunes-app" content="app-id=6743162754, app-argument=https://snorly.app/id/snore-score/">
+<meta name="theme-color" content="#1a1a1c">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Snorly">
+<meta property="og:locale" content="id_ID">
+<meta property="og:title" content="Apa itu skor dengkuran? Snorly, SnoreLab, dan dB">
+<meta property="og:description" content="Skor dengkuran merangkum satu malam audio jadi satu angka. Cara Snorly menghitung skor 0–100, bedanya dengan skala SnoreLab, dan arti keras dalam desibel.">
+<meta property="og:url" content="https://snorly.app/id/snore-score/">
+<meta property="og:image" content="https://snorly.app/assets/img/covers/snore-score.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/assets/img/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/assets/img/favicon-192.png" sizes="192x192" type="image/png">
+<link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+<link rel="alternate" type="application/rss+xml" title="Snorly" href="/feed-id.xml">
+
+<style>@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:400;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-400-cyrillic.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:400;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-400-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:500;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-500-cyrillic.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:500;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-500-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:600;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-600-cyrillic.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:600;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-600-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:400 700;font-display:swap;src:url(/assets/fonts/ibm-plex-sans-var-cyrillic.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:400 700;font-display:swap;src:url(/assets/fonts/ibm-plex-sans-var-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}</style>
+<link rel="stylesheet" href="/assets/css/site.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://snorly.app/#organization","name":"Snorly","url":"https://snorly.app/","logo":{"@type":"ImageObject","url":"https://snorly.app/assets/img/icon-512.png","width":512,"height":512},"sameAs":["https://apps.apple.com/app/id6743162754"],"email":"hello@builtfor.app"},{"@type":"WebSite","@id":"https://snorly.app/#website","name":"Snorly","url":"https://snorly.app/","inLanguage":"id","publisher":{"@id":"https://snorly.app/#organization"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Snorly","item":"https://snorly.app/id/"},{"@type":"ListItem","position":2,"name":"Apa itu skor dengkuran? Snorly, SnoreLab, dan dB","item":"https://snorly.app/id/snore-score/"}]},{"@type":"WebPage","@id":"https://snorly.app/id/snore-score/#webpage","url":"https://snorly.app/id/snore-score/","name":"Apa itu skor dengkuran? Snorly, SnoreLab, dan dB","description":"Skor dengkuran merangkum satu malam audio jadi satu angka. Cara Snorly menghitung skor 0–100, bedanya dengan skala SnoreLab, dan arti keras dalam desibel.","inLanguage":"id","isPartOf":{"@id":"https://snorly.app/#website"},"dateModified":"2026-09-02","author":{"@type":"Person","@id":"https://snorly.app/#author","name":"Mikhail Manev","url":"https://snorly.app/id/author/mikhail-manev/","jobTitle":"Pengembang Snorly","worksFor":{"@id":"https://snorly.app/#organization"}},"publisher":{"@id":"https://snorly.app/#organization"}}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">Lompat ke konten</a>
+<header class="site-header"><div class="wrap">
+<a class="logo" href="/id/" aria-label="Snorly"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <filter id="g" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="1.2"/></filter>
+  </defs>
+  <circle cx="32" cy="32" r="30" fill="#1c1c1f"/>
+  <g stroke-width="3.2" stroke-linecap="round" fill="none">
+    <g filter="url(#g)" opacity=".7">
+      <path d="M32 6 A26 26 0 0 1 58 32" stroke="#ff3a5e"/>
+      <path d="M58 32 A26 26 0 0 1 32 58" stroke="#ffb000"/>
+      <path d="M32 58 A26 26 0 0 1 6 32" stroke="#33e661"/>
+    </g>
+    <path d="M32 6 A26 26 0 0 1 58 32" stroke="#ff3a5e" stroke-dasharray="3 3.1"/>
+    <path d="M58 32 A26 26 0 0 1 32 58" stroke="#ffb000" stroke-dasharray="3 3.1"/>
+    <path d="M32 58 A26 26 0 0 1 6 32" stroke="#33e661" stroke-dasharray="3 3.1"/>
+    <path d="M6 32 A26 26 0 0 1 32 6" stroke="#2a3a2e" stroke-dasharray="3 3.1"/>
+  </g>
+  <circle cx="32" cy="32" r="7" fill="#ff3a3a"/>
+  <circle cx="32" cy="32" r="9" fill="#ff3a3a" opacity=".35" filter="url(#g)"/>
+</svg>
+<span>Snorly</span></a>
+<nav class="nav" aria-label="Main">
+<a href="/id/blog/">Blog</a>
+<a class="hide-m" href="/id/snore-score/" aria-current="page">Skor dengkuran</a>
+<a class="hide-m" href="/id/vs/snorelab/">vs SnoreLab</a>
+<details class="lang"><summary aria-label="Bahasa: Bahasa Indonesia">ID</summary><ul><li><a href="/snore-score/" hreflang="en" lang="en">English</a></li><li><a href="/de/snore-score/" hreflang="de" lang="de">Deutsch</a></li><li><a href="/fr/snore-score/" hreflang="fr" lang="fr">Français</a></li><li><a href="/es/snore-score/" hreflang="es" lang="es">Español</a></li><li><a href="/it/snore-score/" hreflang="it" lang="it">Italiano</a></li><li><a href="/pt-br/snore-score/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a></li><li><a href="/ja/snore-score/" hreflang="ja" lang="ja">日本語</a></li><li><a href="/nl/snore-score/" hreflang="nl" lang="nl">Nederlands</a></li><li><a href="/pl/snore-score/" hreflang="pl" lang="pl">Polski</a></li><li><a href="/th/snore-score/" hreflang="th" lang="th">ไทย</a></li><li><a href="/ar/snore-score/" hreflang="ar" lang="ar">العربية</a></li><li><a href="/id/snore-score/" hreflang="id" lang="id" aria-current="true">Bahasa Indonesia</a></li><li><a href="/vi/snore-score/" hreflang="vi" lang="vi">Tiếng Việt</a></li><li><a href="/tr/snore-score/" hreflang="tr" lang="tr">Türkçe</a></li><li><a href="/zh-hans/snore-score/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li><li><a href="/ko/snore-score/" hreflang="ko" lang="ko">한국어</a></li><li><a href="/zh-hant/snore-score/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li><li><a href="/ru/snore-score/" hreflang="ru" lang="ru">Русский</a></li></ul></details>
+<a class="btn btn-led" href="https://apps.apple.com/app/id6743162754?ct=snore-score" rel="noopener">Unduh aplikasi</a>
+</nav></div></header>
+<main id="main">
+<article>
+<header class="article-head prose"><h1>Apa itu skor dengkuran? Snorly, SnoreLab, dan dB</h1></header>
+<div class="prose"><img width="1200" height="675" class="cover" src="/assets/img/covers/snore-score.webp" alt="Cincin skor neomorfik berwarna arang dengan segmen LED dari hijau, kuning tua, sampai merah" fetchpriority="high"><p class="lead">Skor dengkuran adalah satu angka yang merangkum seberapa banyak kamu mendengkur dalam semalam dan sekeras apa dengkurannya. Snorly menilai satu malam dari 0 sampai 100, di mana 100 berarti tidak ada dengkuran yang terdeteksi, dan apa pun di bawah 50 berarti dengkuran mengisi sebagian besar malam pada tingkat sedang atau berat. Aplikasi lain memakai skala lain, jadi angka &quot;25&quot; di SnoreLab dan &quot;25&quot; di Snorly menggambarkan malam yang sangat berbeda.</p>
+<div class="facts">
+<span class="label led">Poin penting</span><ul>
+<li>Snorly: 0–100, makin tinggi makin baik. 90–100 Sangat baik, 70–89 Baik, 50–69 Rata-rata, 30–49 Buruk, di bawah 30 Sangat buruk (malam yang kurang dari 4 jam ditandai &quot;Terlalu singkat&quot;).</li>
+<li>SnoreLab: tanpa batas atas, makin rendah makin baik. Panduan mereka sendiri menaruh pengguna median di sekitar 25, menyebut 50 ke atas &quot;buruk&quot;, dan 100 ke atas sebagai alasan untuk &quot;mencari solusi&quot; (SnoreLab Insights).</li>
+<li>Rentang kerasnya klip di Snorly: Pelan, Ringan, Sedang, Berat, ditentukan dari level yang terukur pada tiap klip.</li>
+<li>Dengkuran keras umumnya dilaporkan sekitar 50–60 dB, dan kasus ekstrem melewati 80 dB (Sleep Foundation; Guinness mencatat rekor 111,6 dB).</div></li>
+</ul>
+<h2>Bagaimana Snorly menghitung skornya?</h2>
+<p>Snorly mulai dari 100 lalu mengurangi &quot;beban dengkuran&quot;: porsi malam yang dihabiskan dengan mendengkur, dibobot menurut kerasnya (episode ringan dihitung 0,4, sedang 0,7, berat 1,0). Bebannya jenuh di 60% malam, jadi malam yang lebih dari 60% berisi dengkuran keras akan mendapat skor mendekati nol. Setelah itu ada pengurangan kecil sebagai penalti fragmentasi, 2 poin per episode dengkuran per jam, maksimal 10 poin, karena banyak episode pendek lebih mengganggu tidur daripada satu episode panjang pada tingkat keras yang sama.</p>
+<p>Dua contoh dari rumusnya:</p>
+<div class="scroll-x"><table>
+<thead>
+<tr>
+<th>Malam</th>
+<th>Dengkuran</th>
+<th>Kerasnya</th>
+<th>Episode</th>
+<th>Skor</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>A</td>
+<td>20 menit dari 8 jam</td>
+<td>sebagian besar ringan</td>
+<td>3</td>
+<td>sekitar 90</td>
+</tr>
+<tr>
+<td>B</td>
+<td>2 jam 15 menit dari 8 jam</td>
+<td>campuran, sebagian berat</td>
+<td>12</td>
+<td>sekitar 55</td>
+</tr>
+<tr>
+<td>C</td>
+<td>tidak terdeteksi</td>
+<td>–</td>
+<td>0</td>
+<td>100</td>
+</tr>
+</tbody></table></div>
+<p>Skor itu ringkasan, bukan diagnosis. Dua malam dengan skor sama bisa terdengar berbeda, dan linimasa beserta klipnya adalah tempat kamu melihat selanjutnya.</p>
+<h2>Skor dengkuran berapa yang bagus?</h2>
+<p>Di Snorly, 70 ke atas adalah malam yang baik dan 90 ke atas adalah malam yang nyaris tanpa dengkuran. Skor yang naik turun sampai 20 poin antar malam biasanya punya penyebab yang kelihatan di tag faktor: alkohol, makan larut, flu, tidur telentang. Itulah gunanya skor, bukan untuk menilai kamu, tapi supaya perubahan bisa diukur. Bandingkan satu minggu dengan sebuah cara melawan satu minggu tanpa cara itu, dan lihat rata-ratanya, bukan satu malam saja.</p>
+<h2>Apa bedanya dengan Snore Score milik SnoreLab?</h2>
+<p>Skor SnoreLab berjalan ke arah sebaliknya: angkanya naik seiring banyak dan kerasnya dengkuran, dan tidak punya batas atas. Panduan yang mereka terbitkan menyebut sebagian besar pengguna ada di sekitar 25, 50 ke atas tergolong buruk, dan 100 ke atas berarti sudah waktunya mencoba berbagai cara, dengan target 10 atau lebih rendah. Kamu tidak bisa mengonversi satu skor ke skor lainnya. Kalau kamu pindah aplikasi, bandingkan satu minggu malam di dalam satu aplikasi, bukan satu skor di antara dua aplikasi. Lihat perbandingan <a href="/id/vs/snorelab/">Snorly vs SnoreLab</a> untuk daftar fitur lengkapnya.</p>
+<h2>Dengkuran itu berapa desibel?</h2>
+<p>Napas normal saat tidur ada di sekitar 10 dB. Dengkuran ringan berada di dekat 40 dB, kira-kira setingkat kantor yang sepi. Dengkuran sedang ada di 50–60 dB, setara obrolan atau air shower yang mengalir. Dengkuran berat melewati 60 dB dan bisa mencapai 80–90 dB pada kasus ekstrem, mirip penyedot debu atau jalan yang padat. Rekaman di kamar tidur terukur lebih rendah daripada di laboratorium karena mikrofonnya berjarak satu meter, dan itulah sebabnya aplikasi memberi label pada klip secara relatif terhadap skalanya sendiri, bukan menyebut angka mutlak. Baca <a href="/id/blog/suara-dengkuran-seperti-apa/">seperti apa suara dengkuran</a> untuk tabel lengkap beserta audionya.</p>
+<h2>Apakah dengkuran 40 dB itu keras?</h2>
+<p>Tidak. Sekitar 40 dB tergolong dengkuran ringan, lebih pelan daripada obrolan biasa, dan kebanyakan pasangan tetap bisa tidur melewatinya. Pasangan biasanya mulai mengeluh di rentang 50–60 dB, saat dengkuran mulai bersaing dengan suara bicara. Satu puncak keras tidak sepenting berapa lama bagian yang keras itu bertahan, dan karena itu Snorly membobot skornya dengan keduanya.</p>
+<h2>Yang tidak bisa diberitahu oleh skor</h2>
+<p>Skor dengkuran tidak mengukur oksigen, usaha bernapas, atau tahapan tidur. Jeda napas yang senyap tidak menghasilkan suara sehingga tidak mengubah skor. Kalau rekamanmu menunjukkan dengkuran yang berhenti, lalu ada jeda senyap, lalu dengusan atau tarikan napas keras, pola itu layak ditunjukkan ke dokter berapa pun angkanya. Snorly menandai pola napas seperti itu terpisah dari skor dan bisa mengekspor laporan PDF yang bisa kamu bawa saat konsultasi.</p>
+<div class="cta-card"><img src="/assets/img/app-icon-256.webp" width="64" height="64" alt="Snorly app icon" loading="lazy"><p><b>Dengar dengkuranmu sendiri malam ini</b>Snorly hanya merekam saat mendengar dengkuran dan memutarnya untukmu pagi hari. Gratis, tanpa akun, tanpa batas malam.</p><a class="btn btn-led" href="https://apps.apple.com/app/id6743162754?ct=snore-score" rel="noopener"><svg class="apple" viewBox="0 0 24 24" aria-hidden="true"><path d="M16.4 12.6c0-2.5 2-3.7 2.1-3.8-1.2-1.7-3-1.9-3.6-2-1.5-.2-3 .9-3.8.9s-2-.9-3.3-.8C6.1 6.9 4.5 7.9 3.6 9.5c-1.9 3.3-.5 8.1 1.4 10.8.9 1.3 2 2.8 3.4 2.7 1.4-.1 1.9-.9 3.5-.9s2.1.9 3.5.9c1.5 0 2.4-1.3 3.3-2.6 1-1.5 1.5-3 1.5-3.1-.1 0-2.8-1.1-2.8-4.7zM14 5.2c.7-.9 1.2-2.1 1.1-3.3-1 0-2.3.7-3 1.6-.7.8-1.3 2-1.1 3.2 1.1.1 2.3-.6 3-1.5z"/></svg>Unduh di App Store</a></div>
+<h2>Pertanyaan terkait</h2>
+<h3>Kenapa skorku turun setelah minum alkohol?</h3>
+<p>Alkohol membuat otot tenggorokan mengendur, sehingga saluran napas menyempit dan lebih mudah bergetar. Pada perbandingan faktor di Snorly, malam bertag &quot;Alkohol&quot; umumnya menunjukkan lebih banyak episode sedang dan berat serta skor rata-rata yang lebih rendah dibanding malam tanpa alkohol.</p>
+<h3>Apakah mengigau dan batuk ikut masuk ke skor?</h3>
+<p>Tidak. Klip igauan dan batuk tetap direkam dan diberi label, tapi hanya episode dengkuran yang memengaruhi skor.</p>
+<h3>Bisakah aku dapat skor tanpa Premium?</h3>
+<p>Bisa. Skor, linimasa, pemutaran klip, dan riwayatmu gratis setiap malam tanpa batas. Premium hanya untuk audio satu malam penuh, perbandingan cara dan faktor, serta laporan untuk dokter.</p>
+<h3>Apa itu grafik skor dengkuran?</h3>
+<p>Grafik skor malammu selama berminggu-minggu. Di Snorly grafiknya ada di tab Riset, bersebelahan dengan perbandingan faktor dan cara, jadi kamu bisa melihat apakah sebuah perubahan menggeser garisnya.</p>
+<p class="disclaimer">Snorly adalah perekam dan pelacak dengkuran, bukan alat medis. Aplikasi ini tidak mendiagnosis sleep apnea atau kondisi lain. Jika kamu melihat napas berhenti, tersengal, atau kantuk berlebihan di siang hari, bicarakan dengan dokter.</p></div>
+</article>
+</main>
+<footer class="site-footer"><div class="wrap">
+<div><a class="logo" href="/id/"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <filter id="g" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="1.2"/></filter>
+  </defs>
+  <circle cx="32" cy="32" r="30" fill="#1c1c1f"/>
+  <g stroke-width="3.2" stroke-linecap="round" fill="none">
+    <g filter="url(#g)" opacity=".7">
+      <path d="M32 6 A26 26 0 0 1 58 32" stroke="#ff3a5e"/>
+      <path d="M58 32 A26 26 0 0 1 32 58" stroke="#ffb000"/>
+      <path d="M32 58 A26 26 0 0 1 6 32" stroke="#33e661"/>
+    </g>
+    <path d="M32 6 A26 26 0 0 1 58 32" stroke="#ff3a5e" stroke-dasharray="3 3.1"/>
+    <path d="M58 32 A26 26 0 0 1 32 58" stroke="#ffb000" stroke-dasharray="3 3.1"/>
+    <path d="M32 58 A26 26 0 0 1 6 32" stroke="#33e661" stroke-dasharray="3 3.1"/>
+    <path d="M6 32 A26 26 0 0 1 32 6" stroke="#2a3a2e" stroke-dasharray="3 3.1"/>
+  </g>
+  <circle cx="32" cy="32" r="7" fill="#ff3a3a"/>
+  <circle cx="32" cy="32" r="9" fill="#ff3a3a" opacity=".35" filter="url(#g)"/>
+</svg>
+<span>Snorly</span></a><p class="small" style="margin-top:.8rem;max-width:34ch">Perekam dengkuran untuk iPhone. Snore Recorder App Pro: Snorly.</p>
+<p><a class="btn" href="https://apps.apple.com/app/id6743162754?ct=snore-score" rel="noopener"><svg class="apple" viewBox="0 0 24 24" aria-hidden="true"><path d="M16.4 12.6c0-2.5 2-3.7 2.1-3.8-1.2-1.7-3-1.9-3.6-2-1.5-.2-3 .9-3.8.9s-2-.9-3.3-.8C6.1 6.9 4.5 7.9 3.6 9.5c-1.9 3.3-.5 8.1 1.4 10.8.9 1.3 2 2.8 3.4 2.7 1.4-.1 1.9-.9 3.5-.9s2.1.9 3.5.9c1.5 0 2.4-1.3 3.3-2.6 1-1.5 1.5-3 1.5-3.1-.1 0-2.8-1.1-2.8-4.7zM14 5.2c.7-.9 1.2-2.1 1.1-3.3-1 0-2.3.7-3 1.6-.7.8-1.3 2-1.1 3.2 1.1.1 2.3-.6 3-1.5z"/></svg>App Store</a></p></div>
+<div><p class="foot-h">Pelajari</p><ul><li><a href="/id/blog/bantal-anti-dengkur/">Apakah bantal anti-dengkur ampuh? Diuji lewat rekaman</a></li><li><a href="/id/blog/plester-hidung-untuk-dengkuran/">Apakah plester hidung ampuh untuk dengkuran? Kata rekaman</a></li><li><a href="/id/blog/plester-mulut-untuk-dengkuran/">Apakah plester mulut menghentikan dengkuran? Cara ujinya</a></li><li><a href="/id/blog/cara-tahu-apakah-kita-mendengkur/">Cara tahu kamu mendengkur saat tidur sendirian</a></li><li><a href="/id/blog/dengkuran-atau-sleep-apnea/">Dengkuran atau sleep apnea: bedanya di rekaman</a></li><li><a href="/id/blog/">Blog</a></li></ul></div>
+<div><p class="foot-h">Produk</p><ul><li><a href="/id/snore-score/">Skor dengkuran</a></li><li><a href="/id/vs/snorelab/">vs SnoreLab</a></li><li><a href="/id/free-snoring-app/">Gratis</a></li><li><a href="/id/snore-detection-app/">Deteksi dengkuran</a></li><li><a href="/id/snoring-statistics/">Statistik dengkuran</a></li><li><a href="/id/support/">Bantuan</a></li><li><a href="/id/author/mikhail-manev/">Tentang penulis</a></li><li><a href="/privacy/">Privasi</a></li><li><a href="/terms/">Ketentuan</a></li></ul></div>
+<div class="legal"><p>Snorly adalah perekam dan pelacak dengkuran, bukan alat medis. Aplikasi ini tidak mendiagnosis sleep apnea atau kondisi lain. Jika kamu melihat napas berhenti, tersengal, atau kantuk berlebihan di siang hari, bicarakan dengan dokter.</p><p>© 2026 Snorly · Snore Recorder App Pro · <a href="mailto:hello@builtfor.app">hello@builtfor.app</a></p></div>
+</div></footer>
+</body>
+</html>

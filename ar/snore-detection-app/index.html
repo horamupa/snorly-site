@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>تطبيق رصد الشخير لـ iPhone: على الجهاز وبلا حساب · Snorly</title>
+<meta name="description" content="يرصد Snorly الشخير على iPhone نفسه، ويحتفظ بالمقاطع التي فيها صوت فقط، ولا يحتاج حسابًا. ما الذي يرصده، وما مدى دقته، وما الذي يبقى مجانيًا.">
+<link rel="canonical" href="https://snorly.app/ar/snore-detection-app/">
+<link rel="alternate" hreflang="en" href="https://snorly.app/snore-detection-app/">
+<link rel="alternate" hreflang="de" href="https://snorly.app/de/snore-detection-app/">
+<link rel="alternate" hreflang="fr" href="https://snorly.app/fr/snore-detection-app/">
+<link rel="alternate" hreflang="es" href="https://snorly.app/es/snore-detection-app/">
+<link rel="alternate" hreflang="it" href="https://snorly.app/it/snore-detection-app/">
+<link rel="alternate" hreflang="pt-BR" href="https://snorly.app/pt-br/snore-detection-app/">
+<link rel="alternate" hreflang="ja" href="https://snorly.app/ja/snore-detection-app/">
+<link rel="alternate" hreflang="nl" href="https://snorly.app/nl/snore-detection-app/">
+<link rel="alternate" hreflang="pl" href="https://snorly.app/pl/snore-detection-app/">
+<link rel="alternate" hreflang="th" href="https://snorly.app/th/snore-detection-app/">
+<link rel="alternate" hreflang="ar" href="https://snorly.app/ar/snore-detection-app/">
+<link rel="alternate" hreflang="id" href="https://snorly.app/id/snore-detection-app/">
+<link rel="alternate" hreflang="vi" href="https://snorly.app/vi/snore-detection-app/">
+<link rel="alternate" hreflang="tr" href="https://snorly.app/tr/snore-detection-app/">
+<link rel="alternate" hreflang="zh-Hans" href="https://snorly.app/zh-hans/snore-detection-app/">
+<link rel="alternate" hreflang="ko" href="https://snorly.app/ko/snore-detection-app/">
+<link rel="alternate" hreflang="zh-Hant" href="https://snorly.app/zh-hant/snore-detection-app/">
+<link rel="alternate" hreflang="ru" href="https://snorly.app/ru/snore-detection-app/">
+<link rel="alternate" hreflang="x-default" href="https://snorly.app/snore-detection-app/">
+<meta name="apple-itunes-app" content="app-id=6743162754, app-argument=https://snorly.app/ar/snore-detection-app/">
+<meta name="theme-color" content="#1a1a1c">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Snorly">
+<meta property="og:locale" content="ar_SA">
+<meta property="og:title" content="تطبيق رصد الشخير لـ iPhone: على الجهاز وبلا حساب">
+<meta property="og:description" content="يرصد Snorly الشخير على iPhone نفسه، ويحتفظ بالمقاطع التي فيها صوت فقط، ولا يحتاج حسابًا. ما الذي يرصده، وما مدى دقته، وما الذي يبقى مجانيًا.">
+<meta property="og:url" content="https://snorly.app/ar/snore-detection-app/">
+<meta property="og:image" content="https://snorly.app/assets/img/covers/snore-detection-app.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/assets/img/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/assets/img/favicon-192.png" sizes="192x192" type="image/png">
+<link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+<link rel="alternate" type="application/rss+xml" title="Snorly" href="/feed-ar.xml">
+
+<style>@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:400;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-400-cyrillic.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:400;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-400-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:500;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-500-cyrillic.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:500;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-500-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:600;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-600-cyrillic.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:600;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-600-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:400 700;font-display:swap;src:url(/assets/fonts/ibm-plex-sans-var-cyrillic.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:400 700;font-display:swap;src:url(/assets/fonts/ibm-plex-sans-var-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}</style>
+<link rel="stylesheet" href="/assets/css/site.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://snorly.app/#organization","name":"Snorly","url":"https://snorly.app/","logo":{"@type":"ImageObject","url":"https://snorly.app/assets/img/icon-512.png","width":512,"height":512},"sameAs":["https://apps.apple.com/app/id6743162754"],"email":"hello@builtfor.app"},{"@type":"WebSite","@id":"https://snorly.app/#website","name":"Snorly","url":"https://snorly.app/","inLanguage":"ar","publisher":{"@id":"https://snorly.app/#organization"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Snorly","item":"https://snorly.app/ar/"},{"@type":"ListItem","position":2,"name":"تطبيق رصد الشخير لـ iPhone: على الجهاز وبلا حساب","item":"https://snorly.app/ar/snore-detection-app/"}]},{"@type":"WebPage","@id":"https://snorly.app/ar/snore-detection-app/#webpage","url":"https://snorly.app/ar/snore-detection-app/","name":"تطبيق رصد الشخير لـ iPhone: على الجهاز وبلا حساب","description":"يرصد Snorly الشخير على iPhone نفسه، ويحتفظ بالمقاطع التي فيها صوت فقط، ولا يحتاج حسابًا. ما الذي يرصده، وما مدى دقته، وما الذي يبقى مجانيًا.","inLanguage":"ar","isPartOf":{"@id":"https://snorly.app/#website"},"dateModified":"2026-09-03","author":{"@type":"Person","@id":"https://snorly.app/#author","name":"Mikhail Manev","url":"https://snorly.app/ar/author/mikhail-manev/","jobTitle":"مطوّر Snorly","worksFor":{"@id":"https://snorly.app/#organization"}},"publisher":{"@id":"https://snorly.app/#organization"}}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">انتقل إلى المحتوى</a>
+<header class="site-header"><div class="wrap">
+<a class="logo" href="/ar/" aria-label="Snorly"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <filter id="g" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="1.2"/></filter>
+  </defs>
+  <circle cx="32" cy="32" r="30" fill="#1c1c1f"/>
+  <g stroke-width="3.2" stroke-linecap="round" fill="none">
+    <g filter="url(#g)" opacity=".7">
+      <path d="M32 6 A26 26 0 0 1 58 32" stroke="#ff3a5e"/>
+      <path d="M58 32 A26 26 0 0 1 32 58" stroke="#ffb000"/>
+      <path d="M32 58 A26 26 0 0 1 6 32" stroke="#33e661"/>
+    </g>
+    <path d="M32 6 A26 26 0 0 1 58 32" stroke="#ff3a5e" stroke-dasharray="3 3.1"/>
+    <path d="M58 32 A26 26 0 0 1 32 58" stroke="#ffb000" stroke-dasharray="3 3.1"/>
+    <path d="M32 58 A26 26 0 0 1 6 32" stroke="#33e661" stroke-dasharray="3 3.1"/>
+    <path d="M6 32 A26 26 0 0 1 32 6" stroke="#2a3a2e" stroke-dasharray="3 3.1"/>
+  </g>
+  <circle cx="32" cy="32" r="7" fill="#ff3a3a"/>
+  <circle cx="32" cy="32" r="9" fill="#ff3a3a" opacity=".35" filter="url(#g)"/>
+</svg>
+<span>Snorly</span></a>
+<nav class="nav" aria-label="Main">
+<a href="/ar/blog/">المدونة</a>
+<a class="hide-m" href="/ar/snore-score/">درجة الشخير</a>
+<a class="hide-m" href="/ar/vs/snorelab/">مقابل SnoreLab</a>
+<details class="lang"><summary aria-label="اللغة: العربية">AR</summary><ul><li><a href="/snore-detection-app/" hreflang="en" lang="en">English</a></li><li><a href="/de/snore-detection-app/" hreflang="de" lang="de">Deutsch</a></li><li><a href="/fr/snore-detection-app/" hreflang="fr" lang="fr">Français</a></li><li><a href="/es/snore-detection-app/" hreflang="es" lang="es">Español</a></li><li><a href="/it/snore-detection-app/" hreflang="it" lang="it">Italiano</a></li><li><a href="/pt-br/snore-detection-app/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a></li><li><a href="/ja/snore-detection-app/" hreflang="ja" lang="ja">日本語</a></li><li><a href="/nl/snore-detection-app/" hreflang="nl" lang="nl">Nederlands</a></li><li><a href="/pl/snore-detection-app/" hreflang="pl" lang="pl">Polski</a></li><li><a href="/th/snore-detection-app/" hreflang="th" lang="th">ไทย</a></li><li><a href="/ar/snore-detection-app/" hreflang="ar" lang="ar" aria-current="true">العربية</a></li><li><a href="/id/snore-detection-app/" hreflang="id" lang="id">Bahasa Indonesia</a></li><li><a href="/vi/snore-detection-app/" hreflang="vi" lang="vi">Tiếng Việt</a></li><li><a href="/tr/snore-detection-app/" hreflang="tr" lang="tr">Türkçe</a></li><li><a href="/zh-hans/snore-detection-app/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li><li><a href="/ko/snore-detection-app/" hreflang="ko" lang="ko">한국어</a></li><li><a href="/zh-hant/snore-detection-app/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li><li><a href="/ru/snore-detection-app/" hreflang="ru" lang="ru">Русский</a></li></ul></details>
+<a class="btn btn-led" href="https://apps.apple.com/app/id6743162754?ct=snore-detection-app" rel="noopener">تنزيل التطبيق</a>
+</nav></div></header>
+<main id="main">
+<article>
+<header class="article-head prose"><h1>تطبيق رصد الشخير لـ iPhone: على الجهاز وبلا حساب</h1></header>
+<div class="prose"><img width="1200" height="675" class="cover" src="/assets/img/covers/snore-detection-app.webp" alt="هاتف iPhone على طاولة بجانب السرير في غرفة مظلمة، تعرض شاشته موجة صوتية بضوء LED أخضر متوهج مقسّمة إلى شرائح خضراء وكهرمانية وزرقاء، مع رمز قفل صغير" fetchpriority="high"><p class="lead">تطبيق رصد الشخير يستمع عبر ميكروفون الهاتف طوال الليل، ويقرر في الوقت الحقيقي أي الأصوات شخير، ثم يحتفظ بتلك الثواني وحدها. ويفعل Snorly ذلك على iPhone نفسه: المصنّف يعمل على الجهاز، والمقاطع تبقى على الجهاز، ولا حساب عليك إنشاؤه. وفي الصباح تحصل على خط زمني لليلة عليه كل مقطع شخير، ووصف لمستوى الصوت لكل مقطع، ودرجة.</p>
+<div class="facts">
+<span class="label led">حقائق أساسية</span><ul>
+<li>يصنّف Snorly الصوت على iPhone بتحليل الصوت العامل على الجهاز من Apple؛ ولا يُرفع أي صوت، ويعمل التطبيق والهاتف في وضع الطيران (بياناتنا).</li>
+<li>تُخزَّن الليلة على هيئة مقاطع قصيرة لما رُصد من شخير وكلام أثناء النوم وسعال، فثماني ساعات في السرير تشغل عادة بضعة ميغابايت، لا 200 ميغابايت كما يفعل تسجيل صوتي من 8 ساعات (بياناتنا).</li>
+<li>يتوافق رصد الشخير بالهاتف بدرجة عالية مع العدّ اليدوي في الشخير العالي، وأقل من ذلك في الشخير الهادئ داخل غرف صاخبة، بحسب دراسات تحقّق منشورة (Chiang 2021؛ Figueras-Alvarez 2020).</div></li>
+</ul>
+<h2>ما الذي يفعله تطبيق رصد الشخير فعلًا؟</h2>
+<p>ثلاثة أشياء بالترتيب. يستمع دون أن يسجّل كل شيء: مصنّف صوت يعمل على كل ثانية من دخل الميكروفون ويسأل «هل هذا شخير؟». وحين تكون الإجابة نعم، يحفظ تلك الفترة مقطعًا مع توقيته وقيمة لمستوى صوته. وفي الصباح يرتّب المقاطع على خط زمني لترى متى حدث الشخير، وبأي مستوى صوت، ولتضغط تشغيل على أي منها.</p>
+<p>الخطوة الأخيرة هي المهمة. الدرجة وحدها رقم عليك أن تثق به. أما مقطع عند 03:12 موصوف بأنه شديد فشيء تستطيع سماعه، ويستطيع شريكك سماعه أيضًا.</p>
+<h2>ما الذي يرصده Snorly؟</h2>
+<div class="scroll-x"><table>
+<thead>
+<tr>
+<th>الصوت</th>
+<th>يُحفظ كمقطع</th>
+<th>يظهر بوصفه</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>الشخير</td>
+<td>نعم</td>
+<td>أعمدة على خط الليلة الزمني، وأربعة نطاقات لمستوى الصوت من هادئ إلى شديد</td>
+</tr>
+<tr>
+<td>الكلام أثناء النوم</td>
+<td>نعم</td>
+<td>مقاطع منفصلة، موسومة، لا تُحتسب في الدرجة</td>
+</tr>
+<tr>
+<td>السعال</td>
+<td>نعم</td>
+<td>مقاطع منفصلة، موسومة، لا تُحتسب في الدرجة</td>
+</tr>
+<tr>
+<td>توقف التنفس واللهاث</td>
+<td>تنبيه على الخط الزمني</td>
+<td>عدد في الساعة، معلّم بوصفه أمرًا تناقشه مع طبيب</td>
+</tr>
+<tr>
+<td>الصمت والمروحة وضجيج الشارع</td>
+<td>لا</td>
+<td>لا يُخزَّن شيء</td>
+</tr>
+</tbody></table></div>
+<p>تنبيهات التنفس كاشف نمط، لا تشخيص. فما يعلّمه التطبيق هو شخير يتصاعد، ثم يتوقف عشر ثوانٍ أو أكثر، ثم يعود مع لهاث. أما إن كان ذلك انقطاعًا في النفس وإن كان الأكسجين قد انخفض، فهذا ما تقيسه دراسة النوم وما لا يستطيع أي تطبيق هاتف إخبارك به. والفرق موضّح في <a href="/ar/blog/snoring-vs-sleep-apnea/">الشخير مقابل انقطاع النفس أثناء النوم</a>.</p>
+<h2>كيف يعمل الرصد على الجهاز، ولماذا يهم؟</h2>
+<p>المصنّف نموذج صغير يعمل على شريحة الهاتف نفسها. تدخل كل ثانية من الصوت، فتخرج تسمية، ثم يُحفظ صوت تلك الثانية جزءًا من مقطع أو يُهمل. لا شيء ينتظر خادمًا، فيعمل الرصد بلا إشارة، ولا يغادر الهاتف أي شيء عن غرفة نومك ما لم تضغط أنت مشاركة على مقطع.</p>
+<p>ولهذا أثران عمليان. البطارية: التعرّف على الهاتف رخيص بما يكفي ليكلّف ليلة على الشاحن شيئًا لا يُلاحظ. والخصوصية: لا حساب ولا رفع ولا مكتبة سحابية تضم لياليك. ولا يظهر الصوت أصلًا في بطاقة خصوصية Snorly على App Store؛ وما تذكره البطاقة هو بيانات استخدام مجهولة ومعرّفات للتحليلات ونسبة التثبيت في App Store، وهي الفئات نفسها التي تحملها معظم التطبيقات في هذه القائمة.</p>
+<h2>ما مدى دقة رصد الشخير على الهاتف؟</h2>
+<p>جيد للشخير العالي، وأضعف للشخير الهادئ في غرفة صاخبة. وجدت دراسة تحقّق عام 2021 لتطبيق شخير على الهاتف مقارنةً بالتقييم اليدوي توافقًا عاليًا في رصد الشخير (Chiang et al. 2021)، ووجدت دراسة عام 2020 لتطبيق SnoreLab على ثلاثة هواتف مختلفة نتائج متسقة بين الأجهزة لليالي نفسها (Figueras-Alvarez et al. 2020). ولم تستخدم أي من الدراستين Snorly؛ فالنتيجة تخص الطريقة التي يشاركهما إياها Snorly.</p>
+<p>وما يحرّك الأرقام هو موضع الهاتف، لا التطبيق. من نصف متر إلى متر من رأسك، على الطاولة بجانب السرير، ووجهه إلى الأسفل، ولا مروحة تهب على الهاتف، وفي الموضع نفسه كل ليلة. فنطاقات مستوى الصوت نسبية إلى ما يلتقطه الميكروفون، وهاتف يتنقل بين الليالي ينتج أوصافًا لا يمكن مقارنتها. تفاصيل الإعداد في <a href="/ar/blog/how-to-record-yourself-snoring/">كيف تسجّل شخيرك</a>.</p>
+<h2>كم يكلّف؟</h2>
+<p>الرصد، وكل مقطع، ودرجة الليلة، والخط الزمني، وتنبيهات التنفّس، وسجلّك الكامل مجانية كل ليلة، بلا حد لعدد الليالي وبلا إعلانات. أما Premium فللإضافات وحدها: تسجيل الليلة كاملة، ومقارنة الليالي مع علاج أو عامل وبدونه، وتقرير PDF لطبيب، والاستيراد إلى Apple Health. وهو اشتراك أو شراء لمرة واحدة مدى الحياة، بسعر بلدك داخل التطبيق. والتفصيل الكامل أمام التطبيقات الأخرى في صفحة <a href="/ar/free-snoring-app/">تطبيق الشخير المجاني</a>.</p>
+<h2>كيف تشغّله الليلة</h2>
+<ol>
+<li>ثبّت Snorly وافتحه ولا تتخطَّ شيئًا: لا حساب عليك إنشاؤه.</li>
+<li>ضع iPhone على الطاولة بجانب السرير، من 0.5 إلى 1 متر من وسادتك، ووجهه إلى الأسفل، وموصولًا بالشاحن.</li>
+<li>اضغط تسجيل ونم. تخفت الشاشة لتصير ساعة بجانب السرير.</li>
+<li>في الصباح اضغط أعلى عمود على الخط الزمني واستمع. هذا المقطع هو جوابك عن «هل أشخر؟».</li>
+</ol>
+<div class="cta-card"><img src="/assets/img/app-icon-256.webp" width="64" height="64" alt="Snorly app icon" loading="lazy"><p><b>استمع إلى شخيرك الليلة</b>يسجّل Snorly فقط عندما يسمع شخيرًا، ويشغّل لك التسجيل في الصباح. مجانًا، بلا حساب، وبلا حد لعدد الليالي.</p><a class="btn btn-led" href="https://apps.apple.com/app/id6743162754?ct=snore-detection-app" rel="noopener"><svg class="apple" viewBox="0 0 24 24" aria-hidden="true"><path d="M16.4 12.6c0-2.5 2-3.7 2.1-3.8-1.2-1.7-3-1.9-3.6-2-1.5-.2-3 .9-3.8.9s-2-.9-3.3-.8C6.1 6.9 4.5 7.9 3.6 9.5c-1.9 3.3-.5 8.1 1.4 10.8.9 1.3 2 2.8 3.4 2.7 1.4-.1 1.9-.9 3.5-.9s2.1.9 3.5.9c1.5 0 2.4-1.3 3.3-2.6 1-1.5 1.5-3 1.5-3.1-.1 0-2.8-1.1-2.8-4.7zM14 5.2c.7-.9 1.2-2.1 1.1-3.3-1 0-2.3.7-3 1.6-.7.8-1.3 2-1.1 3.2 1.1.1 2.3-.6 3-1.5z"/></svg>نزّله من App Store</a></div>
+<h2>أسئلة ذات صلة</h2>
+<h3>هل يوجد تطبيق يرصد الشخير تلقائيًا؟</h3>
+<p>نعم. يرصد Snorly وSnoreLab وSnoreClock وعدة تطبيقات أخرى الشخير من الميكروفون ولا تحفظ سوى الشخير. والفروق هي أين يجري الرصد، وما الذي تستطيع تشغيله دون دفع، وهل يلزم حساب. اطّلع على <a href="/ar/blog/best-snoring-apps/">أفضل تطبيقات الشخير</a>.</p>
+<h3>هل يعمل رصد الشخير مع مروحة أو ضجيج أبيض؟</h3>
+<p>غالبًا، مع الشخير المتوسط والعالي. فالضجيج العريض الثابت يرفع الأرضية التي على المصنّف أن يسمع فوقها، ولذلك يضيع الشخير الهادئ أولًا. وجّه المروحة بعيدًا عن الهاتف، وضع الهاتف في جهة السرير البعيدة عنها.</p>
+<h3>هل يستطيع تطبيق رصد الشخير أن يرصد انقطاع النفس أثناء النوم؟</h3>
+<p>يستطيع رصد النمط الصوتي المصاحب له: شخير، ثم صمت عشر ثوانٍ أو أكثر، ثم لهاث. لكنه لا يستطيع قياس الأكسجين ولا تأكيد حدوث انقطاع في النفس. تعامل مع الليلة المنبَّه عليها كسبب لزيارة طبيب، لا كنتيجة.</p>
+<h3>هل يحتاج إلى إنترنت؟</h3>
+<p>لا. الرصد والتخزين والتشغيل كلها تجري على الهاتف. ولا يُستخدم الإنترنت إلا لعملية الشراء من App Store إن اشتريت Premium.</p>
+<h2>المصادر</h2>
+<ul>
+<li>Chiang JK, Lin YC, Lin CW, et al. (2021). Validation of snoring detection using a smartphone app. Sleep and Breathing. <a href="https://doi.org/10.1007/s11325-021-02359-3">https://doi.org/10.1007/s11325-021-02359-3</a></li>
+<li>Figueras-Alvarez O, Cantó-Navés O, Real-Voltas F, et al. (2020). Snoring intensity assessment with three different smartphones using the SnoreLab application in one participant. Journal of Clinical Sleep Medicine. <a href="https://doi.org/10.5664/jcsm.8586">https://doi.org/10.5664/jcsm.8586</a></li>
+</ul>
+<p class="disclaimer">Snorly تطبيق لتسجيل الشخير وتتبعه، وليس جهازًا طبيًا. لا يشخّص انقطاع النفس أثناء النوم ولا أي حالة أخرى. إذا لاحظت توقف التنفس أو اللهاث أو النعاس الشديد نهارًا، فتحدّث إلى طبيب.</p></div>
+</article>
+</main>
+<footer class="site-footer"><div class="wrap">
+<div><a class="logo" href="/ar/"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <filter id="g" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="1.2"/></filter>
+  </defs>
+  <circle cx="32" cy="32" r="30" fill="#1c1c1f"/>
+  <g stroke-width="3.2" stroke-linecap="round" fill="none">
+    <g filter="url(#g)" opacity=".7">
+      <path d="M32 6 A26 26 0 0 1 58 32" stroke="#ff3a5e"/>
+      <path d="M58 32 A26 26 0 0 1 32 58" stroke="#ffb000"/>
+      <path d="M32 58 A26 26 0 0 1 6 32" stroke="#33e661"/>
+    </g>
+    <path d="M32 6 A26 26 0 0 1 58 32" stroke="#ff3a5e" stroke-dasharray="3 3.1"/>
+    <path d="M58 32 A26 26 0 0 1 32 58" stroke="#ffb000" stroke-dasharray="3 3.1"/>
+    <path d="M32 58 A26 26 0 0 1 6 32" stroke="#33e661" stroke-dasharray="3 3.1"/>
+    <path d="M6 32 A26 26 0 0 1 32 6" stroke="#2a3a2e" stroke-dasharray="3 3.1"/>
+  </g>
+  <circle cx="32" cy="32" r="7" fill="#ff3a3a"/>
+  <circle cx="32" cy="32" r="9" fill="#ff3a3a" opacity=".35" filter="url(#g)"/>
+</svg>
+<span>Snorly</span></a><p class="small" style="margin-top:.8rem;max-width:34ch">مسجّل الشخير لـ iPhone. Snore Recorder App Pro: Snorly.</p>
+<p><a class="btn" href="https://apps.apple.com/app/id6743162754?ct=snore-detection-app" rel="noopener"><svg class="apple" viewBox="0 0 24 24" aria-hidden="true"><path d="M16.4 12.6c0-2.5 2-3.7 2.1-3.8-1.2-1.7-3-1.9-3.6-2-1.5-.2-3 .9-3.8.9s-2-.9-3.3-.8C6.1 6.9 4.5 7.9 3.6 9.5c-1.9 3.3-.5 8.1 1.4 10.8.9 1.3 2 2.8 3.4 2.7 1.4-.1 1.9-.9 3.5-.9s2.1.9 3.5.9c1.5 0 2.4-1.3 3.3-2.6 1-1.5 1.5-3 1.5-3.1-.1 0-2.8-1.1-2.8-4.7zM14 5.2c.7-.9 1.2-2.1 1.1-3.3-1 0-2.3.7-3 1.6-.7.8-1.3 2-1.1 3.2 1.1.1 2.3-.6 3-1.5z"/></svg>App Store</a></p></div>
+<div><p class="foot-h">اعرف أكثر</p><ul><li><a href="/ar/blog/anti-snoring-pillow/">هل تنفع وسادة مكافحة الشخير؟ اختبار بالتسجيل</a></li><li><a href="/ar/blog/does-mouth-tape-stop-snoring/">هل يوقف شريط الفم الشخير؟ طريقة اختباره بأمان</a></li><li><a href="/ar/blog/nasal-strips-for-snoring/">هل تنفع لواصق الأنف للشخير؟ ما تظهره التسجيلات</a></li><li><a href="/ar/blog/best-snoring-apps/">أفضل تطبيقات الشخير لـ iPhone: مقارنة 6 تطبيقات</a></li><li><a href="/ar/blog/how-to-know-if-you-snore/">كيف تعرف أنك تشخر إذا كنت تنام وحدك</a></li><li><a href="/ar/blog/">المدونة</a></li></ul></div>
+<div><p class="foot-h">المنتج</p><ul><li><a href="/ar/snore-score/">درجة الشخير</a></li><li><a href="/ar/vs/snorelab/">مقابل SnoreLab</a></li><li><a href="/ar/free-snoring-app/">مجانًا</a></li><li><a href="/ar/snore-detection-app/">رصد الشخير</a></li><li><a href="/ar/snoring-statistics/">إحصاءات الشخير</a></li><li><a href="/ar/support/">الدعم</a></li><li><a href="/ar/author/mikhail-manev/">عن الكاتب</a></li><li><a href="/privacy/">الخصوصية</a></li><li><a href="/terms/">الشروط</a></li></ul></div>
+<div class="legal"><p>Snorly تطبيق لتسجيل الشخير وتتبعه، وليس جهازًا طبيًا. لا يشخّص انقطاع النفس أثناء النوم ولا أي حالة أخرى. إذا لاحظت توقف التنفس أو اللهاث أو النعاس الشديد نهارًا، فتحدّث إلى طبيب.</p><p>© 2026 Snorly · Snore Recorder App Pro · <a href="mailto:hello@builtfor.app">hello@builtfor.app</a></p></div>
+</div></footer>
+</body>
+</html>

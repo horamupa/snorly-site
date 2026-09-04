@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>iPhone için horlama algılama uygulaması, hesapsız · Snorly</title>
+<meta name="description" content="Snorly horlamayı iPhone’un kendisinde algılar, yalnızca sesli klipleri saklar ve hesap istemez. Neleri algılar, ne kadar isabetli, neler ücretsiz kalır.">
+<link rel="canonical" href="https://snorly.app/tr/snore-detection-app/">
+<link rel="alternate" hreflang="en" href="https://snorly.app/snore-detection-app/">
+<link rel="alternate" hreflang="de" href="https://snorly.app/de/snore-detection-app/">
+<link rel="alternate" hreflang="fr" href="https://snorly.app/fr/snore-detection-app/">
+<link rel="alternate" hreflang="es" href="https://snorly.app/es/snore-detection-app/">
+<link rel="alternate" hreflang="it" href="https://snorly.app/it/snore-detection-app/">
+<link rel="alternate" hreflang="pt-BR" href="https://snorly.app/pt-br/snore-detection-app/">
+<link rel="alternate" hreflang="ja" href="https://snorly.app/ja/snore-detection-app/">
+<link rel="alternate" hreflang="nl" href="https://snorly.app/nl/snore-detection-app/">
+<link rel="alternate" hreflang="pl" href="https://snorly.app/pl/snore-detection-app/">
+<link rel="alternate" hreflang="th" href="https://snorly.app/th/snore-detection-app/">
+<link rel="alternate" hreflang="ar" href="https://snorly.app/ar/snore-detection-app/">
+<link rel="alternate" hreflang="id" href="https://snorly.app/id/snore-detection-app/">
+<link rel="alternate" hreflang="vi" href="https://snorly.app/vi/snore-detection-app/">
+<link rel="alternate" hreflang="tr" href="https://snorly.app/tr/snore-detection-app/">
+<link rel="alternate" hreflang="zh-Hans" href="https://snorly.app/zh-hans/snore-detection-app/">
+<link rel="alternate" hreflang="ko" href="https://snorly.app/ko/snore-detection-app/">
+<link rel="alternate" hreflang="zh-Hant" href="https://snorly.app/zh-hant/snore-detection-app/">
+<link rel="alternate" hreflang="ru" href="https://snorly.app/ru/snore-detection-app/">
+<link rel="alternate" hreflang="x-default" href="https://snorly.app/snore-detection-app/">
+<meta name="apple-itunes-app" content="app-id=6743162754, app-argument=https://snorly.app/tr/snore-detection-app/">
+<meta name="theme-color" content="#1a1a1c">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Snorly">
+<meta property="og:locale" content="tr_TR">
+<meta property="og:title" content="iPhone için horlama algılama uygulaması, hesapsız">
+<meta property="og:description" content="Snorly horlamayı iPhone’un kendisinde algılar, yalnızca sesli klipleri saklar ve hesap istemez. Neleri algılar, ne kadar isabetli, neler ücretsiz kalır.">
+<meta property="og:url" content="https://snorly.app/tr/snore-detection-app/">
+<meta property="og:image" content="https://snorly.app/assets/img/covers/snore-detection-app.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/assets/img/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/assets/img/favicon-192.png" sizes="192x192" type="image/png">
+<link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+<link rel="alternate" type="application/rss+xml" title="Snorly" href="/feed-tr.xml">
+
+<style>@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:400;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-400-cyrillic.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:400;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-400-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:500;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-500-cyrillic.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:500;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-500-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:600;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-600-cyrillic.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:600;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-600-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:400 700;font-display:swap;src:url(/assets/fonts/ibm-plex-sans-var-cyrillic.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:400 700;font-display:swap;src:url(/assets/fonts/ibm-plex-sans-var-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}</style>
+<link rel="stylesheet" href="/assets/css/site.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://snorly.app/#organization","name":"Snorly","url":"https://snorly.app/","logo":{"@type":"ImageObject","url":"https://snorly.app/assets/img/icon-512.png","width":512,"height":512},"sameAs":["https://apps.apple.com/app/id6743162754"],"email":"hello@builtfor.app"},{"@type":"WebSite","@id":"https://snorly.app/#website","name":"Snorly","url":"https://snorly.app/","inLanguage":"tr","publisher":{"@id":"https://snorly.app/#organization"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Snorly","item":"https://snorly.app/tr/"},{"@type":"ListItem","position":2,"name":"iPhone için horlama algılama uygulaması, hesapsız","item":"https://snorly.app/tr/snore-detection-app/"}]},{"@type":"WebPage","@id":"https://snorly.app/tr/snore-detection-app/#webpage","url":"https://snorly.app/tr/snore-detection-app/","name":"iPhone için horlama algılama uygulaması, hesapsız","description":"Snorly horlamayı iPhone’un kendisinde algılar, yalnızca sesli klipleri saklar ve hesap istemez. Neleri algılar, ne kadar isabetli, neler ücretsiz kalır.","inLanguage":"tr","isPartOf":{"@id":"https://snorly.app/#website"},"dateModified":"2026-09-03","author":{"@type":"Person","@id":"https://snorly.app/#author","name":"Mikhail Manev","url":"https://snorly.app/tr/author/mikhail-manev/","jobTitle":"Snorly geliştiricisi","worksFor":{"@id":"https://snorly.app/#organization"}},"publisher":{"@id":"https://snorly.app/#organization"}}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">İçeriğe atla</a>
+<header class="site-header"><div class="wrap">
+<a class="logo" href="/tr/" aria-label="Snorly"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <filter id="g" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="1.2"/></filter>
+  </defs>
+  <circle cx="32" cy="32" r="30" fill="#1c1c1f"/>
+  <g stroke-width="3.2" stroke-linecap="round" fill="none">
+    <g filter="url(#g)" opacity=".7">
+      <path d="M32 6 A26 26 0 0 1 58 32" stroke="#ff3a5e"/>
+      <path d="M58 32 A26 26 0 0 1 32 58" stroke="#ffb000"/>
+      <path d="M32 58 A26 26 0 0 1 6 32" stroke="#33e661"/>
+    </g>
+    <path d="M32 6 A26 26 0 0 1 58 32" stroke="#ff3a5e" stroke-dasharray="3 3.1"/>
+    <path d="M58 32 A26 26 0 0 1 32 58" stroke="#ffb000" stroke-dasharray="3 3.1"/>
+    <path d="M32 58 A26 26 0 0 1 6 32" stroke="#33e661" stroke-dasharray="3 3.1"/>
+    <path d="M6 32 A26 26 0 0 1 32 6" stroke="#2a3a2e" stroke-dasharray="3 3.1"/>
+  </g>
+  <circle cx="32" cy="32" r="7" fill="#ff3a3a"/>
+  <circle cx="32" cy="32" r="9" fill="#ff3a3a" opacity=".35" filter="url(#g)"/>
+</svg>
+<span>Snorly</span></a>
+<nav class="nav" aria-label="Main">
+<a href="/tr/blog/">Blog</a>
+<a class="hide-m" href="/tr/snore-score/">Horlama puanı</a>
+<a class="hide-m" href="/tr/vs/snorelab/">vs SnoreLab</a>
+<details class="lang"><summary aria-label="Dil: Türkçe">TR</summary><ul><li><a href="/snore-detection-app/" hreflang="en" lang="en">English</a></li><li><a href="/de/snore-detection-app/" hreflang="de" lang="de">Deutsch</a></li><li><a href="/fr/snore-detection-app/" hreflang="fr" lang="fr">Français</a></li><li><a href="/es/snore-detection-app/" hreflang="es" lang="es">Español</a></li><li><a href="/it/snore-detection-app/" hreflang="it" lang="it">Italiano</a></li><li><a href="/pt-br/snore-detection-app/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a></li><li><a href="/ja/snore-detection-app/" hreflang="ja" lang="ja">日本語</a></li><li><a href="/nl/snore-detection-app/" hreflang="nl" lang="nl">Nederlands</a></li><li><a href="/pl/snore-detection-app/" hreflang="pl" lang="pl">Polski</a></li><li><a href="/th/snore-detection-app/" hreflang="th" lang="th">ไทย</a></li><li><a href="/ar/snore-detection-app/" hreflang="ar" lang="ar">العربية</a></li><li><a href="/id/snore-detection-app/" hreflang="id" lang="id">Bahasa Indonesia</a></li><li><a href="/vi/snore-detection-app/" hreflang="vi" lang="vi">Tiếng Việt</a></li><li><a href="/tr/snore-detection-app/" hreflang="tr" lang="tr" aria-current="true">Türkçe</a></li><li><a href="/zh-hans/snore-detection-app/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li><li><a href="/ko/snore-detection-app/" hreflang="ko" lang="ko">한국어</a></li><li><a href="/zh-hant/snore-detection-app/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li><li><a href="/ru/snore-detection-app/" hreflang="ru" lang="ru">Русский</a></li></ul></details>
+<a class="btn btn-led" href="https://apps.apple.com/app/id6743162754?ct=snore-detection-app" rel="noopener">Uygulamayı indir</a>
+</nav></div></header>
+<main id="main">
+<article>
+<header class="article-head prose"><h1>iPhone için horlama algılama uygulaması, hesapsız</h1></header>
+<div class="prose"><img width="1200" height="675" class="cover" src="/assets/img/covers/snore-detection-app.webp" alt="Karanlık bir yatak odasında komodinin üstünde bir iPhone; ekranında yeşil, kehribar ve mavi parçalara ayrılmış parlayan yeşil bir LED dalga formu ve küçük bir kilit simgesi" fetchpriority="high"><p class="lead">Bir horlama algılama uygulaması bütün gece telefonun mikrofonunu dinler, hangi seslerin horlama olduğuna anlık olarak karar verir ve yalnızca o saniyeleri saklar. Snorly bunu iPhone’un kendisinde yapar: sınıflandırıcı cihazda çalışır, klipler cihazda kalır ve açılacak bir hesap yoktur. Sabah elinde gecenin zaman çizelgesi, üzerindeki her horlama klibi, her biri için bir ses seviyesi etiketi ve bir puan olur.</p>
+<div class="facts">
+<span class="label led">Temel bilgiler</span><ul>
+<li>Snorly sesi iPhone’da, Apple’ın cihaz üstü ses analiziyle sınıflandırır; hiçbir ses yüklenmez ve uygulama telefon Uçak Modu’ndayken de çalışır (kendi verimiz).</li>
+<li>Bir gece, algılanan horlama, uykuda konuşma ve öksürüğün kısa klipleri olarak saklanır, bu yüzden yatakta geçen sekiz saat genellikle 8 saatlik bir ses notunun aldığı 200 MB’ı değil, birkaç megabaytı bulur (kendi verimiz).</li>
+<li>Yayımlanmış doğrulama çalışmalarında telefona dayalı horlama algılama, yüksek sesli horlamada elle yapılan sayımlarla yakından örtüşüyor, gürültülü odalardaki sessiz horlamada ise daha zayıf kalıyor (Chiang 2021; Figueras-Alvarez 2020).</div></li>
+</ul>
+<h2>Horlama algılama uygulaması aslında ne yapar?</h2>
+<p>Sırayla üç şey. Her şeyi kaydetmeden dinler: bir ses sınıflandırıcısı mikrofondan gelen her saniyeyi işler ve “bu horlama mı?” diye sorar. Cevap evetse o bölümü saat damgası ve ses seviyesi değeriyle birlikte klip olarak kaydeder. Sabah da klipleri bir zaman çizelgesine dizer, böylece horlamanın ne zaman olduğunu ve ne kadar yüksek olduğunu görebilir, herhangi birinde oynat tuşuna basabilirsin.</p>
+<p>Asıl önemli olan bu son adım. Tek başına bir puan, güvenmek zorunda olduğun bir sayıdır. 03:12’de Şiddetli etiketli bir klip ise duyabileceğin, eşinin de duyabileceği bir şeydir.</p>
+<h2>Snorly neleri algılar?</h2>
+<div class="scroll-x"><table>
+<thead>
+<tr>
+<th>Ses</th>
+<th>Klip olarak saklanır</th>
+<th>Şöyle gösterilir</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Horlama</td>
+<td>Evet</td>
+<td>Gece zaman çizelgesinde çubuklar, Sessiz’den Şiddetli’ye dört ses seviyesi</td>
+</tr>
+<tr>
+<td>Uykuda konuşma</td>
+<td>Evet</td>
+<td>Ayrı klipler, etiketli, puana girmez</td>
+</tr>
+<tr>
+<td>Öksürük</td>
+<td>Evet</td>
+<td>Ayrı klipler, etiketli, puana girmez</td>
+</tr>
+<tr>
+<td>Nefes durmaları ve nefes nefese kalmalar</td>
+<td>Zaman çizelgesinde işaretlenir</td>
+<td>Saat başına bir sayı, bir doktorla konuşulacak bir şey olarak işaretlenir</td>
+</tr>
+<tr>
+<td>Sessizlik, vantilatör, trafik</td>
+<td>Hayır</td>
+<td>Hiçbir şey saklanmaz</td>
+</tr>
+</tbody></table></div>
+<p>Nefes işaretleri bir düzen algılayıcısıdır, teşhis değildir. Uygulamanın işaretlediği şey, yükselen, on saniye ya da daha uzun süre duran ve sonra nefes nefese geri dönen horlamadır. Bunun bir apne olup olmadığını ve oksijeninin düşüp düşmediğini bir uyku testi ölçer; hiçbir telefon uygulaması bunu söyleyemez. Fark <a href="/tr/blog/horlama-mi-uyku-apnesi-mi/">horlama mı uyku apnesi mi</a> yazısında tek tek anlatılıyor.</p>
+<h2>Cihaz üstünde algılama nasıl çalışır ve neden önemli?</h2>
+<p>Sınıflandırıcı, telefonun kendi çipinde çalışan küçük bir modeldir. Her bir saniyelik ses içeri girer, bir etiket dışarı çıkar ve o saniyenin sesi ya bir klibin parçası olarak kaydedilir ya da atılır. Hiçbir şey sunucu beklemez, bu yüzden algılama sinyal olmadan da çalışır ve sen bir klipte Paylaş’a dokunmadıkça yatak odandan hiçbir şey telefondan çıkmaz.</p>
+<p>Bunun iki pratik sonucu var. Pil: tanıma işlemi telefonda yeterince ucuza geldiği için şarjda geçen bir gecenin gözle görülür bir maliyeti olmaz. Gizlilik: hesap yok, yükleme yok, gecelerinin bulutta bir arşivi yok. Snorly’nin App Store gizlilik etiketinde ses hiç geçmez; etikette yer alan şey, analitik ve App Store atıfı için kullanılan anonim kullanım verileri ve tanımlayıcılardır, yani bu listedeki çoğu uygulamanın taşıdığı kategoriler.</p>
+<h2>Telefonda horlama algılama ne kadar isabetli?</h2>
+<p>Yüksek sesli horlamada iyi, gürültülü bir odadaki sessiz horlamada daha zayıf. Bir akıllı telefon horlama uygulamasının elle puanlamayla karşılaştırıldığı 2021 tarihli bir doğrulama çalışması, horlama algılamada yüksek uyum buldu (Chiang ve ark. 2021); SnoreLab’in üç farklı telefonda incelendiği 2020 tarihli bir çalışma ise aynı geceler için cihazlar arasında tutarlı sonuçlar gösterdi (Figueras-Alvarez ve ark. 2020). İki çalışma da Snorly’yi kullanmadı; bulgu, Snorly’nin de paylaştığı yönteme ilişkin.</p>
+<p>Sayıları değiştiren şey uygulama değil, yerleşim. Başından yarım metre ile bir metre arası, komodinin üstünde, yüzü aşağı bakacak şekilde, üstüne vantilatör üflemeden, her gece aynı noktada. Ses seviyeleri mikrofonun aldığına görecelidir, dolayısıyla geceden geceye yer değiştiren bir telefon karşılaştırılamayacak etiketler üretir. Kurulum ayrıntıları <a href="/tr/blog/horlama-kaydi-nasil-alinir/">horlama kaydı nasıl alınır</a> yazısında.</p>
+<h2>Maliyeti ne?</h2>
+<p>Algılama, her klip, gecelik puan, zaman çizelgesi, nefes işaretleri ve tüm geçmişin her gece ücretsiz, gece sınırı ve reklam yok. Premium yalnızca ekstralar için: gece boyu ses kaydı, bir çözüm ya da etkenle geçen gecelerle geçmeyenlerin karşılaştırması, doktor için PDF raporu ve Apple Health aktarımı. Abonelik ya da tek seferlik ömür boyu satın alma olarak, uygulamada ülkene göre fiyatlandırılır. Diğer uygulamalarla tam dökümü <a href="/tr/free-snoring-app/">ücretsiz horlama uygulaması</a> sayfasında.</p>
+<h2>Bu gece nasıl denersin</h2>
+<ol>
+<li>Snorly’yi kur, aç, hiçbir adımı atlama gereği yok: açılacak bir hesap yok.</li>
+<li>iPhone’u komodine, yastığından 0,5 ile 1 m uzağa, yüzü aşağı bakacak şekilde ve şarja takılı olarak koy.</li>
+<li>Kaydı başlat ve uyu. Ekran kararıp başucu saatine döner.</li>
+<li>Sabah zaman çizelgesindeki en uzun çubuğa dokun ve dinle. O klip, “horluyor muyum?” sorusunun cevabı.</li>
+</ol>
+<div class="cta-card"><img src="/assets/img/app-icon-256.webp" width="64" height="64" alt="Snorly app icon" loading="lazy"><p><b>Bu gece kendi horlamanı dinle</b>Snorly yalnızca horlama duyduğunda kayıt yapar ve sabah sana dinletir. Ücretsiz, hesap gerektirmez, gece sınırı yok.</p><a class="btn btn-led" href="https://apps.apple.com/app/id6743162754?ct=snore-detection-app" rel="noopener"><svg class="apple" viewBox="0 0 24 24" aria-hidden="true"><path d="M16.4 12.6c0-2.5 2-3.7 2.1-3.8-1.2-1.7-3-1.9-3.6-2-1.5-.2-3 .9-3.8.9s-2-.9-3.3-.8C6.1 6.9 4.5 7.9 3.6 9.5c-1.9 3.3-.5 8.1 1.4 10.8.9 1.3 2 2.8 3.4 2.7 1.4-.1 1.9-.9 3.5-.9s2.1.9 3.5.9c1.5 0 2.4-1.3 3.3-2.6 1-1.5 1.5-3 1.5-3.1-.1 0-2.8-1.1-2.8-4.7zM14 5.2c.7-.9 1.2-2.1 1.1-3.3-1 0-2.3.7-3 1.6-.7.8-1.3 2-1.1 3.2 1.1.1 2.3-.6 3-1.5z"/></svg>App Store’dan indir</a></div>
+<h2>İlgili sorular</h2>
+<h3>Horlamayı otomatik algılayan bir uygulama var mı?</h3>
+<p>Evet. Snorly, SnoreLab, SnoreClock ve birkaç uygulama daha horlamayı mikrofondan algılar ve yalnızca horlamayı kaydeder. Fark, algılamanın nerede çalıştığı, ödeme yapmadan neleri dinleyebildiğin ve hesap gerekip gerekmediğidir. Bkz. <a href="/tr/blog/en-iyi-horlama-uygulamalari/">en iyi horlama uygulamaları</a>.</p>
+<h3>Vantilatör ya da beyaz gürültü açıkken horlama algılama çalışır mı?</h3>
+<p>Orta ve yüksek sesli horlama için genellikle çalışır. Sabit geniş bantlı gürültü, sınıflandırıcının üstünden duyması gereken zemini yükseltir, bu yüzden ilk kaçırılan sessiz horlama olur. Vantilatörü telefondan başka yöne çevir ve telefonu yatağın vantilatörden uzak tarafında tut.</p>
+<h3>Horlama algılama uygulaması uyku apnesini saptayabilir mi?</h3>
+<p>Ona eşlik eden ses düzenini algılayabilir: horlama, on saniye veya daha uzun sessizlik, ardından nefes nefese kalma. Oksijeni ölçemez ya da bir apneyi doğrulayamaz. İşaretlenmiş bir geceyi sonuç değil, doktora gitmek için sebep say.</p>
+<h3>İnternet gerekiyor mu?</h3>
+<p>Hayır. Algılama, saklama ve oynatma telefonda olur. İnternet yalnızca Premium alırsan App Store satın alması için kullanılır.</p>
+<h2>Kaynaklar</h2>
+<ul>
+<li>Chiang JK, Lin YC, Lin CW, et al. (2021). Validation of snoring detection using a smartphone app. Sleep and Breathing. <a href="https://doi.org/10.1007/s11325-021-02359-3">https://doi.org/10.1007/s11325-021-02359-3</a></li>
+<li>Figueras-Alvarez O, Cantó-Navés O, Real-Voltas F, et al. (2020). Snoring intensity assessment with three different smartphones using the SnoreLab application in one participant. Journal of Clinical Sleep Medicine. <a href="https://doi.org/10.5664/jcsm.8586">https://doi.org/10.5664/jcsm.8586</a></li>
+</ul>
+<p class="disclaimer">Snorly bir horlama kaydedici ve takip uygulamasıdır, tıbbi cihaz değildir. Uyku apnesi veya başka bir hastalık teşhisi koymaz. Nefes durmaları, nefes nefese kalma veya gündüz uykululuğu fark edersen bir doktora danış.</p></div>
+</article>
+</main>
+<footer class="site-footer"><div class="wrap">
+<div><a class="logo" href="/tr/"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <filter id="g" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="1.2"/></filter>
+  </defs>
+  <circle cx="32" cy="32" r="30" fill="#1c1c1f"/>
+  <g stroke-width="3.2" stroke-linecap="round" fill="none">
+    <g filter="url(#g)" opacity=".7">
+      <path d="M32 6 A26 26 0 0 1 58 32" stroke="#ff3a5e"/>
+      <path d="M58 32 A26 26 0 0 1 32 58" stroke="#ffb000"/>
+      <path d="M32 58 A26 26 0 0 1 6 32" stroke="#33e661"/>
+    </g>
+    <path d="M32 6 A26 26 0 0 1 58 32" stroke="#ff3a5e" stroke-dasharray="3 3.1"/>
+    <path d="M58 32 A26 26 0 0 1 32 58" stroke="#ffb000" stroke-dasharray="3 3.1"/>
+    <path d="M32 58 A26 26 0 0 1 6 32" stroke="#33e661" stroke-dasharray="3 3.1"/>
+    <path d="M6 32 A26 26 0 0 1 32 6" stroke="#2a3a2e" stroke-dasharray="3 3.1"/>
+  </g>
+  <circle cx="32" cy="32" r="7" fill="#ff3a3a"/>
+  <circle cx="32" cy="32" r="9" fill="#ff3a3a" opacity=".35" filter="url(#g)"/>
+</svg>
+<span>Snorly</span></a><p class="small" style="margin-top:.8rem;max-width:34ch">iPhone için horlama kaydedici. Snore Recorder App Pro: Snorly.</p>
+<p><a class="btn" href="https://apps.apple.com/app/id6743162754?ct=snore-detection-app" rel="noopener"><svg class="apple" viewBox="0 0 24 24" aria-hidden="true"><path d="M16.4 12.6c0-2.5 2-3.7 2.1-3.8-1.2-1.7-3-1.9-3.6-2-1.5-.2-3 .9-3.8.9s-2-.9-3.3-.8C6.1 6.9 4.5 7.9 3.6 9.5c-1.9 3.3-.5 8.1 1.4 10.8.9 1.3 2 2.8 3.4 2.7 1.4-.1 1.9-.9 3.5-.9s2.1.9 3.5.9c1.5 0 2.4-1.3 3.3-2.6 1-1.5 1.5-3 1.5-3.1-.1 0-2.8-1.1-2.8-4.7zM14 5.2c.7-.9 1.2-2.1 1.1-3.3-1 0-2.3.7-3 1.6-.7.8-1.3 2-1.1 3.2 1.1.1 2.3-.6 3-1.5z"/></svg>App Store</a></p></div>
+<div><p class="foot-h">Öğren</p><ul><li><a href="/tr/blog/agiz-bandi-horlama/">Ağız bandı horlamayı durdurur mu? Güvenli test yöntemi</a></li><li><a href="/tr/blog/burun-bandi-horlama/">Burun bandı horlamayı azaltır mı? Kayıtlar ne gösteriyor</a></li><li><a href="/tr/blog/horlama-onleyici-yastik/">Horlama önleyici yastık işe yarar mı? Kayıtla test ettik</a></li><li><a href="/tr/blog/en-iyi-horlama-uygulamalari/">En iyi horlama uygulamaları: iPhone için 6 karşılaştırma</a></li><li><a href="/tr/blog/esim-horluyor-ne-yapmaliyim/">Eşim horluyor, ne yapmalıyım? Kavgasız bir plan</a></li><li><a href="/tr/blog/">Blog</a></li></ul></div>
+<div><p class="foot-h">Ürün</p><ul><li><a href="/tr/snore-score/">Horlama puanı</a></li><li><a href="/tr/vs/snorelab/">vs SnoreLab</a></li><li><a href="/tr/free-snoring-app/">Ücretsiz</a></li><li><a href="/tr/snore-detection-app/">Horlama algılama</a></li><li><a href="/tr/snoring-statistics/">Horlama istatistikleri</a></li><li><a href="/tr/support/">Destek</a></li><li><a href="/tr/author/mikhail-manev/">Yazar hakkında</a></li><li><a href="/privacy/">Gizlilik</a></li><li><a href="/terms/">Koşullar</a></li></ul></div>
+<div class="legal"><p>Snorly bir horlama kaydedici ve takip uygulamasıdır, tıbbi cihaz değildir. Uyku apnesi veya başka bir hastalık teşhisi koymaz. Nefes durmaları, nefes nefese kalma veya gündüz uykululuğu fark edersen bir doktora danış.</p><p>© 2026 Snorly · Snore Recorder App Pro · <a href="mailto:hello@builtfor.app">hello@builtfor.app</a></p></div>
+</div></footer>
+</body>
+</html>

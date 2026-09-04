@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>App para grabar lo que hablas dormido y qué significa · Snorly</title>
+<meta name="description" content="Con una grabadora activada por sonido en la mesita tendrás clips con hora de lo que hablas dormido, no un archivo de 8 horas. Qué significan los clips.">
+<link rel="canonical" href="https://snorly.app/es/blog/app-hablar-dormido/">
+<link rel="alternate" hreflang="en" href="https://snorly.app/blog/sleep-talking-app/">
+<link rel="alternate" hreflang="de" href="https://snorly.app/de/blog/schlafsprechen-app/">
+<link rel="alternate" hreflang="fr" href="https://snorly.app/fr/blog/application-parler-en-dormant/">
+<link rel="alternate" hreflang="es" href="https://snorly.app/es/blog/app-hablar-dormido/">
+<link rel="alternate" hreflang="it" href="https://snorly.app/it/blog/app-parlare-nel-sonno/">
+<link rel="alternate" hreflang="pt-BR" href="https://snorly.app/pt-br/blog/app-falar-dormindo/">
+<link rel="alternate" hreflang="ja" href="https://snorly.app/ja/blog/sleep-talking-app/">
+<link rel="alternate" hreflang="nl" href="https://snorly.app/nl/blog/praten-in-je-slaap-app/">
+<link rel="alternate" hreflang="pl" href="https://snorly.app/pl/blog/aplikacja-mowienie-przez-sen/">
+<link rel="alternate" hreflang="th" href="https://snorly.app/th/blog/sleep-talking-app/">
+<link rel="alternate" hreflang="ar" href="https://snorly.app/ar/blog/sleep-talking-app/">
+<link rel="alternate" hreflang="id" href="https://snorly.app/id/blog/aplikasi-mengigau/">
+<link rel="alternate" hreflang="vi" href="https://snorly.app/vi/blog/app-ghi-am-noi-mo/">
+<link rel="alternate" hreflang="tr" href="https://snorly.app/tr/blog/uykuda-konusma-uygulamasi/">
+<link rel="alternate" hreflang="zh-Hans" href="https://snorly.app/zh-hans/blog/sleep-talking-app/">
+<link rel="alternate" hreflang="ko" href="https://snorly.app/ko/blog/sleep-talking-app/">
+<link rel="alternate" hreflang="zh-Hant" href="https://snorly.app/zh-hant/blog/sleep-talking-app/">
+<link rel="alternate" hreflang="ru" href="https://snorly.app/ru/blog/prilozhenie-razgovory-vo-sne/">
+<link rel="alternate" hreflang="x-default" href="https://snorly.app/blog/sleep-talking-app/">
+<meta name="apple-itunes-app" content="app-id=6743162754, app-argument=https://snorly.app/es/blog/app-hablar-dormido/">
+<meta name="theme-color" content="#1a1a1c">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Snorly">
+<meta property="og:locale" content="es_ES">
+<meta property="og:title" content="App para grabar lo que hablas dormido y qué significa">
+<meta property="og:description" content="Con una grabadora activada por sonido en la mesita tendrás clips con hora de lo que hablas dormido, no un archivo de 8 horas. Qué significan los clips.">
+<meta property="og:url" content="https://snorly.app/es/blog/app-hablar-dormido/">
+<meta property="og:image" content="https://snorly.app/assets/img/covers/sleep-talking-app.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta property="article:published_time" content="2026-09-02"><meta property="article:modified_time" content="2026-09-02">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/assets/img/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/assets/img/favicon-192.png" sizes="192x192" type="image/png">
+<link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+<link rel="alternate" type="application/rss+xml" title="Snorly" href="/feed-es.xml">
+
+<style>@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:400;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-400-cyrillic.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:400;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-400-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:500;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-500-cyrillic.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:500;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-500-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:600;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-600-cyrillic.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:600;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-600-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:400 700;font-display:swap;src:url(/assets/fonts/ibm-plex-sans-var-cyrillic.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:400 700;font-display:swap;src:url(/assets/fonts/ibm-plex-sans-var-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}</style>
+<link rel="stylesheet" href="/assets/css/site.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://snorly.app/#organization","name":"Snorly","url":"https://snorly.app/","logo":{"@type":"ImageObject","url":"https://snorly.app/assets/img/icon-512.png","width":512,"height":512},"sameAs":["https://apps.apple.com/app/id6743162754"],"email":"hello@builtfor.app"},{"@type":"WebSite","@id":"https://snorly.app/#website","name":"Snorly","url":"https://snorly.app/","inLanguage":"es","publisher":{"@id":"https://snorly.app/#organization"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Snorly","item":"https://snorly.app/es/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://snorly.app/es/blog/"},{"@type":"ListItem","position":3,"name":"App para grabar lo que hablas dormido y qué significa","item":"https://snorly.app/es/blog/app-hablar-dormido/"}]},{"@type":"BlogPosting","@id":"https://snorly.app/es/blog/app-hablar-dormido/#article","mainEntityOfPage":"https://snorly.app/es/blog/app-hablar-dormido/","headline":"App para grabar lo que hablas dormido y qué significa","description":"Con una grabadora activada por sonido en la mesita tendrás clips con hora de lo que hablas dormido, no un archivo de 8 horas. Qué significan los clips.","image":"https://snorly.app/assets/img/covers/sleep-talking-app.webp","datePublished":"2026-09-02","dateModified":"2026-09-02","inLanguage":"es","keywords":"app para grabar cuando hablo dormido, hablar dormido app, grabar lo que digo dormido, por qué hablo dormido, cómo saber si hablo dormido, app que graba ronquidos y hablar dormido, cómo dejar de hablar dormido","author":{"@type":"Person","@id":"https://snorly.app/#author","name":"Mikhail Manev","url":"https://snorly.app/es/author/mikhail-manev/","jobTitle":"Desarrollador de Snorly","worksFor":{"@id":"https://snorly.app/#organization"}},"publisher":{"@id":"https://snorly.app/#organization"},"isPartOf":{"@id":"https://snorly.app/#website"},"wordCount":1731}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">Ir al contenido</a>
+<header class="site-header"><div class="wrap">
+<a class="logo" href="/es/" aria-label="Snorly"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <filter id="g" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="1.2"/></filter>
+  </defs>
+  <circle cx="32" cy="32" r="30" fill="#1c1c1f"/>
+  <g stroke-width="3.2" stroke-linecap="round" fill="none">
+    <g filter="url(#g)" opacity=".7">
+      <path d="M32 6 A26 26 0 0 1 58 32" stroke="#ff3a5e"/>
+      <path d="M58 32 A26 26 0 0 1 32 58" stroke="#ffb000"/>
+      <path d="M32 58 A26 26 0 0 1 6 32" stroke="#33e661"/>
+    </g>
+    <path d="M32 6 A26 26 0 0 1 58 32" stroke="#ff3a5e" stroke-dasharray="3 3.1"/>
+    <path d="M58 32 A26 26 0 0 1 32 58" stroke="#ffb000" stroke-dasharray="3 3.1"/>
+    <path d="M32 58 A26 26 0 0 1 6 32" stroke="#33e661" stroke-dasharray="3 3.1"/>
+    <path d="M6 32 A26 26 0 0 1 32 6" stroke="#2a3a2e" stroke-dasharray="3 3.1"/>
+  </g>
+  <circle cx="32" cy="32" r="7" fill="#ff3a3a"/>
+  <circle cx="32" cy="32" r="9" fill="#ff3a3a" opacity=".35" filter="url(#g)"/>
+</svg>
+<span>Snorly</span></a>
+<nav class="nav" aria-label="Main">
+<a href="/es/blog/">Blog</a>
+<a class="hide-m" href="/es/snore-score/">Puntuación de ronquido</a>
+<a class="hide-m" href="/es/vs/snorelab/">vs SnoreLab</a>
+<details class="lang"><summary aria-label="Idioma: Español">ES</summary><ul><li><a href="/blog/sleep-talking-app/" hreflang="en" lang="en">English</a></li><li><a href="/de/blog/schlafsprechen-app/" hreflang="de" lang="de">Deutsch</a></li><li><a href="/fr/blog/application-parler-en-dormant/" hreflang="fr" lang="fr">Français</a></li><li><a href="/es/blog/app-hablar-dormido/" hreflang="es" lang="es" aria-current="true">Español</a></li><li><a href="/it/blog/app-parlare-nel-sonno/" hreflang="it" lang="it">Italiano</a></li><li><a href="/pt-br/blog/app-falar-dormindo/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a></li><li><a href="/ja/blog/sleep-talking-app/" hreflang="ja" lang="ja">日本語</a></li><li><a href="/nl/blog/praten-in-je-slaap-app/" hreflang="nl" lang="nl">Nederlands</a></li><li><a href="/pl/blog/aplikacja-mowienie-przez-sen/" hreflang="pl" lang="pl">Polski</a></li><li><a href="/th/blog/sleep-talking-app/" hreflang="th" lang="th">ไทย</a></li><li><a href="/ar/blog/sleep-talking-app/" hreflang="ar" lang="ar">العربية</a></li><li><a href="/id/blog/aplikasi-mengigau/" hreflang="id" lang="id">Bahasa Indonesia</a></li><li><a href="/vi/blog/app-ghi-am-noi-mo/" hreflang="vi" lang="vi">Tiếng Việt</a></li><li><a href="/tr/blog/uykuda-konusma-uygulamasi/" hreflang="tr" lang="tr">Türkçe</a></li><li><a href="/zh-hans/blog/sleep-talking-app/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li><li><a href="/ko/blog/sleep-talking-app/" hreflang="ko" lang="ko">한국어</a></li><li><a href="/zh-hant/blog/sleep-talking-app/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li><li><a href="/ru/blog/prilozhenie-razgovory-vo-sne/" hreflang="ru" lang="ru">Русский</a></li></ul></details>
+<a class="btn btn-led" href="https://apps.apple.com/app/id6743162754?ct=app-hablar-dormido" rel="noopener">Descargar</a>
+</nav></div></header>
+<main id="main">
+<article>
+<header class="article-head prose"><span class="label led">Blog</span><h1>App para grabar lo que hablas dormido y qué significa</h1><div class="byline"><img class="avatar" src="/assets/img/author-mikhail-manev.webp" width="28" height="28" alt="" loading="lazy"><span>Por <a href="/es/author/mikhail-manev/" rel="author">Mikhail Manev</a></span><span>· Publicado <time datetime="2026-09-02">2 de septiembre de 2026</time></span><span>· 9 min de lectura</span></div></header>
+<div class="prose"><img width="1200" height="675" class="cover" src="/assets/img/covers/sleep-talking-app.webp" alt="Un iPhone en una mesita de noche, con la pantalla color carbón mostrando una onda LED verde corta y un pequeño icono de bocadillo de diálogo al lado." fetchpriority="high"><p class="lead">Una app para grabar lo que hablas dormido es cualquier grabadora que escucha toda la noche y guarda solo los segundos con sonido, así que te despiertas con una lista de clips con hora en lugar de un archivo de 8 horas que revisar. La preparación es la misma que para grabar ronquidos: iPhone en la mesita, a entre 0,5 y 1 m de tu cabeza, enchufado, con No molestar activado. Alrededor de dos de cada tres adultos han hablado dormidos en algún momento, así que espera encontrar algo en unas pocas noches.</p>
+<div class="facts">
+<span class="label led">Datos clave</span><ul>
+<li>Alrededor de dos de cada tres adultos han hablado dormidos al menos una vez, y aproximadamente uno de cada seis lo hace actualmente (Bjorvatn 2010, encuesta a unos 1000 adultos noruegos)</li>
+<li>En un estudio de laboratorio del sueño con 232 personas, la mayor parte del &quot;habla&quot; grabada eran murmullos, susurros o risas, y la palabra más frecuente fue &quot;no&quot; (Arnulf 2017)</li>
+<li>Hablar dormido suele ser más silencioso que roncar: un susurro ronda los 30 dB, el habla normal los 60 dB, un ronquido fuerte de 50 a 90 dB (escala de ruido de los CDC)</li>
+<li>Una nota de voz de 8 horas con el ajuste por defecto pesa entre 200 y 250 MB; una app activada por sonido guarda unas decenas de clips cortos (mediciones de usuarios; nuestros datos)</li>
+<li>Hablar dormido por sí solo es inofensivo y no necesita tratamiento; gritar con frecuencia y agitarse es un patrón distinto que merece una visita al médico (AASM Sleep Education)</div></li>
+</ul>
+<h2>¿Qué app graba lo que hablas dormido?</h2>
+<p>Cualquier grabadora que empiece un clip cuando oye sonido y lo detenga cuando la habitación vuelve al silencio captará lo que hablas dormido. Las diferencias están en si la app etiqueta el habla aparte de los ronquidos, si puedes reproducir los clips gratis y si el audio sale de tu teléfono.</p>
+<div class="scroll-x"><div class="scroll-x"><table>
+<thead><tr><th>App</th><th>Qué guarda</th><th>¿Etiqueta el habla?</th><th>Plataforma</th></tr></thead>
+<tbody>
+<tr><td>Snorly</td><td>Solo clips, etiquetados como Ronquido, Hablar dormido o Tos, en una línea de tiempo de la noche</td><td>Sí</td><td>iPhone</td></tr>
+<tr><td>Sleep Talk Recorder</td><td>Clips activados por sonido, la app original de este nicho (valoración en el App Store 4,3, unas 2700 valoraciones, septiembre de 2026)</td><td>No, cada sonido es un clip</td><td>iPhone</td></tr>
+<tr><td>Dream Talk Recorder</td><td>Clips activados por sonido, idea parecida (4,7, unas 2700 valoraciones)</td><td>No</td><td>iPhone</td></tr>
+<tr><td>Sleep Cycle</td><td>Rastreador de sueño con función Sleep Talk; la reproducción está en Premium</td><td>Sí</td><td>iPhone, Android</td></tr>
+<tr><td>SnoreLab</td><td>Muestras de ronquidos; el habla aparece cuando es lo bastante fuerte para activar una muestra</td><td>No</td><td>iPhone, Android</td></tr>
+<tr><td>Notas de Voz</td><td>Un archivo continuo de toda la noche</td><td>No</td><td>iPhone</td></tr>
+</tbody></table></div></div><p>Snorly es nuestra app, así que pondera esa fila en consecuencia. Graba solo cuando oye algo, ejecuta la clasificación en el teléfono y marca cada clip como ronquido, hablar dormido o tos, así que una noche con ambas cosas muestra dos tipos de barras en una misma línea de tiempo. Grabación, reproducción e historial son gratis y sin límite de noches; Premium solo añade el audio de la noche completa, la comparación de remedios y el informe PDF.</p>
+<h2>¿Cómo me grabo hablando dormido?</h2>
+<p>Prepara el teléfono exactamente igual que para <a href="/es/blog/como-grabar-tus-ronquidos/">grabar ronquidos</a>: mesita, pantalla hacia abajo, a entre 0,5 y 1 m de tu cabeza, enchufado, con No molestar activado. Luego haz dos cambios, porque hablar es más silencioso y menos frecuente que roncar.</p>
+<ol>
+<li>Acerca el teléfono a tu lado de la cama. Un ronquido a 60 dB cruza una habitación; un murmullo a 30 dB no.</li>
+<li>Aparta cualquier ventilador o purificador de aire del teléfono, o apágalo. Un ruido constante sube el umbral que una app activada por sonido necesita para empezar un clip.</li>
+</ol>
+<p>Con Notas de Voz tienes toda la noche en un archivo y hay que buscar unos segundos de habla. Con una app activada por sonido tienes las marcas de hora. En cualquier caso, graba tres noches antes de decidir que no hablas: hablar dormido viene por fases, y una noche en silencio no demuestra nada.</p>
+<h2>¿Por qué hablo dormido?</h2>
+<p>El habla puede escaparse en cualquier fase del sueño. Los episodios en sueño profundo suelen ser murmullos y palabras sueltas; los episodios en fase REM, cuando los sueños son más vívidos, tienen más probabilidad de ser frases. Los amplificadores conocidos son el estrés, dormir poco, la fiebre, el alcohol por la noche y antecedentes familiares de hablar dormido o de sonambulismo. También se agrupa en el tiempo: semanas de comentarios cada noche y luego meses de nada.</p>
+<p>Nada de eso es un trastorno. La medicina del sueño clasifica hablar dormido (somniloquia) como una parasomnia que normalmente no necesita tratamiento. Los niños son quienes más lo hacen; los adultos lo hacen menos con la edad, pero rara vez dejan de hacerlo del todo.</p>
+<h2>¿Qué contienen de verdad las grabaciones de hablar dormido?</h2>
+<p>Sobre todo murmullos. En el mayor estudio grabado, los investigadores analizaron cientos de episodios de habla de 232 adultos en un laboratorio del sueño. Más de la mitad no eran verbales: susurros, risas, murmullos. Entre las palabras reales, &quot;no&quot; fue la más frecuente, buena parte del contenido era negativo o discutidor, y las palabrotas eran comunes. Las frases que sí aparecían eran gramaticales y con el ritmo del habla normal, y por eso suenan tan convincentes por la mañana.</p>
+<p>Lo que no son es un testimonio. El habla durante el sueño está ligada de forma laxa al contenido de los sueños y nada a las intenciones despierto. Si un clip suena a discusión, ese es el resultado más corriente del conjunto de datos, no una confesión.</p>
+<h2>¿Es peligroso hablar dormido?</h2>
+<p>Por sí solo, no. Hay dos patrones en una grabación sobre los que conviene actuar, y ninguno de los dos es el habla.</p>
+<ul>
+<li>Gritar, decir palabrotas o chillar casi todas las noches, con movimiento que se oye (patadas, golpes al cabecero), sobre todo después de los 50. Puede ser un trastorno de conducta del sueño REM, en el que el cuerpo actúa los sueños, y es motivo para ver a un médico del sueño.</li>
+<li>Habla que se sitúa entre un ronquido, un hueco de silencio y un jadeo fuerte. Ese patrón va de respiración, no de habla. Lee <a href="/es/blog/ronquido-o-apnea-del-sueno/">ronquido o apnea del sueño</a> para ver cómo se ve en una línea de tiempo.</li>
+</ul>
+<p>Si grabas un grito una vez al año tras una semana dura, eso es un terror nocturno o una pesadilla y no necesita nada.</p>
+<h2>¿Y si la grabación muestra ronquidos en su lugar?</h2>
+<p>Es la sorpresa más común. La gente va buscando el comentario de las 3 de la madrugada que mencionó su pareja y descubre que la mayoría de los clips son ronquidos. Tómalo como el resultado útil: hablar es una rareza, roncar es medible y a menudo tiene arreglo. Empieza por <a href="/es/blog/como-suena-el-ronquido/">cómo suena el ronquido en decibelios</a> para leer las etiquetas de volumen, y luego <a href="/es/blog/por-que-ronco/">por qué ronco</a> para encontrar la causa.</p>
+<h2>¿Cómo dejo de hablar dormido?</h2>
+<p>No hay ningún tratamiento probado para hablar dormido de forma corriente, y la mayoría de la gente no lo necesita. Lo que lo reduce es la misma lista que reduce cualquier parasomnia: dormir lo suficiente con un horario regular, recortar el alcohol de la noche y bajar el estrés antes de acostarte, no en la cama. Si tu pareja pierde el sueño por ello, unos tapones con NRR 30 o más y ruido blanco manejan un murmullo sin problema; la <a href="/es/blog/mi-pareja-ronca-que-hacer/">guía para cuando tu pareja ronca</a> cubre ambas cosas.</p>
+<p>Grabar también ayuda aquí. Una semana de clips muestra si hablas cada noche o una vez al mes, si sigue a las noches tardías o a las copas, y si viene con ronquidos. Eso suele bastar para dejar de preocuparse.</p>
+<div class="tonight">
+<span class="label led">Qué hacer esta noche</span><ol>
+<li>Pon el teléfono en la mesita de tu lado de la cama, con la pantalla hacia abajo, enchufado y con No molestar activado.</li>
+<li>Aparta el ventilador del teléfono o apágalo.</li>
+<li>Inicia una grabadora activada por sonido, o una nota de voz si es lo que tienes.</li>
+<li>Por la mañana, escucha los clips una vez y anota dos cosas: cuántos eran habla y cuántos eran ronquidos.</li>
+<li>Repite tres noches antes de sacar ninguna conclusión.</div></li>
+</ol>
+<div class="cta-card"><img src="/assets/img/app-icon-256.webp" width="64" height="64" alt="Snorly app icon" loading="lazy"><p><b>Escucha tus propios ronquidos esta noche</b>Snorly solo graba cuando oye ronquidos y te los reproduce por la mañana. Gratis, sin cuenta y sin límite de noches.</p><a class="btn btn-led" href="https://apps.apple.com/app/id6743162754?ct=app-hablar-dormido" rel="noopener"><svg class="apple" viewBox="0 0 24 24" aria-hidden="true"><path d="M16.4 12.6c0-2.5 2-3.7 2.1-3.8-1.2-1.7-3-1.9-3.6-2-1.5-.2-3 .9-3.8.9s-2-.9-3.3-.8C6.1 6.9 4.5 7.9 3.6 9.5c-1.9 3.3-.5 8.1 1.4 10.8.9 1.3 2 2.8 3.4 2.7 1.4-.1 1.9-.9 3.5-.9s2.1.9 3.5.9c1.5 0 2.4-1.3 3.3-2.6 1-1.5 1.5-3 1.5-3.1-.1 0-2.8-1.1-2.8-4.7zM14 5.2c.7-.9 1.2-2.1 1.1-3.3-1 0-2.3.7-3 1.6-.7.8-1.3 2-1.1 3.2 1.1.1 2.3-.6 3-1.5z"/></svg>Descargar en el App Store</a></div>
+<h2>Preguntas relacionadas</h2>
+<h3>¿El iPhone puede grabar lo que hablo dormido?</h3>
+<p>Sí. Notas de Voz graba toda la noche en un archivo (unos 200 a 250 MB por 8 horas con el ajuste por defecto). Una app activada por sonido guarda solo los clips con sonido, mucho más fáciles de revisar. Deja el teléfono enchufado en cualquier caso.</p>
+<h3>¿Snorly graba cuando hablo dormido?</h3>
+<p>Sí. Snorly graba solo cuando oye sonido y etiqueta cada clip como ronquido, hablar dormido o tos, todo procesado en el teléfono. Los clips de habla aparecen en la misma línea de tiempo que los ronquidos, así que puedes ver si se agrupan antes o después de una racha de ronquidos.</p>
+<h3>¿Por qué sueno enfadado cuando hablo dormido?</h3>
+<p>Porque la mayor parte del habla grabada durante el sueño lo es. En el mayor estudio de laboratorio, &quot;no&quot; fue la palabra más común y una gran parte de los episodios eran negativos o discutidores. Refleja cómo genera habla el cerebro dormido, no lo que piensas de la persona que tienes al lado.</p>
+<h3>¿Hablar dormido significa que tengo un trastorno del sueño?</h3>
+<p>Por sí solo, no. Hablar dormido se clasifica como una parasomnia que normalmente no necesita tratamiento. Gritar cada noche con movimiento, o habla mezclada con huecos de silencio y jadeos, son los dos patrones que merece llevar a un médico.</p>
+<h3>¿Cómo sé si hablo dormido si vivo solo?</h3>
+<p>Graba tres noches con una app activada por sonido. Una noche en silencio no lo zanja, porque hablar dormido viene por fases. La misma grabación también te dirá <a href="/es/blog/como-saber-si-ronco/">si roncas</a>.</p>
+<h2>Fuentes</h2>
+<ul>
+<li>Bjorvatn B, Grønli J, Pallesen S (2010). Prevalence of different parasomnias in the general population. Sleep Medicine. <a href="https://doi.org/10.1016/j.sleep.2010.07.011">https://doi.org/10.1016/j.sleep.2010.07.011</a></li>
+<li>Arnulf I, Uguccioni G, Gay F, et al. (2017). What Does the Sleeping Brain Say? Syntax and Semantics of Sleep Talking in Healthy Subjects and in Parasomnia Patients. Sleep. <a href="https://doi.org/10.1093/sleep/zsx159">https://doi.org/10.1093/sleep/zsx159</a></li>
+<li>American Academy of Sleep Medicine, Sleep Education (consultado en 2026). Sleep Talking. <a href="https://sleepeducation.org/sleep-disorders/sleep-talking/">https://sleepeducation.org/sleep-disorders/sleep-talking/</a></li>
+<li>Sleep Foundation (2026). Sleep Talking: What Is Somniloquy? <a href="https://www.sleepfoundation.org/parasomnias/sleep-talking">https://www.sleepfoundation.org/parasomnias/sleep-talking</a></li>
+<li>CDC (consultado en 2026). What Noises Cause Hearing Loss? <a href="https://www.cdc.gov/nceh/hearing_loss/what_noises_cause_hearing_loss.html">https://www.cdc.gov/nceh/hearing_loss/what_noises_cause_hearing_loss.html</a></li>
+</ul>
+<p class="disclaimer">Snorly es un grabador y registro de ronquidos, no un dispositivo médico. No diagnostica apnea del sueño ni ninguna otra afección. Si notas pausas en la respiración, jadeos o somnolencia diurna, consulta a un médico.</p></div>
+<aside class="related prose"><h2>Sigue leyendo</h2><ul class="card-list"><li><a class="card" href="/es/blog/almohada-antirronquidos/"><b>¿Funcionan las almohadas antirronquidos? Probadas grabando</b><span>La viscoelástica redujo los ronquidos un 47% en laboratorio; una almohada inclinada bajó los eventos respiratorios de 17 a 5 por hora. Cómo probar la tuya.</span><time datetime="2026-09-03">3 de septiembre de 2026</time></a></li><li><a class="card" href="/es/blog/cinta-para-la-boca-ronquidos/"><b>Cinta en la boca para no roncar: ¿funciona? Cómo probarla</b><span>La cinta en la boca redujo los ronquidos a la mitad en estudios pequeños con respiradores bucales. Quién debe evitarla y cómo probarla en ti mismo en 7 noches.</span><time datetime="2026-09-03">3 de septiembre de 2026</time></a></li><li><a class="card" href="/es/blog/tiras-nasales-para-ronquidos/"><b>Tiras nasales para roncar: ¿funcionan? Qué dicen los datos</b><span>Las tiras nasales bajaron los ronquidos por hora de 258 a 173 en el único ensayo con placebo, solo con la nariz tapada. Cómo probar una tira en ti en 7 noches.</span><time datetime="2026-09-03">3 de septiembre de 2026</time></a></li></ul></aside>
+</article>
+</main>
+<footer class="site-footer"><div class="wrap">
+<div><a class="logo" href="/es/"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <filter id="g" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="1.2"/></filter>
+  </defs>
+  <circle cx="32" cy="32" r="30" fill="#1c1c1f"/>
+  <g stroke-width="3.2" stroke-linecap="round" fill="none">
+    <g filter="url(#g)" opacity=".7">
+      <path d="M32 6 A26 26 0 0 1 58 32" stroke="#ff3a5e"/>
+      <path d="M58 32 A26 26 0 0 1 32 58" stroke="#ffb000"/>
+      <path d="M32 58 A26 26 0 0 1 6 32" stroke="#33e661"/>
+    </g>
+    <path d="M32 6 A26 26 0 0 1 58 32" stroke="#ff3a5e" stroke-dasharray="3 3.1"/>
+    <path d="M58 32 A26 26 0 0 1 32 58" stroke="#ffb000" stroke-dasharray="3 3.1"/>
+    <path d="M32 58 A26 26 0 0 1 6 32" stroke="#33e661" stroke-dasharray="3 3.1"/>
+    <path d="M6 32 A26 26 0 0 1 32 6" stroke="#2a3a2e" stroke-dasharray="3 3.1"/>
+  </g>
+  <circle cx="32" cy="32" r="7" fill="#ff3a3a"/>
+  <circle cx="32" cy="32" r="9" fill="#ff3a3a" opacity=".35" filter="url(#g)"/>
+</svg>
+<span>Snorly</span></a><p class="small" style="margin-top:.8rem;max-width:34ch">Grabador de ronquidos para iPhone. Snore Recorder App Pro: Snorly.</p>
+<p><a class="btn" href="https://apps.apple.com/app/id6743162754?ct=app-hablar-dormido" rel="noopener"><svg class="apple" viewBox="0 0 24 24" aria-hidden="true"><path d="M16.4 12.6c0-2.5 2-3.7 2.1-3.8-1.2-1.7-3-1.9-3.6-2-1.5-.2-3 .9-3.8.9s-2-.9-3.3-.8C6.1 6.9 4.5 7.9 3.6 9.5c-1.9 3.3-.5 8.1 1.4 10.8.9 1.3 2 2.8 3.4 2.7 1.4-.1 1.9-.9 3.5-.9s2.1.9 3.5.9c1.5 0 2.4-1.3 3.3-2.6 1-1.5 1.5-3 1.5-3.1-.1 0-2.8-1.1-2.8-4.7zM14 5.2c.7-.9 1.2-2.1 1.1-3.3-1 0-2.3.7-3 1.6-.7.8-1.3 2-1.1 3.2 1.1.1 2.3-.6 3-1.5z"/></svg>App Store</a></p></div>
+<div><p class="foot-h">Aprender</p><ul><li><a href="/es/blog/almohada-antirronquidos/">¿Funcionan las almohadas antirronquidos? Probadas grabando</a></li><li><a href="/es/blog/cinta-para-la-boca-ronquidos/">Cinta en la boca para no roncar: ¿funciona? Cómo probarla</a></li><li><a href="/es/blog/tiras-nasales-para-ronquidos/">Tiras nasales para roncar: ¿funcionan? Qué dicen los datos</a></li><li><a href="/es/blog/app-hablar-dormido/">App para grabar lo que hablas dormido y qué significa</a></li><li><a href="/es/blog/como-dejar-de-roncar/">Cómo dejar de roncar: 9 remedios según la evidencia</a></li><li><a href="/es/blog/">Blog</a></li></ul></div>
+<div><p class="foot-h">Producto</p><ul><li><a href="/es/snore-score/">Puntuación de ronquido</a></li><li><a href="/es/vs/snorelab/">vs SnoreLab</a></li><li><a href="/es/free-snoring-app/">Gratis</a></li><li><a href="/es/snore-detection-app/">Detección de ronquidos</a></li><li><a href="/es/snoring-statistics/">Estadísticas</a></li><li><a href="/es/support/">Soporte</a></li><li><a href="/es/author/mikhail-manev/">Sobre el autor</a></li><li><a href="/privacy/">Privacidad</a></li><li><a href="/terms/">Términos</a></li></ul></div>
+<div class="legal"><p>Snorly es un grabador y registro de ronquidos, no un dispositivo médico. No diagnostica apnea del sueño ni ninguna otra afección. Si notas pausas en la respiración, jadeos o somnolencia diurna, consulta a un médico.</p><p>© 2026 Snorly · Snore Recorder App Pro · <a href="mailto:hello@builtfor.app">hello@builtfor.app</a></p></div>
+</div></footer>
+</body>
+</html>

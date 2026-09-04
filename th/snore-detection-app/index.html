@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>แอปตรวจจับเสียงกรนบน iPhone ประมวลผลในเครื่อง · Snorly</title>
+<meta name="description" content="Snorly ตรวจจับเสียงกรนบน iPhone เอง เก็บไว้เฉพาะคลิปที่มีเสียง และไม่ต้องสมัครบัญชี ตรวจจับอะไรได้บ้าง แม่นแค่ไหน และอะไรที่ใช้ฟรี">
+<link rel="canonical" href="https://snorly.app/th/snore-detection-app/">
+<link rel="alternate" hreflang="en" href="https://snorly.app/snore-detection-app/">
+<link rel="alternate" hreflang="de" href="https://snorly.app/de/snore-detection-app/">
+<link rel="alternate" hreflang="fr" href="https://snorly.app/fr/snore-detection-app/">
+<link rel="alternate" hreflang="es" href="https://snorly.app/es/snore-detection-app/">
+<link rel="alternate" hreflang="it" href="https://snorly.app/it/snore-detection-app/">
+<link rel="alternate" hreflang="pt-BR" href="https://snorly.app/pt-br/snore-detection-app/">
+<link rel="alternate" hreflang="ja" href="https://snorly.app/ja/snore-detection-app/">
+<link rel="alternate" hreflang="nl" href="https://snorly.app/nl/snore-detection-app/">
+<link rel="alternate" hreflang="pl" href="https://snorly.app/pl/snore-detection-app/">
+<link rel="alternate" hreflang="th" href="https://snorly.app/th/snore-detection-app/">
+<link rel="alternate" hreflang="ar" href="https://snorly.app/ar/snore-detection-app/">
+<link rel="alternate" hreflang="id" href="https://snorly.app/id/snore-detection-app/">
+<link rel="alternate" hreflang="vi" href="https://snorly.app/vi/snore-detection-app/">
+<link rel="alternate" hreflang="tr" href="https://snorly.app/tr/snore-detection-app/">
+<link rel="alternate" hreflang="zh-Hans" href="https://snorly.app/zh-hans/snore-detection-app/">
+<link rel="alternate" hreflang="ko" href="https://snorly.app/ko/snore-detection-app/">
+<link rel="alternate" hreflang="zh-Hant" href="https://snorly.app/zh-hant/snore-detection-app/">
+<link rel="alternate" hreflang="ru" href="https://snorly.app/ru/snore-detection-app/">
+<link rel="alternate" hreflang="x-default" href="https://snorly.app/snore-detection-app/">
+<meta name="apple-itunes-app" content="app-id=6743162754, app-argument=https://snorly.app/th/snore-detection-app/">
+<meta name="theme-color" content="#1a1a1c">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Snorly">
+<meta property="og:locale" content="th_TH">
+<meta property="og:title" content="แอปตรวจจับเสียงกรนบน iPhone ประมวลผลในเครื่อง">
+<meta property="og:description" content="Snorly ตรวจจับเสียงกรนบน iPhone เอง เก็บไว้เฉพาะคลิปที่มีเสียง และไม่ต้องสมัครบัญชี ตรวจจับอะไรได้บ้าง แม่นแค่ไหน และอะไรที่ใช้ฟรี">
+<meta property="og:url" content="https://snorly.app/th/snore-detection-app/">
+<meta property="og:image" content="https://snorly.app/assets/img/covers/snore-detection-app.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/assets/img/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/assets/img/favicon-192.png" sizes="192x192" type="image/png">
+<link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+<link rel="alternate" type="application/rss+xml" title="Snorly" href="/feed-th.xml">
+
+<style>@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:400;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-400-cyrillic.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:400;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-400-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:500;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-500-cyrillic.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:500;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-500-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:600;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-600-cyrillic.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:600;font-display:swap;src:url(/assets/fonts/ibm-plex-mono-600-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:400 700;font-display:swap;src:url(/assets/fonts/ibm-plex-sans-var-cyrillic.woff2) format('woff2');unicode-range:U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116}
+@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:400 700;font-display:swap;src:url(/assets/fonts/ibm-plex-sans-var-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}</style>
+<link rel="stylesheet" href="/assets/css/site.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://snorly.app/#organization","name":"Snorly","url":"https://snorly.app/","logo":{"@type":"ImageObject","url":"https://snorly.app/assets/img/icon-512.png","width":512,"height":512},"sameAs":["https://apps.apple.com/app/id6743162754"],"email":"hello@builtfor.app"},{"@type":"WebSite","@id":"https://snorly.app/#website","name":"Snorly","url":"https://snorly.app/","inLanguage":"th","publisher":{"@id":"https://snorly.app/#organization"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Snorly","item":"https://snorly.app/th/"},{"@type":"ListItem","position":2,"name":"แอปตรวจจับเสียงกรนบน iPhone ประมวลผลในเครื่อง","item":"https://snorly.app/th/snore-detection-app/"}]},{"@type":"WebPage","@id":"https://snorly.app/th/snore-detection-app/#webpage","url":"https://snorly.app/th/snore-detection-app/","name":"แอปตรวจจับเสียงกรนบน iPhone ประมวลผลในเครื่อง","description":"Snorly ตรวจจับเสียงกรนบน iPhone เอง เก็บไว้เฉพาะคลิปที่มีเสียง และไม่ต้องสมัครบัญชี ตรวจจับอะไรได้บ้าง แม่นแค่ไหน และอะไรที่ใช้ฟรี","inLanguage":"th","isPartOf":{"@id":"https://snorly.app/#website"},"dateModified":"2026-09-03","author":{"@type":"Person","@id":"https://snorly.app/#author","name":"Mikhail Manev","url":"https://snorly.app/th/author/mikhail-manev/","jobTitle":"ผู้พัฒนา Snorly","worksFor":{"@id":"https://snorly.app/#organization"}},"publisher":{"@id":"https://snorly.app/#organization"}}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">ข้ามไปที่เนื้อหา</a>
+<header class="site-header"><div class="wrap">
+<a class="logo" href="/th/" aria-label="Snorly"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <filter id="g" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="1.2"/></filter>
+  </defs>
+  <circle cx="32" cy="32" r="30" fill="#1c1c1f"/>
+  <g stroke-width="3.2" stroke-linecap="round" fill="none">
+    <g filter="url(#g)" opacity=".7">
+      <path d="M32 6 A26 26 0 0 1 58 32" stroke="#ff3a5e"/>
+      <path d="M58 32 A26 26 0 0 1 32 58" stroke="#ffb000"/>
+      <path d="M32 58 A26 26 0 0 1 6 32" stroke="#33e661"/>
+    </g>
+    <path d="M32 6 A26 26 0 0 1 58 32" stroke="#ff3a5e" stroke-dasharray="3 3.1"/>
+    <path d="M58 32 A26 26 0 0 1 32 58" stroke="#ffb000" stroke-dasharray="3 3.1"/>
+    <path d="M32 58 A26 26 0 0 1 6 32" stroke="#33e661" stroke-dasharray="3 3.1"/>
+    <path d="M6 32 A26 26 0 0 1 32 6" stroke="#2a3a2e" stroke-dasharray="3 3.1"/>
+  </g>
+  <circle cx="32" cy="32" r="7" fill="#ff3a3a"/>
+  <circle cx="32" cy="32" r="9" fill="#ff3a3a" opacity=".35" filter="url(#g)"/>
+</svg>
+<span>Snorly</span></a>
+<nav class="nav" aria-label="Main">
+<a href="/th/blog/">บล็อก</a>
+<a class="hide-m" href="/th/snore-score/">คะแนนการกรน</a>
+<a class="hide-m" href="/th/vs/snorelab/">vs SnoreLab</a>
+<details class="lang"><summary aria-label="ภาษา: ไทย">TH</summary><ul><li><a href="/snore-detection-app/" hreflang="en" lang="en">English</a></li><li><a href="/de/snore-detection-app/" hreflang="de" lang="de">Deutsch</a></li><li><a href="/fr/snore-detection-app/" hreflang="fr" lang="fr">Français</a></li><li><a href="/es/snore-detection-app/" hreflang="es" lang="es">Español</a></li><li><a href="/it/snore-detection-app/" hreflang="it" lang="it">Italiano</a></li><li><a href="/pt-br/snore-detection-app/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a></li><li><a href="/ja/snore-detection-app/" hreflang="ja" lang="ja">日本語</a></li><li><a href="/nl/snore-detection-app/" hreflang="nl" lang="nl">Nederlands</a></li><li><a href="/pl/snore-detection-app/" hreflang="pl" lang="pl">Polski</a></li><li><a href="/th/snore-detection-app/" hreflang="th" lang="th" aria-current="true">ไทย</a></li><li><a href="/ar/snore-detection-app/" hreflang="ar" lang="ar">العربية</a></li><li><a href="/id/snore-detection-app/" hreflang="id" lang="id">Bahasa Indonesia</a></li><li><a href="/vi/snore-detection-app/" hreflang="vi" lang="vi">Tiếng Việt</a></li><li><a href="/tr/snore-detection-app/" hreflang="tr" lang="tr">Türkçe</a></li><li><a href="/zh-hans/snore-detection-app/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li><li><a href="/ko/snore-detection-app/" hreflang="ko" lang="ko">한국어</a></li><li><a href="/zh-hant/snore-detection-app/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li><li><a href="/ru/snore-detection-app/" hreflang="ru" lang="ru">Русский</a></li></ul></details>
+<a class="btn btn-led" href="https://apps.apple.com/app/id6743162754?ct=snore-detection-app" rel="noopener">ดาวน์โหลดแอป</a>
+</nav></div></header>
+<main id="main">
+<article>
+<header class="article-head prose"><h1>แอปตรวจจับเสียงกรนบน iPhone ประมวลผลในเครื่อง</h1></header>
+<div class="prose"><img width="1200" height="675" class="cover" src="/assets/img/covers/snore-detection-app.webp" alt="iPhone บนโต๊ะข้างเตียงในห้องนอนมืด หน้าจอแสดงคลื่นเสียง LED สีเขียวเรืองแสงที่ถูกแยกเป็นชิปสีเขียว เหลืองอำพัน และน้ำเงิน พร้อมไอคอนแม่กุญแจดวงเล็ก" fetchpriority="high"><p class="lead">แอปตรวจจับเสียงกรนจะฟังผ่านไมโครโฟนของมือถือตลอดทั้งคืน ตัดสินแบบเรียลไทม์ว่าเสียงไหนคือเสียงกรน แล้วเก็บไว้เฉพาะวินาทีเหล่านั้น Snorly ทำงานนี้บน iPhone เอง ตัวจำแนกเสียงทำงานอยู่ในเครื่อง คลิปอยู่ในเครื่อง และไม่มีบัญชีให้ต้องสมัคร ตอนเช้าคุณจะได้ไทม์ไลน์ของทั้งคืนพร้อมคลิปการกรนทุกคลิป ป้ายความดังของแต่ละคลิป และคะแนนหนึ่งค่า</p>
+<div class="facts">
+<span class="label led">ข้อมูลสำคัญ</span><ul>
+<li>Snorly จำแนกเสียงบน iPhone ด้วยระบบวิเคราะห์เสียงในเครื่องของ Apple ไม่มีการอัปโหลดไฟล์เสียง และแอปทำงานได้แม้เปิดโหมดเครื่องบิน (ข้อมูลของเราเอง)</li>
+<li>หนึ่งคืนถูกเก็บเป็นคลิปสั้น ๆ ของเสียงกรน การละเมอพูด และเสียงไอที่ตรวจพบ การนอนแปดชั่วโมงจึงใช้พื้นที่ไม่กี่เมกะไบต์ ไม่ใช่ 200 MB แบบไฟล์บันทึกเสียงยาว 8 ชั่วโมง (ข้อมูลของเราเอง)</li>
+<li>งานวิจัยตรวจสอบความถูกต้องที่ตีพิมพ์แล้วพบว่าการตรวจจับเสียงกรนด้วยมือถือให้ผลใกล้เคียงกับการนับด้วยคนสำหรับการกรนเสียงดัง และแม่นน้อยลงกับการกรนเบาในห้องที่มีเสียงรบกวน (Chiang 2021; Figueras-Alvarez 2020)</div></li>
+</ul>
+<h2>แอปตรวจจับเสียงกรนทำอะไรจริง ๆ บ้าง</h2>
+<p>สามอย่างตามลำดับ อย่างแรก แอปฟังโดยไม่อัดทุกอย่าง ตัวจำแนกเสียงทำงานกับเสียงจากไมโครโฟนทีละวินาทีแล้วถามว่า &quot;นี่คือเสียงกรนหรือเปล่า&quot; เมื่อคำตอบคือใช่ แอปจะบันทึกช่วงนั้นเป็นคลิปพร้อมเวลากำกับและค่าความดัง และตอนเช้าแอปจะวางคลิปทั้งหมดลงบนไทม์ไลน์ ให้คุณเห็นว่าการกรนเกิดขึ้นตอนไหน ดังแค่ไหน และกดฟังคลิปไหนก็ได้</p>
+<p>ขั้นสุดท้ายคือขั้นที่สำคัญที่สุด คะแนนเปล่า ๆ เป็นตัวเลขที่คุณต้องเชื่อไปก่อน แต่คลิปเวลา 03:12 ที่ติดป้ายว่ารุนแรงเป็นสิ่งที่คุณได้ยินเอง และคนที่นอนข้าง ๆ ก็ได้ยินเหมือนกัน</p>
+<h2>Snorly ตรวจจับอะไรได้บ้าง</h2>
+<div class="scroll-x"><table>
+<thead>
+<tr>
+<th>เสียง</th>
+<th>เก็บเป็นคลิป</th>
+<th>แสดงเป็น</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>การกรน</td>
+<td>เก็บ</td>
+<td>แท่งบนไทม์ไลน์ของคืนนั้น แบ่งความดังสี่ระดับตั้งแต่เงียบถึงรุนแรง</td>
+</tr>
+<tr>
+<td>การละเมอพูด</td>
+<td>เก็บ</td>
+<td>คลิปแยก ติดป้ายไว้ ไม่นำมาคิดคะแนน</td>
+</tr>
+<tr>
+<td>เสียงไอ</td>
+<td>เก็บ</td>
+<td>คลิปแยก ติดป้ายไว้ ไม่นำมาคิดคะแนน</td>
+</tr>
+<tr>
+<td>การหยุดหายใจและการหายใจเฮือก</td>
+<td>ทำเครื่องหมายไว้บนไทม์ไลน์</td>
+<td>จำนวนครั้งต่อชั่วโมง ระบุว่าเป็นเรื่องที่ควรปรึกษาแพทย์</td>
+</tr>
+<tr>
+<td>ความเงียบ เสียงพัดลม เสียงรถ</td>
+<td>ไม่เก็บ</td>
+<td>ไม่มีการบันทึกอะไรไว้</td>
+</tr>
+</tbody></table></div>
+<p>สัญญาณรูปแบบการหายใจเป็นตัวตรวจจับรูปแบบ ไม่ใช่การวินิจฉัย สิ่งที่แอปทำเครื่องหมายไว้คือการกรนที่ค่อย ๆ ดังขึ้น หยุดไปสิบวินาทีขึ้นไป แล้วกลับมาพร้อมเสียงเฮือก ส่วนที่ว่านั่นเป็นภาวะหยุดหายใจหรือไม่ และออกซิเจนของคุณตกลงหรือเปล่า เป็นสิ่งที่การตรวจการนอนหลับวัดได้ และไม่มีแอปบนมือถือตัวไหนบอกคุณได้ ความต่างอธิบายไว้ใน <a href="/th/blog/snoring-vs-sleep-apnea/">การกรนกับภาวะหยุดหายใจขณะหลับ</a></p>
+<h2>การตรวจจับในเครื่องทำงานอย่างไร และทำไมถึงสำคัญ</h2>
+<p>ตัวจำแนกเสียงเป็นโมเดลขนาดเล็กที่ทำงานบนชิปของมือถือเอง เสียงเข้าไปทีละวินาที ป้ายกำกับออกมา แล้วเสียงวินาทีนั้นจะถูกบันทึกเป็นส่วนหนึ่งของคลิปหรือถูกทิ้งไป ไม่มีอะไรต้องรอเซิร์ฟเวอร์ การตรวจจับจึงทำงานได้แม้ไม่มีสัญญาณ และไม่มีอะไรจากห้องนอนของคุณออกจากมือถือ เว้นแต่คุณจะกดแชร์คลิปเอง</p>
+<p>ผลที่ตามมาในทางปฏิบัติมีสองข้อ เรื่องแบตเตอรี่ การรู้จำเสียงบนเครื่องกินทรัพยากรน้อยพอที่การอัดหนึ่งคืนขณะเสียบชาร์จจะไม่ทำให้รู้สึกถึงความต่าง เรื่องความเป็นส่วนตัว ไม่มีบัญชี ไม่มีการอัปโหลด และไม่มีคลังคืนของคุณบนคลาวด์ ไฟล์เสียงไม่ปรากฏในฉลากความเป็นส่วนตัวของ Snorly บน App Store เลย สิ่งที่ฉลากระบุไว้คือข้อมูลการใช้งานแบบไม่ระบุตัวตนและตัวระบุสำหรับการวิเคราะห์และการอ้างอิงที่มาจาก App Store ซึ่งเป็นหมวดเดียวกับที่แอปส่วนใหญ่ในรายการนี้มี</p>
+<h2>การตรวจจับเสียงกรนบนมือถือแม่นแค่ไหน</h2>
+<p>แม่นดีกับการกรนเสียงดัง และแม่นน้อยลงกับการกรนเบาในห้องที่มีเสียงรบกวน งานตรวจสอบความถูกต้องปี 2021 ที่เทียบแอปกรนบนสมาร์ตโฟนกับการให้คะแนนด้วยคนพบว่าการตรวจจับการกรนสอดคล้องกันสูง (Chiang et al. 2021) และงานวิจัยปี 2020 ที่ทดสอบ SnoreLab บนมือถือสามรุ่นพบว่าผลของแต่ละเครื่องสอดคล้องกันในคืนเดียวกัน (Figueras-Alvarez et al. 2020) ทั้งสองงานไม่ได้ใช้ Snorly ข้อค้นพบนี้เป็นเรื่องของวิธีการ ซึ่ง Snorly ใช้วิธีเดียวกัน</p>
+<p>สิ่งที่ทำให้ตัวเลขขยับคือตำแหน่งวางเครื่อง ไม่ใช่ตัวแอป ห่างจากศีรษะ 0.5 ถึง 1 เมตร วางบนโต๊ะข้างเตียง คว่ำจอลง ไม่มีพัดลมเป่าผ่านมือถือ และวางจุดเดิมทุกคืน ระดับความดังเป็นค่าสัมพัทธ์กับสิ่งที่ไมโครโฟนรับได้ มือถือที่ย้ายที่ไปมาระหว่างคืนจึงให้ป้ายกำกับที่เทียบกันไม่ได้ รายละเอียดการตั้งค่าอยู่ใน <a href="/th/blog/how-to-record-yourself-snoring/">วิธีอัดเสียงกรนของตัวเอง</a></p>
+<h2>ต้องจ่ายเท่าไร</h2>
+<p>การตรวจจับ คลิปทุกคลิป คะแนนรายคืน ไทม์ไลน์ สัญญาณรูปแบบการหายใจ และประวัติทั้งหมดของคุณ ใช้ฟรีทุกคืน ไม่จำกัดจำนวนคืนและไม่มีโฆษณา Premium มีไว้สำหรับส่วนเสริมเท่านั้น ได้แก่ เสียงเต็มคืน การเปรียบเทียบคืนที่ใช้กับไม่ใช้วิธีแก้หรือปัจจัยหนึ่ง ๆ รายงาน PDF สำหรับแพทย์ และการนำเข้าข้อมูลจาก Apple Health เป็นการสมัครสมาชิกหรือจ่ายครั้งเดียวแบบตลอดชีพ โดยราคาสำหรับประเทศของคุณแสดงอยู่ในแอป ดูการเทียบกับแอปอื่นแบบเต็ม ๆ ได้ที่หน้า <a href="/th/free-snoring-app/">แอปอัดเสียงกรนฟรี</a></p>
+<h2>เริ่มใช้คืนนี้อย่างไร</h2>
+<ol>
+<li>ติดตั้ง Snorly เปิดแอป ไม่มีขั้นตอนไหนต้องข้าม เพราะไม่มีบัญชีให้สมัคร</li>
+<li>วาง iPhone บนโต๊ะข้างเตียง ห่างจากหมอน 0.5 ถึง 1 เมตร คว่ำจอลง เสียบสายชาร์จไว้</li>
+<li>กดอัดแล้วนอน หน้าจอจะหรี่ลงเป็นนาฬิกาข้างเตียง</li>
+<li>ตอนเช้า แตะแท่งที่สูงที่สุดบนไทม์ไลน์แล้วฟัง คลิปนั้นคือคำตอบของคำถามว่า &quot;ฉันกรนหรือเปล่า&quot;</li>
+</ol>
+<div class="cta-card"><img src="/assets/img/app-icon-256.webp" width="64" height="64" alt="Snorly app icon" loading="lazy"><p><b>คืนนี้ลองฟังเสียงกรนของตัวเอง</b>Snorly อัดเสียงเฉพาะตอนที่ได้ยินเสียงกรน แล้วเปิดให้ฟังตอนเช้า ใช้ฟรี ไม่ต้องสมัครบัญชี ไม่จำกัดจำนวนคืน</p><a class="btn btn-led" href="https://apps.apple.com/app/id6743162754?ct=snore-detection-app" rel="noopener"><svg class="apple" viewBox="0 0 24 24" aria-hidden="true"><path d="M16.4 12.6c0-2.5 2-3.7 2.1-3.8-1.2-1.7-3-1.9-3.6-2-1.5-.2-3 .9-3.8.9s-2-.9-3.3-.8C6.1 6.9 4.5 7.9 3.6 9.5c-1.9 3.3-.5 8.1 1.4 10.8.9 1.3 2 2.8 3.4 2.7 1.4-.1 1.9-.9 3.5-.9s2.1.9 3.5.9c1.5 0 2.4-1.3 3.3-2.6 1-1.5 1.5-3 1.5-3.1-.1 0-2.8-1.1-2.8-4.7zM14 5.2c.7-.9 1.2-2.1 1.1-3.3-1 0-2.3.7-3 1.6-.7.8-1.3 2-1.1 3.2 1.1.1 2.3-.6 3-1.5z"/></svg>ดาวน์โหลดบน App Store</a></div>
+<h2>คำถามที่เกี่ยวข้อง</h2>
+<h3>มีแอปที่ตรวจจับเสียงกรนอัตโนมัติไหม</h3>
+<p>มี Snorly, SnoreLab, SnoreClock และแอปอื่นอีกหลายตัวตรวจจับเสียงกรนจากไมโครโฟนและเก็บไว้เฉพาะเสียงกรน ความต่างอยู่ที่การตรวจจับทำงานที่ไหน คุณเปิดฟังอะไรได้บ้างโดยไม่ต้องจ่ายเงิน และต้องสมัครบัญชีหรือไม่ ดู <a href="/th/blog/best-snoring-apps/">แอปกรนที่ดีที่สุด</a></p>
+<h3>เปิดพัดลมหรือไวต์นอยส์ไว้ ยังตรวจจับเสียงกรนได้ไหม</h3>
+<p>ส่วนใหญ่ได้ สำหรับการกรนระดับปานกลางและเสียงดัง เสียงรบกวนต่อเนื่องที่กินช่วงความถี่กว้างจะยกระดับเสียงพื้นที่ตัวจำแนกต้องได้ยินให้พ้น การกรนเบาจึงถูกมองข้ามเป็นอย่างแรก ให้หันพัดลมออกจากมือถือ และวางมือถือไว้ฝั่งเตียงที่อยู่ห่างจากพัดลม</p>
+<h3>แอปตรวจจับเสียงกรนตรวจภาวะหยุดหายใจขณะหลับได้ไหม</h3>
+<p>แอปตรวจจับรูปแบบเสียงที่มักมาคู่กันได้ คือกรน เงียบไปสิบวินาทีขึ้นไป แล้วตามด้วยเสียงเฮือก แต่วัดออกซิเจนหรือยืนยันภาวะหยุดหายใจไม่ได้ ให้ถือว่าคืนที่มีเครื่องหมายคือเหตุผลที่ควรไปพบแพทย์ ไม่ใช่ผลตรวจ</p>
+<h3>ต้องใช้อินเทอร์เน็ตไหม</h3>
+<p>ไม่ต้อง การตรวจจับ การเก็บข้อมูล และการเปิดฟัง เกิดขึ้นบนมือถือทั้งหมด อินเทอร์เน็ตใช้เฉพาะตอนซื้อผ่าน App Store ถ้าคุณซื้อ Premium</p>
+<h2>แหล่งอ้างอิง</h2>
+<ul>
+<li>Chiang JK, Lin YC, Lin CW, et al. (2021). Validation of snoring detection using a smartphone app. Sleep and Breathing. <a href="https://doi.org/10.1007/s11325-021-02359-3">https://doi.org/10.1007/s11325-021-02359-3</a></li>
+<li>Figueras-Alvarez O, Cantó-Navés O, Real-Voltas F, et al. (2020). Snoring intensity assessment with three different smartphones using the SnoreLab application in one participant. Journal of Clinical Sleep Medicine. <a href="https://doi.org/10.5664/jcsm.8586">https://doi.org/10.5664/jcsm.8586</a></li>
+</ul>
+<p class="disclaimer">Snorly เป็นแอปอัดและติดตามเสียงกรน ไม่ใช่เครื่องมือแพทย์ แอปไม่วินิจฉัยภาวะหยุดหายใจขณะหลับหรือโรคใด ๆ หากคุณสังเกตเห็นการหยุดหายใจ อาการเฮือก หรือง่วงมากตอนกลางวัน ควรปรึกษาแพทย์</p></div>
+</article>
+</main>
+<footer class="site-footer"><div class="wrap">
+<div><a class="logo" href="/th/"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <filter id="g" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="1.2"/></filter>
+  </defs>
+  <circle cx="32" cy="32" r="30" fill="#1c1c1f"/>
+  <g stroke-width="3.2" stroke-linecap="round" fill="none">
+    <g filter="url(#g)" opacity=".7">
+      <path d="M32 6 A26 26 0 0 1 58 32" stroke="#ff3a5e"/>
+      <path d="M58 32 A26 26 0 0 1 32 58" stroke="#ffb000"/>
+      <path d="M32 58 A26 26 0 0 1 6 32" stroke="#33e661"/>
+    </g>
+    <path d="M32 6 A26 26 0 0 1 58 32" stroke="#ff3a5e" stroke-dasharray="3 3.1"/>
+    <path d="M58 32 A26 26 0 0 1 32 58" stroke="#ffb000" stroke-dasharray="3 3.1"/>
+    <path d="M32 58 A26 26 0 0 1 6 32" stroke="#33e661" stroke-dasharray="3 3.1"/>
+    <path d="M6 32 A26 26 0 0 1 32 6" stroke="#2a3a2e" stroke-dasharray="3 3.1"/>
+  </g>
+  <circle cx="32" cy="32" r="7" fill="#ff3a3a"/>
+  <circle cx="32" cy="32" r="9" fill="#ff3a3a" opacity=".35" filter="url(#g)"/>
+</svg>
+<span>Snorly</span></a><p class="small" style="margin-top:.8rem;max-width:34ch">แอปอัดเสียงกรนสำหรับ iPhone. Snore Recorder App Pro: Snorly.</p>
+<p><a class="btn" href="https://apps.apple.com/app/id6743162754?ct=snore-detection-app" rel="noopener"><svg class="apple" viewBox="0 0 24 24" aria-hidden="true"><path d="M16.4 12.6c0-2.5 2-3.7 2.1-3.8-1.2-1.7-3-1.9-3.6-2-1.5-.2-3 .9-3.8.9s-2-.9-3.3-.8C6.1 6.9 4.5 7.9 3.6 9.5c-1.9 3.3-.5 8.1 1.4 10.8.9 1.3 2 2.8 3.4 2.7 1.4-.1 1.9-.9 3.5-.9s2.1.9 3.5.9c1.5 0 2.4-1.3 3.3-2.6 1-1.5 1.5-3 1.5-3.1-.1 0-2.8-1.1-2.8-4.7zM14 5.2c.7-.9 1.2-2.1 1.1-3.3-1 0-2.3.7-3 1.6-.7.8-1.3 2-1.1 3.2 1.1.1 2.3-.6 3-1.5z"/></svg>App Store</a></p></div>
+<div><p class="foot-h">บทความ</p><ul><li><a href="/th/blog/anti-snoring-pillow/">หมอนแก้กรนได้ผลไหม ทดสอบด้วยการอัดเสียง</a></li><li><a href="/th/blog/does-mouth-tape-stop-snoring/">เทปปิดปากแก้กรนได้ไหม วิธีทดสอบอย่างปลอดภัย</a></li><li><a href="/th/blog/nasal-strips-for-snoring/">แผ่นแปะจมูกแก้กรนได้จริงไหม ดูจากเสียงที่อัดไว้</a></li><li><a href="/th/blog/best-snoring-apps/">แอปอัดเสียงกรนที่ดีที่สุด 6 แอป เทียบการใช้ฟรี</a></li><li><a href="/th/blog/how-to-know-if-you-snore/">รู้ได้อย่างไรว่าเรานอนกรน แม้จะนอนคนเดียว</a></li><li><a href="/th/blog/">บล็อก</a></li></ul></div>
+<div><p class="foot-h">ผลิตภัณฑ์</p><ul><li><a href="/th/snore-score/">คะแนนการกรน</a></li><li><a href="/th/vs/snorelab/">vs SnoreLab</a></li><li><a href="/th/free-snoring-app/">ใช้ฟรี</a></li><li><a href="/th/snore-detection-app/">ตรวจจับเสียงกรน</a></li><li><a href="/th/snoring-statistics/">สถิติการนอนกรน</a></li><li><a href="/th/support/">ความช่วยเหลือ</a></li><li><a href="/th/author/mikhail-manev/">เกี่ยวกับผู้เขียน</a></li><li><a href="/privacy/">ความเป็นส่วนตัว</a></li><li><a href="/terms/">ข้อกำหนด</a></li></ul></div>
+<div class="legal"><p>Snorly เป็นแอปอัดและติดตามเสียงกรน ไม่ใช่เครื่องมือแพทย์ แอปไม่วินิจฉัยภาวะหยุดหายใจขณะหลับหรือโรคใด ๆ หากคุณสังเกตเห็นการหยุดหายใจ อาการเฮือก หรือง่วงมากตอนกลางวัน ควรปรึกษาแพทย์</p><p>© 2026 Snorly · Snore Recorder App Pro · <a href="mailto:hello@builtfor.app">hello@builtfor.app</a></p></div>
+</div></footer>
+</body>
+</html>
