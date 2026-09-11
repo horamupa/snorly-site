@@ -5,6 +5,13 @@
   <description>Des réponses claires sur le ronflement : savoir si vous ronflez, à quoi il ressemble, ce qui l’aggrave et vérifier qu’un remède a marché. Par l’équipe Snorly.</description>
   <language>fr</language>
   <item>
+    <title>Alcool et ronflement : combien d’heures avant de dormir</title>
+    <link>https://snorly.app/fr/blog/alcool-et-ronflement/</link>
+    <guid>https://snorly.app/fr/blog/alcool-et-ronflement/</guid>
+    <pubDate>Fri, 11 Sep 2026 08:00:00 GMT</pubDate>
+    <description>L’alcool relâche le muscle de la langue et ajoute environ 4 événements respiratoires par heure chez les ronfleurs. Arrêtez 3 heures avant le coucher.</description>
+  </item>
+  <item>
     <title>Bandelettes nasales anti-ronflement : efficaces ou pas ?</title>
     <link>https://snorly.app/fr/blog/bandelettes-nasales-ronflement/</link>
     <guid>https://snorly.app/fr/blog/bandelettes-nasales-ronflement/</guid>
@@ -12,11 +19,11 @@
     <description>Les bandelettes nasales ont fait passer les ronflements de 258 à 173 par heure dans le seul essai contre placebo, mais seulement nez bouché. Test en 7 nuits.</description>
   </item>
   <item>
-    <title>Le mouth tape arrête-t-il le ronflement ? Test en 7 nuits</title>
-    <link>https://snorly.app/fr/blog/mouth-tape-contre-le-ronflement/</link>
-    <guid>https://snorly.app/fr/blog/mouth-tape-contre-le-ronflement/</guid>
-    <pubDate>Wed, 02 Sep 2026 08:00:00 GMT</pubDate>
-    <description>Le mouth tape a réduit le ronflement de moitié dans de petites études sur des respirateurs buccaux. Qui doit s’en passer, et comment le tester sur 7 nuits.</description>
+    <title>Les exercices anti-ronflement marchent-ils ? 8 min par jour</title>
+    <link>https://snorly.app/fr/blog/exercices-anti-ronflement/</link>
+    <guid>https://snorly.app/fr/blog/exercices-anti-ronflement/</guid>
+    <pubDate>Fri, 11 Sep 2026 08:00:00 GMT</pubDate>
+    <description>Des exercices de gorge quotidiens ont divisé par deux l’indice de ronflement, de 99,5 à 48,2 par heure, en 3 mois. La routine exacte et un plan de 8 semaines.</description>
   </item>
   <item>
     <title>Oreiller anti-ronflement : efficace ? Testé sur 7 nuits</title>
@@ -26,25 +33,53 @@
     <description>Mousse à mémoire : ronflements en baisse de 47 % en laboratoire ; oreiller incliné : événements respiratoires de 17 à 5 par heure. Comment tester le vôtre.</description>
   </item>
   <item>
-    <title>À quoi ressemble le ronflement ? Décibels et types</title>
-    <link>https://snorly.app/fr/blog/a-quoi-ressemble-le-ronflement/</link>
-    <guid>https://snorly.app/fr/blog/a-quoi-ressemble-le-ronflement/</guid>
-    <pubDate>Wed, 02 Sep 2026 08:00:00 GMT</pubDate>
-    <description>Écoutez de vrais ronflements légers, modérés et sévères, et une pause respiratoire de 32 s. Un ronflement fort fait 50 à 90 dB ; le record est à 111,6 dB.</description>
+    <title>Orthèse anti-ronflement : est-ce que ça marche ?</title>
+    <link>https://snorly.app/fr/blog/orthese-anti-ronflement/</link>
+    <guid>https://snorly.app/fr/blog/orthese-anti-ronflement/</guid>
+    <pubDate>Fri, 11 Sep 2026 08:00:00 GMT</pubDate>
+    <description>Une orthèse d’avancée mandibulaire sur mesure a fait passer le ronflement de 193 à 20 par heure. Les modèles thermoformables font bien moins. Test en 7 nuits.</description>
   </item>
   <item>
-    <title>Parler en dormant : l’app qui enregistre ce que vous dites</title>
-    <link>https://snorly.app/fr/blog/application-parler-en-dormant/</link>
-    <guid>https://snorly.app/fr/blog/application-parler-en-dormant/</guid>
-    <pubDate>Wed, 02 Sep 2026 08:00:00 GMT</pubDate>
-    <description>Un iPhone sur la table de nuit et un enregistreur déclenché par le son : des clips horodatés de vos paroles au lieu d’un fichier de 8 h. Ce qu’ils veulent dire.</description>
+    <title>Maigrir fait-il arrêter de ronfler ? Ce que change 10 %</title>
+    <link>https://snorly.app/fr/blog/perte-de-poids-et-ronflement/</link>
+    <guid>https://snorly.app/fr/blog/perte-de-poids-et-ronflement/</guid>
+    <pubDate>Fri, 11 Sep 2026 08:00:00 GMT</pubDate>
+    <description>Perdre 10 % de son poids prédisait 26 % d’événements respiratoires en moins sur 4 ans (Peppard 2000). Ce que la balance change, ce qu’elle ne change pas.</description>
   </item>
   <item>
-    <title>Comment arrêter de ronfler : 9 solutions classées</title>
-    <link>https://snorly.app/fr/blog/comment-arreter-de-ronfler/</link>
-    <guid>https://snorly.app/fr/blog/comment-arreter-de-ronfler/</guid>
+    <title>Comment dormir pour ne pas ronfler : dos ou côté</title>
+    <link>https://snorly.app/fr/blog/position-de-sommeil-ronflement/</link>
+    <guid>https://snorly.app/fr/blog/position-de-sommeil-ronflement/</guid>
+    <pubDate>Fri, 11 Sep 2026 08:00:00 GMT</pubDate>
+    <description>Sur le côté. Chez 574 patients en laboratoire du sommeil, 56 % respiraient au moins deux fois plus mal sur le dos. Sept nuits enregistrées tranchent pour vous.</description>
+  </item>
+  <item>
+    <title>Pourquoi je ronfle soudainement ? 12 causes et leur délai</title>
+    <link>https://snorly.app/fr/blog/pourquoi-je-ronfle-soudainement/</link>
+    <guid>https://snorly.app/fr/blog/pourquoi-je-ronfle-soudainement/</guid>
+    <pubDate>Fri, 11 Sep 2026 08:00:00 GMT</pubDate>
+    <description>Un ronflement soudain a presque toujours une cause rapide : alcool, sédatif, rhume ou sommeil sur le dos. 12 causes classées par délai et un test de 14 nuits.</description>
+  </item>
+  <item>
+    <title>Ronfler, est-ce un sommeil profond ? Non, voici pourquoi</title>
+    <link>https://snorly.app/fr/blog/ronfler-signifie-sommeil-profond/</link>
+    <guid>https://snorly.app/fr/blog/ronfler-signifie-sommeil-profond/</guid>
+    <pubDate>Fri, 11 Sep 2026 08:00:00 GMT</pubDate>
+    <description>Le ronflement est plus fort en sommeil profond, mais ce n’est pas un signe de bon sommeil : 39 % des ronfleurs quotidiens somnolent le jour, contre 15 %.</description>
+  </item>
+  <item>
+    <title>Spray nasal ou humidificateur contre le ronflement ?</title>
+    <link>https://snorly.app/fr/blog/spray-nasal-humidificateur-ronflement/</link>
+    <guid>https://snorly.app/fr/blog/spray-nasal-humidificateur-ronflement/</guid>
+    <pubDate>Fri, 11 Sep 2026 08:00:00 GMT</pubDate>
+    <description>Un spray corticoïde a fait passer les événements respiratoires de 20 à 11,9 par heure chez des ronfleurs allergiques ; l’humidificateur n’a aucun essai.</description>
+  </item>
+  <item>
+    <title>Le mouth tape arrête-t-il le ronflement ? Test en 7 nuits</title>
+    <link>https://snorly.app/fr/blog/mouth-tape-contre-le-ronflement/</link>
+    <guid>https://snorly.app/fr/blog/mouth-tape-contre-le-ronflement/</guid>
     <pubDate>Wed, 02 Sep 2026 08:00:00 GMT</pubDate>
-    <description>Dormir sur le côté, plus d'alcool 2 à 3 h avant le coucher, nez dégagé et poids ; orthèse ou CPAP pour le reste. Comment tester chaque solution en 3 nuits.</description>
+    <description>Le mouth tape a réduit le ronflement de moitié dans de petites études sur des respirateurs buccaux. Qui doit s’en passer, et comment le tester sur 7 nuits.</description>
   </item>
   <item>
     <title>Comment savoir si je ronfle quand je dors seul</title>
@@ -94,5 +129,26 @@
     <guid>https://snorly.app/fr/blog/ronflement-ou-apnee-du-sommeil/</guid>
     <pubDate>Wed, 02 Sep 2026 08:00:00 GMT</pubDate>
     <description>Ronflement simple : régulier. Apnée du sommeil : ronflement, 10 s de silence, puis un halètement. Repérez ce schéma, calculez le STOP-BANG, faites-vous tester.</description>
+  </item>
+  <item>
+    <title>À quoi ressemble le ronflement ? Décibels et types</title>
+    <link>https://snorly.app/fr/blog/a-quoi-ressemble-le-ronflement/</link>
+    <guid>https://snorly.app/fr/blog/a-quoi-ressemble-le-ronflement/</guid>
+    <pubDate>Wed, 02 Sep 2026 08:00:00 GMT</pubDate>
+    <description>Écoutez de vrais ronflements légers, modérés et sévères, et une pause respiratoire de 32 s. Un ronflement fort fait 50 à 90 dB ; le record est à 111,6 dB.</description>
+  </item>
+  <item>
+    <title>Parler en dormant : l’app qui enregistre ce que vous dites</title>
+    <link>https://snorly.app/fr/blog/application-parler-en-dormant/</link>
+    <guid>https://snorly.app/fr/blog/application-parler-en-dormant/</guid>
+    <pubDate>Wed, 02 Sep 2026 08:00:00 GMT</pubDate>
+    <description>Un iPhone sur la table de nuit et un enregistreur déclenché par le son : des clips horodatés de vos paroles au lieu d’un fichier de 8 h. Ce qu’ils veulent dire.</description>
+  </item>
+  <item>
+    <title>Comment arrêter de ronfler : 9 solutions classées</title>
+    <link>https://snorly.app/fr/blog/comment-arreter-de-ronfler/</link>
+    <guid>https://snorly.app/fr/blog/comment-arreter-de-ronfler/</guid>
+    <pubDate>Wed, 02 Sep 2026 08:00:00 GMT</pubDate>
+    <description>Dormir sur le côté, plus d'alcool 2 à 3 h avant le coucher, nez dégagé et poids ; orthèse ou CPAP pour le reste. Comment tester chaque solution en 3 nuits.</description>
   </item>
 </channel></rss>

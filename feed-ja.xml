@@ -5,6 +5,20 @@
   <description>いびきについてのわかりやすい答え。自分がいびきをかいているか知る方法、いびきの音、悪化させる原因、対策が効いたか確かめる方法。Snorly開発チームより。</description>
   <language>ja</language>
   <item>
+    <title>お酒でいびきがひどくなる理由と、何時間前にやめるか</title>
+    <link>https://snorly.app/ja/blog/alcohol-and-snoring/</link>
+    <guid>https://snorly.app/ja/blog/alcohol-and-snoring/</guid>
+    <pubDate>Fri, 11 Sep 2026 08:00:00 GMT</pubDate>
+    <description>アルコールは舌を前に保つ筋肉をゆるめ、いびきをかく人で呼吸イベントを1時間あたり約4回増やします。効果は最後の1杯から2時間が最も強く、就寝の3時間前が目安です。</description>
+  </item>
+  <item>
+    <title>いびき用マウスピースは効く？録音で確かめる方法</title>
+    <link>https://snorly.app/ja/blog/anti-snoring-mouthpiece/</link>
+    <guid>https://snorly.app/ja/blog/anti-snoring-mouthpiece/</guid>
+    <pubDate>Fri, 11 Sep 2026 08:00:00 GMT</pubDate>
+    <description>歯科でつくるマウスピースは1時間あたりのいびきを193回から20回に減らしました。市販の煮沸成形タイプや顎ベルトは効果が乏しく、自分に効くかは7晩の録音でわかります。</description>
+  </item>
+  <item>
     <title>いびき防止枕は効果ある？録音で検証した結果</title>
     <link>https://snorly.app/ja/blog/anti-snoring-pillow/</link>
     <guid>https://snorly.app/ja/blog/anti-snoring-pillow/</guid>
@@ -12,11 +26,25 @@
     <description>睡眠検査室の試験で低反発枕はいびきの回数を47%減らし、傾斜枕は呼吸イベントを1時間あたり17回から5回に減らしました。データのある枕の種類と、自分の枕を試す方法。</description>
   </item>
   <item>
-    <title>口テープでいびきは止まる？安全に試す7晩の方法</title>
-    <link>https://snorly.app/ja/blog/does-mouth-tape-stop-snoring/</link>
-    <guid>https://snorly.app/ja/blog/does-mouth-tape-stop-snoring/</guid>
-    <pubDate>Wed, 02 Sep 2026 08:00:00 GMT</pubDate>
-    <description>口テープは、軽度の無呼吸がある口呼吸の人を対象にした小規模研究でいびきを約半分に減らしました。避けるべき人と、自分で7晩試す方法を説明します。</description>
+    <title>痩せたらいびきは治る？体重10%減で変わること</title>
+    <link>https://snorly.app/ja/blog/does-losing-weight-help-snoring/</link>
+    <guid>https://snorly.app/ja/blog/does-losing-weight-help-snoring/</guid>
+    <pubDate>Fri, 11 Sep 2026 08:00:00 GMT</pubDate>
+    <description>4年間の追跡で、体重が10%減ると呼吸イベントが26%減ると予測されました（Peppard 2000）。体重計で変わることと変わらないこと、8〜12週間で確かめる方法。</description>
+  </item>
+  <item>
+    <title>いびきは熟睡のサイン？答えはノー、その理由</title>
+    <link>https://snorly.app/ja/blog/does-snoring-mean-deep-sleep/</link>
+    <guid>https://snorly.app/ja/blog/does-snoring-mean-deep-sleep/</guid>
+    <pubDate>Fri, 11 Sep 2026 08:00:00 GMT</pubDate>
+    <description>いびきは深い睡眠でこそ大きくなりますが、よく眠れている証拠ではありません。毎晩いびきをかく人の39%が日中に強い眠気を感じ、かかない人では15%です。</description>
+  </item>
+  <item>
+    <title>いびきに加湿器は効く？鼻スプレーとの効果の違い</title>
+    <link>https://snorly.app/ja/blog/humidifier-nasal-spray-snoring/</link>
+    <guid>https://snorly.app/ja/blog/humidifier-nasal-spray-snoring/</guid>
+    <pubDate>Fri, 11 Sep 2026 08:00:00 GMT</pubDate>
+    <description>鼻炎のある人ではステロイド点鼻薬で呼吸イベントが1時間20回から11.9回に減りました。生理食塩水は少し効き、加湿器にはいびきの試験がありません。7晩で試せます。</description>
   </item>
   <item>
     <title>鼻腔拡張テープはいびきに効く？録音でわかること</title>
@@ -24,6 +52,34 @@
     <guid>https://snorly.app/ja/blog/nasal-strips-for-snoring/</guid>
     <pubDate>Thu, 03 Sep 2026 08:00:00 GMT</pubDate>
     <description>唯一のプラセボ対照試験では、鼻づまりのある人で1時間あたりのいびきが258回から173回に減りました。効く人の条件と、自分で7晩試す方法を説明します。</description>
+  </item>
+  <item>
+    <title>いびきを止める寝方は？仰向けと横向きの違い</title>
+    <link>https://snorly.app/ja/blog/sleeping-position-to-stop-snoring/</link>
+    <guid>https://snorly.app/ja/blog/sleeping-position-to-stop-snoring/</guid>
+    <pubDate>Fri, 11 Sep 2026 08:00:00 GMT</pubDate>
+    <description>横向きです。睡眠検査室の574人のうち56%は仰向けで呼吸イベントが2倍以上でした。無呼吸のないいびきの多くは横向きで静かになります。7晩の試し方も説明します。</description>
+  </item>
+  <item>
+    <title>いびき体操は効く？8分の舌トレーニングの中身</title>
+    <link>https://snorly.app/ja/blog/snoring-exercises/</link>
+    <guid>https://snorly.app/ja/blog/snoring-exercises/</guid>
+    <pubDate>Fri, 11 Sep 2026 08:00:00 GMT</pubDate>
+    <description>3か月のランダム化試験で、毎日の口と舌の体操がいびき指数を1時間あたり99.5回から48.2回に半減させました。試験と同じ手順と、8週間の録音計画。</description>
+  </item>
+  <item>
+    <title>急にいびきをかくようになった理由と12の原因</title>
+    <link>https://snorly.app/ja/blog/why-do-i-snore-all-of-a-sudden/</link>
+    <guid>https://snorly.app/ja/blog/why-do-i-snore-all-of-a-sudden/</guid>
+    <pubDate>Fri, 11 Sep 2026 08:00:00 GMT</pubDate>
+    <description>急に始まったいびきの原因は、たいてい即効性のものです。飲酒、鎮静薬、風邪、仰向け寝。12の原因を始まりの速さ順に並べ、14晩のタグ検証も紹介します。</description>
+  </item>
+  <item>
+    <title>口テープでいびきは止まる？安全に試す7晩の方法</title>
+    <link>https://snorly.app/ja/blog/does-mouth-tape-stop-snoring/</link>
+    <guid>https://snorly.app/ja/blog/does-mouth-tape-stop-snoring/</guid>
+    <pubDate>Wed, 02 Sep 2026 08:00:00 GMT</pubDate>
+    <description>口テープは、軽度の無呼吸がある口呼吸の人を対象にした小規模研究でいびきを約半分に減らしました。避けるべき人と、自分で7晩試す方法を説明します。</description>
   </item>
   <item>
     <title>いびきアプリおすすめ6選を比較：無料で使える範囲</title>
