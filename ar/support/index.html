@@ -102,7 +102,19 @@
 <h2>الإبلاغ عن خلل أو خطأ في مقالة</h2>
 <p>راسلنا على <a href="mailto:hello@builtfor.app">hello@builtfor.app</a>. ولتصحيح المقالات، أرفق رابط الصفحة والجملة المقصودة.</p>
 <div class="cta-card"><img src="/assets/img/app-icon-256.webp" width="64" height="64" alt="Snorly app icon" loading="lazy"><p><b>استمع إلى شخيرك الليلة</b>يسجّل Snorly فقط عندما يسمع شخيرًا، ويشغّل لك التسجيل في الصباح. مجانًا، بلا حساب، وبلا حد لعدد الليالي.</p><a class="btn btn-led" href="https://apps.apple.com/app/id6743162754?ct=support" rel="noopener"><svg class="apple" viewBox="0 0 24 24" aria-hidden="true"><path d="M16.4 12.6c0-2.5 2-3.7 2.1-3.8-1.2-1.7-3-1.9-3.6-2-1.5-.2-3 .9-3.8.9s-2-.9-3.3-.8C6.1 6.9 4.5 7.9 3.6 9.5c-1.9 3.3-.5 8.1 1.4 10.8.9 1.3 2 2.8 3.4 2.7 1.4-.1 1.9-.9 3.5-.9s2.1.9 3.5.9c1.5 0 2.4-1.3 3.3-2.6 1-1.5 1.5-3 1.5-3.1-.1 0-2.8-1.1-2.8-4.7zM14 5.2c.7-.9 1.2-2.1 1.1-3.3-1 0-2.3.7-3 1.6-.7.8-1.3 2-1.1 3.2 1.1.1 2.3-.6 3-1.5z"/></svg>نزّله من App Store</a></div>
-<p class="disclaimer">Snorly تطبيق لتسجيل الشخير وتتبعه، وليس جهازًا طبيًا. لا يشخّص انقطاع النفس أثناء النوم ولا أي حالة أخرى. إذا لاحظت توقف التنفس أو اللهاث أو النعاس الشديد نهارًا، فتحدّث إلى طبيب.</p></div>
+<section class="support-form" id="contact"><h2>راسلنا</h2>
+<form action="https://docs.google.com/forms/d/e/1FAIpQLSc7KsC-tJGFtSw5Kxl7PNNyOJDkEun0f3kTwnknkm2DH43kRQ/formResponse" method="post" target="_blank">
+<label for="sf-email">بريدك الإلكتروني حتى نتمكن من الرد</label><input id="sf-email" name="entry.1934318374" type="email" required autocomplete="email">
+<label for="sf-msg">أخبرنا عن تجربتك مع التطبيق</label><textarea id="sf-msg" name="entry.611773985" rows="6" required></textarea>
+<button class="btn btn-led" type="submit">إرسال</button>
+<p class="form-note" data-sent hidden>شكرًا، وصلتنا رسالتك. نرد خلال يومي عمل.</p><p class="form-note" data-error hidden>تعذّر الإرسال. راسلنا على hello@builtfor.app بدلًا من ذلك.</p>
+</form>
+<script>document.querySelector('.support-form form').addEventListener('submit', async e => {
+  e.preventDefault(); const form = e.target, btn = form.querySelector('button'); btn.disabled = true;
+  const body = new URLSearchParams({ ["entry.1934318374"]: form.elements['sf-email'].value, ["entry.611773985"]: form.elements['sf-msg'].value + '\n\n— ' + location.href });
+  try { await fetch(form.action, { method: 'POST', mode: 'no-cors', body }); form.querySelectorAll('label, input, textarea, button').forEach(el => el.hidden = true); form.querySelector('[data-sent]').hidden = false; }
+  catch { btn.disabled = false; form.querySelector('[data-error]').hidden = false; }
+});</script></section><p class="disclaimer">Snorly تطبيق لتسجيل الشخير وتتبعه، وليس جهازًا طبيًا. لا يشخّص انقطاع النفس أثناء النوم ولا أي حالة أخرى. إذا لاحظت توقف التنفس أو اللهاث أو النعاس الشديد نهارًا، فتحدّث إلى طبيب.</p></div>
 </article>
 </main>
 <footer class="site-footer"><div class="wrap">

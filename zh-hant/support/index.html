@@ -102,7 +102,19 @@
 <h2>回報 bug 或文章錯誤</h2>
 <p>請寄信到 <a href="mailto:hello@builtfor.app">hello@builtfor.app</a>。文章更正請附上頁面網址和有問題的句子。</p>
 <div class="cta-card"><img src="/assets/img/app-icon-256.webp" width="64" height="64" alt="Snorly app icon" loading="lazy"><p><b>今晚就聽聽自己的鼾聲</b>Snorly 只在聽到打鼾時才錄音，早上播放給你聽。免費、免帳號、不限夜數。</p><a class="btn btn-led" href="https://apps.apple.com/app/id6743162754?ct=support" rel="noopener"><svg class="apple" viewBox="0 0 24 24" aria-hidden="true"><path d="M16.4 12.6c0-2.5 2-3.7 2.1-3.8-1.2-1.7-3-1.9-3.6-2-1.5-.2-3 .9-3.8.9s-2-.9-3.3-.8C6.1 6.9 4.5 7.9 3.6 9.5c-1.9 3.3-.5 8.1 1.4 10.8.9 1.3 2 2.8 3.4 2.7 1.4-.1 1.9-.9 3.5-.9s2.1.9 3.5.9c1.5 0 2.4-1.3 3.3-2.6 1-1.5 1.5-3 1.5-3.1-.1 0-2.8-1.1-2.8-4.7zM14 5.2c.7-.9 1.2-2.1 1.1-3.3-1 0-2.3.7-3 1.6-.7.8-1.3 2-1.1 3.2 1.1.1 2.3-.6 3-1.5z"/></svg>在 App Store 下載</a></div>
-<p class="disclaimer">Snorly 是打鼾錄音與追蹤 App，不是醫療器材。它不會診斷睡眠呼吸中止症或任何其他疾病。如果你發現呼吸暫停、喘不過氣或白天嗜睡，請諮詢醫師。</p></div>
+<section class="support-form" id="contact"><h2>聯絡我們</h2>
+<form action="https://docs.google.com/forms/d/e/1FAIpQLSc7KsC-tJGFtSw5Kxl7PNNyOJDkEun0f3kTwnknkm2DH43kRQ/formResponse" method="post" target="_blank">
+<label for="sf-email">你的電子郵件，方便我們回覆</label><input id="sf-email" name="entry.1934318374" type="email" required autocomplete="email">
+<label for="sf-msg">說說你使用這款 App 的體驗</label><textarea id="sf-msg" name="entry.611773985" rows="6" required></textarea>
+<button class="btn btn-led" type="submit">送出</button>
+<p class="form-note" data-sent hidden>謝謝，已收到。我們會在兩個工作天內回覆。</p><p class="form-note" data-error hidden>送出失敗。請寄信至 hello@builtfor.app。</p>
+</form>
+<script>document.querySelector('.support-form form').addEventListener('submit', async e => {
+  e.preventDefault(); const form = e.target, btn = form.querySelector('button'); btn.disabled = true;
+  const body = new URLSearchParams({ ["entry.1934318374"]: form.elements['sf-email'].value, ["entry.611773985"]: form.elements['sf-msg'].value + '\n\n— ' + location.href });
+  try { await fetch(form.action, { method: 'POST', mode: 'no-cors', body }); form.querySelectorAll('label, input, textarea, button').forEach(el => el.hidden = true); form.querySelector('[data-sent]').hidden = false; }
+  catch { btn.disabled = false; form.querySelector('[data-error]').hidden = false; }
+});</script></section><p class="disclaimer">Snorly 是打鼾錄音與追蹤 App，不是醫療器材。它不會診斷睡眠呼吸中止症或任何其他疾病。如果你發現呼吸暫停、喘不過氣或白天嗜睡，請諮詢醫師。</p></div>
 </article>
 </main>
 <footer class="site-footer"><div class="wrap">

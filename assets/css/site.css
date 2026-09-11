@@ -273,3 +273,14 @@ audio { width: 100%; filter: invert(0.9) hue-rotate(180deg); border-radius: 12px
 }
 .skip { position: absolute; inset-inline-start: -999px; }
 .skip:focus { inset-inline-start: 8px; top: 8px; background: var(--led); color: #000; padding: 0.5em 1em; border-radius: 8px; z-index: 50; }
+
+/* support form (/support/) */
+.support-form { margin-block: 2.5rem; padding: 1.4rem; border-radius: var(--r-card); background: var(--surface); box-shadow: var(--convex-lg); }
+.support-form h2 { margin-top: 0; }
+.support-form form { display: grid; gap: 0.5rem; }
+.support-form label { font-size: 0.95rem; color: var(--text-2); margin-top: 0.6rem; }
+.support-form input, .support-form textarea { width: 100%; padding: 0.75em 0.9em; border: 0; border-radius: var(--r-btn); background: var(--bg); color: var(--text); font: 1rem var(--sans); box-shadow: var(--concave); resize: vertical; }
+.support-form input:focus, .support-form textarea:focus { outline: 2px solid var(--led); outline-offset: 1px; }
+.support-form button { justify-self: start; margin-top: 0.8rem; }
+.support-form .form-note { margin: 0.6rem 0 0; color: var(--text-2); }
+.support-form [data-error] { color: var(--severe); }
