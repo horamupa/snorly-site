@@ -5,13 +5,6 @@
   <description>Risposte chiare sul russamento: come capire se russi, che suono ha, cosa lo peggiora e come verificare se un rimedio ha funzionato. Dai creatori di Snorly.</description>
   <language>it</language>
   <item>
-    <title>Esercizi per non russare: funzionano? Routine da 8 minuti</title>
-    <link>https://snorly.app/it/blog/esercizi-contro-il-russare/</link>
-    <guid>https://snorly.app/it/blog/esercizi-contro-il-russare/</guid>
-    <pubDate>Fri, 11 Sep 2026 08:00:00 GMT</pubDate>
-    <description>Gli esercizi quotidiani per gola e lingua hanno dimezzato l'indice di russamento, da 99,5 a 48,2 all'ora, in uno studio di 3 mesi. La routine esatta e il piano.</description>
-  </item>
-  <item>
     <title>Alcol e russare: quante ore prima di andare a letto</title>
     <link>https://snorly.app/it/blog/alcol-e-russare/</link>
     <guid>https://snorly.app/it/blog/alcol-e-russare/</guid>
@@ -45,6 +38,13 @@
     <guid>https://snorly.app/it/blog/dimagrire-e-russare/</guid>
     <pubDate>Fri, 11 Sep 2026 08:00:00 GMT</pubDate>
     <description>Perdere il 10% del peso corporeo prevedeva un calo del 26% degli eventi respiratori in 4 anni (Peppard 2000). Cosa cambia la bilancia e come misurarlo.</description>
+  </item>
+  <item>
+    <title>Esercizi per non russare: funzionano? Routine da 8 minuti</title>
+    <link>https://snorly.app/it/blog/esercizi-contro-il-russare/</link>
+    <guid>https://snorly.app/it/blog/esercizi-contro-il-russare/</guid>
+    <pubDate>Fri, 11 Sep 2026 08:00:00 GMT</pubDate>
+    <description>Gli esercizi quotidiani per gola e lingua hanno dimezzato l'indice di russamento, da 99,5 a 48,2 all'ora, in uno studio di 3 mesi. La routine esatta e il piano.</description>
   </item>
   <item>
     <title>Il cerotto sulla bocca ferma il russare? Come testarlo</title>
@@ -124,13 +124,6 @@
     <description>Sei app per il russamento confrontate: cosa registrano, se puoi riascoltare i clip gratis, privacy e prezzo. Snorly la facciamo noi, e lo diciamo subito.</description>
   </item>
   <item>
-    <title>Partner che russa: cosa fare per dormire senza litigare</title>
-    <link>https://snorly.app/it/blog/partner-che-russa-cosa-fare/</link>
-    <guid>https://snorly.app/it/blog/partner-che-russa-cosa-fare/</guid>
-    <pubDate>Wed, 02 Sep 2026 08:00:00 GMT</pubDate>
-    <description>Registra una notte e fai riascoltare la clip con calma, controlla se ci sono rantoli. Poi tappi in schiuma (circa 13 dB reali), rumore bianco o stanza separata.</description>
-  </item>
-  <item>
     <title>Perché russo? Trova la tua causa in 5 notti</title>
     <link>https://snorly.app/it/blog/perche-russo/</link>
     <guid>https://snorly.app/it/blog/perche-russo/</guid>
@@ -150,5 +143,12 @@
     <guid>https://snorly.app/it/blog/russare-o-apnea-notturna/</guid>
     <pubDate>Wed, 02 Sep 2026 08:00:00 GMT</pubDate>
     <description>Il russamento semplice è regolare. L'apnea notturna suona come russamento, 10 secondi di silenzio, poi un rantolo. Come riconoscerla e calcolare lo STOP-BANG.</description>
+  </item>
+  <item>
+    <title>Partner che russa: cosa fare per dormire senza litigare</title>
+    <link>https://snorly.app/it/blog/partner-che-russa-cosa-fare/</link>
+    <guid>https://snorly.app/it/blog/partner-che-russa-cosa-fare/</guid>
+    <pubDate>Wed, 02 Sep 2026 08:00:00 GMT</pubDate>
+    <description>Registra una notte e fai riascoltare la clip con calma, controlla se ci sono rantoli. Poi tappi in schiuma (circa 13 dB reali), rumore bianco o stanza separata.</description>
   </item>
 </channel></rss>
