@@ -24,6 +24,12 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://snorly.app/"/>
   </url>
   <url>
+    <loc>https://snorly.app/blog/best-sleep-apnea-apps/</loc>
+    <lastmod>2026-11-01</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://snorly.app/blog/best-sleep-apnea-apps/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://snorly.app/blog/best-sleep-apnea-apps/"/>
+  </url>
+  <url>
     <loc>https://snorly.app/blog/is-snoring-normal/</loc>
     <lastmod>2026-10-31</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://snorly.app/blog/is-snoring-normal/"/>
@@ -664,29 +670,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://snorly.app/snore-score/"/>
   </url>
   <url>
-    <loc>https://snorly.app/support/</loc>
-    <lastmod>2026-09-02</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://snorly.app/support/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://snorly.app/de/support/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://snorly.app/fr/support/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://snorly.app/es/support/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://snorly.app/it/support/"/>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://snorly.app/pt-br/support/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://snorly.app/ja/support/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://snorly.app/nl/support/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://snorly.app/pl/support/"/>
-    <xhtml:link rel="alternate" hreflang="th" href="https://snorly.app/th/support/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://snorly.app/ar/support/"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://snorly.app/id/support/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://snorly.app/vi/support/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://snorly.app/tr/support/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://snorly.app/zh-hans/support/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://snorly.app/ko/support/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://snorly.app/zh-hant/support/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://snorly.app/ru/support/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://snorly.app/support/"/>
-  </url>
-  <url>
     <loc>https://snorly.app/terms/</loc>
     <lastmod>2026-09-02</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://snorly.app/terms/"/>
@@ -1291,6 +1274,29 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://snorly.app/snoring-statistics/"/>
   </url>
   <url>
+    <loc>https://snorly.app/support/</loc>
+    <lastmod>2026-09-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://snorly.app/support/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://snorly.app/de/support/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://snorly.app/fr/support/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://snorly.app/es/support/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://snorly.app/it/support/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://snorly.app/pt-br/support/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://snorly.app/ja/support/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://snorly.app/nl/support/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://snorly.app/pl/support/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://snorly.app/th/support/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://snorly.app/ar/support/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://snorly.app/id/support/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://snorly.app/vi/support/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://snorly.app/tr/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://snorly.app/zh-hans/support/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://snorly.app/ko/support/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://snorly.app/zh-hant/support/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://snorly.app/ru/support/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://snorly.app/support/"/>
+  </url>
+  <url>
     <loc>https://snorly.app/de/author/mikhail-manev/</loc>
     <lastmod>2026-09-02</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://snorly.app/author/mikhail-manev/"/>
@@ -1795,6 +1801,29 @@
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://snorly.app/zh-hant/blog/does-mouth-tape-stop-snoring/"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://snorly.app/ru/blog/teip-na-rot-ot-hrapa/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://snorly.app/blog/does-mouth-tape-stop-snoring/"/>
+  </url>
+  <url>
+    <loc>https://snorly.app/fr/blog/a-quoi-ressemble-le-ronflement/</loc>
+    <lastmod>2026-09-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://snorly.app/blog/what-does-snoring-sound-like/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://snorly.app/de/blog/wie-klingt-schnarchen/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://snorly.app/fr/blog/a-quoi-ressemble-le-ronflement/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://snorly.app/es/blog/como-suena-el-ronquido/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://snorly.app/it/blog/che-suono-ha-il-russare/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://snorly.app/pt-br/blog/como-e-o-som-do-ronco/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://snorly.app/ja/blog/what-does-snoring-sound-like/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://snorly.app/nl/blog/hoe-klinkt-snurken/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://snorly.app/pl/blog/jak-brzmi-chrapanie/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://snorly.app/th/blog/what-does-snoring-sound-like/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://snorly.app/ar/blog/what-does-snoring-sound-like/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://snorly.app/id/blog/suara-dengkuran-seperti-apa/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://snorly.app/vi/blog/tieng-ngay-nghe-nhu-the-nao/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://snorly.app/tr/blog/horlama-sesi-nasildir/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://snorly.app/zh-hans/blog/what-does-snoring-sound-like/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://snorly.app/ko/blog/what-does-snoring-sound-like/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://snorly.app/zh-hant/blog/what-does-snoring-sound-like/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://snorly.app/ru/blog/zvuk-hrapa/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://snorly.app/blog/what-does-snoring-sound-like/"/>
   </url>
   <url>
     <loc>https://snorly.app/fr/blog/application-parler-en-dormant/</loc>
@@ -2464,29 +2493,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://snorly.app/blog/anti-snoring-pillow/"/>
   </url>
   <url>
-    <loc>https://snorly.app/it/blog/dimagrire-e-russare/</loc>
-    <lastmod>2026-09-11</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://snorly.app/blog/does-losing-weight-help-snoring/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://snorly.app/de/blog/abnehmen-gegen-schnarchen/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://snorly.app/fr/blog/perte-de-poids-et-ronflement/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://snorly.app/es/blog/adelgazar-y-ronquidos/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://snorly.app/it/blog/dimagrire-e-russare/"/>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://snorly.app/pt-br/blog/emagrecer-ajuda-no-ronco/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://snorly.app/ja/blog/does-losing-weight-help-snoring/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://snorly.app/nl/blog/afvallen-tegen-snurken/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://snorly.app/pl/blog/chudniecie-a-chrapanie/"/>
-    <xhtml:link rel="alternate" hreflang="th" href="https://snorly.app/th/blog/does-losing-weight-help-snoring/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://snorly.app/ar/blog/does-losing-weight-help-snoring/"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://snorly.app/id/blog/menurunkan-berat-badan-dan-dengkuran/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://snorly.app/vi/blog/giam-can-va-ngay/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://snorly.app/tr/blog/kilo-vermek-horlamayi-keser-mi/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://snorly.app/zh-hans/blog/does-losing-weight-help-snoring/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://snorly.app/ko/blog/does-losing-weight-help-snoring/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://snorly.app/zh-hant/blog/does-losing-weight-help-snoring/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://snorly.app/ru/blog/pohudenie-i-hrap/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://snorly.app/blog/does-losing-weight-help-snoring/"/>
-  </url>
-  <url>
     <loc>https://snorly.app/it/blog/cerotto-bocca-contro-il-russare/</loc>
     <lastmod>2026-09-03</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://snorly.app/blog/does-mouth-tape-stop-snoring/"/>
@@ -2508,29 +2514,6 @@
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://snorly.app/zh-hant/blog/does-mouth-tape-stop-snoring/"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://snorly.app/ru/blog/teip-na-rot-ot-hrapa/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://snorly.app/blog/does-mouth-tape-stop-snoring/"/>
-  </url>
-  <url>
-    <loc>https://snorly.app/fr/blog/a-quoi-ressemble-le-ronflement/</loc>
-    <lastmod>2026-09-02</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://snorly.app/blog/what-does-snoring-sound-like/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://snorly.app/de/blog/wie-klingt-schnarchen/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://snorly.app/fr/blog/a-quoi-ressemble-le-ronflement/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://snorly.app/es/blog/como-suena-el-ronquido/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://snorly.app/it/blog/che-suono-ha-il-russare/"/>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://snorly.app/pt-br/blog/como-e-o-som-do-ronco/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://snorly.app/ja/blog/what-does-snoring-sound-like/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://snorly.app/nl/blog/hoe-klinkt-snurken/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://snorly.app/pl/blog/jak-brzmi-chrapanie/"/>
-    <xhtml:link rel="alternate" hreflang="th" href="https://snorly.app/th/blog/what-does-snoring-sound-like/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://snorly.app/ar/blog/what-does-snoring-sound-like/"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://snorly.app/id/blog/suara-dengkuran-seperti-apa/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://snorly.app/vi/blog/tieng-ngay-nghe-nhu-the-nao/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://snorly.app/tr/blog/horlama-sesi-nasildir/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://snorly.app/zh-hans/blog/what-does-snoring-sound-like/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://snorly.app/ko/blog/what-does-snoring-sound-like/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://snorly.app/zh-hant/blog/what-does-snoring-sound-like/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://snorly.app/ru/blog/zvuk-hrapa/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://snorly.app/blog/what-does-snoring-sound-like/"/>
   </url>
   <url>
     <loc>https://snorly.app/es/blog/app-hablar-dormido/</loc>
@@ -2970,6 +2953,29 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://snorly.app/"/>
   </url>
   <url>
+    <loc>https://snorly.app/it/blog/dimagrire-e-russare/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://snorly.app/blog/does-losing-weight-help-snoring/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://snorly.app/de/blog/abnehmen-gegen-schnarchen/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://snorly.app/fr/blog/perte-de-poids-et-ronflement/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://snorly.app/es/blog/adelgazar-y-ronquidos/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://snorly.app/it/blog/dimagrire-e-russare/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://snorly.app/pt-br/blog/emagrecer-ajuda-no-ronco/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://snorly.app/ja/blog/does-losing-weight-help-snoring/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://snorly.app/nl/blog/afvallen-tegen-snurken/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://snorly.app/pl/blog/chudniecie-a-chrapanie/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://snorly.app/th/blog/does-losing-weight-help-snoring/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://snorly.app/ar/blog/does-losing-weight-help-snoring/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://snorly.app/id/blog/menurunkan-berat-badan-dan-dengkuran/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://snorly.app/vi/blog/giam-can-va-ngay/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://snorly.app/tr/blog/kilo-vermek-horlamayi-keser-mi/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://snorly.app/zh-hans/blog/does-losing-weight-help-snoring/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://snorly.app/ko/blog/does-losing-weight-help-snoring/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://snorly.app/zh-hant/blog/does-losing-weight-help-snoring/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://snorly.app/ru/blog/pohudenie-i-hrap/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://snorly.app/blog/does-losing-weight-help-snoring/"/>
+  </url>
+  <url>
     <loc>https://snorly.app/it/blog/esercizi-contro-il-russare/</loc>
     <lastmod>2026-09-11</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://snorly.app/blog/snoring-exercises/"/>
@@ -3244,29 +3250,6 @@
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://snorly.app/zh-hant/blog/how-to-know-if-you-snore/"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://snorly.app/ru/blog/kak-uznat-hraplyu-li-ya/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://snorly.app/blog/how-to-know-if-you-snore/"/>
-  </url>
-  <url>
-    <loc>https://snorly.app/it/blog/come-smettere-di-russare/</loc>
-    <lastmod>2026-09-02</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://snorly.app/blog/how-to-stop-snoring/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://snorly.app/de/blog/schnarchen-stoppen/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://snorly.app/fr/blog/comment-arreter-de-ronfler/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://snorly.app/es/blog/como-dejar-de-roncar/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://snorly.app/it/blog/come-smettere-di-russare/"/>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://snorly.app/pt-br/blog/como-parar-de-roncar/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://snorly.app/ja/blog/how-to-stop-snoring/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://snorly.app/nl/blog/stoppen-met-snurken/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://snorly.app/pl/blog/jak-przestac-chrapac/"/>
-    <xhtml:link rel="alternate" hreflang="th" href="https://snorly.app/th/blog/how-to-stop-snoring/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://snorly.app/ar/blog/how-to-stop-snoring/"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://snorly.app/id/blog/cara-menghilangkan-dengkuran/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://snorly.app/vi/blog/cach-het-ngay/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://snorly.app/tr/blog/horlama-nasil-gecer/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://snorly.app/zh-hans/blog/how-to-stop-snoring/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://snorly.app/ko/blog/how-to-stop-snoring/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://snorly.app/zh-hant/blog/how-to-stop-snoring/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://snorly.app/ru/blog/kak-izbavitsya-ot-hrapa/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://snorly.app/blog/how-to-stop-snoring/"/>
   </url>
   <url>
     <loc>https://snorly.app/it/blog/migliori-app-per-il-russamento/</loc>
@@ -5431,75 +5414,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://snorly.app/snoring-statistics/"/>
   </url>
   <url>
-    <loc>https://snorly.app/nl/author/mikhail-manev/</loc>
-    <lastmod>2026-09-02</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://snorly.app/author/mikhail-manev/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://snorly.app/de/author/mikhail-manev/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://snorly.app/fr/author/mikhail-manev/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://snorly.app/es/author/mikhail-manev/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://snorly.app/it/author/mikhail-manev/"/>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://snorly.app/pt-br/author/mikhail-manev/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://snorly.app/ja/author/mikhail-manev/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://snorly.app/nl/author/mikhail-manev/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://snorly.app/pl/author/mikhail-manev/"/>
-    <xhtml:link rel="alternate" hreflang="th" href="https://snorly.app/th/author/mikhail-manev/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://snorly.app/ar/author/mikhail-manev/"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://snorly.app/id/author/mikhail-manev/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://snorly.app/vi/author/mikhail-manev/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://snorly.app/tr/author/mikhail-manev/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://snorly.app/zh-hans/author/mikhail-manev/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://snorly.app/ko/author/mikhail-manev/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://snorly.app/zh-hant/author/mikhail-manev/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://snorly.app/ru/author/mikhail-manev/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://snorly.app/author/mikhail-manev/"/>
-  </url>
-  <url>
-    <loc>https://snorly.app/nl/free-snoring-app/</loc>
-    <lastmod>2026-09-02</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://snorly.app/free-snoring-app/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://snorly.app/de/free-snoring-app/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://snorly.app/fr/free-snoring-app/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://snorly.app/es/free-snoring-app/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://snorly.app/it/free-snoring-app/"/>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://snorly.app/pt-br/free-snoring-app/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://snorly.app/ja/free-snoring-app/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://snorly.app/nl/free-snoring-app/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://snorly.app/pl/free-snoring-app/"/>
-    <xhtml:link rel="alternate" hreflang="th" href="https://snorly.app/th/free-snoring-app/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://snorly.app/ar/free-snoring-app/"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://snorly.app/id/free-snoring-app/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://snorly.app/vi/free-snoring-app/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://snorly.app/tr/free-snoring-app/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://snorly.app/zh-hans/free-snoring-app/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://snorly.app/ko/free-snoring-app/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://snorly.app/zh-hant/free-snoring-app/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://snorly.app/ru/free-snoring-app/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://snorly.app/free-snoring-app/"/>
-  </url>
-  <url>
-    <loc>https://snorly.app/nl/snore-score/</loc>
-    <lastmod>2026-09-02</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://snorly.app/snore-score/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://snorly.app/de/snore-score/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://snorly.app/fr/snore-score/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://snorly.app/es/snore-score/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://snorly.app/it/snore-score/"/>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://snorly.app/pt-br/snore-score/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://snorly.app/ja/snore-score/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://snorly.app/nl/snore-score/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://snorly.app/pl/snore-score/"/>
-    <xhtml:link rel="alternate" hreflang="th" href="https://snorly.app/th/snore-score/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://snorly.app/ar/snore-score/"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://snorly.app/id/snore-score/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://snorly.app/vi/snore-score/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://snorly.app/tr/snore-score/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://snorly.app/zh-hans/snore-score/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://snorly.app/ko/snore-score/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://snorly.app/zh-hant/snore-score/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://snorly.app/ru/snore-score/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://snorly.app/snore-score/"/>
-  </url>
-  <url>
     <loc>https://snorly.app/nl/support/</loc>
     <lastmod>2026-09-02</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://snorly.app/support/"/>
@@ -5822,29 +5736,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://snorly.app/blog/humidifier-nasal-spray-snoring/"/>
   </url>
   <url>
-    <loc>https://snorly.app/th/blog/alcohol-and-snoring/</loc>
-    <lastmod>2026-09-11</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://snorly.app/blog/alcohol-and-snoring/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://snorly.app/de/blog/alkohol-und-schnarchen/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://snorly.app/fr/blog/alcool-et-ronflement/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://snorly.app/es/blog/alcohol-y-ronquidos/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://snorly.app/it/blog/alcol-e-russare/"/>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://snorly.app/pt-br/blog/alcool-e-ronco/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://snorly.app/ja/blog/alcohol-and-snoring/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://snorly.app/nl/blog/alcohol-en-snurken/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://snorly.app/pl/blog/alkohol-a-chrapanie/"/>
-    <xhtml:link rel="alternate" hreflang="th" href="https://snorly.app/th/blog/alcohol-and-snoring/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://snorly.app/ar/blog/alcohol-and-snoring/"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://snorly.app/id/blog/alkohol-dan-dengkuran/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://snorly.app/vi/blog/ruou-bia-va-ngay/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://snorly.app/tr/blog/alkol-ve-horlama/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://snorly.app/zh-hans/blog/alcohol-and-snoring/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://snorly.app/ko/blog/alcohol-and-snoring/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://snorly.app/zh-hant/blog/alcohol-and-snoring/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://snorly.app/ru/blog/hrap-posle-alkogolya/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://snorly.app/blog/alcohol-and-snoring/"/>
-  </url>
-  <url>
     <loc>https://snorly.app/pl/blog/plaster-na-usta-na-chrapanie/</loc>
     <lastmod>2026-09-03</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://snorly.app/blog/does-mouth-tape-stop-snoring/"/>
@@ -5866,6 +5757,29 @@
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://snorly.app/zh-hant/blog/does-mouth-tape-stop-snoring/"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://snorly.app/ru/blog/teip-na-rot-ot-hrapa/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://snorly.app/blog/does-mouth-tape-stop-snoring/"/>
+  </url>
+  <url>
+    <loc>https://snorly.app/it/blog/come-smettere-di-russare/</loc>
+    <lastmod>2026-09-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://snorly.app/blog/how-to-stop-snoring/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://snorly.app/de/blog/schnarchen-stoppen/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://snorly.app/fr/blog/comment-arreter-de-ronfler/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://snorly.app/es/blog/como-dejar-de-roncar/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://snorly.app/it/blog/come-smettere-di-russare/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://snorly.app/pt-br/blog/como-parar-de-roncar/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://snorly.app/ja/blog/how-to-stop-snoring/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://snorly.app/nl/blog/stoppen-met-snurken/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://snorly.app/pl/blog/jak-przestac-chrapac/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://snorly.app/th/blog/how-to-stop-snoring/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://snorly.app/ar/blog/how-to-stop-snoring/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://snorly.app/id/blog/cara-menghilangkan-dengkuran/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://snorly.app/vi/blog/cach-het-ngay/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://snorly.app/tr/blog/horlama-nasil-gecer/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://snorly.app/zh-hans/blog/how-to-stop-snoring/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://snorly.app/ko/blog/how-to-stop-snoring/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://snorly.app/zh-hant/blog/how-to-stop-snoring/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://snorly.app/ru/blog/kak-izbavitsya-ot-hrapa/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://snorly.app/blog/how-to-stop-snoring/"/>
   </url>
   <url>
     <loc>https://snorly.app/pl/blog/aplikacja-mowienie-przez-sen/</loc>
@@ -6144,6 +6058,75 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://snorly.app/snoring-statistics/"/>
   </url>
   <url>
+    <loc>https://snorly.app/nl/author/mikhail-manev/</loc>
+    <lastmod>2026-09-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://snorly.app/author/mikhail-manev/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://snorly.app/de/author/mikhail-manev/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://snorly.app/fr/author/mikhail-manev/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://snorly.app/es/author/mikhail-manev/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://snorly.app/it/author/mikhail-manev/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://snorly.app/pt-br/author/mikhail-manev/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://snorly.app/ja/author/mikhail-manev/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://snorly.app/nl/author/mikhail-manev/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://snorly.app/pl/author/mikhail-manev/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://snorly.app/th/author/mikhail-manev/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://snorly.app/ar/author/mikhail-manev/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://snorly.app/id/author/mikhail-manev/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://snorly.app/vi/author/mikhail-manev/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://snorly.app/tr/author/mikhail-manev/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://snorly.app/zh-hans/author/mikhail-manev/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://snorly.app/ko/author/mikhail-manev/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://snorly.app/zh-hant/author/mikhail-manev/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://snorly.app/ru/author/mikhail-manev/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://snorly.app/author/mikhail-manev/"/>
+  </url>
+  <url>
+    <loc>https://snorly.app/nl/free-snoring-app/</loc>
+    <lastmod>2026-09-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://snorly.app/free-snoring-app/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://snorly.app/de/free-snoring-app/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://snorly.app/fr/free-snoring-app/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://snorly.app/es/free-snoring-app/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://snorly.app/it/free-snoring-app/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://snorly.app/pt-br/free-snoring-app/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://snorly.app/ja/free-snoring-app/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://snorly.app/nl/free-snoring-app/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://snorly.app/pl/free-snoring-app/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://snorly.app/th/free-snoring-app/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://snorly.app/ar/free-snoring-app/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://snorly.app/id/free-snoring-app/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://snorly.app/vi/free-snoring-app/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://snorly.app/tr/free-snoring-app/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://snorly.app/zh-hans/free-snoring-app/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://snorly.app/ko/free-snoring-app/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://snorly.app/zh-hant/free-snoring-app/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://snorly.app/ru/free-snoring-app/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://snorly.app/free-snoring-app/"/>
+  </url>
+  <url>
+    <loc>https://snorly.app/nl/snore-score/</loc>
+    <lastmod>2026-09-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://snorly.app/snore-score/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://snorly.app/de/snore-score/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://snorly.app/fr/snore-score/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://snorly.app/es/snore-score/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://snorly.app/it/snore-score/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://snorly.app/pt-br/snore-score/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://snorly.app/ja/snore-score/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://snorly.app/nl/snore-score/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://snorly.app/pl/snore-score/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://snorly.app/th/snore-score/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://snorly.app/ar/snore-score/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://snorly.app/id/snore-score/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://snorly.app/vi/snore-score/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://snorly.app/tr/snore-score/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://snorly.app/zh-hans/snore-score/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://snorly.app/ko/snore-score/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://snorly.app/zh-hant/snore-score/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://snorly.app/ru/snore-score/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://snorly.app/snore-score/"/>
+  </url>
+  <url>
     <loc>https://snorly.app/pl/author/mikhail-manev/</loc>
     <lastmod>2026-09-02</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://snorly.app/author/mikhail-manev/"/>
@@ -6303,6 +6286,29 @@
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://snorly.app/zh-hant/"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://snorly.app/ru/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://snorly.app/"/>
+  </url>
+  <url>
+    <loc>https://snorly.app/th/blog/alcohol-and-snoring/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://snorly.app/blog/alcohol-and-snoring/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://snorly.app/de/blog/alkohol-und-schnarchen/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://snorly.app/fr/blog/alcool-et-ronflement/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://snorly.app/es/blog/alcohol-y-ronquidos/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://snorly.app/it/blog/alcol-e-russare/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://snorly.app/pt-br/blog/alcool-e-ronco/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://snorly.app/ja/blog/alcohol-and-snoring/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://snorly.app/nl/blog/alcohol-en-snurken/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://snorly.app/pl/blog/alkohol-a-chrapanie/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://snorly.app/th/blog/alcohol-and-snoring/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://snorly.app/ar/blog/alcohol-and-snoring/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://snorly.app/id/blog/alkohol-dan-dengkuran/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://snorly.app/vi/blog/ruou-bia-va-ngay/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://snorly.app/tr/blog/alkol-ve-horlama/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://snorly.app/zh-hans/blog/alcohol-and-snoring/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://snorly.app/ko/blog/alcohol-and-snoring/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://snorly.app/zh-hant/blog/alcohol-and-snoring/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://snorly.app/ru/blog/hrap-posle-alkogolya/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://snorly.app/blog/alcohol-and-snoring/"/>
   </url>
   <url>
     <loc>https://snorly.app/th/blog/anti-snoring-mouthpiece/</loc>
@@ -6628,29 +6634,6 @@
   </url>
   <url>
     <loc>https://snorly.app/th/blog/does-mouth-tape-stop-snoring/</loc>
-    <lastmod>2026-09-03</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://snorly.app/blog/does-mouth-tape-stop-snoring/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://snorly.app/de/blog/mouth-tape-gegen-schnarchen/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://snorly.app/fr/blog/mouth-tape-contre-le-ronflement/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://snorly.app/es/blog/cinta-para-la-boca-ronquidos/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://snorly.app/it/blog/cerotto-bocca-contro-il-russare/"/>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://snorly.app/pt-br/blog/fita-na-boca-para-ronco/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://snorly.app/ja/blog/does-mouth-tape-stop-snoring/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://snorly.app/nl/blog/mondtape-tegen-snurken/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://snorly.app/pl/blog/plaster-na-usta-na-chrapanie/"/>
-    <xhtml:link rel="alternate" hreflang="th" href="https://snorly.app/th/blog/does-mouth-tape-stop-snoring/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://snorly.app/ar/blog/does-mouth-tape-stop-snoring/"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://snorly.app/id/blog/plester-mulut-untuk-dengkuran/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://snorly.app/vi/blog/dan-mieng-khi-ngu-chong-ngay/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://snorly.app/tr/blog/agiz-bandi-horlama/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://snorly.app/zh-hans/blog/does-mouth-tape-stop-snoring/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://snorly.app/ko/blog/does-mouth-tape-stop-snoring/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://snorly.app/zh-hant/blog/does-mouth-tape-stop-snoring/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://snorly.app/ru/blog/teip-na-rot-ot-hrapa/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://snorly.app/blog/does-mouth-tape-stop-snoring/"/>
-  </url>
-  <url>
-    <loc>https://snorly.app/ar/blog/does-mouth-tape-stop-snoring/</loc>
     <lastmod>2026-09-03</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://snorly.app/blog/does-mouth-tape-stop-snoring/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://snorly.app/de/blog/mouth-tape-gegen-schnarchen/"/>
@@ -7294,6 +7277,29 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://snorly.app/blog/anti-snoring-pillow/"/>
   </url>
   <url>
+    <loc>https://snorly.app/ar/blog/does-mouth-tape-stop-snoring/</loc>
+    <lastmod>2026-09-03</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://snorly.app/blog/does-mouth-tape-stop-snoring/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://snorly.app/de/blog/mouth-tape-gegen-schnarchen/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://snorly.app/fr/blog/mouth-tape-contre-le-ronflement/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://snorly.app/es/blog/cinta-para-la-boca-ronquidos/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://snorly.app/it/blog/cerotto-bocca-contro-il-russare/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://snorly.app/pt-br/blog/fita-na-boca-para-ronco/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://snorly.app/ja/blog/does-mouth-tape-stop-snoring/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://snorly.app/nl/blog/mondtape-tegen-snurken/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://snorly.app/pl/blog/plaster-na-usta-na-chrapanie/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://snorly.app/th/blog/does-mouth-tape-stop-snoring/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://snorly.app/ar/blog/does-mouth-tape-stop-snoring/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://snorly.app/id/blog/plester-mulut-untuk-dengkuran/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://snorly.app/vi/blog/dan-mieng-khi-ngu-chong-ngay/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://snorly.app/tr/blog/agiz-bandi-horlama/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://snorly.app/zh-hans/blog/does-mouth-tape-stop-snoring/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://snorly.app/ko/blog/does-mouth-tape-stop-snoring/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://snorly.app/zh-hant/blog/does-mouth-tape-stop-snoring/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://snorly.app/ru/blog/teip-na-rot-ot-hrapa/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://snorly.app/blog/does-mouth-tape-stop-snoring/"/>
+  </url>
+  <url>
     <loc>https://snorly.app/ar/blog/best-snoring-apps/</loc>
     <lastmod>2026-09-02</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://snorly.app/blog/best-snoring-apps/"/>
@@ -7913,6 +7919,29 @@
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://snorly.app/zh-hant/blog/does-mouth-tape-stop-snoring/"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://snorly.app/ru/blog/teip-na-rot-ot-hrapa/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://snorly.app/blog/does-mouth-tape-stop-snoring/"/>
+  </url>
+  <url>
+    <loc>https://snorly.app/id/blog/kenapa-saya-mendengkur/</loc>
+    <lastmod>2026-09-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://snorly.app/blog/why-do-i-snore/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://snorly.app/de/blog/warum-schnarche-ich/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://snorly.app/fr/blog/pourquoi-je-ronfle/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://snorly.app/es/blog/por-que-ronco/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://snorly.app/it/blog/perche-russo/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://snorly.app/pt-br/blog/por-que-eu-ronco/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://snorly.app/ja/blog/why-do-i-snore/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://snorly.app/nl/blog/waarom-snurk-ik/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://snorly.app/pl/blog/dlaczego-chrapie/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://snorly.app/th/blog/why-do-i-snore/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://snorly.app/ar/blog/why-do-i-snore/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://snorly.app/id/blog/kenapa-saya-mendengkur/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://snorly.app/vi/blog/tai-sao-toi-ngay/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://snorly.app/tr/blog/neden-horluyorum/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://snorly.app/zh-hans/blog/why-do-i-snore/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://snorly.app/ko/blog/why-do-i-snore/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://snorly.app/zh-hant/blog/why-do-i-snore/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://snorly.app/ru/blog/pochemu-chelovek-hrapit/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://snorly.app/blog/why-do-i-snore/"/>
   </url>
   <url>
     <loc>https://snorly.app/id/blog/pasangan-mendengkur-harus-bagaimana/</loc>
@@ -8557,29 +8586,6 @@
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://snorly.app/zh-hant/blog/snoring-in-women/"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://snorly.app/ru/blog/hrap-u-zhenshchin/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://snorly.app/blog/snoring-in-women/"/>
-  </url>
-  <url>
-    <loc>https://snorly.app/id/blog/kenapa-saya-mendengkur/</loc>
-    <lastmod>2026-09-02</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://snorly.app/blog/why-do-i-snore/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://snorly.app/de/blog/warum-schnarche-ich/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://snorly.app/fr/blog/pourquoi-je-ronfle/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://snorly.app/es/blog/por-que-ronco/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://snorly.app/it/blog/perche-russo/"/>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://snorly.app/pt-br/blog/por-que-eu-ronco/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://snorly.app/ja/blog/why-do-i-snore/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://snorly.app/nl/blog/waarom-snurk-ik/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://snorly.app/pl/blog/dlaczego-chrapie/"/>
-    <xhtml:link rel="alternate" hreflang="th" href="https://snorly.app/th/blog/why-do-i-snore/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://snorly.app/ar/blog/why-do-i-snore/"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://snorly.app/id/blog/kenapa-saya-mendengkur/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://snorly.app/vi/blog/tai-sao-toi-ngay/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://snorly.app/tr/blog/neden-horluyorum/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://snorly.app/zh-hans/blog/why-do-i-snore/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://snorly.app/ko/blog/why-do-i-snore/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://snorly.app/zh-hant/blog/why-do-i-snore/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://snorly.app/ru/blog/pochemu-chelovek-hrapit/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://snorly.app/blog/why-do-i-snore/"/>
   </url>
   <url>
     <loc>https://snorly.app/vi/blog/tai-sao-toi-ngay/</loc>
@@ -10261,75 +10267,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://snorly.app/snoring-statistics/"/>
   </url>
   <url>
-    <loc>https://snorly.app/zh-hans/author/mikhail-manev/</loc>
-    <lastmod>2026-09-02</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://snorly.app/author/mikhail-manev/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://snorly.app/de/author/mikhail-manev/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://snorly.app/fr/author/mikhail-manev/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://snorly.app/es/author/mikhail-manev/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://snorly.app/it/author/mikhail-manev/"/>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://snorly.app/pt-br/author/mikhail-manev/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://snorly.app/ja/author/mikhail-manev/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://snorly.app/nl/author/mikhail-manev/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://snorly.app/pl/author/mikhail-manev/"/>
-    <xhtml:link rel="alternate" hreflang="th" href="https://snorly.app/th/author/mikhail-manev/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://snorly.app/ar/author/mikhail-manev/"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://snorly.app/id/author/mikhail-manev/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://snorly.app/vi/author/mikhail-manev/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://snorly.app/tr/author/mikhail-manev/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://snorly.app/zh-hans/author/mikhail-manev/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://snorly.app/ko/author/mikhail-manev/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://snorly.app/zh-hant/author/mikhail-manev/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://snorly.app/ru/author/mikhail-manev/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://snorly.app/author/mikhail-manev/"/>
-  </url>
-  <url>
-    <loc>https://snorly.app/zh-hans/free-snoring-app/</loc>
-    <lastmod>2026-09-02</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://snorly.app/free-snoring-app/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://snorly.app/de/free-snoring-app/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://snorly.app/fr/free-snoring-app/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://snorly.app/es/free-snoring-app/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://snorly.app/it/free-snoring-app/"/>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://snorly.app/pt-br/free-snoring-app/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://snorly.app/ja/free-snoring-app/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://snorly.app/nl/free-snoring-app/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://snorly.app/pl/free-snoring-app/"/>
-    <xhtml:link rel="alternate" hreflang="th" href="https://snorly.app/th/free-snoring-app/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://snorly.app/ar/free-snoring-app/"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://snorly.app/id/free-snoring-app/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://snorly.app/vi/free-snoring-app/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://snorly.app/tr/free-snoring-app/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://snorly.app/zh-hans/free-snoring-app/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://snorly.app/ko/free-snoring-app/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://snorly.app/zh-hant/free-snoring-app/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://snorly.app/ru/free-snoring-app/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://snorly.app/free-snoring-app/"/>
-  </url>
-  <url>
-    <loc>https://snorly.app/zh-hans/snore-score/</loc>
-    <lastmod>2026-09-02</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://snorly.app/snore-score/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://snorly.app/de/snore-score/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://snorly.app/fr/snore-score/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://snorly.app/es/snore-score/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://snorly.app/it/snore-score/"/>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://snorly.app/pt-br/snore-score/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://snorly.app/ja/snore-score/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://snorly.app/nl/snore-score/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://snorly.app/pl/snore-score/"/>
-    <xhtml:link rel="alternate" hreflang="th" href="https://snorly.app/th/snore-score/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://snorly.app/ar/snore-score/"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://snorly.app/id/snore-score/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://snorly.app/vi/snore-score/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://snorly.app/tr/snore-score/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://snorly.app/zh-hans/snore-score/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://snorly.app/ko/snore-score/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://snorly.app/zh-hant/snore-score/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://snorly.app/ru/snore-score/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://snorly.app/snore-score/"/>
-  </url>
-  <url>
     <loc>https://snorly.app/zh-hans/support/</loc>
     <lastmod>2026-09-02</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://snorly.app/support/"/>
@@ -10652,29 +10589,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://snorly.app/blog/why-do-i-snore-all-of-a-sudden/"/>
   </url>
   <url>
-    <loc>https://snorly.app/zh-hant/blog/alcohol-and-snoring/</loc>
-    <lastmod>2026-09-11</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://snorly.app/blog/alcohol-and-snoring/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://snorly.app/de/blog/alkohol-und-schnarchen/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://snorly.app/fr/blog/alcool-et-ronflement/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://snorly.app/es/blog/alcohol-y-ronquidos/"/>
-    <xhtml:link rel="alternate" hreflang="it" href="https://snorly.app/it/blog/alcol-e-russare/"/>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://snorly.app/pt-br/blog/alcool-e-ronco/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://snorly.app/ja/blog/alcohol-and-snoring/"/>
-    <xhtml:link rel="alternate" hreflang="nl" href="https://snorly.app/nl/blog/alcohol-en-snurken/"/>
-    <xhtml:link rel="alternate" hreflang="pl" href="https://snorly.app/pl/blog/alkohol-a-chrapanie/"/>
-    <xhtml:link rel="alternate" hreflang="th" href="https://snorly.app/th/blog/alcohol-and-snoring/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://snorly.app/ar/blog/alcohol-and-snoring/"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://snorly.app/id/blog/alkohol-dan-dengkuran/"/>
-    <xhtml:link rel="alternate" hreflang="vi" href="https://snorly.app/vi/blog/ruou-bia-va-ngay/"/>
-    <xhtml:link rel="alternate" hreflang="tr" href="https://snorly.app/tr/blog/alkol-ve-horlama/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://snorly.app/zh-hans/blog/alcohol-and-snoring/"/>
-    <xhtml:link rel="alternate" hreflang="ko" href="https://snorly.app/ko/blog/alcohol-and-snoring/"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://snorly.app/zh-hant/blog/alcohol-and-snoring/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://snorly.app/ru/blog/hrap-posle-alkogolya/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://snorly.app/blog/alcohol-and-snoring/"/>
-  </url>
-  <url>
     <loc>https://snorly.app/ko/blog/does-mouth-tape-stop-snoring/</loc>
     <lastmod>2026-09-03</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://snorly.app/blog/does-mouth-tape-stop-snoring/"/>
@@ -10974,6 +10888,75 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://snorly.app/snoring-statistics/"/>
   </url>
   <url>
+    <loc>https://snorly.app/zh-hans/author/mikhail-manev/</loc>
+    <lastmod>2026-09-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://snorly.app/author/mikhail-manev/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://snorly.app/de/author/mikhail-manev/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://snorly.app/fr/author/mikhail-manev/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://snorly.app/es/author/mikhail-manev/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://snorly.app/it/author/mikhail-manev/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://snorly.app/pt-br/author/mikhail-manev/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://snorly.app/ja/author/mikhail-manev/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://snorly.app/nl/author/mikhail-manev/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://snorly.app/pl/author/mikhail-manev/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://snorly.app/th/author/mikhail-manev/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://snorly.app/ar/author/mikhail-manev/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://snorly.app/id/author/mikhail-manev/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://snorly.app/vi/author/mikhail-manev/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://snorly.app/tr/author/mikhail-manev/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://snorly.app/zh-hans/author/mikhail-manev/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://snorly.app/ko/author/mikhail-manev/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://snorly.app/zh-hant/author/mikhail-manev/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://snorly.app/ru/author/mikhail-manev/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://snorly.app/author/mikhail-manev/"/>
+  </url>
+  <url>
+    <loc>https://snorly.app/zh-hans/free-snoring-app/</loc>
+    <lastmod>2026-09-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://snorly.app/free-snoring-app/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://snorly.app/de/free-snoring-app/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://snorly.app/fr/free-snoring-app/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://snorly.app/es/free-snoring-app/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://snorly.app/it/free-snoring-app/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://snorly.app/pt-br/free-snoring-app/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://snorly.app/ja/free-snoring-app/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://snorly.app/nl/free-snoring-app/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://snorly.app/pl/free-snoring-app/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://snorly.app/th/free-snoring-app/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://snorly.app/ar/free-snoring-app/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://snorly.app/id/free-snoring-app/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://snorly.app/vi/free-snoring-app/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://snorly.app/tr/free-snoring-app/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://snorly.app/zh-hans/free-snoring-app/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://snorly.app/ko/free-snoring-app/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://snorly.app/zh-hant/free-snoring-app/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://snorly.app/ru/free-snoring-app/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://snorly.app/free-snoring-app/"/>
+  </url>
+  <url>
+    <loc>https://snorly.app/zh-hans/snore-score/</loc>
+    <lastmod>2026-09-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://snorly.app/snore-score/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://snorly.app/de/snore-score/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://snorly.app/fr/snore-score/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://snorly.app/es/snore-score/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://snorly.app/it/snore-score/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://snorly.app/pt-br/snore-score/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://snorly.app/ja/snore-score/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://snorly.app/nl/snore-score/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://snorly.app/pl/snore-score/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://snorly.app/th/snore-score/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://snorly.app/ar/snore-score/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://snorly.app/id/snore-score/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://snorly.app/vi/snore-score/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://snorly.app/tr/snore-score/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://snorly.app/zh-hans/snore-score/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://snorly.app/ko/snore-score/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://snorly.app/zh-hant/snore-score/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://snorly.app/ru/snore-score/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://snorly.app/snore-score/"/>
+  </url>
+  <url>
     <loc>https://snorly.app/ko/author/mikhail-manev/</loc>
     <lastmod>2026-09-02</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://snorly.app/author/mikhail-manev/"/>
@@ -11133,6 +11116,29 @@
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://snorly.app/zh-hant/"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://snorly.app/ru/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://snorly.app/"/>
+  </url>
+  <url>
+    <loc>https://snorly.app/zh-hant/blog/alcohol-and-snoring/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://snorly.app/blog/alcohol-and-snoring/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://snorly.app/de/blog/alkohol-und-schnarchen/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://snorly.app/fr/blog/alcool-et-ronflement/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://snorly.app/es/blog/alcohol-y-ronquidos/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://snorly.app/it/blog/alcol-e-russare/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://snorly.app/pt-br/blog/alcool-e-ronco/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://snorly.app/ja/blog/alcohol-and-snoring/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://snorly.app/nl/blog/alcohol-en-snurken/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://snorly.app/pl/blog/alkohol-a-chrapanie/"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://snorly.app/th/blog/alcohol-and-snoring/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://snorly.app/ar/blog/alcohol-and-snoring/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://snorly.app/id/blog/alkohol-dan-dengkuran/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://snorly.app/vi/blog/ruou-bia-va-ngay/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://snorly.app/tr/blog/alkol-ve-horlama/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://snorly.app/zh-hans/blog/alcohol-and-snoring/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://snorly.app/ko/blog/alcohol-and-snoring/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://snorly.app/zh-hant/blog/alcohol-and-snoring/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://snorly.app/ru/blog/hrap-posle-alkogolya/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://snorly.app/blog/alcohol-and-snoring/"/>
   </url>
   <url>
     <loc>https://snorly.app/zh-hant/blog/anti-snoring-mouthpiece/</loc>
