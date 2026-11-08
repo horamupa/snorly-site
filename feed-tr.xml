@@ -26,13 +26,6 @@
     <description>Rinitli horlayanlarda steroid sprey solunum olaylarını saatte 20’den 11,9’a indirdi, tuzlu su az yardım eder, nemlendiriciyi ölçen çalışma yok. 7 gecelik test.</description>
   </item>
   <item>
-    <title>Horlama ağızlığı işe yarar mı? Kayıtla test et</title>
-    <link>https://snorly.app/tr/blog/horlama-agizligi/</link>
-    <guid>https://snorly.app/tr/blog/horlama-agizligi/</guid>
-    <pubDate>Fri, 11 Sep 2026 08:00:00 GMT</pubDate>
-    <description>Kişiye özel çene ilerletici aparey horlamayı saatte 193’ten 20’ye indirdi; kaynat-ısır kopyalar ve çene bandı çok daha azını yapar. 7 gecede test et.</description>
-  </item>
-  <item>
     <title>Ağız bandı horlamayı durdurur mu? Güvenli test yöntemi</title>
     <link>https://snorly.app/tr/blog/agiz-bandi-horlama/</link>
     <guid>https://snorly.app/tr/blog/agiz-bandi-horlama/</guid>
@@ -45,6 +38,13 @@
     <guid>https://snorly.app/tr/blog/horlama-mi-uyku-apnesi-mi/</guid>
     <pubDate>Wed, 02 Sep 2026 08:00:00 GMT</pubDate>
     <description>Basit horlama düzenli bir sestir. Uyku apnesi horlama, 10 saniye sessizlik, sonra nefes nefese kalmadır. Örüntüyü tanı, STOP-BANG’i puanla, test yaptır.</description>
+  </item>
+  <item>
+    <title>Horlama ağızlığı işe yarar mı? Kayıtla test et</title>
+    <link>https://snorly.app/tr/blog/horlama-agizligi/</link>
+    <guid>https://snorly.app/tr/blog/horlama-agizligi/</guid>
+    <pubDate>Fri, 11 Sep 2026 08:00:00 GMT</pubDate>
+    <description>Kişiye özel çene ilerletici aparey horlamayı saatte 193’ten 20’ye indirdi; kaynat-ısır kopyalar ve çene bandı çok daha azını yapar. 7 gecede test et.</description>
   </item>
   <item>
     <title>Horlama egzersizleri işe yarar mı? 8 dakikalık program</title>
@@ -89,27 +89,6 @@
     <description>Aniden başlayan horlamanın nedeni genelde hızlıdır: alkol, sakinleştirici, nezle ya da sırtüstü yatmak. Başlama hızına göre 12 neden ve 14 gecelik test.</description>
   </item>
   <item>
-    <title>En iyi horlama uygulamaları: iPhone için 6 karşılaştırma</title>
-    <link>https://snorly.app/tr/blog/en-iyi-horlama-uygulamalari/</link>
-    <guid>https://snorly.app/tr/blog/en-iyi-horlama-uygulamalari/</guid>
-    <pubDate>Wed, 02 Sep 2026 08:00:00 GMT</pubDate>
-    <description>Altı horlama uygulaması karşılaştırıldı: ne kaydediyorlar, klipleri ücretsiz dinletiyorlar mı, gizlilik ve fiyat modeli. Snorly bizim, önyargı açıkta.</description>
-  </item>
-  <item>
-    <title>Eşim horluyor, ne yapmalıyım? Kavgasız bir plan</title>
-    <link>https://snorly.app/tr/blog/esim-horluyor-ne-yapmaliyim/</link>
-    <guid>https://snorly.app/tr/blog/esim-horluyor-ne-yapmaliyim/</guid>
-    <pubDate>Wed, 02 Sep 2026 08:00:00 GMT</pubDate>
-    <description>Bir geceyi kaydet ve sabah klibi sakince birlikte dinle, sonra nefes nefese kalmalara bak. Sonrası kulak tıkacı, beyaz gürültü, yan yatma ve ayrı oda.</description>
-  </item>
-  <item>
-    <title>Horladığımı nasıl anlarım? Yalnız uyuyanlar için</title>
-    <link>https://snorly.app/tr/blog/horladigimi-nasil-anlarim/</link>
-    <guid>https://snorly.app/tr/blog/horladigimi-nasil-anlarim/</guid>
-    <pubDate>Wed, 02 Sep 2026 08:00:00 GMT</pubDate>
-    <description>Telefonunu komodine koyup üç gece kaydet, sonra sabahları klipleri dinle. Ağız kuruluğu yalnızca bir ipucudur; asıl cevabı sana kaydın kendisi verir.</description>
-  </item>
-  <item>
     <title>iPhone’da horlama kaydı: Sesli Notlar mı, uygulama mı</title>
     <link>https://snorly.app/tr/blog/horlama-kaydi-nasil-alinir/</link>
     <guid>https://snorly.app/tr/blog/horlama-kaydi-nasil-alinir/</guid>
@@ -150,5 +129,26 @@
     <guid>https://snorly.app/tr/blog/uykuda-konusma-uygulamasi/</guid>
     <pubDate>Wed, 02 Sep 2026 08:00:00 GMT</pubDate>
     <description>iPhone’unu komodine koy, sese duyarlı bir kaydediciyle 8 saatlik dosya yerine saat damgalı konuşma klipleri al. Bu kliplerin ne anlama geldiğini anlat.</description>
+  </item>
+  <item>
+    <title>En iyi horlama uygulamaları: iPhone için 6 karşılaştırma</title>
+    <link>https://snorly.app/tr/blog/en-iyi-horlama-uygulamalari/</link>
+    <guid>https://snorly.app/tr/blog/en-iyi-horlama-uygulamalari/</guid>
+    <pubDate>Wed, 02 Sep 2026 08:00:00 GMT</pubDate>
+    <description>Altı horlama uygulaması karşılaştırıldı: ne kaydediyorlar, klipleri ücretsiz dinletiyorlar mı, gizlilik ve fiyat modeli. Snorly bizim, önyargı açıkta.</description>
+  </item>
+  <item>
+    <title>Eşim horluyor, ne yapmalıyım? Kavgasız bir plan</title>
+    <link>https://snorly.app/tr/blog/esim-horluyor-ne-yapmaliyim/</link>
+    <guid>https://snorly.app/tr/blog/esim-horluyor-ne-yapmaliyim/</guid>
+    <pubDate>Wed, 02 Sep 2026 08:00:00 GMT</pubDate>
+    <description>Bir geceyi kaydet ve sabah klibi sakince birlikte dinle, sonra nefes nefese kalmalara bak. Sonrası kulak tıkacı, beyaz gürültü, yan yatma ve ayrı oda.</description>
+  </item>
+  <item>
+    <title>Horladığımı nasıl anlarım? Yalnız uyuyanlar için</title>
+    <link>https://snorly.app/tr/blog/horladigimi-nasil-anlarim/</link>
+    <guid>https://snorly.app/tr/blog/horladigimi-nasil-anlarim/</guid>
+    <pubDate>Wed, 02 Sep 2026 08:00:00 GMT</pubDate>
+    <description>Telefonunu komodine koyup üç gece kaydet, sonra sabahları klipleri dinle. Ağız kuruluğu yalnızca bir ipucudur; asıl cevabı sana kaydın kendisi verir.</description>
   </item>
 </channel></rss>
