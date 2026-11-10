@@ -40,13 +40,6 @@
     <description>鼾声在深睡期最响，但它不是睡得好的信号。每周打鼾 6 到 7 晚的人有 39% 白天嗜睡，从不打鼾的人是 15%，与有没有呼吸暂停无关。</description>
   </item>
   <item>
-    <title>加湿器还是鼻喷剂止鼾？哪一个真的有用</title>
-    <link>https://snorly.app/zh-hans/blog/humidifier-nasal-spray-snoring/</link>
-    <guid>https://snorly.app/zh-hans/blog/humidifier-nasal-spray-snoring/</guid>
-    <pubDate>Fri, 11 Sep 2026 08:00:00 GMT</pubDate>
-    <description>在合并鼻炎的打鼾者中，激素鼻喷剂把每小时呼吸事件从 20 降到 11.9；洗鼻只帮一点忙；加湿器没有一项试验测过打鼾。7 晚自测。</description>
-  </item>
-  <item>
     <title>口贴能止鼾吗？谁不适合，以及 7 晚自测法</title>
     <link>https://snorly.app/zh-hans/blog/does-mouth-tape-stop-snoring/</link>
     <guid>https://snorly.app/zh-hans/blog/does-mouth-tape-stop-snoring/</guid>
@@ -59,6 +52,13 @@
     <guid>https://snorly.app/zh-hans/blog/snoring-vs-sleep-apnea/</guid>
     <pubDate>Wed, 02 Sep 2026 08:00:00 GMT</pubDate>
     <description>普通打鼾是一段稳定的声音，睡眠呼吸暂停则是鼾声、10 秒静音、再一声倒吸气。教你听出这个模式、给 STOP-BANG 打分并去做检查。</description>
+  </item>
+  <item>
+    <title>加湿器还是鼻喷剂止鼾？哪一个真的有用</title>
+    <link>https://snorly.app/zh-hans/blog/humidifier-nasal-spray-snoring/</link>
+    <guid>https://snorly.app/zh-hans/blog/humidifier-nasal-spray-snoring/</guid>
+    <pubDate>Fri, 11 Sep 2026 08:00:00 GMT</pubDate>
+    <description>在合并鼻炎的打鼾者中，激素鼻喷剂把每小时呼吸事件从 20 降到 11.9；洗鼻只帮一点忙；加湿器没有一项试验测过打鼾。7 晚自测。</description>
   </item>
   <item>
     <title>鼻贴对打鼾有用吗？录音能看出什么</title>
@@ -87,34 +87,6 @@
     <guid>https://snorly.app/zh-hans/blog/why-do-i-snore-all-of-a-sudden/</guid>
     <pubDate>Fri, 11 Sep 2026 08:00:00 GMT</pubDate>
     <description>突然打呼噜通常有个来得同样快的原因：喝酒、镇静药、感冒或仰卧。12 个原因按出现快慢排序，外加一个 14 晚的标记测试。</description>
-  </item>
-  <item>
-    <title>说梦话录音软件：录下你睡着时说的话</title>
-    <link>https://snorly.app/zh-hans/blog/sleep-talking-app/</link>
-    <guid>https://snorly.app/zh-hans/blog/sleep-talking-app/</guid>
-    <pubDate>Wed, 02 Sep 2026 08:00:00 GMT</pubDate>
-    <description>把 iPhone 放在床头，用声控录音，早上拿到的是带时间戳的片段，而不是 8 小时的大文件。这些片段说明什么。</description>
-  </item>
-  <item>
-    <title>女性打鼾是什么原因，以及什么能改变它</title>
-    <link>https://snorly.app/zh-hans/blog/snoring-in-women/</link>
-    <guid>https://snorly.app/zh-hans/blog/snoring-in-women/</guid>
-    <pubDate>Wed, 02 Sep 2026 08:00:00 GMT</pubDate>
-    <description>女性打鼾会随更年期、怀孕（孕晚期约每 4 人有 1 人）、鼻塞、体重和饮酒而增加。该查什么，以及怎么测出哪种办法有效。</description>
-  </item>
-  <item>
-    <title>鼾声听起来是什么样的？分贝与类型</title>
-    <link>https://snorly.app/zh-hans/blog/what-does-snoring-sound-like/</link>
-    <guid>https://snorly.app/zh-hans/blog/what-does-snoring-sound-like/</guid>
-    <pubDate>Wed, 02 Sep 2026 08:00:00 GMT</pubDate>
-    <description>试听轻度、中度、重度打鼾的真实录音，还有一段 32 秒的呼吸停顿。响亮的鼾声一般在 50 到 90 dB，纪录是 111.6 dB。</description>
-  </item>
-  <item>
-    <title>为什么打呼噜？5 晚录音帮你找出原因</title>
-    <link>https://snorly.app/zh-hans/blog/why-do-i-snore/</link>
-    <guid>https://snorly.app/zh-hans/blog/why-do-i-snore/</guid>
-    <pubDate>Wed, 02 Sep 2026 08:00:00 GMT</pubDate>
-    <description>打呼噜是气道变窄时松弛的咽喉组织在振动。鼻子、口呼吸、睡姿、饮酒等七个原因会让气道变窄，连录 5 晚并逐晚标记，就能看出你属于哪一种。</description>
   </item>
   <item>
     <title>iPhone 打鼾软件推荐：6 款对比与免费额度</title>
@@ -150,5 +122,33 @@
     <guid>https://snorly.app/zh-hans/blog/how-to-stop-snoring/</guid>
     <pubDate>Wed, 02 Sep 2026 08:00:00 GMT</pubDate>
     <description>侧睡、睡前 2 到 3 小时停止饮酒、把鼻子弄通、控制体重；剩下的交给口腔矫治器或 CPAP。每种方法都给出 3 晚验证的做法。</description>
+  </item>
+  <item>
+    <title>说梦话录音软件：录下你睡着时说的话</title>
+    <link>https://snorly.app/zh-hans/blog/sleep-talking-app/</link>
+    <guid>https://snorly.app/zh-hans/blog/sleep-talking-app/</guid>
+    <pubDate>Wed, 02 Sep 2026 08:00:00 GMT</pubDate>
+    <description>把 iPhone 放在床头，用声控录音，早上拿到的是带时间戳的片段，而不是 8 小时的大文件。这些片段说明什么。</description>
+  </item>
+  <item>
+    <title>女性打鼾是什么原因，以及什么能改变它</title>
+    <link>https://snorly.app/zh-hans/blog/snoring-in-women/</link>
+    <guid>https://snorly.app/zh-hans/blog/snoring-in-women/</guid>
+    <pubDate>Wed, 02 Sep 2026 08:00:00 GMT</pubDate>
+    <description>女性打鼾会随更年期、怀孕（孕晚期约每 4 人有 1 人）、鼻塞、体重和饮酒而增加。该查什么，以及怎么测出哪种办法有效。</description>
+  </item>
+  <item>
+    <title>鼾声听起来是什么样的？分贝与类型</title>
+    <link>https://snorly.app/zh-hans/blog/what-does-snoring-sound-like/</link>
+    <guid>https://snorly.app/zh-hans/blog/what-does-snoring-sound-like/</guid>
+    <pubDate>Wed, 02 Sep 2026 08:00:00 GMT</pubDate>
+    <description>试听轻度、中度、重度打鼾的真实录音，还有一段 32 秒的呼吸停顿。响亮的鼾声一般在 50 到 90 dB，纪录是 111.6 dB。</description>
+  </item>
+  <item>
+    <title>为什么打呼噜？5 晚录音帮你找出原因</title>
+    <link>https://snorly.app/zh-hans/blog/why-do-i-snore/</link>
+    <guid>https://snorly.app/zh-hans/blog/why-do-i-snore/</guid>
+    <pubDate>Wed, 02 Sep 2026 08:00:00 GMT</pubDate>
+    <description>打呼噜是气道变窄时松弛的咽喉组织在振动。鼻子、口呼吸、睡姿、饮酒等七个原因会让气道变窄，连录 5 晚并逐晚标记，就能看出你属于哪一种。</description>
   </item>
 </channel></rss>
