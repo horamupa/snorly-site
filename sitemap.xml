@@ -585,6 +585,12 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://snorly.app/blog/why-do-i-snore/"/>
   </url>
   <url>
+    <loc>https://snorly.app/privacy/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://snorly.app/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://snorly.app/privacy/"/>
+  </url>
+  <url>
     <loc>https://snorly.app/vs/snoreclock/</loc>
     <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://snorly.app/vs/snoreclock/"/>
@@ -702,12 +708,6 @@
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://snorly.app/zh-hant/author/mikhail-manev/"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://snorly.app/ru/author/mikhail-manev/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://snorly.app/author/mikhail-manev/"/>
-  </url>
-  <url>
-    <loc>https://snorly.app/privacy/</loc>
-    <lastmod>2026-09-02</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://snorly.app/privacy/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://snorly.app/privacy/"/>
   </url>
   <url>
     <loc>https://snorly.app/snore-score/</loc>
